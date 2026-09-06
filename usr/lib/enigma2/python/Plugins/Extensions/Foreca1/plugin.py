@@ -1977,96 +1977,231 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f"FORECAST UPDATE END: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             write_forecast_weather_debug("=" * 70 + "\n")
 
-    def update_me(self):
+        def update_me(self):
         """Checks for updates and asks for confirmation to install them."""
         import requests
+        import re
+
         try:
-            resp = requests.get(INSTALLER_URL, timeout=10)
+            resp = requests.get(
+                INSTALLER_URL,
+                timeout=10,
+                headers={
+                    "User-Agent": "Foreca1-Updater/1.4.3"
+                }
+            )
+
             if resp.status_code != 200:
                 self.session.open(
                     MessageBox,
                     _("Could not fetch update information."),
-                    MessageBox.TYPE_ERROR)
+                    MessageBox.TYPE_ERROR
+                )
                 return
 
             data = resp.text
+
             remote_version = None
             remote_changelog = ""
-            for line in data.splitlines():
-                if line.startswith("version="):
-                    # assume format: version='1.0.0' or version="1.0.0"
-                    if "'" in line:
-                        remote_version = line.split("'")[1]
-                    else:
-                        remote_version = line.split("=")[1].strip().strip('"')
-                elif line.startswith("changelog="):
-                    if "'" in line:
-                        remote_changelog = line.split("'")[1]
-                    else:
-                        remote_changelog = line.split(
-                            "=")[1].strip().strip('"')
 
-            if remote_version is None:
+            # -------------------------------------------------
+            # Parse version
+            #
+            # Accepts:
+            # version='1.4.5'
+            # version="1.4.5"
+            # version = '1.4.5'
+            # VERSION="1.4.5"
+            # -------------------------------------------------
+
+            version_match = re.search(
+                r'(?mi)^[ \t]*version[ \t]*=[ \t]*["\']([^"\']+)["\']',
+                data
+            )
+
+            if version_match:
+                remote_version = version_match.group(1).strip()
+
+            # -------------------------------------------------
+            # Parse changelog
+            # -------------------------------------------------
+
+            changelog_match = re.search(
+                r'(?ms)^[ \t]*changelog[ \t]*=[ \t]*["\'](.*?)["\']',
+                data
+            )
+
+            if changelog_match:
+                remote_changelog = changelog_match.group(1).strip()
+
+            # -------------------------------------------------
+            # Version missing
+            # -------------------------------------------------
+
+            if not remote_version:
+                print(
+                    "[Foreca1] Could not parse remote version "
+                    "from installer."
+                )
+
                 self.session.open(
                     MessageBox,
                     _("Could not parse version information."),
-                    MessageBox.TYPE_ERROR)
+                    MessageBox.TYPE_ERROR
+                )
                 return
+
+            # -------------------------------------------------
+            # Current version
+            # -------------------------------------------------
 
             current_version = VERSION
 
-            # Helper function to compare versions like "1.0.0"
-            def version_tuple(v):
-                return tuple(map(int, v.split('.')))
+            print(
+                "[Foreca1] Current version: %s" %
+                current_version
+            )
+
+            print(
+                "[Foreca1] Remote version: %s" %
+                remote_version
+            )
+
+            # -------------------------------------------------
+            # Version comparison
+            # -------------------------------------------------
+
+            def version_tuple(version):
+                try:
+                    parts = version.strip().split(".")
+                    return tuple(int(x) for x in parts)
+                except Exception:
+                    return None
 
             remote_t = version_tuple(remote_version)
             current_t = version_tuple(current_version)
 
-            if remote_t > current_t:
-                # New version available
-                msg = _("New version {version} is available.").format(
-                    version=remote_version) + "\n"
-                if remote_changelog:
-                    msg += _("Changelog: {changelog}").format(
-                        changelog=remote_changelog) + "\n"
-                msg += _("Do you want to install it now?")
-                self.session.openWithCallback(
-                    lambda answer: self.install_update(answer, INSTALLER_URL),
-                    MessageBox,
-                    msg,
-                    MessageBox.TYPE_YESNO
+            if remote_t is None or current_t is None:
+
+                print(
+                    "[Foreca1] Invalid version format: "
+                    "current=%s remote=%s" %
+                    (current_version, remote_version)
                 )
-            elif remote_t == current_t:
-                # Same version: ask if user wants to reinstall
-                msg = _("You already have version {version} installed.\nDo you want to reinstall it?").format(
-                    version=remote_version)
-                self.session.openWithCallback(
-                    lambda answer: self.install_update(answer, INSTALLER_URL),
-                    MessageBox,
-                    msg,
-                    MessageBox.TYPE_YESNO
-                )
-            else:
-                # Remote version is older (rare case)
+
                 self.session.open(
                     MessageBox,
-                    _("The remote version ({remote}) is older than the current one ({current}).").format(
+                    _("Invalid version information."),
+                    MessageBox.TYPE_ERROR
+                )
+                return
+
+            # -------------------------------------------------
+            # New version
+            # -------------------------------------------------
+
+            if remote_t > current_t:
+
+                msg = _(
+                    "New version {version} is available."
+                ).format(
+                    version=remote_version
+                )
+
+                if remote_changelog:
+                    msg += "\n\n" + _(
+                        "Changelog:"
+                    ) + "\n" + remote_changelog
+
+                msg += "\n\n" + _(
+                    "Do you want to install it now?"
+                )
+
+                self.session.openWithCallback(
+                    lambda answer: self.install_update(
+                        answer,
+                        INSTALLER_URL
+                    ),
+                    MessageBox,
+                    msg,
+                    MessageBox.TYPE_YESNO
+                )
+
+            # -------------------------------------------------
+            # Same version
+            # -------------------------------------------------
+
+            elif remote_t == current_t:
+
+                msg = _(
+                    "You already have version {version} installed."
+                ).format(
+                    version=remote_version
+                )
+
+                msg += "\n\n" + _(
+                    "Do you want to reinstall it?"
+                )
+
+                self.session.openWithCallback(
+                    lambda answer: self.install_update(
+                        answer,
+                        INSTALLER_URL
+                    ),
+                    MessageBox,
+                    msg,
+                    MessageBox.TYPE_YESNO
+                )
+
+            # -------------------------------------------------
+            # Remote version older
+            # -------------------------------------------------
+
+            else:
+
+                self.session.open(
+                    MessageBox,
+                    _(
+                        "The remote version ({remote}) is older "
+                        "than the current one ({current})."
+                    ).format(
                         remote=remote_version,
-                        current=current_version),
+                        current=current_version
+                    ),
                     MessageBox.TYPE_INFO,
-                    timeout=4)
+                    timeout=4
+                )
+
         except Exception as e:
-            print("[Foreca1] Update check error:", e)
+
+            print(
+                "[Foreca1] Update check error: %s" %
+                str(e)
+            )
+
             self.session.open(
                 MessageBox,
                 _("Error checking for updates."),
-                MessageBox.TYPE_ERROR)
+                MessageBox.TYPE_ERROR
+            )
+
 
     def install_update(self, answer, installer_url):
         """Runs the update script if the user confirmed."""
+
         if answer:
-            cmd = f"wget -q --no-check-certificate {installer_url} -O - | /bin/sh"
+
+            # -------------------------------------------------
+            # Download installer and execute it
+            # -------------------------------------------------
+
+            cmd = (
+                "wget -q --no-check-certificate "
+                "\"%s\" -O - | /bin/sh"
+            ) % installer_url
+
             from Screens.Console import Console
+
             self.session.open(
                 Console,
                 _("Updating..."),
@@ -2074,19 +2209,25 @@ class Foreca_Preview(Screen, HelpableScreen):
                 finishedCallback=self.update_finished,
                 closeOnSuccess=True
             )
+
         else:
+
             self.session.open(
                 MessageBox,
                 _("Update canceled."),
                 MessageBox.TYPE_INFO,
-                timeout=3)
+                timeout=3
+            )
+
 
     def update_finished(self, result=None):
         """Callback executed when the installation finishes."""
+
         self.session.open(
             MessageBox,
             _("Update completed. Please restart Enigma2."),
-            MessageBox.TYPE_INFO)
+            MessageBox.TYPE_INFO
+        )
 
     def _update_titles(self):
         date_str = str(self.f_date[0]) if self.f_date else _(
