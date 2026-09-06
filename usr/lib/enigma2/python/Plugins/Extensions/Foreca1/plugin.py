@@ -2986,7 +2986,7 @@ def main(session, **kwargs):
 def menu(menuid, **kwargs):
     if menuid == "mainmenu":
         return [
-            (_("Foreca"), main, "Foreca_mainmenu", 50)
+            (_("Foreca Weather"), main, "Foreca_mainmenu", 50)
         ]
     return []
 
