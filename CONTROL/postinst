@@ -1,0 +1,43 @@
+#!/bin/sh
+# Foreca - Post Installation Script
+# Author: Lululla
+
+# ---- Device Model ----
+BOXMODEL=$(cat /etc/hostname 2>/dev/null || echo "unknown")
+# ANSI green: \033[0;32m ... \033
+printf "Device Model : %s\033\n" "$BOXMODEL"
+
+# ---- Python Version Check ----
+if command -v python3 >/dev/null 2>&1; then
+    PYVER=$(python3 --version 2>&1)
+elif command -v python >/dev/null 2>&1; then
+    PYVER=$(python --version 2>&1)
+else
+    PYVER="Python: Not installed"
+fi
+echo "Version: $PYVER"
+
+# Set proper permissions
+echo "Setting file permissions..."
+find /usr/lib/enigma2/python/Plugins/Extensions/Foreca1 -type f -exec chmod 644 {} \; > /dev/null 2>&1
+find /usr/lib/enigma2/python/Plugins/Extensions/Foreca1 -type d -exec chmod 755 {} \; > /dev/null 2>&1
+echo "[X] File permissions set correctly"
+
+# Restore configuration if backup exists
+CONFIG_DIR="/etc/enigma2/foreca"
+BACKUP_DIR="/tmp/foreca_config_backup"
+
+if [ -d "$BACKUP_DIR" ]; then
+    echo "Restoring configuration from $BACKUP_DIR to $CONFIG_DIR..."
+    mkdir -p "$CONFIG_DIR"
+    cp -r "$BACKUP_DIR"/* "$CONFIG_DIR"/ 2>/dev/null
+    rm -rf "$BACKUP_DIR"
+    echo "✓ Configuration restored."
+fi
+
+# Check if restart is needed
+echo ""
+echo "*** IMPORTANT: Please restart Enigma2 to complete the installation"
+echo "   This ensures all plugin components are properly loaded"
+
+exit 0

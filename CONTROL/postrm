@@ -1,0 +1,14 @@
+#!/bin/sh
+# Foreca - Post Removal Script
+# Author: Lululla
+echo 'Package removed.'
+# Remove plugin directory
+echo "Removing Foreca 1 plugin files..."
+if [ -d "/usr/lib/enigma2/python/Plugins/Extensions/Foreca1" ]; then
+    rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/Foreca1" > /dev/null 2>&1
+    echo "✓ Plugin files removed successfully"
+    echo "Configuration files in /etc/enigma2/foreca were kept for future installations."
+else
+    echo "Plugin directory not found, skipping"
+fi
+exit 0

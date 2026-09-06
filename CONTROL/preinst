@@ -1,0 +1,63 @@
+#!/bin/sh
+# Foreca1 - Preinstallation Script
+# Author: Lululla
+
+status='/var/lib/opkg/status'
+package='enigma2-plugin-extensions-foreca-one'
+
+# Backup configuration before removing anything
+CONFIG_DIR="/etc/enigma2/foreca"
+BACKUP_DIR="/tmp/foreca_config_backup"
+
+if [ -d "$CONFIG_DIR" ]; then
+    echo "Backing up configuration from $CONFIG_DIR to $BACKUP_DIR..."
+    rm -rf "$BACKUP_DIR"
+    cp -r "$CONFIG_DIR" "$BACKUP_DIR"
+    echo "✓ Backup completed."
+fi
+
+# Remove previous package if installed
+if grep -q $package $status; then
+    opkg remove $package > /dev/null 2>&1
+fi
+
+# Remove old version if found
+echo "Checking for existing Foreca installations..."
+if [ -d "/usr/lib/enigma2/python/Plugins/Extensions/Foreca" ]; then
+    echo "Removing previous version of Foreca plugin..."
+    rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Foreca > /dev/null 2>&1
+    echo "✓ Previous version removed successfully"
+else
+    echo "✓ No previous installation found"
+fi
+
+# Determine python command and install dependencies
+echo "Installing required dependencies..."
+if [ -e "/usr/bin/python3" ]; then
+    PY="python3"
+    echo "✓ Using Python 3"
+else
+    PY="python"
+    echo "✓ Using Python 2.7"
+fi
+
+# Update package list and install dependencies
+echo "Updating package repository..."
+opkg update > /dev/null 2>&1
+
+echo "Installing ${PY}-requests..."
+if opkg install --force-reinstall "${PY}-requests" > /dev/null 2>&1; then
+    echo "✓ ${PY}-requests installed successfully"
+else
+    echo "⚠ Could not install ${PY}-requests, but continuing installation"
+fi
+
+# Additional dependency checks
+echo "Verifying system compatibility..."
+if [ -e "/usr/bin/enigma2" ]; then
+    echo "✓ Enigma2 detected"
+else
+    echo "⚠ Enigma2 not found in standard location"
+fi
+
+exit 0
