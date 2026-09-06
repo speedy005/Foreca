@@ -36,8 +36,8 @@ import re
 # VERSION / PLUGIN INFORMATION
 # ============================================================
 
-__version__ = "1.4.3"
-VERSION = __version__
+__version__ = "1.4.5"
+VERSION = "1.4.5"
 
 _AUTHOR_ = "by speedy - 2026"
 IDEAS = "@Bauernbub"
@@ -47,7 +47,7 @@ BASEURL = "https://www.foreca.com/"
 
 INSTALLER_URL = (
     "https://raw.githubusercontent.com/"
-    "speedy005/Foreca/main/installer.sh"
+    "speedy005/Foreca/master/installer.sh"
 )
 
 
@@ -265,7 +265,7 @@ HEADERS = {
 
 OSM_HEADERS = {
     "User-Agent": (
-        "ForecaPlugin/1.4.2 "
+        "ForecaPlugin/1.4.3 "
         "(Enigma2; OpenStreetMap; non-commercial; "
         "+https://github.com/speedy005/Foreca)"
     ),
