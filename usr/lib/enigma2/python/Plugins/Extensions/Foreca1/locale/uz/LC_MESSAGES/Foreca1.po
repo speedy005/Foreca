@@ -1,0 +1,1509 @@
+# uz translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: uz <ekekaz@gmail.com>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} soat {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• Home\n sifatida saqlash uchun KO‘K\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 ta shaharga sakrash uchun\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• Sevimli 1\n sifatida saqlash uchun YASIL\n"
+
+msgid "• OK to select city\n"
+msgstr "• city\n ni tanlash uchun OK\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• \n qidiruv klaviaturasini ochish uchun QIZIL\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• \n bo‘ylab harakatlanish uchun o‘q tugmalaridan foydalaning\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- 100 ta shaharga sakrash uchun\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• Sevimli 2\n sifatida saqlash uchun SARI\n"
+
+msgid "← Frame"
+msgstr "← Ramka"
+
+msgid "0 - Today"
+msgstr "0 - Bugun"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Bugun + 1 kun"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Bugun + 2 kun"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Bugun + 3 kun"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Bugun + 4 kun"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Bugun + 5 kun"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Bugun + 6 kun"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Bugun + 7 kun"
+
+msgid "7 Day Forecast"
+msgstr "7 kunlik prognoz"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Bugun + 8 kun"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Bugun + 9 kun"
+
+msgid "Advanced"
+msgstr "Murakkab"
+
+msgid "Advanced Unit Settings"
+msgstr "Kengaytirilgan birlik sozlamalari"
+
+msgid "Afternoon"
+msgstr "Peshindan keyin"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Yangi oydan beri yoshi: {:.1f} kun"
+
+msgid "Age: N/A"
+msgstr "Yoshi: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Burchak diametri: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Burchak diametri: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API konfiguratsiya fayli topilmadi!\n\nIltimos, Foreca API hisob maʼlumotlaringiz bilan \n{0}\n\n fayl yarating."
+
+msgid "API credentials not configured."
+msgstr "API hisob ma'lumotlari sozlanmagan."
+
+msgid "API error"
+msgstr "API xatosi"
+
+msgid "API password"
+msgstr "API paroli"
+
+msgid "API user"
+msgstr "API foydalanuvchisi"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Koʻrinib turgan kattalik: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Yo'q"
+
+msgid "Assign to Favorite 1"
+msgstr "Sevimlilarga tayinlash 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Sevimli 2 ga tayinlash"
+
+msgid "Assign to Home"
+msgstr "Uyga tayinlash"
+
+msgid "Australia"
+msgstr "Avstraliya"
+
+msgid "Austria"
+msgstr "Avstriya"
+
+msgid "Auth server"
+msgstr "Auth server"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Vyurtemberg"
+
+msgid "Barometer"
+msgstr "Barometr"
+
+msgid "Bavaria"
+msgstr "Bavariya"
+
+msgid "Belgium"
+msgstr "Belgiya"
+
+msgid "Berlin"
+msgstr "Berlin"
+
+msgid "Black Moon"
+msgstr "Qora oy"
+
+msgid "Blue"
+msgstr "Moviy"
+
+msgid "Blue - Home"
+msgstr "Moviy - Uy"
+
+msgid "Blue Moon"
+msgstr "Moviy oy"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "Hisoblash..."
+
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Selsiy, km/soat, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "O'zgarishlar jurnali: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "O'zgarishlar darhol amal qiladi"
+
+msgid "Check for updates"
+msgstr "Yangilanishlarni tekshiring"
+
+msgid "Choose detail view"
+msgstr "Tafsilotlar ko'rinishini tanlang"
+
+msgid "City list file not found!"
+msgstr "Shahar roʻyxati fayli topilmadi!"
+
+msgid "City Selection"
+msgstr "Shahar tanlash"
+
+msgid "City Selection Help:\n\n"
+msgstr "Shahar tanlash boʻyicha yordam:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Foreca One Temp fayllarini tozalash kerakmi?"
+
+msgid "Cleanup temp files"
+msgstr "Temp fayllarni tozalash"
+
+msgid "Clear"
+msgstr "Toza"
+
+msgid "Close"
+msgstr "Yopish"
+
+msgid "Close legend"
+msgstr "Yopiq afsona"
+
+msgid "Close setup without saving"
+msgstr "Saqlamasdan sozlashni yoping"
+
+msgid "Cloudy"
+msgstr "Bulutli"
+
+msgid "Cloudy and light rain"
+msgstr "Bulutli va engil yomg'ir"
+
+msgid "Cloudy and light snow"
+msgstr "Bulutli va engil qor"
+
+msgid "Cloudy and light wet snow"
+msgstr "Bulutli va engil nam qor"
+
+msgid "Cloudy and showers"
+msgstr "Bulutli va yomg'ir yog'adi"
+
+msgid "Cloudy and snow showers"
+msgstr "Bulutli va qor yog'adi"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Bulutli va nam qor yog'adi"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Bulutli, momaqaldiroq, yomg'ir yog'adi"
+
+msgid "Cold (< 0°C)"
+msgstr "Sovuq (< 0°C)"
+
+msgid "Color data"
+msgstr "Rang ma'lumotlari"
+
+msgid "Color legend"
+msgstr "Rang afsonasi"
+
+msgid "Color Legend"
+msgstr "Rang afsonasi"
+
+msgid "Color name"
+msgstr "Rang nomi"
+
+msgid "Color select"
+msgstr "Rang tanlash"
+
+msgid "Color Selector"
+msgstr "Rang tanlash"
+
+msgid "Condition: {}"
+msgstr "Vaziyat: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API hisob ma'lumotlarini sozlang"
+
+msgid "Continents Weather Maps"
+msgstr "Qit'alar ob-havo xaritalari"
+
+msgid "Cool (0-10°C)"
+msgstr "Sovuq (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Yangilanish maʼlumotlarini olib boʻlmadi."
+
+msgid "Could not initialize map API."
+msgstr "Map API ishga tushirilmadi."
+
+msgid "Could not load forecast data"
+msgstr "Prognoz maʼlumotlarini yuklab boʻlmadi"
+
+msgid "Could not parse version information."
+msgstr "Versiya maʼlumotlarini tahlil qilib boʻlmadi."
+
+msgid "Current weather and forecast"
+msgstr "Hozirgi ob-havo va prognoz"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Hozirgi ob-havo va keyingi 10 kunlik prognoz"
+
+msgid "Current: {}"
+msgstr "Hozirgi: {}"
+
+msgid "Czech Republic"
+msgstr "Chex Respublikasi"
+
+msgid "Data provided by Foreca"
+msgstr "Ma'lumotlar Foreca tomonidan taqdim etilgan"
+
+msgid "Date: {}"
+msgstr "Sana: {}"
+
+msgid "Day"
+msgstr "kun"
+
+msgid "Decrease Speed"
+msgstr "Tezlikni pasaytirish"
+
+msgid "Defaults"
+msgstr "Standartlar"
+
+msgid "Denmark"
+msgstr "Daniya"
+
+msgid "Details"
+msgstr "Tafsilotlar"
+
+msgid "Dewpoint {}"
+msgstr "Shudring nuqtasi {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Shudring nuqtasi {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Shudring nuqtasi: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Shudring nuqtasi: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Shudring nuqtasi: N/A"
+
+msgid "Distance"
+msgstr "Masofa"
+
+msgid "Distance {} km"
+msgstr "Masofa {} km"
+
+msgid "Distance: {}"
+msgstr "Masofa: {}"
+
+msgid "Distance: {} km"
+msgstr "Masofa: {} km"
+
+msgid "Distance: %s"
+msgstr "Masofa: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Uni hozir o'rnatmoqchimisiz?"
+
+msgid "Down"
+msgstr "Pastga"
+
+msgid "Down - Next page"
+msgstr "Pastga - keyingi sahifa"
+
+msgid "Download error"
+msgstr "Yuklab olish xatosi"
+
+msgid "Downloading images..."
+msgstr "Tasvirlar yuklab olinmoqda..."
+
+msgid "Downloading tiles..."
+msgstr "Plitkalar yuklab olinmoqda..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Sharqiy Osiyo"
+
+msgid "Error checking for updates."
+msgstr "Yangilanishlarni tekshirishda xatolik yuz berdi."
+
+msgid "Error loading data"
+msgstr "Maʼlumotlarni yuklashda xatolik yuz berdi"
+
+msgid "Error loading map"
+msgstr "Xaritani yuklashda xatolik yuz berdi"
+
+msgid "Error loading maps. Check connection."
+msgstr "Xaritalarni yuklashda xatolik yuz berdi. Ulanishni tekshiring."
+
+msgid "Error saving favorite!"
+msgstr "Sevimlilarni saqlashda xatolik yuz berdi."
+
+msgid "Europe"
+msgstr "Yevropa"
+
+msgid "European Weather Maps"
+msgstr "Yevropa ob-havo xaritalari"
+
+msgid "Evening"
+msgstr "Kechqurun"
+
+msgid "Exit"
+msgstr "Chiqish"
+
+msgid "Exit - End"
+msgstr "Chiqish - tugatish"
+
+msgid "Exit / Close legend"
+msgstr "Chiqish / Legendni yopish"
+
+msgid "Extreme"
+msgstr "Ekstremal"
+
+msgid "Extreme / thunderstorms"
+msgstr "Ekstremal / momaqaldiroq"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Farengeyt, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Konfiguratsiya faylini yozib boʻlmadi:\n%s"
+
+msgid "Faster: {}s"
+msgstr "Tezroq: {}s"
+
+msgid "Favorite 1"
+msgstr "Sevimli 1"
+
+msgid "Favorite 2"
+msgstr "Sevimli 2"
+
+msgid "Favorites details"
+msgstr "Sevimlilar tafsilotlari"
+
+msgid "Favorites Details"
+msgstr "Sevimlilar tafsilotlari"
+
+msgid "Feels like"
+msgstr "Tuyiladi"
+
+msgid "Feels like {}"
+msgstr "{} kabi tuyuladi"
+
+msgid "Feels like {}{}"
+msgstr "{}{} kabi tuyuladi"
+
+msgid "Feels like: {}"
+msgstr "O'xshaydi: {}"
+
+msgid "Feels like: {}{}"
+msgstr "O'xshaydi: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Hissi: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Tuyiladi: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Tuyiladi: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "O'ylaydi: Yo'q"
+
+msgid "Finland"
+msgstr "Finlyandiya"
+
+msgid "First Quarter"
+msgstr "Birinchi chorak"
+
+msgid "Fog"
+msgstr "Tuman"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API hisob ma'lumotlari hali sozlanmagan. Iltimos, ularni sozlash ekraniga kiriting."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API sozlamalari muvaffaqiyatli saqlandi."
+
+msgid "Foreca API Setup"
+msgstr "Foreca API sozlamalari"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Xarita {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One menyusi"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Hech qanday stantsiya topilmadi"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One o'rnatish"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One stantsiyalari: yaqin-atrofda {} ta bekat ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One ob-havo ma'lumoti"
+
+msgid "Frame →"
+msgstr "Ramka →"
+
+msgid "Frame: {}"
+msgstr "Ramka: {}"
+
+msgid "France"
+msgstr "Fransiya"
+
+msgid "Full Moon"
+msgstr "To'liq oy"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Dovul kuchi (>60 km/soat)"
+
+msgid "German States Weather Maps"
+msgstr "Germaniya davlatlari ob-havo xaritalari"
+
+msgid "Germany"
+msgstr "Germaniya"
+
+msgid "Good"
+msgstr "Yaxshi"
+
+msgid "Great Britain"
+msgstr "Buyuk Britaniya"
+
+msgid "Greece"
+msgstr "Gretsiya"
+
+msgid "Green"
+msgstr "Yashil"
+
+msgid "Green - Favorite 1"
+msgstr "Yashil - Sevimli 1"
+
+msgid "Gust {}"
+msgstr "Shamol {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Shamol: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Gamburg"
+
+msgid "Hazardous"
+msgstr "Xavfli"
+
+msgid "Header - not selectable"
+msgstr "Sarlavha - tanlanmaydi"
+
+msgid "Heavy rain"
+msgstr "Kuchli yomg'ir"
+
+msgid "Help"
+msgstr "Yordam"
+
+msgid "Hesse"
+msgstr "Hesse"
+
+msgid "High"
+msgstr "Yuqori"
+
+msgid "Home"
+msgstr "Uy"
+
+msgid "Hot (30-40°C)"
+msgstr "Issiq (30-40 ° C)"
+
+msgid "Hour Details"
+msgstr "Soat tafsilotlari"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Namlik"
+
+msgid "Humidity: {}%"
+msgstr "Namlik: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Namlik: %s%%"
+
+msgid "Hungary"
+msgstr "Vengriya"
+
+msgid "Ice / frost"
+msgstr "Muz / sovuq"
+
+msgid "Illumination"
+msgstr "Yoritish"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Yoritish: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Rasm %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Rasm %(current)d/%(total)d – %(day)s (pauza qilingan)"
+
+msgid "Image not available"
+msgstr "Rasm mavjud emas"
+
+msgid "Imperial System"
+msgstr "Imperator tizimi"
+
+msgid "Increase Speed"
+msgstr "Tezlikni oshirish"
+
+msgid "Info"
+msgstr "Ma'lumot"
+
+msgid "Info - About"
+msgstr "Ma'lumot - Haqida"
+
+msgid "Ireland"
+msgstr "Irlandiya"
+
+msgid "Italy"
+msgstr "Italiya"
+
+msgid "Jump 100 down"
+msgstr "100 pastga sakrang"
+
+msgid "Jump 100 up"
+msgstr "100 yuqoriga sakrash"
+
+msgid "Jump 500 down"
+msgstr "500 pastga sakrang"
+
+msgid "Jump 500 up"
+msgstr "500 ga sakrab chiqing"
+
+msgid "Keyboard"
+msgstr "Klaviatura"
+
+msgid "Last Quarter"
+msgstr "Oxirgi chorak"
+
+msgid "Last update"
+msgstr "Oxirgi yangilanish"
+
+msgid "Latvia"
+msgstr "Latviya"
+
+msgid "Left - Previous day"
+msgstr "Chap - oldingi kun"
+
+msgid "Left arrow - Previous day"
+msgstr "Chap strelka - oldingi kun"
+
+msgid "Light (0-20 km/h)"
+msgstr "Engil (0-20 km/soat)"
+
+msgid "Light rain / drizzle"
+msgstr "Yengil yomg'ir / yomg'ir"
+
+msgid "Light to moderate"
+msgstr "Yengil va o'rtacha"
+
+msgid "Loading available maps..."
+msgstr "Mavjud xaritalar yuklanmoqda..."
+
+msgid "Loading lunar phases..."
+msgstr "Oy fazalari yuklanmoqda..."
+
+msgid "Loading nearby stations..."
+msgstr "Yaqin-atrofdagi bekatlar yuklanmoqda..."
+
+msgid "Loading tiles..."
+msgstr "Plitkalar yuklanmoqda..."
+
+msgid "Loading weekly forecast..."
+msgstr "Haftalik prognoz yuklanmoqda..."
+
+msgid "Loading..."
+msgstr "Yuklanmoqda..."
+
+msgid "Low"
+msgstr "Past"
+
+msgid "Lower Saxony"
+msgstr "Quyi Saksoniya"
+
+msgid "Lunar Calendar"
+msgstr "Oy taqvimi"
+
+msgid "Lunar phases from next month"
+msgstr "Keyingi oydan boshlab oy fazalari"
+
+msgid "Luxembourg"
+msgstr "Lyuksemburg"
+
+msgid "Magnitude: N/A"
+msgstr "Kattaligi: N/A"
+
+msgid "Map {} selected"
+msgstr "{} xaritasi tanlandi"
+
+msgid "Map & Tiles Loaded"
+msgstr "Xarita va plitkalar yuklandi"
+
+msgid "Map loaded"
+msgstr "Xarita yuklandi"
+
+msgid "Map server"
+msgstr "Xarita serveri"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Meklenburg-Vorpommern"
+
+msgid "Menu"
+msgstr "Menyu"
+
+msgid "Menu - Settings"
+msgstr "Menyu - Sozlamalar"
+
+msgid "Merge failed"
+msgstr "Birlashtirish amalga oshmadi"
+
+msgid "Meteogram"
+msgstr "Meteogramma"
+
+msgid "Metric System"
+msgstr "Metrik tizim"
+
+msgid "Middle America"
+msgstr "Oʻrta Amerika"
+
+msgid "Middle Asia"
+msgstr "O'rta Osiyo"
+
+msgid "Middle East"
+msgstr "Yaqin Sharq"
+
+msgid "Mild (10-20°C)"
+msgstr "Yengil (10-20°C)"
+
+msgid "Moderate"
+msgstr "Oʻrtacha"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Oʻrtacha (20-40 km/soat)"
+
+msgid "Moderate rain"
+msgstr "Oʻrtacha yomgʻir"
+
+msgid "Month"
+msgstr "Oy"
+
+msgid "Moon details"
+msgstr "Oy tafsilotlari"
+
+msgid "Moon Details"
+msgstr "Oy tafsilotlari"
+
+msgid "Moonrise: {}"
+msgstr "Oy chiqishi: {}"
+
+msgid "Moonset: {}"
+msgstr "Oy botishi: {}"
+
+msgid "Morning"
+msgstr "Ertalab"
+
+msgid "Mostly clear"
+msgstr "Ko'pincha aniq"
+
+msgid "Move down"
+msgstr "Pastga siljiting"
+
+msgid "Move Down"
+msgstr "Pastga siljiting"
+
+msgid "Move up"
+msgstr "Yuqoriga siljiting"
+
+msgid "Move Up"
+msgstr "Yuqoriga siljitish"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "Yoʻq"
+
+msgid "Netherlands"
+msgstr "Niderlandiya"
+
+msgid "New Moon"
+msgstr "Yangi oy"
+
+msgid "New version {version} is available."
+msgstr "{version} yangi versiyasi mavjud."
+
+msgid "Next"
+msgstr "Keyingisi"
+
+msgid "Next frame"
+msgstr "Keyingi ramka"
+
+msgid "Next Image"
+msgstr "Keyingi rasm"
+
+msgid "Next page"
+msgstr "Keyingi sahifa"
+
+msgid "Next time"
+msgstr "Keyingi safar"
+
+msgid "No city selected"
+msgstr "Hech qanday shahar tanlanmagan"
+
+msgid "No data"
+msgstr "Maʼlumot yoʻq"
+
+msgid "No date available"
+msgstr "Sana mavjud emas"
+
+msgid "No Internet connection detected."
+msgstr "Internet aloqasi aniqlanmadi."
+
+msgid "No location selected"
+msgstr "Hech qanday joy tanlanmagan"
+
+msgid "No OSM tiles"
+msgstr "OSM plitalari yo'q"
+
+msgid "No specific legend available."
+msgstr "Muayyan afsona mavjud emas."
+
+msgid "No station data"
+msgstr "Stansiya maʼlumotlari yoʻq"
+
+msgid "No station data available"
+msgstr "Stansiya maʼlumotlari mavjud emas"
+
+msgid "No stations found"
+msgstr "Hech qanday stantsiya topilmadi"
+
+msgid "No tiles downloaded"
+msgstr "Hech qanday plitka yuklab olinmadi"
+
+msgid "North Africa"
+msgstr "Shimoliy Afrika"
+
+msgid "North America"
+msgstr "Shimoliy Amerika"
+
+msgid "North Rhine-Westphalia"
+msgstr "Shimoliy Reyn-Vestfaliya"
+
+msgid "Norway"
+msgstr "Norvegiya"
+
+msgid "Ok - Details"
+msgstr "OK - Tafsilotlar"
+
+msgid "OK - Ext Info"
+msgstr "OK - Qo'shimcha ma'lumot"
+
+msgid "OK - Forecast"
+msgstr "OK - prognoz"
+
+msgid "OK - Open Map"
+msgstr "OK - Xaritani oching"
+
+msgid "Open Keyboard"
+msgstr "Klaviaturani oching"
+
+msgid "Open Map"
+msgstr "Xaritani oching"
+
+msgid "Original design and idea by %s"
+msgstr "Asl dizayn va gʻoya: %s"
+
+msgid "Overcast"
+msgstr "Bulutli"
+
+msgid "Overcast and light rain"
+msgstr "Bulutli va engil yomg'ir"
+
+msgid "Overcast and light snow"
+msgstr "Bulutli va engil qor"
+
+msgid "Overcast and light wet snow"
+msgstr "Bulutli va engil nam qor"
+
+msgid "Overcast and rain"
+msgstr "Bulutli va yomg'ir"
+
+msgid "Overcast and showers"
+msgstr "Bulutli va yomg'ir yog'ishi"
+
+msgid "Overcast and snow"
+msgstr "Bulutli va qor"
+
+msgid "Overcast and snow showers"
+msgstr "Bulutli va qor yog'ishi"
+
+msgid "Overcast and wet snow"
+msgstr "Bulutli va nam qor"
+
+msgid "Overcast and wet snow showers"
+msgstr "Bulutli va nam qor yog'ishi"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Bulutli, yomg'irli momaqaldiroq"
+
+msgid "Overnight"
+msgstr "Bir kechada"
+
+msgid "Page down"
+msgstr "Sahifa pastga"
+
+msgid "Page Down"
+msgstr "Sahifa pastga"
+
+msgid "Page up"
+msgstr "Sahifa yuqoriga"
+
+msgid "Page Up"
+msgstr "Sahifa yuqoriga"
+
+msgid "Pan down"
+msgstr "Pastga siljiting"
+
+msgid "Pan left"
+msgstr "Chapga siljiting"
+
+msgid "Pan right"
+msgstr "O'ngga siljiting"
+
+msgid "Pan up"
+msgstr "Yuqoriga siljiting"
+
+msgid "Partly cloudy"
+msgstr "Qisman bulutli"
+
+msgid "Partly cloudy and light rain"
+msgstr "Qisman bulutli, yomg‘ir yog‘adi"
+
+msgid "Partly cloudy and light snow"
+msgstr "Qisman bulutli, qor yog‘adi"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Qisman bulutli va ozgina nam qorli"
+
+msgid "Partly cloudy and showers"
+msgstr "Qisman bulutli, yomg‘ir yog‘adi"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Qisman bulutli, qor yog‘adi"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Qisman bulutli va nam qor yog‘adi"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Qisman bulutli, yomg‘ir yog‘ishi mumkin"
+
+msgid "Perigee"
+msgstr "Perige"
+
+msgid "Phase"
+msgstr "Bosqich"
+
+msgid "Phase: {}"
+msgstr "Bosqich: {}"
+
+msgid "Play/Pause"
+msgstr "Oʻynatish/toʻxtatib turish"
+
+msgid "Please enter both API user and API password."
+msgstr "Iltimos, API foydalanuvchisi va API parolini kiriting."
+
+msgid "Please wait ..."
+msgstr "Iltimos kuting ..."
+
+msgid "Poland"
+msgstr "Polsha"
+
+msgid "Portugal"
+msgstr "Portugaliya"
+
+msgid "Precipitation"
+msgstr "Yog'ingarchilik"
+
+msgid "Precipitation: {}"
+msgstr "Yog'ingarchilik: {}"
+
+msgid "Precipitations"
+msgstr "Yog'ingarchiliklar"
+
+msgid "Precipitations: {}%"
+msgstr "Yog'ingarchilik: {}%"
+
+msgid "Press RED to search again"
+msgstr "Qayta qidirish uchun QIZIL tugmasini bosing"
+
+msgid "Pressure"
+msgstr "Bosim"
+
+msgid "Pressure: {}"
+msgstr "Bosim: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Bosim: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Bosim: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Bosim: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Bosim: N/A"
+
+msgid "Prev"
+msgstr "Oldingi"
+
+msgid "Previous"
+msgstr "Oldingi"
+
+msgid "Previous frame"
+msgstr "Oldingi ramka"
+
+msgid "Previous Image"
+msgstr "Oldingi rasm"
+
+msgid "Previous page"
+msgstr "Oldingi sahifa"
+
+msgid "Previous time"
+msgstr "Oldingi vaqt"
+
+msgid "Rain Prob."
+msgstr "Yomg'ir prob."
+
+msgid "Rain prob. {}%"
+msgstr "Yomg'ir prob. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Yomg'ir ehtimoli: Yo'q"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Yomg'ir: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer radar"
+
+msgid "Red"
+msgstr "Qizil"
+
+msgid "Red - Color select"
+msgstr "Qizil - rang tanlash"
+
+msgid "Refresh"
+msgstr "Yangilash"
+
+msgid "Restore default server values"
+msgstr "Standart server qiymatlarini tiklang"
+
+msgid "Rhineland-Palatine"
+msgstr "Reynlandiya-Pfalz"
+
+msgid "Right - Next day"
+msgstr "To'g'ri - keyingi kun"
+
+msgid "Right arrow - Next day"
+msgstr "O'ng strelka - keyingi kun"
+
+msgid "Rise"
+msgstr "Ko'tarilish"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Ko'tarilish azimuti: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Ko'tarilish azimuti: Yo'q"
+
+msgid "Russia"
+msgstr "Rossiya"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saarland"
+
+msgid "Satellite Photos"
+msgstr "Sun'iy yo'ldosh rasmlar"
+
+msgid "Satellite photos coming soon!"
+msgstr "Tez orada sun'iy yo'ldoshdan olingan suratlar!"
+
+msgid "Save"
+msgstr "Saqlash"
+
+msgid "Save API settings"
+msgstr "API sozlamalarini saqlang"
+
+msgid "Save translation settings"
+msgstr "Tarjima sozlamalarini saqlang"
+
+msgid "Saxony"
+msgstr "Saksoniya"
+
+msgid "Saxony-Anhalt"
+msgstr "Saksoniya-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Shlezvig-Golshteyn"
+
+msgid "Scraped"
+msgstr "Chiqib ketgan"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Qidiruv birinchi navbatda onlayn tarzda amalga oshiriladi, agar muvaffaqiyatsiz bo'lsa, mahalliy ro'yxatni ishlatadi."
+
+msgid "Search your City"
+msgstr "Shaharingizni qidiring"
+
+msgid "Select"
+msgstr "Tanlang"
+
+msgid "Select {} unit"
+msgstr "{} birligini tanlang"
+
+msgid "Select a city"
+msgstr "Shaharni tanlang"
+
+msgid "Select a map with OK"
+msgstr "OK bilan xaritani tanlang"
+
+msgid "Select Region"
+msgstr "Mintaqani tanlang"
+
+msgid "Select unit system"
+msgstr "Birlik tizimini tanlang"
+
+msgid "Select wind unit"
+msgstr "Shamol birligini tanlang"
+
+msgid "Selected hour details"
+msgstr "Tanlangan soat tafsilotlari"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Azimutni o'rnating: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Azimutni o'rnatish: Yo'q"
+
+msgid "Sets"
+msgstr "Setlar"
+
+msgid "Show info"
+msgstr "Ma'lumotni ko'rsatish"
+
+msgid "Showers"
+msgstr "Dushlar"
+
+msgid "Slovakia"
+msgstr "Slovakiya"
+
+msgid "Slower: {}s"
+msgstr "Sekinroq: {}s"
+
+msgid "Snow / ice"
+msgstr "Qor / muz"
+
+msgid "Snow prob. {}%"
+msgstr "Qor prob. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Qor muammosi: Yoʻq"
+
+msgid "South Africa"
+msgstr "Janubiy Afrika"
+
+msgid "South America"
+msgstr "Janubiy Amerika"
+
+msgid "Southeast Asia"
+msgstr "Janubi-Sharqiy Osiyo"
+
+msgid "Spain"
+msgstr "Ispaniya"
+
+msgid "Station Observations"
+msgstr "Stansiya kuzatuvlari"
+
+msgid "Station: {}"
+msgstr "Bekat: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Kuchli (40-60 km/soat)"
+
+msgid "Sunrise"
+msgstr "Quyosh chiqishi"
+
+msgid "Sunset"
+msgstr "Quyosh botishi"
+
+msgid "Super Full Moon"
+msgstr "Super to'lin oy"
+
+msgid "Sweden"
+msgstr "Shvetsiya"
+
+msgid "Switzerland"
+msgstr "Shveytsariya"
+
+msgid "Target Language"
+msgstr "Maqsadli til"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Harorat"
+
+msgid "Temperature: {}"
+msgstr "Harorat: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Harorat: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Harorat: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Harorat: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Harorat: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Harorat: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Takliflar uchun {thanks} va boshqa do'stlarga rahmat"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Masofaviy versiya ({remote}) joriy versiyadan ({current}) eskiroq."
+
+msgid "Thin upper cloud"
+msgstr "Yupqa yuqori bulut"
+
+msgid "Thuringia"
+msgstr "Turingiya"
+
+msgid "Time"
+msgstr "Vaqt"
+
+msgid "Today"
+msgstr "Bugun"
+
+msgid "Today/Tomorrow details"
+msgstr "Bugun/Ertaga tafsilotlar"
+
+msgid "Toggle legend"
+msgstr "Afsonani oʻzgartirish"
+
+msgid "Token expire hours"
+msgstr "Tokenning amal qilish muddati tugash soatlari"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Tokenning amal qilish muddati -1 yoki ijobiy raqam boʻlishi kerak."
+
+msgid "Token expire hours must be a number."
+msgstr "Tokenning amal qilish muddati raqam boʻlishi kerak."
+
+msgid "Tomorrow"
+msgstr "Ertaga"
+
+msgid "Transit (culmination): {}"
+msgstr "Tranzit (kulminatsiya): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Tranzit balandligi: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Tranzit balandligi: N/A"
+
+msgid "Translation Settings"
+msgstr "Tarjima sozlamalari"
+
+msgid "Transparency level"
+msgstr "Shaffoflik darajasi"
+
+msgid "Transparency Settings"
+msgstr "Shaffoflik sozlamalari"
+
+msgid "Unhealthy"
+msgstr "Nosog'lom"
+
+msgid "Unhealthy for sensitives"
+msgstr "Sezgirlar uchun zararli"
+
+msgid "Unit Settings"
+msgstr "Birlik sozlamalari"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Birlik sozlamalari (Kengaytirilgan)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Birlik sozlamalari (oddiy)"
+
+msgid "Unknown"
+msgstr "Noma'lum"
+
+msgid "Up"
+msgstr "Yuqoriga"
+
+msgid "Up - Previous page"
+msgstr "Yuqoriga - oldingi sahifa"
+
+msgid "Update canceled."
+msgstr "Yangilash bekor qilindi."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Yangilash tugallandi. Iltimos, Enigma2 ni qayta ishga tushiring."
+
+msgid "Updated {}"
+msgstr "Yangilangan {}"
+
+msgid "Updated: {}"
+msgstr "Yangilangan: {}"
+
+msgid "Updated: N/A"
+msgstr "Yangilangan: Yoʻq"
+
+msgid "Updating..."
+msgstr "Yangilanmoqda..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Vaqtni o'zgartirish uchun ← → dan foydalaning | Chiqish uchun OK"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Koʻchirish uchun ←/→/↑/↓ dan foydalaning Chiqish uchun OK"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "O'zgartirish uchun ▲/▼ tugmalaridan foydalaning, tanlash uchun OK"
+
+msgid "Use arrow keys to scroll"
+msgstr "O‘tkazish uchun o‘q tugmalaridan foydalaning"
+
+msgid "Use Google Translate"
+msgstr "Google Tarjimondan foydalaning"
+
+msgid "Using current time"
+msgstr "Joriy vaqtdan foydalanish"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV indeksi"
+
+msgid "UV N/A"
+msgstr "UV Yo'q"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Juda kuchli yomg'ir"
+
+msgid "Very high"
+msgstr "Juda baland"
+
+msgid "Very hot (>40°C)"
+msgstr "Juda issiq (>40 ° C)"
+
+msgid "Very low"
+msgstr "Juda past"
+
+msgid "Very unhealthy"
+msgstr "Juda nosog'lom"
+
+msgid "Visibility: {} m"
+msgstr "Ko'rinish: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Koʻrinish: %s m"
+
+msgid "W"
+msgstr "V"
+
+msgid "Waning Crescent"
+msgstr "So'nayotgan yarim oy"
+
+msgid "Waning Gibbous"
+msgstr "Gibbousning zaiflashishi"
+
+msgid "Warm (20-30°C)"
+msgstr "Issiq (20-30 ° C)"
+
+msgid "Waxing Crescent"
+msgstr "O'sayotgan yarim oy"
+
+msgid "Waxing Gibbous"
+msgstr "Gibbousni vakslash"
+
+msgid "Weather"
+msgstr "Ob-havo"
+
+msgid "Weather Map"
+msgstr "Ob-havo xaritasi"
+
+msgid "Weather Maps"
+msgstr "Ob-havo xaritalari"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Ob-havo xaritalari (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Ob-havo xaritalari va sun'iy yo'ldosh"
+
+msgid "Weather Maps Slideshow"
+msgstr "Ob-havo xaritalari slayd-shou"
+
+msgid "Weather Radar"
+msgstr "Ob-havo radari"
+
+msgid "Weather today"
+msgstr "Bugun ob-havo"
+
+msgid "Weather tomorrow"
+msgstr "Ertaga ob-havo"
+
+msgid "Weekly Forecast"
+msgstr "Haftalik prognoz"
+
+msgid "Wind"
+msgstr "Shamol"
+
+msgid "Wind direction"
+msgstr "Shamol yo'nalishi"
+
+msgid "Wind Direction today"
+msgstr "Bugun shamol yo'nalishi"
+
+msgid "Wind Direction tomorrow"
+msgstr "Ertaga shamol yo'nalishi"
+
+msgid "Wind speed"
+msgstr "Shamol tezligi"
+
+msgid "Wind speed {}"
+msgstr "Shamol tezligi {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Shamol tezligi: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Shamol: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Shamol: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Shamol: {} km/soat {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Shamol: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Shamol: %s km/soat %s"
+
+msgid "Wind: N/A"
+msgstr "Shamol: Yoʻq"
+
+msgid "Window transparency"
+msgstr "Deraza shaffofligi"
+
+msgid "Yellow - Favorite 2"
+msgstr "Sariq - Sevimli 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Sizda allaqachon {version} versiyasi oʻrnatilgan.\nUni qayta oʻrnatmoqchimisiz?"
+
+msgid "Zoom In"
+msgstr "Kattalashtirish"
+
+msgid "Zoom Out"
+msgstr "Kichraytirish"
+
+msgid "Zoom-"
+msgstr "Kattalashtirish-"
+
+msgid "Zoom:"
+msgstr "Kattalashtirish:"
+
+msgid "Zoom+"
+msgstr "Kattalashtirish+"
+
