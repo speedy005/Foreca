@@ -1,0 +1,49 @@
+<screen name="HourDetailView" position="center,center" size="1067,633" flags="wfNoBorder" backgroundColor="#ff000000">
+    <ePixmap position="909,508" size="90,23" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="12" scale="1" />
+    <ePixmap position="37,101" size="996,441" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/backgrounds/background2.png" zPosition="3" scale="1" cornerRadius="21" />
+
+    <widget name="title_location" position="33,33" size="1000,33" font="Liberation; 36" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="13" />
+    <widget name="title_datetime" position="33,73" size="1000,27" font="Liberation; 30" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="13" />
+
+    <widget name="condition_icon" position="73,140" size="67,67" scale="1" zPosition="13" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <widget name="condition_text" position="147,140" size="267,67" font="Liberation; 28" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <widget name="summary" position="175,373" size="667,159" font="Liberation; 36" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="center" valign="center" zPosition="13" />
+
+    <widget name="temp_label" position="133,233" size="133,20" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="temp_value" position="133,253" size="67,20" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="temp_icon" position="77,227" size="53,53" zPosition="13" alphatest="blend" scale="1" />
+
+    <widget name="feels_label" position="133,307" size="133,20" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="feels_value" position="133,327" size="67,20" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="feels_icon" position="77,300" size="53,53" zPosition="13" alphatest="blend" scale="1" />
+
+    <widget name="wind_dir_label" position="479,171" size="333,20" font="Liberation; 32" foregroundColor="#92f1fc" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="wind_dir_icon" position="420,152" size="53,53" scale="1" zPosition="13" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    
+    <widget name="wind_speed_label" position="477,233" size="167,20" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="wind_speed_value" position="477,253" size="133,20" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="wind_speed_icon" position="420,227" size="53,53" zPosition="13" alphatest="blend" scale="1" />
+
+    <widget name="precip_label" position="477,307" size="167,20" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="precip_value" position="477,327" size="67,20" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="precip_icon" position="420,300" size="53,53" zPosition="13" alphatest="blend" scale="1" />
+
+    <widget name="humidity_label" position="750,233" size="100,20" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="humidity_value" position="750,253" size="67,20" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="humidity_icon" position="693,227" size="53,53" zPosition="13" alphatest="blend" scale="1" />
+
+    <widget name="uvi_label" position="750,307" size="100,20" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="uvi_value" position="750,327" size="67,20" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="uvi_icon" position="693,300" size="53,53" zPosition="13" alphatest="blend" scale="1" />
+
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="123,555" size="200,40" font="Liberation;32" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="323,555" size="200,40" font="Liberation;32" backgroundColor="#009933" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_yellow" render="Label" position="523,555" size="200,40" font="Liberation;32" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_blue" render="Label" position="723,555" size="200,40" font="Liberation;32" backgroundColor="#3399ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+
+    <!-- Background plates -->
+    <widget name="background_plate" position="12,12" backgroundColor="#ff9632" size="1043,609" zPosition="1" cornerRadius="42" />
+    <widget name="selection_overlay" position="25,25" backgroundColor="black" size="1016,583" zPosition="2" cornerRadius="42" />
+</screen>

@@ -1,0 +1,19 @@
+<screen name="UnitSettingsSimple" position="center,center" size="1467,934" title="Foreca 1 Unit Settings" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- Description -->
+    <widget name="title" position="67,40" size="1327,80" font="Liberation;56" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
+    <widget name="info" position="64,154" size="1327,67" font="Liberation;43" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
+    <widget name="option_metric" position="200,307" size="934,94" font="Liberation;44" halign="left" zPosition="3"/>
+    <widget name="metric_details" position="254,400" size="880,80" font="Liberation;35" halign="left" zPosition="3"/>
+    <widget name="option_imperial" position="200,507" size="934,94" font="Liberation;44" halign="left" zPosition="3"/>
+    <widget name="imperial_details" position="254,600" size="880,80" font="Liberation;35" halign="left" zPosition="3"/>
+    <widget name="check_metric" position="120,307" size="67,67" alphatest="blend" scale="1" zPosition="3"/>
+    <widget name="check_imperial" position="120,507" size="67,67" alphatest="blend" scale="1" zPosition="3"/>
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="67,800" size="240,67" font="Liberation;43" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_green" render="Label" position="307,800" size="240,67" font="Liberation;43" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="547,800" size="240,67" font="Liberation;43" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_blue" render="Label" position="787,800" size="240,67" font="Liberation;43" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <!-- Background plates -->
+    <widget name="background_plate" position="28,22" backgroundColor="#ff9632" size="1411,891" zPosition="1" cornerRadius="32"/>
+    <widget name="selection_overlay" position="46,39" backgroundColor="#00000000" size="1376,856" zPosition="2" cornerRadius="32"/>
+</screen>

@@ -1,0 +1,54 @@
+<screen name="ForecaSVGMapViewer" position="center,center" size="2560,1440" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- Description -->
+    <widget name="title" position="62,58" size="2427,67" font="Liberation;56" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="1613,1342" size="884,45" font="Liberation;44" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <widget name="time" position="1572,1307" size="923,47" font="Liberation;43" foregroundColor="#ffffff" backgroundColor="#40000000" transparent="1" halign="right" zPosition="4" />
+    <widget name="layerinfo" position="62,115" size="2427,60" font="Liberation;40" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="zoom_label" position="2183,84" size="267,47" font="Liberation;40" transparent="1" zPosition="5" halign="right" valign="center" backgroundColor="#40000000" foregroundColor="#49bbff" />
+    <!-- map image -->
+    <!--     
+    <widget name="background" position="66,170" size="2427,1134" zPosition="10" scale="1" backgroundColor="#00000000" transparent="1" />
+     -->
+    <widget name="background" position="66,170" size="2427,1134" zPosition="2" scale="1" backgroundColor="#00000000" transparent="1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/thumb/europa.png" />
+    <widget name="map" position="66,170" size="2427,1134" zPosition="20" scale="1" backgroundColor="#00000000" transparent="1" />
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="95,1327" size="240,47" font="Liberation;43" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_green" render="Label" position="335,1327" size="240,47" font="Liberation;43" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_yellow" render="Label" position="575,1327" size="240,47" font="Liberation;43" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_blue" render="Label" position="815,1327" size="240,47" font="Liberation;43" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <!-- Background plates -->
+    <widget name="background_plate" size="2516,1394" zPosition="1" position="20,27" backgroundColor="#ff9632" cornerRadius="50" />
+    <widget name="selection_overlay" size="2438,1331" zPosition="2" position="60,56" backgroundColor="#00000000" cornerRadius="50" />
+    <!-- Tile widgets for SVG symbols (5x5 grid) -->
+    <widget name="tile_0_0" position="66,170" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_0_1" position="550,170" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_0_2" position="1035,170" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_0_3" position="1520,170" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_0_4" position="2006,170" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <!-- riga 1 -->
+    <widget name="tile_1_0" position="66,396" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_1_1" position="550,396" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_1_2" position="1035,396" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_1_3" position="1520,396" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_1_4" position="2006,396" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <!-- riga 2 -->
+    <widget name="tile_2_0" position="66,624" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_2_1" position="550,624" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_2_2" position="1035,624" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_2_3" position="1520,624" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_2_4" position="2006,624" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <!-- riga 3 -->
+    <widget name="tile_3_0" position="66,851" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_3_1" position="550,851" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_3_2" position="1035,851" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_3_3" position="1520,851" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_3_4" position="2006,851" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <!-- riga 4 -->
+    <widget name="tile_4_0" position="66,1079" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_4_1" position="550,1079" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_4_2" position="1035,1079" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_4_3" position="1520,1079" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <widget name="tile_4_4" position="2006,1079" size="484,227" zPosition="5" transparent="1" backgroundColor="#00000000" />
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤" position="1054,1310" size="615,76" font="Liberation;44" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" />
+</screen>

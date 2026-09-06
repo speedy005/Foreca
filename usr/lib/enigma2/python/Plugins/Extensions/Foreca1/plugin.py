@@ -76,7 +76,7 @@ from .moon_details_screen import MoonDetailsScreen
 from .translation_setup import TranslationSetup
 
 # Foreca One Weather Forecast for Enigma2
-# Copyright (C) 2026 @Lululla
+# Copyright (C) 2026 @speedy
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -101,7 +101,7 @@ from .translation_setup import TranslationSetup
 #
 #     Source of information: https://www.foreca.com
 #     Original design and idea by @Bauernbub
-#     Enigma2 all code rewrite by @Lululla, 2026
+#     Enigma2 all code rewrite by @speedy, 2026
 #     Thank's @Orlandox and other friends for suggestions and test
 # -------------------------------------------------------
 
@@ -2098,7 +2098,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["title_main"].text = title_text
         self["title_section_weather"].text = _("Current weather and forecast")
         self["title_version"].text = f"Foreca One\n| v.{VERSION} |"
-        self["maintener"].text = "by @lululla\n| 2026 |"
+        self["maintener"].text = "by @speedy\n| 2026 |"
         self["title_loading"].text = ""
 
     def update_time(self):
@@ -2819,43 +2819,42 @@ def open_setup(session, **kwargs):
 
 
 def main(session, **kwargs):
-    if not checkInternet():
-        session.open(
-            MessageBox,
-            _("No Internet connection detected."),
-            MessageBox.TYPE_INFO)
-        return
+    """Open Foreca directly from the Enigma2 main menu."""
 
     try:
         from enigma import addFont
 
         plugin_path = "/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
         font_path = join(plugin_path, "fonts", "LiberationSans-Regular.ttf")
+
         print("[FONT] Checking path:", font_path)
         print("[FONT] Exists?", exists(font_path))
-        if exists(font_path):
-            addFont(font_path, 'Liberation', 100, 0)
-            print("[FONT] ✓ Font 'Liberation' added!")
-        else:
-            print("[FONT] ✗ File not found!")
-    except Exception as e:
-        print("[FONT] ✗ Error:", e)
 
-    if not has_api_credentials():
-        session.open(
-            MessageBox,
-            _("Foreca API credentials are not configured yet. Please enter them in the setup screen."),
-            MessageBox.TYPE_INFO,
-        )
-        session.open(ForecaSetup)
-        return
+        if exists(font_path):
+            addFont(font_path, "Liberation", 100, 0)
+            print("[FONT] Font 'Liberation' added!")
+        else:
+            print("[FONT] File not found!")
+
+    except Exception as e:
+        print("[FONT] Error:", e)
 
     session.open(Foreca_Preview)
 
 
+def menu(menuid, **kwargs):
+    if menuid == "mainmenu":
+        return [
+            (_("Foreca"), main, "Foreca_mainmenu", 50)
+        ]
+    return []
+
+
 def Plugins(path, **kwargs):
     from Plugins.Plugin import PluginDescriptor
+
     return [
+        # Plugin menu
         PluginDescriptor(
             name=_("Foreca One") + " ver." + str(VERSION),
             description=_("Current weather and forecast for the next 10 days"),
@@ -2863,15 +2862,19 @@ def Plugins(path, **kwargs):
             where=PluginDescriptor.WHERE_PLUGINMENU,
             fnc=main
         ),
+
+        # Extensions menu
         PluginDescriptor(
             name=_("Foreca One") + " ver." + str(VERSION),
             where=PluginDescriptor.WHERE_EXTENSIONSMENU,
             fnc=main
         ),
-        # PluginDescriptor(
-        #    name=_("Foreca One Setup"),
-        #    description=_("Configure Foreca API credentials"),
-        #    where=PluginDescriptor.WHERE_PLUGINMENU,
-        #    fnc=open_setup
-        # ),
+
+        # Enigma2 Main Menu
+        PluginDescriptor(
+            name=_("Foreca"),
+            where=PluginDescriptor.WHERE_MENU,
+            fnc=menu
+        ),
     ]
+

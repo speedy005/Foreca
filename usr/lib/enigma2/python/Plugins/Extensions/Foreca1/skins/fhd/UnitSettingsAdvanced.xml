@@ -1,0 +1,17 @@
+<screen name="UnitSettingsAdvanced" position="410,190" size="1100,700" title="Foreca 1 Advanced Unit Settings" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- Description -->
+    <widget name="title" position="45,45" size="1020,50" font="Liberation; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="45,95" size="1020,40" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <ePixmap position="887,611" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+
+    <widget name="current" position="48,542" size="995,40" font="Liberation;25" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="5" />
+    <widget name="list" position="170,180" size="800,350" itemHeight="50" font="Liberation;30" scrollbarMode="showNever" zPosition="5" />
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="50,600" size="180,50" font="Liberation;32" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="230,600" size="180,50" font="Liberation;32" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_yellow" render="Label" position="410,600" size="180,50" font="Liberation;32" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_blue" render="Label" position="590,600" size="180,50" font="Liberation;32" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <!-- Background plates -->
+    <widget name="background_plate" position="21,16" backgroundColor="#ff9632" size="1058,668" zPosition="1" cornerRadius="32" />
+    <widget name="selection_overlay" position="34,29" backgroundColor="#000000" size="1032,642" zPosition="2" cornerRadius="32" />
+</screen>

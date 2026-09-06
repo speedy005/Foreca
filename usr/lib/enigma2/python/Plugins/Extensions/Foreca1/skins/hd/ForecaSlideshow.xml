@@ -1,0 +1,22 @@
+<screen name="ForecaSlideshow" position="center,center" backgroundColor="#ff000000" size="1280,720" flags="wfNoBorder">
+    <!-- Description -->
+    <widget name="title" position="33,29" size="610,29" font="Liberation; 28" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="right" zPosition="10" />
+    <widget name="info" position="643,29" size="610,29" font="Liberation; 28" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="left" zPosition="10" />
+    <ePixmap position="1102,654" size="130,33" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+
+    <!-- Play/Pause -->
+    <widget name="pauseButton" position="1050,655" size="33,33" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/pause.png" zPosition="12" scale="1" />
+    <widget name="playButton" position="1050,655" size="33,33" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/play.png" zPosition="12" scale="1" />
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="60,660" size="160,23" font="Liberation;21" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_green" render="Label" position="220,660" size="160,23" font="Liberation;21" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_yellow" render="Label" position="380,660" size="160,23" font="Liberation;21" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_blue" render="Label" position="540,660" size="160,23" font="Liberation;21" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <!-- map image -->
+    <widget name="image" position="31,60" size="1220,593" zPosition="10" scale="1" />
+    <!-- Background plates -->
+    <widget name="background_plate" size="1252,692" zPosition="1" position="14,14" backgroundColor="#ff9632" cornerRadius="33" />
+    <widget name="selection_overlay" size="1220,660" zPosition="2" position="30,29" backgroundColor="#000000" cornerRadius="33" />
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤" position="702,655" size="347,33" font="Liberation; 25" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" alphatest="blend" />
+</screen>

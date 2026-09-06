@@ -1,0 +1,22 @@
+<screen name="ForecaMapViewer" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- Description -->
+    <widget name="title" position="45,45" size="1820,50" font="Liberation; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="1170,1005" size="663,38" font="Liberation; 32" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="4" halign="right" />
+    <widget name="layerinfo" position="45,96" size="1820,45" font="Liberation;30" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <ePixmap position="59,73" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+    <widget name="osm_attribution" position="1220,939" size="640,30" font="Liberation; 24" foregroundColor="#888888" backgroundColor="#000000" transparent="1" halign="right" zPosition="20" />
+    <widget name="time" position="1120,980" size="692,38" font="Liberation; 32" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" zPosition="4" />
+    <widget name="zoom_label" position="1637,63" size="200,35" font="Liberation; 30" transparent="1" zPosition="5" halign="right" valign="center" backgroundColor="#000000" foregroundColor="#49bbff" />
+    <!-- map image -->
+    <widget name="map" position="49,132" size="1820,850" zPosition="3" scale="1" backgroundColor="#000000" />
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="75,995" size="180,35" font="Liberation;32" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_green" render="Label" position="255,995" size="180,35" font="Liberation;32" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_yellow" render="Label" position="435,995" size="180,35" font="Liberation;32" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <widget source="key_blue" render="Label" position="615,995" size="180,35" font="Liberation;32" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
+    <!-- Background plates -->
+    <widget name="background_plate" size="1887,1045" zPosition="1" position="15,20" backgroundColor="#ff9632" cornerRadius="50" />
+    <widget name="selection_overlay" size="1828,998" zPosition="2" position="45,42" backgroundColor="#000000" cornerRadius="50" />
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤" position="794,982" size="520,57" font="Liberation; 38" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" alphatest="blend" />
+</screen>

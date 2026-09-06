@@ -1,0 +1,15 @@
+<screen name="TranslationSetup" position="center,center" size="900,550" title="Translation Settings" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- BACKGROUND PLATE - Full screen -->
+    <widget name="background_plate" position="0,0" size="900,550" backgroundColor="#ff9632" zPosition="0" cornerRadius="40" />
+    
+    <!-- SELECTION OVERLAY - Inside with margins -->
+    <widget name="selection_overlay" position="30,40" size="840,450" backgroundColor="#40000000" zPosition="1" cornerRadius="30" />
+    
+    <!-- Config list -->
+    <widget name="config" position="50,60" size="800,390" itemHeight="50" scrollbarMode="showOnDemand" zPosition="10" backgroundColor="#000000" transparent="1" />
+    
+    <!-- Buttons with visible colors -->
+    <widget source="key_red" render="Label" position="30,510" size="260,35" font="Regular;28" halign="center" valign="center" backgroundColor="#ff0000" foregroundColor="#ffffff" transparent="0" zPosition="10" />
+    <widget source="key_green" render="Label" position="310,510" size="260,35" font="Regular;28" halign="center" valign="center" backgroundColor="#00cc00" foregroundColor="#ffffff" transparent="0" zPosition="10" />
+    <widget source="status" render="Label" position="590,510" size="280,35" font="Regular;22" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" zPosition="10" />
+</screen>

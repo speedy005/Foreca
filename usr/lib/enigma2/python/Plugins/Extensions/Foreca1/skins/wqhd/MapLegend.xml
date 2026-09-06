@@ -1,0 +1,29 @@
+<screen name="MapLegend" position="center,center" size="1067,800" title="Color Legend" flags="wfNoBorder" zPosition="12">
+    <widget name="title" position="67,67" size="933,80" font="Liberation;56" foregroundColor="#ffffff" halign="center" zPosition="3"/>
+    <!-- Riga 1 -->
+    <widget name="color1" position="93,173" size="53,53" backgroundColor="#ff0000" zPosition="4" cornerRadius="27" transparent="0"/>
+    <widget name="desc1" position="173,173" size="827,53" font="Liberation;43" foregroundColor="#ffffff" valign="center" zPosition="3"/>
+    <!-- Riga 2 -->
+    <widget name="color2" position="93,260" size="53,53" backgroundColor="#00ff00" zPosition="4" cornerRadius="27" transparent="0"/>
+    <widget name="desc2" position="173,260" size="827,53" font="Liberation;43" foregroundColor="#ffffff" valign="center" zPosition="3"/>
+    <!-- Riga 3 -->
+    <widget name="color3" position="93,347" size="53,53" backgroundColor="#0000ff" zPosition="4" cornerRadius="27" transparent="0"/>
+    <widget name="desc3" position="173,347" size="827,53" font="Liberation;43" foregroundColor="#ffffff" valign="center" zPosition="3"/>
+    <!-- Riga 4 -->
+    <widget name="color4" position="93,433" size="53,53" backgroundColor="#ffff00" zPosition="4" cornerRadius="27" transparent="0"/>
+    <widget name="desc4" position="173,433" size="827,53" font="Liberation;43" foregroundColor="#ffffff" valign="center" zPosition="3"/>
+    <!-- Riga 5 -->
+    <widget name="color5" position="93,520" size="53,53" backgroundColor="#ffaa00" zPosition="4" cornerRadius="27" transparent="0"/>
+    <widget name="desc5" position="173,520" size="827,53" font="Liberation;43" foregroundColor="#ffffff" valign="center" zPosition="3"/>
+    <!-- Riga 6 -->
+    <widget name="color6" position="93,600" size="53,53" backgroundColor="#ff0000" zPosition="4" cornerRadius="27" transparent="0"/>
+    <widget name="desc6" position="173,600" size="827,53" font="Liberation;43" foregroundColor="#ffffff" valign="center" zPosition="3"/>
+    <!-- Riga 7 -->
+    <widget name="color7" position="93,680" size="53,53" backgroundColor="white" zPosition="4" cornerRadius="27" transparent="0"/>
+    <widget name="desc7" position="173,680" size="827,53" font="Liberation;43" foregroundColor="#ffffff" valign="center" zPosition="3"/>
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="420,747" size="267,40" font="Liberation;37" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" text="Exit" zPosition="3" cornerRadius="25"/>
+    <!-- Background plates -->
+    <widget name="background_plate" size="1011,744" zPosition="1" position="28,28" backgroundColor="#ff9632" cornerRadius="67"/>
+    <widget name="selection_overlay" size="987,720" zPosition="2" position="40,40" backgroundColor="#00000000" cornerRadius="67"/>
+</screen>

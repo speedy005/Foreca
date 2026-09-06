@@ -1,0 +1,11 @@
+<screen name="TransparencySelector" position="center,center" size="733,566" title="Foreca 1 Transparency Selector" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- Description -->
+    <widget name="title_label" position="20,17" size="688,37" font="Liberation; 24" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <!-- List -->
+    <widget name="menu" itemHeight="36" position="40,80" size="653,366" enableWrapAround="1" scrollbarMode="showOnDemand" valign="center" font="Liberation;22" transparent="1" backgroundColor="#00000000" zPosition="3" />
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="40,466" size="653,33" font="Liberation; 24" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa" />
+    <!-- Background plates -->
+    <widget name="background_plate" position="14,10" backgroundColor="#ff9632" size="705,545" zPosition="1" cornerRadius="32" />
+    <widget name="selection_overlay" position="22,19" backgroundColor="#40000000" size="688,528" zPosition="2" cornerRadius="32" />
+</screen>

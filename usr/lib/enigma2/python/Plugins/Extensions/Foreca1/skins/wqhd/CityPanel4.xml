@@ -1,0 +1,26 @@
+<screen name="CityPanel4" position="center,center" size="2560,1440" title="Foreca 1 Select a city" flags="wfNoBorder" backgroundColor="#ff000000">
+    <ePixmap position="1723,203" size="535,115" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1"/>
+    <!-- Button widgets top -->
+    <widget source="key_red" render="Label" position="480,80" size="400,80" font="Liberation;43" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_green" render="Label" position="883,80" size="400,80" font="Liberation;43" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="1280,80" size="400,80" font="Liberation;43" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_blue" render="Label" position="1680,80" size="400,80" font="Liberation;43" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_ok" render="Label" position="79,80" size="400,80" font="Liberation;43" backgroundColor="#9b9797" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <!-- Separators -->
+    <eLabel backgroundColor="#fe00" position="75,171" size="2408,7" zPosition="3"/>
+    <eLabel backgroundColor="#fe00" position="75,1216" size="2408,4" zPosition="3"/>
+    <!-- List -->
+    <widget name="Mlist" position="80,196" size="1427,974" zPosition="3"/>
+    <!-- Description -->
+    <widget name="description" position="60,1236" size="2427,67" font="Liberation;43" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="60,1304" size="2427,67" font="Liberation;44" halign="center" valign="center" zPosition="5" transparent="1" foregroundColor="#aaaaaa"/>
+    <!-- Service name e Pig -->
+    <widget source="session.CurrentService" render="Label" position="1570,1023" size="867,67" font="Liberation;43" backgroundColor="#40000000" transparent="1" halign="center" foregroundColor="#00ffffff" zPosition="30" valign="center" noWrap="1">
+        <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="session.VideoPicture" render="Pig" position="1579,431" zPosition="20" size="839,523" backgroundColor="#ff000000" transparent="0"/>
+    <!-- Background plates -->
+    <widget name="background_plate" size="2492,1372" zPosition="1" position="28,28" backgroundColor="#ff9632" cornerRadius="50"/>
+    <widget name="selection_overlay" size="2427,1315" zPosition="2" position="60,59" backgroundColor="#00000000" cornerRadius="50"/>
+</screen>

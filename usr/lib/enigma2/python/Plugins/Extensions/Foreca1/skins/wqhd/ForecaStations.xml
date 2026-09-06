@@ -1,0 +1,29 @@
+<screen name="ForecaStations" position="center,center" size="1600,1067" title="Foreca 1 Station Observations" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- List -->
+    <widget name="list" position="60,120" size="1460,334" font="Liberation;43" zPosition="3" itemHeight="54" transparent="0" scrollbarMode="showOnDemand"/>
+    <!-- Description -->
+    <widget name="info" position="40,35" size="1508,75" font="Liberation;48" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <widget name="station_name" position="147,500" size="934,67" font="Liberation;38" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#00000000" zPosition="3"/>
+    <ePixmap position="60,500" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/observation.png" zPosition="10" scale="1"/>
+    <widget name="distance" position="807,500" size="614,67" font="Liberation;38" halign="right" valign="center" zPosition="3" foregroundColor="#ffffff" backgroundColor="#00000000"/>
+    <ePixmap position="1447,500" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/distance.png" zPosition="10" scale="1"/>
+    <widget name="temperature" position="147,587" size="667,67" font="Liberation;38" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#00000000" zPosition="3"/>
+    <ePixmap position="1447,587" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/temp_perc.png" zPosition="10" scale="1"/>
+    <widget name="dewpoint" position="808,760" size="614,67" font="Liberation;38" halign="right" valign="center" foregroundColor="#ffffff" backgroundColor="#00000000" zPosition="3"/>
+    <ePixmap position="1447,760" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/dew_point.png" zPosition="10" scale="1"/>
+    <widget name="visibility" position="147,674" size="667,67" font="Liberation;38" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#00000000" zPosition="3"/>
+    <ePixmap position="63,674" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/visib.png" zPosition="10" scale="1"/>
+    <widget name="feels_like" position="807,587" size="614,67" halign="right" valign="center" font="Liberation;38" foregroundColor="#ffffff" backgroundColor="#00000000" zPosition="3"/>
+    <ePixmap position="60,587" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/temp_perc.png" zPosition="10" scale="1"/>
+    <widget name="humidity" position="147,760" size="667,67" font="Liberation;38" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#00000000" zPosition="3"/>
+    <ePixmap position="60,760" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/humidity.png" zPosition="10" scale="1"/>
+    <widget name="pressure" position="807,674" size="614,67" halign="right" valign="center" font="Liberation;38" foregroundColor="#ffffff" backgroundColor="#00000000" zPosition="3"/>
+    <ePixmap position="1447,674" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/barometer.png" zPosition="10" scale="1"/>
+    <widget name="wind" position="147,847" size="667,67" font="Liberation;38" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#00000000" zPosition="3" cornerRadius="3"/>
+    <ePixmap position="60,844" size="67,67" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/wind_speed.png" zPosition="10" scale="1"/>
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤" position="44,948" size="1510,67" font="Liberation;44" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <!-- Background plates -->
+    <widget name="background_plate" size="1544,1024" zPosition="1" position="28,22" backgroundColor="#ff9632" cornerRadius="30"/>
+    <widget name="selection_overlay" size="1510,990" zPosition="2" position="46,39" backgroundColor="#00000000" cornerRadius="30"/>
+</screen>

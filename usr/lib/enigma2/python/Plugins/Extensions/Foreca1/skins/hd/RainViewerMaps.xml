@@ -1,0 +1,21 @@
+<screen name="RainViewerMaps" position="center,center" size="1280,720" title="Rainviewer.com Maps" flags="wfNoBorder" backgroundColor="#ff000000">
+    <widget name="title" position="30,28" size="1215,33" font="Liberation;28" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="40,597" size="735,27" font="Liberation;19" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="time_label" position="781,597" size="462,27" font="Liberation;21" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" zPosition="4" />
+    <widget name="zoom_label" position="1092,42" size="133,23" font="Liberation;20" transparent="1" zPosition="5" halign="right" valign="center" backgroundColor="#000000" foregroundColor="#49bbff" />
+    <widget name="osm_attribution" position="604,560" size="640,25" font="Liberation; 22" foregroundColor="#888888" backgroundColor="#000000" transparent="1" halign="right" zPosition="20" />
+    <!-- map image -->
+    <widget name="map" position="30,66" size="1220,527" zPosition="10" backgroundColor="#000000" />
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="40,627" size="200,40" font="Liberation;21" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="240,627" size="200,40" font="Liberation;21" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_yellow" render="Label" position="440,627" size="200,40" font="Liberation;21" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_blue" render="Label" position="640,627" size="200,40" font="Liberation;21" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_left" render="Label" position="840,627" size="200,40" font="Liberation;21" backgroundColor="#9b9797" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_right" render="Label" position="1040,627" size="200,40" font="Liberation;21" backgroundColor="#9b9797" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <!-- Background plates -->
+    <widget name="background_plate" size="1253,692" zPosition="1" position="14,14" backgroundColor="#ff9632" cornerRadius="33" />
+    <widget name="selection_overlay" size="1221,660" zPosition="2" position="30,29" backgroundColor="#000000" cornerRadius="33" />
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="509,596" size="267,28" font="Liberation;25" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" />
+</screen>

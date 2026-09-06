@@ -1,0 +1,310 @@
+<screen name="MeteogramView" size="1280,720" position="0,0" flags="wfNoBorder">
+    <eLabel backgroundColor="#00000000" position="0,0" size="1280,720" zPosition="-7" />
+    <!-- Logo e label di base -->
+    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" position="473,605" size="333,76" alphatest="blend" transparent="1" scale="1" />
+    <widget name="city_label" position="847,650" size="400,26" font="Liberation; 24" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <widget name="update_label" position="30,650" size="400,26" font="Liberation; 22" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <widget name="wind_unit_label" position="1205,520" size="40,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="zero_line" position="80,330" size="1118,1" zPosition="5" alphatest="blend" />
+    
+    <widget name="precip_text" position="120,600" size="300,30" font="Liberation; 22" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="showers_text" position="120,560" size="300,30" font="Liberation; 22" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left" />
+    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/precip_gram.png" position="80,600" size="30,30" alphatest="blend" transparent="1" scale="1" />
+    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/showers_gram.png" position="80,560" size="30,30" alphatest="blend" transparent="1" scale="1" />
+    
+    <!-- Etichette data (9 date, da 0 a 8) -->
+    <widget name="date_0" position="20,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <widget name="date_1" position="144,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <widget name="date_2" position="272,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <widget name="date_3" position="397,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <widget name="date_4" position="526,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <widget name="date_5" position="656,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <widget name="date_6" position="783,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <widget name="date_7" position="912,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <widget name="date_8" position="1040,33" size="120,32" font="Liberation;20" foregroundColor="#33bbff" transparent="1" halign="center" />
+    <!-- Separatori verticali data (10 linee, da 0 a 9) -->
+    <widget name="vline_0" position="143,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_1" position="270,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_2" position="399,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_3" position="527,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_4" position="655,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_5" position="783,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_6" position="911,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_7" position="1039,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_8" position="1167,132" size="2,348" zPosition="3" alphatest="blend" />
+    <widget name="vline_9" position="1198,132" size="2,348" zPosition="3" alphatest="blend" />
+    <!-- Curva temperatura -->
+    <widget name="temp_curve" position="84,132" size="1110,348" zPosition="6" alphatest="blend" scale="1" />
+    <!-- Griglia orizzontale (36 linee) -->
+    <eLabel backgroundColor="#001a1a" position="80,130" size="1120,2" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,140" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,150" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,160" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,170" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,180" size="1120,2" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,190" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,200" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,210" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,220" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,230" size="1120,2" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,240" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,250" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,260" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,270" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,280" size="1120,2" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,290" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,300" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,310" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,320" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,330" size="1120,2" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,340" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,350" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,360" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,370" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,380" size="1120,2" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,390" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,400" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,410" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,420" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,430" size="1120,2" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,440" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,450" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,460" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,470" size="1120,1" zPosition="-1" />
+    <eLabel backgroundColor="#001a1a" position="80,480" size="1120,2" zPosition="-1" />
+    <!-- Scale sinistra (temperatura) -->
+    <widget name="temp_scale_7" position="30,118" size="40,24" font="Liberation;20" foregroundColor="#ffff00" backgroundColor="#0d0d0d" transparent="1" halign="right" />
+    <widget name="temp_scale_6" position="30,168" size="40,24" font="Liberation;20" foregroundColor="#ffff00" backgroundColor="#0d0d0d" transparent="1" halign="right" />
+    <widget name="temp_scale_5" position="30,218" size="40,24" font="Liberation;20" foregroundColor="#ffff00" backgroundColor="#0d0d0d" transparent="1" halign="right" />
+    <widget name="temp_scale_4" position="30,268" size="40,24" font="Liberation;20" foregroundColor="#ffff00" backgroundColor="#0d0d0d" transparent="1" halign="right" />
+    <widget name="temp_scale_3" position="30,318" size="40,24" font="Liberation;20" foregroundColor="#ffff00" backgroundColor="#0d0d0d" transparent="1" halign="right" />
+    <widget name="temp_scale_2" position="30,368" size="40,24" font="Liberation;20" foregroundColor="#ffff00" backgroundColor="#0d0d0d" transparent="1" halign="right" />
+    <widget name="temp_scale_1" position="30,418" size="40,24" font="Liberation;20" foregroundColor="#ffff00" backgroundColor="#0d0d0d" transparent="1" halign="right" />
+    <widget name="temp_scale_0" position="30,468" size="40,24" font="Liberation;20" foregroundColor="#ffff00" backgroundColor="#0d0d0d" transparent="1" halign="right" />
+    <!-- Scale destra (pioggia) -->
+    <widget name="rain_scale_7" position="1205,118" size="40,24" font="Liberation;20" foregroundColor="#3385ff" backgroundColor="#0d0d0d" transparent="1" halign="left" />
+    <widget name="rain_scale_6" position="1205,168" size="40,24" font="Liberation;20" foregroundColor="#3385ff" backgroundColor="#0d0d0d" transparent="1" halign="left" />
+    <widget name="rain_scale_5" position="1205,218" size="40,24" font="Liberation;20" foregroundColor="#3385ff" backgroundColor="#0d0d0d" transparent="1" halign="left" />
+    <widget name="rain_scale_4" position="1205,268" size="40,24" font="Liberation;20" foregroundColor="#3385ff" backgroundColor="#0d0d0d" transparent="1" halign="left" />
+    <widget name="rain_scale_3" position="1205,318" size="40,24" font="Liberation;20" foregroundColor="#3385ff" backgroundColor="#0d0d0d" transparent="1" halign="left" />
+    <widget name="rain_scale_2" position="1205,368" size="40,24" font="Liberation;20" foregroundColor="#3385ff" backgroundColor="#0d0d0d" transparent="1" halign="left" />
+    <widget name="rain_scale_1" position="1205,418" size="40,24" font="Liberation;20" foregroundColor="#3385ff" backgroundColor="#0d0d0d" transparent="1" halign="left" />
+    <widget name="rain_scale_0" position="1205,468" size="60,24" font="Liberation;20" foregroundColor="#3385ff" backgroundColor="#0d0d0d" transparent="1" halign="left" />
+    <!-- Linea verticale destra -->
+    <!-- ========================================= -->
+    <!-- 35 GRUPPI COMPLETI (weather_0 a weather_34) -->
+    <!-- ========================================= -->
+    <!-- Gruppo 0 -->
+    <widget name="weather_0" position="83,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_0" position="76,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_0" position="80,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_0" position="86,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_0" position="86,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 1 -->
+    <widget name="weather_1" position="115,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_1" position="108,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_1" position="112,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_1" position="118,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_1" position="118,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 2 -->
+    <widget name="weather_2" position="147,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_2" position="140,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_2" position="144,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_2" position="150,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_2" position="150,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 3 -->
+    <widget name="weather_3" position="179,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_3" position="172,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_3" position="176,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_3" position="182,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_3" position="182,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 4 -->
+    <widget name="weather_4" position="211,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_4" position="204,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_4" position="208,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_4" position="214,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_4" position="214,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 5 -->
+    <widget name="weather_5" position="243,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_5" position="236,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_5" position="240,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_5" position="246,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_5" position="246,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 6 -->
+    <widget name="weather_6" position="275,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_6" position="268,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_6" position="272,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_6" position="278,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_6" position="278,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 7 -->
+    <widget name="weather_7" position="307,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_7" position="300,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_7" position="304,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_7" position="310,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_7" position="310,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 8 -->
+    <widget name="weather_8" position="339,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_8" position="332,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_8" position="336,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_8" position="342,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_8" position="342,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 9 -->
+    <widget name="weather_9" position="371,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_9" position="364,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_9" position="368,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_9" position="374,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_9" position="374,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 10 -->
+    <widget name="weather_10" position="403,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_10" position="396,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_10" position="400,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_10" position="406,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_10" position="406,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 11 -->
+    <widget name="weather_11" position="435,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_11" position="428,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_11" position="432,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_11" position="438,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_11" position="438,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 12 -->
+    <widget name="weather_12" position="467,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_12" position="460,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_12" position="464,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_12" position="470,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_12" position="470,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 13 -->
+    <widget name="weather_13" position="499,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_13" position="492,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_13" position="496,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_13" position="502,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_13" position="502,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 14 -->
+    <widget name="weather_14" position="531,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_14" position="524,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_14" position="528,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_14" position="534,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_14" position="534,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 15 -->
+    <widget name="weather_15" position="563,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_15" position="556,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_15" position="560,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_15" position="566,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_15" position="566,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 16 -->
+    <widget name="weather_16" position="595,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_16" position="588,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_16" position="592,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_16" position="598,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_16" position="598,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 17 -->
+    <widget name="weather_17" position="627,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_17" position="620,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_17" position="624,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_17" position="630,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_17" position="630,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 18 -->
+    <widget name="weather_18" position="659,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_18" position="652,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_18" position="656,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_18" position="662,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_18" position="662,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 19 -->
+    <widget name="weather_19" position="691,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_19" position="684,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_19" position="688,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_19" position="694,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_19" position="694,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 20 -->
+    <widget name="weather_20" position="723,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_20" position="716,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_20" position="720,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_20" position="726,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_20" position="726,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 21 -->
+    <widget name="weather_21" position="755,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_21" position="748,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_21" position="752,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_21" position="758,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_21" position="758,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 22 -->
+    <widget name="weather_22" position="787,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_22" position="780,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_22" position="784,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_22" position="790,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_22" position="790,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 23 -->
+    <widget name="weather_23" position="819,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_23" position="812,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_23" position="816,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_23" position="822,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_23" position="822,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 24 -->
+    <widget name="weather_24" position="851,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_24" position="845,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_24" position="848,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_24" position="854,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_24" position="854,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 25 -->
+    <widget name="weather_25" position="883,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_25" position="876,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_25" position="880,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_25" position="886,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_25" position="886,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 26 -->
+    <widget name="weather_26" position="915,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_26" position="908,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_26" position="912,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_26" position="918,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_26" position="918,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 27 -->
+    <widget name="weather_27" position="947,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_27" position="940,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_27" position="944,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_27" position="950,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_27" position="950,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 28 -->
+    <widget name="weather_28" position="979,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_28" position="972,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_28" position="976,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_28" position="982,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_28" position="982,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 29 -->
+    <widget name="weather_29" position="1011,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_29" position="1004,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_29" position="1008,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_29" position="1014,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_29" position="1014,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 30 -->
+    <widget name="weather_30" position="1043,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_30" position="1036,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_30" position="1040,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_30" position="1046,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_30" position="1046,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 31 -->
+    <widget name="weather_31" position="1075,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_31" position="1068,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_31" position="1072,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_31" position="1078,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_31" position="1078,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 32 -->
+    <widget name="weather_32" position="1107,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_32" position="1100,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_32" position="1104,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_32" position="1110,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_32" position="1110,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 33 -->
+    <widget name="weather_33" position="1139,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_33" position="1132,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_33" position="1136,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_33" position="1142,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_33" position="1142,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Gruppo 34 -->
+    <widget name="weather_34" position="1171,100" size="26,26" alphatest="blend" scale="1" />
+    <widget name="time_34" position="1166,55" size="30,38" font="Liberation;18" foregroundColor="#d9d9d9" transparent="1" halign="center" />
+    <widget name="windspeed_34" position="1168,520" size="30,32" font="Liberation;18" foregroundColor="#ff9900" transparent="1" halign="center" />
+    <widget name="winddir_34" position="1174,490" size="20,20" scale="1" alphatest="blend" />
+    <widget name="rainbar_34" position="1174,132" size="20,348" zPosition="3" alphatest="blend" />
+    <!-- Background plates -->
+    <widget name="background_plate" size="1252,692" zPosition="-6" position="14,14" backgroundColor="#ff9632" cornerRadius="50" />
+    <widget name="selection_overlay" size="1220,660" zPosition="-5" position="30,29" backgroundColor="#00000000" cornerRadius="50" />
+</screen>

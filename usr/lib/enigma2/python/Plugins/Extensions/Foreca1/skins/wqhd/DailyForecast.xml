@@ -1,0 +1,25 @@
+<screen name="DailyForecast" position="center,center" size="2560,1440" title="Foreca 1 Weekly Forecast" flags="wfNoBorder" backgroundColor="#ff000000">
+    <widget name="title" position="74,54" size="2400,67" font="Liberation;56" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4"/>
+    <widget name="info" position="74,126" size="2400,54" font="Liberation;48" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <widget source="menu" render="Listbox" position="140,216" size="2255,1034" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="#00000000" foregroundColor="#ffffff">
+        <convert type="TemplatedMultiContent">
+            {"template": [
+                MultiContentEntryPixmapAlphaTest(pos = (27, 7), size = (94, 94), png = 0),
+                MultiContentEntryText(pos = (160, 27), size = (200, 47), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 1, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (427, 27), size = (200, 47), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 2, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (694, 27), size = (534, 47), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 3, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (1294, 27), size = (240, 47), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 4, color = 0xffffff, color_sel = 0xffffff),
+                 MultiContentEntryPixmapAlphaTest(pos = (1600, 27), size = (40, 40), png = 5),
+                MultiContentEntryText(pos = (1667, 27), size = (267, 47), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 6, color = 0xffffff, color_sel = 0xffffff),
+            ],
+            "fonts": [gFont("Regular", 38)],
+            "itemHeight": 107
+            }
+        </convert>
+    </widget>
+    <!-- Background plates -->
+    <widget name="background_plate" size="2448,1384" zPosition="1" position="47,28" backgroundColor="#ff9632" cornerRadius="50"/>
+    <widget name="selection_overlay" size="2363,1320" zPosition="2" position="90,62" backgroundColor="#00000000" cornerRadius="50"/>
+    <!-- Info tasti -->
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="136,1284" size="2260,87" font="Liberation;44" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+</screen>

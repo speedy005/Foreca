@@ -1,0 +1,12 @@
+<screen name="InfoDialog" position="center,center" flags="wfNoBorder" backgroundColor="#ff000000" size="1280,534">
+    <!-- Description -->
+    <widget name="version_label" position="320,35" size="930,55" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="author_label" position="320,90" size="930,90" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="mod_label" position="320,180" size="930,102" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="website_label" position="718,338" size="529,161" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <ePixmap position="323,335" size="372,164" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/offer_coffee.png" zPosition="10" scale="1" />
+    <ePixmap position="56,35" size="250,250" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" zPosition="10" scale="1" />
+    <!-- Background plates -->
+    <widget name="background_plate" position="0,0" backgroundColor="#ff9632" size="1280,534" zPosition="1" cornerRadius="32" />
+    <widget name="selection_overlay" position="15,11" backgroundColor="#000000" size="1254,508" zPosition="2" cornerRadius="32" />
+</screen>

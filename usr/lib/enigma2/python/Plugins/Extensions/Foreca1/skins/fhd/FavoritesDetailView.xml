@@ -1,0 +1,92 @@
+<screen name="FavoritesDetailView" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="#ff000000">
+
+    <!-- Title -->
+    <widget name="title" position="45,45" size="1820,50" font="Liberation; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="5" />
+    <ePixmap position="1632,983" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+    <ePixmap position="105,162" size="1691,775" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/backgrounds/background2.png" zPosition="3" scale="1" cornerRadius="21" />
+    <!-- Background plates -->
+    <widget name="background_plate" size="1887,1045" zPosition="1" position="15,20" backgroundColor="#ff9632" cornerRadius="50" />
+    <widget name="selection_overlay" size="1828,998" zPosition="2" position="45,42" backgroundColor="#000000" cornerRadius="50" />
+
+    <!-- Exit button -->
+    <widget source="key_red" render="Label" position="75,995" size="180,35" font="Liberation;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="13" />
+
+    <!-- Column headers -->
+    <widget name="header_temp" position="230,200" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="header_temp1" position="830,200" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="header_temp2" position="1430,200" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+
+    <widget name="header_wind" position="230,615" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="header_wind1" position="830,615" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="header_wind2" position="1430,615" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+
+    <widget name="header_hum" position="230,830" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="header_press" position="230,725" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+
+    <widget name="header_hum1" position="830,830" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="header_press1" position="830,725" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+
+    <widget name="header_hum2" position="1430,830" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="header_press2" position="1430,725" size="200,40" font="Liberation; 30" foregroundColor="#53a9ff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+
+    <!-- ========== FAVORITE 0 (Home) ========== -->
+    <widget name="city_name_0" position="55,100" size="600,90" font="Liberation; 32" foregroundColor="#ffffff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="weather_icon_0" position="270,325" size="120,120" zPosition="13" alphatest="blend" scale="1" />
+    <widget name="temp_current_0" position="270,265" size="120,50" font="Liberation; 36" foregroundColor="#ffff00" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="temp_minmax_0" position="270,510" size="120,30" font="Liberation; 24" foregroundColor="#cccccc" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="wind_dir_icon_0" position="230,665" size="50,50" zPosition="13" alphatest="blend" scale="1" />
+    <widget name="wind_speed_0" position="295,675" size="150,30" font="Liberation; 26" foregroundColor="#ff9900" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+
+    <widget name="humidity_icon_0" position="225,880" size="50,50" alphatest="blend" zPosition="13" scale="1" />
+    <widget name="pressure_icon_0" position="225,770" size="50,50" alphatest="blend" zPosition="13" scale="1" />
+
+    <widget name="humidity_0" position="270,890" size="120,30" font="Liberation; 26" foregroundColor="#99ccff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <!-- <ePixmap position="225,880" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/humidity.png" zPosition="13" scale="1" /> -->
+    <widget name="pressure_0" position="295,780" size="150,30" font="Liberation; 26" foregroundColor="#99ff99" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <!-- <ePixmap position="225,770" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/barometer.png" zPosition="13" scale="1" /> -->
+    <widget name="sunrise_0" position="140,400" size="100,30" font="Liberation; 24" foregroundColor="#ffff99" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="sunset_0" position="425,400" size="100,30" font="Liberation; 24" foregroundColor="#ff9999" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <ePixmap position="130,255" size="400,330" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/day_light.png" zPosition="10" scale="1" />
+
+    <!-- ========== FAVORITE 1 ========== -->
+    <widget name="city_name_1" position="655,100" size="600,90" font="Liberation; 32" foregroundColor="#ffffff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="weather_icon_1" position="870,325" size="120,120" zPosition="13" alphatest="blend" scale="1" />
+    <widget name="temp_current_1" position="870,265" size="120,50" font="Liberation; 36" foregroundColor="#ffff00" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="temp_minmax_1" position="870,510" size="120,30" font="Liberation; 24" foregroundColor="#cccccc" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="wind_dir_icon_1" position="830,665" size="50,50" zPosition="13" alphatest="blend" scale="1" />
+    <widget name="wind_speed_1" position="895,675" size="150,30" font="Liberation; 26" foregroundColor="#ff9900" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+
+    <widget name="humidity_icon_1" position="825,880" size="50,50" alphatest="blend" zPosition="13" scale="1" />
+    <widget name="pressure_icon_1" position="825,770" size="50,50" alphatest="blend" zPosition="13" scale="1" />
+
+    <widget name="humidity_1" position="870,890" size="120,30" font="Liberation; 26" foregroundColor="#99ccff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <!-- <ePixmap position="825,880" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/humidity.png" zPosition="13" scale="1" /> -->
+    <widget name="pressure_1" position="895,780" size="150,30" font="Liberation; 26" foregroundColor="#99ff99" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <!-- <ePixmap position="825,770" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/barometer.png" zPosition="13" scale="1" /> -->
+    <widget name="sunrise_1" position="740,400" size="100,30" font="Liberation; 24" foregroundColor="#ffff99" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="sunset_1" position="1025,400" size="100,30" font="Liberation; 24" foregroundColor="#ff9999" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <ePixmap position="730,255" size="400,330" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/day_light.png" zPosition="10" scale="1" />
+
+    <!-- ========== FAVORITE 2 ========== -->
+    <widget name="city_name_2" position="1255,100" size="600,90" font="Liberation; 32" foregroundColor="#ffffff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="weather_icon_2" position="1470,325" size="120,120" zPosition="13" alphatest="blend" scale="1" />
+    <widget name="temp_current_2" position="1470,265" size="120,50" font="Liberation; 36" foregroundColor="#ffff00" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="temp_minmax_2" position="1470,510" size="120,30" font="Liberation; 24" foregroundColor="#cccccc" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="wind_dir_icon_2" position="1430,665" size="50,50" zPosition="13" alphatest="blend" scale="1" />
+    <widget name="wind_speed_2" position="1495,675" size="150,30" font="Liberation; 26" foregroundColor="#ff9900" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+
+    <widget name="humidity_icon_2" position="1425,880" size="50,50" alphatest="blend" zPosition="13" scale="1" />
+    <widget name="pressure_icon_2" position="1425,770" size="50,50" alphatest="blend" zPosition="13" scale="1" />
+
+    <widget name="humidity_2" position="1470,890" size="120,30" font="Liberation; 26" foregroundColor="#99ccff" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <!-- <ePixmap position="1425,880" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/humidity.png" zPosition="13" scale="1" /> -->
+    <widget name="pressure_2" position="1495,780" size="150,30" font="Liberation; 26" foregroundColor="#99ff99" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+
+    <!-- <ePixmap position="1425,770" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/barometer.png" zPosition="13" scale="1" /> -->
+    <widget name="sunrise_2" position="1340,400" size="100,30" font="Liberation; 24" foregroundColor="#ffff99" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <widget name="sunset_2" position="1625,400" size="100,30" font="Liberation; 24" foregroundColor="#ff9999" transparent="1" halign="center" zPosition="13" alphatest="blend" />
+    <ePixmap position="1330,255" size="400,330" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/day_light.png" zPosition="10" scale="1" />
+
+    <!-- Info label (optional) -->
+    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="794,982" size="461,57" font="Liberation; 38" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" alphatest="blend" />
+</screen>

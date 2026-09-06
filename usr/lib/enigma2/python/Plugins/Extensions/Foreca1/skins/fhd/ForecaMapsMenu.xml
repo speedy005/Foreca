@@ -1,0 +1,19 @@
+<screen name="ForecaMapsMenu" position="center,center" backgroundColor="#ff000000" size="1920,1080" title="Foreca 1 Select Region" flags="wfNoBorder">
+    <!-- Description -->
+    <widget name="title" position="45,45" size="1820,50" font="Liberation; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="45,95" size="1820,40" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <ePixmap position="1632,983" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+
+    <!-- List -->
+    <widget name="list" position="80,147" size="1030,750" itemHeight="54" font="Liberation;42" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="3" />
+    <!-- Service name e Pig -->
+    <widget source="session.CurrentService" render="Label" position="1174,258" size="650,50" font="Liberation;32" backgroundColor="#000000" transparent="1" halign="center" foregroundColor="#ffffff" zPosition="30" valign="center" noWrap="1">
+        <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="session.VideoPicture" render="Pig" position="1184,323" zPosition="20" size="629,392" backgroundColor="#ff000000" transparent="0" />
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="80,958" size="1030,50" font="Liberation;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa" />
+    <!-- Background plates -->
+    <widget name="background_plate" size="1878,1038" zPosition="1" position="21,21" backgroundColor="#ff9632" cornerRadius="50" />
+    <widget name="selection_overlay" size="1830,990" zPosition="2" position="45,44" backgroundColor="#000000" cornerRadius="50" />
+</screen>

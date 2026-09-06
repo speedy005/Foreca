@@ -1,0 +1,27 @@
+<screen name="RadarMapView" position="center,center" backgroundColor="#ff000000" size="800,533" flags="wfNoBorder">
+    <ePixmap position="483,69" size="266,57" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" transparent="1"/>
+    <!-- Description -->
+    <widget name="title" position="20,17" size="754,37" font="Liberation; 24" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <widget name="icon_latitude" position="494,354" size="26,26" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="value_latitude" position="523,353" size="100,26" font="Liberation;20" transparent="1" zPosition="3" halign="left" valign="center"/>
+    <widget name="icon_longitude" position="631,353" size="26,26" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="value_longitude" position="660,352" size="100,26" font="Liberation;20" transparent="1" zPosition="3" halign="left" valign="center"/>
+    <widget name="zoom_label" position="569,454" size="120,26" font="Liberation;20" transparent="1" zPosition="3" halign="center" valign="center" backgroundColor="#40000000" foregroundColor="#49bbff"/>
+    <!-- map image -->
+    <widget name="radar_map" position="35,62" size="413,435" zPosition="3" transparent="1" backgroundColor="#000000" scale="1"/>
+    <!-- Service name e Pig -->
+    <widget source="session.CurrentService" render="Label" position="465,313" size="302,33" font="Liberation;21" backgroundColor="#40000000" transparent="1" halign="center" foregroundColor="#00ffffff" zPosition="30" valign="center" noWrap="1">
+        <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="session.VideoPicture" render="Pig" position="464,135" zPosition="20" size="304,174" backgroundColor="transparent" transparent="0"/>
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="506,386" size="120,33" font="Liberation;21" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_green" render="Label" position="626,420" size="120,33" font="Liberation;21" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="506,420" size="120,33" font="Liberation;21" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_blue" render="Label" position="626,386" size="120,33" font="Liberation;21" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="459,480" size="312,33" font="Liberation; 24" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <!-- Background plates -->
+    <widget name="background_plate" position="14,10" backgroundColor="#ff9632" size="772,512" zPosition="1" cornerRadius="32"/>
+    <widget name="selection_overlay" position="22,19" backgroundColor="#00000000" size="754,494" zPosition="2" cornerRadius="32"/>
+</screen>

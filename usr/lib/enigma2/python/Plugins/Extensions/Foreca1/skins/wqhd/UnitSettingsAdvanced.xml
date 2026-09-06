@@ -1,0 +1,15 @@
+<screen name="UnitSettingsAdvanced" position="547,254" size="1467,934" title="Foreca 1 Advanced Unit Settings" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- Description -->
+    <widget name="title" position="67,40" size="1327,80" font="Liberation;56" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
+    <widget name="info" position="64,154" size="1327,67" font="Liberation;43" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
+    <widget name="current" position="64,723" size="1327,54" font="Liberation;34" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="5"/>
+    <widget name="list" position="227,240" size="1067,467" itemHeight="67" font="Liberation;40" scrollbarMode="showNever" zPosition="5"/>
+    <!-- Button icons -->
+    <widget source="key_red" render="Label" position="67,800" size="240,67" font="Liberation;43" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_green" render="Label" position="307,800" size="240,67" font="Liberation;43" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="547,800" size="240,67" font="Liberation;43" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_blue" render="Label" position="787,800" size="240,67" font="Liberation;43" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
+    <!-- Background plates -->
+    <widget name="background_plate" position="28,22" backgroundColor="#ff9632" size="1411,891" zPosition="1" cornerRadius="32"/>
+    <widget name="selection_overlay" position="46,39" backgroundColor="#00000000" size="1376,856" zPosition="2" cornerRadius="32"/>
+</screen>

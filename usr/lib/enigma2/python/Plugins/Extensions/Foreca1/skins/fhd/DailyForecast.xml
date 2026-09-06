@@ -1,0 +1,28 @@
+<screen name="DailyForecast" position="center,center" size="1920,1080" title="Foreca 1 Weekly Forecast" flags="wfNoBorder" backgroundColor="#ff000000">
+    <widget name="title" position="45,45" size="1800,50" font="Liberation; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="45,95" size="1800,40" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <ePixmap position="1632,983" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/backgrounds/forecalogo.png" zPosition="10" scale="1" />
+    <ePixmap position="105,162" size="1691,775" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/backgrounds/background2.png" zPosition="4" scale="1" cornerRadius="21" />
+
+    <widget source="menu" render="Listbox" position="105,162" size="1691,775" scrollbarMode="showOnDemand" zPosition="5" transparent="1" backgroundColor="transparent" foregroundColor="#ffffff">
+        <convert type="TemplatedMultiContent">
+            {"template": [
+                MultiContentEntryPixmapAlphaBlend(pos = (20, 5), size = (70, 70), png = 0),
+                MultiContentEntryText(pos = (110, 20), size = (150, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 1, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (280, 20), size = (150, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 2, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (450, 20), size = (750, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 3, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (1220, 20), size = (220, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 4, color = 0xffffff, color_sel = 0xffffff),
+                 MultiContentEntryPixmapAlphaBlend(pos = (1450, 20), size = (30, 30), png = 5),
+                MultiContentEntryText(pos = (1485, 20), size = (200, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 6, color = 0xffffff, color_sel = 0xffffff),
+            ],
+            "fonts": [gFont("Regular", 28)],
+            "itemHeight": 80
+            }
+        </convert>
+    </widget>
+    <!-- Background plates -->
+    <widget name="background_plate" size="1836,1038" zPosition="1" position="35,21" backgroundColor="#ff9632" cornerRadius="50" />
+    <widget name="selection_overlay" size="1772,990" zPosition="2" position="67,46" backgroundColor="#000000" cornerRadius="50" />
+    <!-- Info tasti -->
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="102,963" size="1695,65" font="Liberation; 38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa" alphatest="blend" />
+</screen>

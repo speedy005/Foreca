@@ -1,0 +1,13 @@
+<screen name="WetterMapsViewer" position="center,center" size="1920,1080" title="Wetter.de Maps" flags="wfNoBorder" backgroundColor="#ff000000">
+    <widget name="title" position="45,45" size="1820,50" font="Liberation; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="45,95" size="1820,40" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <ePixmap position="67,76" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+
+    <widget name="map" position="45,149" size="1830,791" zPosition="3" backgroundColor="#000000" />
+    <widget name="zoom_label" position="1637,63" size="200,35" font="Liberation; 30" transparent="1" zPosition="5" halign="right" valign="center" backgroundColor="#000000" foregroundColor="#49bbff" />
+    <widget source="key_red" render="Label" position="55,960" size="200,50" font="Liberation;32" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="255,960" size="200,50" font="Liberation;32" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_yellow" render="Label" position="455,960" size="200,50" font="Liberation;32" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget name="background_plate" size="1878,1038" zPosition="1" position="21,21" backgroundColor="#ff9632" cornerRadius="50" />
+    <widget name="selection_overlay" size="1830,990" zPosition="2" position="45,44" backgroundColor="#00000000" cornerRadius="50" />
+</screen>

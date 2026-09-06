@@ -1,0 +1,62 @@
+<screen name="WeatherDetailView" position="center,center" size="2134,1267" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- Description -->
+    <widget name="title_main" position="94,36" size="1947,80" font="Liberation;56" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff" />
+    <widget name="title_location" position="94,116" size="1947,67" font="Liberation;43" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <widget name="radar_map" position="94,192" size="591,811" zPosition="3" transparent="1" backgroundColor="#40000000" scale="1" />
+    <widget name="title_today" position="700,187" size="694,54" font="Liberation;43" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00" />
+    <widget name="summary_today" position="698,256" size="694,107" font="Liberation;35" transparent="1" zPosition="3" halign="left" valign="top" foregroundColor="#ffffff" />
+    <widget name="title_tomorrow" position="1407,190" size="675,54" font="Liberation;43" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00" />
+    <widget name="summary_tomorrow" position="1406,256" size="678,107" font="Liberation;35" transparent="1" zPosition="3" halign="left" valign="top" foregroundColor="#ffffff" />
+    <widget name="title_wind_today" position="700,690" size="694,54" font="Liberation;43" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00" />
+    <widget name="title_wind_tomorrow" position="1407,690" size="675,54" font="Liberation;43" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00" />
+    <widget name="label_morning_1" position="696,376" size="160,47" font="Liberation;35" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
+    <widget name="label_afternoon_1" position="867,376" size="160,47" font="Liberation;35" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
+    <widget name="label_evening_1" position="1040,376" size="160,47" font="Liberation;35" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
+    <widget name="label_overnight_1" position="1214,378" size="160,47" font="Liberation;35" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
+    <widget name="symbol_morning_1" position="714,430" size="134,134" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="symbol_afternoon_1" position="880,430" size="134,134" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="symbol_evening_1" position="1054,430" size="134,134" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="symbol_overnight_1" position="1227,430" size="134,134" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="temp_label_morning_1" position="714,576" size="134,47" font="Liberation;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
+    <widget name="temp_morning_1" position="714,616" size="134,54" font="Liberation;38" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
+    <widget name="temp_label_afternoon_1" position="887,576" size="134,47" font="Liberation;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
+    <widget name="temp_afternoon_1" position="887,616" size="134,54" font="Liberation;38" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
+    <widget name="temp_label_evening_1" position="1054,576" size="134,47" font="Liberation;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
+    <widget name="temp_evening_1" position="1054,616" size="134,54" font="Liberation;38" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
+    <widget name="temp_label_overnight_1" position="1227,576" size="134,47" font="Liberation;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
+    <widget name="temp_overnight_1" position="1227,616" size="134,54" font="Liberation;38" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
+    <widget name="label_morning_2" position="1400,376" size="160,47" font="Liberation;35" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
+    <widget name="label_afternoon_2" position="1580,376" size="160,47" font="Liberation;35" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
+    <widget name="label_evening_2" position="1754,376" size="160,47" font="Liberation;35" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
+    <widget name="label_overnight_2" position="1927,376" size="160,47" font="Liberation;35" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
+    <widget name="symbol_morning_2" position="1420,430" size="134,134" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="symbol_afternoon_2" position="1594,430" size="134,134" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="symbol_evening_2" position="1767,430" size="134,134" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="symbol_overnight_2" position="1940,430" size="134,134" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="temp_label_morning_2" position="1420,576" size="134,47" font="Liberation;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
+    <widget name="temp_morning_2" position="1420,616" size="134,54" font="Liberation;38" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
+    <widget name="temp_label_afternoon_2" position="1600,576" size="134,47" font="Liberation;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
+    <widget name="temp_afternoon_2" position="1600,616" size="134,54" font="Liberation;38" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
+    <widget name="temp_label_evening_2" position="1767,576" size="134,47" font="Liberation;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
+    <widget name="temp_evening_2" position="1767,616" size="134,54" font="Liberation;38" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
+    <widget name="temp_label_overnight_2" position="1940,576" size="134,47" font="Liberation;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
+    <widget name="temp_overnight_2" position="1940,616" size="134,54" font="Liberation;38" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
+    <widget name="icon_latitude" position="94,1020" size="56,56" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="value_latitude" position="159,1020" size="267,56" font="Liberation;35" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#ffffff" />
+    <widget name="icon_longitude" position="631,1020" size="56,56" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="value_longitude" position="358,1020" size="267,56" font="Liberation;35" transparent="1" zPosition="3" halign="right" valign="center" foregroundColor="#ffffff" />
+    <widget name="zoom_label" position="1447,1020" size="600,54" font="Liberation;40" transparent="1" zPosition="3" halign="right" valign="center" backgroundColor="#40000000" foregroundColor="#49bbff" />
+    <widget name="wind_icon_today" position="1418,760" size="67,67" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/thumb/wN.png" scale="1" zPosition="10" alphatest="on" />
+    <widget name="wind_icon_tomorrow" position="718,760" size="67,67" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/thumb/wN.png" scale="1" zPosition="10" alphatest="on" />
+    <!-- Button icons -->
+    <widget source="key_ok" render="Label" position="74,1110" size="400,80" font="Liberation;43" backgroundColor="#9b9797" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_red" render="Label" position="474,1110" size="400,80" font="Liberation;43" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="874,1110" size="400,80" font="Liberation;43" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_yellow" render="Label" position="1274,1110" size="400,80" font="Liberation;43" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_blue" render="Label" position="1674,1110" size="400,80" font="Liberation;43" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="690,1020" size="500,56" font="Liberation;44" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa" />
+    <!-- Background plates -->
+    <widget name="background_plate" position="24,24" backgroundColor="#ff9632" size="2086,1219" zPosition="1" cornerRadius="42" />
+    <widget name="selection_overlay" position="51,51" backgroundColor="#00000000" size="2032,1166" zPosition="2" cornerRadius="42" />
+</screen>

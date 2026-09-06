@@ -1,0 +1,36 @@
+<screen name="MapLegendOverlayImage" position="0,0" size="569,1440" title="Color Legend" flags="wfNoBorder" zPosition="12" backgroundColor="#ff000000">
+    <eLabel position="131,52" size="299,1333" backgroundColor="#ffffff" zPosition="9" />
+    <widget name="legend_image" position="131,51" size="299,1333" zPosition="110" scale="1" backgroundColor="#000000" alphatest="blend" render="Pixmap" />
+    <ePixmap position="185,1386" size="160,40" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="15" scale="1" />
+
+    <!-- Background plates -->
+    <widget name="background_plate" size="533,1397" zPosition="1" position="17,28" backgroundColor="#ff9632" cornerRadius="67" />
+    <widget name="selection_overlay" size="453,1331" zPosition="2" position="60,53" backgroundColor="#000000" cornerRadius="67" />
+    <!-- Riga 1 -->
+    <widget name="color1" position="20,50" size="0,0" />
+    <widget name="desc1" position="60,50" size="0,0" />
+
+    <!-- Riga 2 -->
+    <widget name="color2" position="20,90" size="0,0" />
+    <widget name="desc2" position="60,90" size="0,0" />
+
+    <!-- Riga 3 -->
+    <widget name="color3" position="20,130" size="0,0" />
+    <widget name="desc3" position="60,130" size="0,0" />
+
+    <!-- Riga 4 -->
+    <widget name="color4" position="20,170" size="0,0" />
+    <widget name="desc4" position="60,170" size="0,0" />
+
+    <!-- Riga 5 -->
+    <widget name="color5" position="20,210" size="0,0" />
+    <widget name="desc5" position="60,210" size="0,0" />
+
+    <!-- Riga 6 -->
+    <widget name="color6" position="20,250" size="0,0" />
+    <widget name="desc6" position="60,250" size="0,0" />
+
+    <!-- Riga 7 -->
+    <widget name="color7" position="20,290" size="0,0" />
+    <widget name="desc7" position="60,290" size="0,0" />
+</screen>

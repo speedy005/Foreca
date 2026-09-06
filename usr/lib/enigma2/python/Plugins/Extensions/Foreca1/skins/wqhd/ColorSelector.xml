@@ -1,0 +1,14 @@
+<screen name="ColorSelector" position="center,center" backgroundColor="#ff000000" size="1547,1254" flags="wfNoBorder">
+    <!-- List -->
+    <widget name="menu" itemHeight="47" position="60,140" size="1427,795" enableWrapAround="1" scrollbarMode="showOnDemand" valign="center" font="Liberation;46" transparent="1" backgroundColor="#40000000" zPosition="3"/>
+    <!-- Description -->
+    <widget name="color_selection" position="51,54" size="1440,67" font="Liberation;48" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <widget name="color_info_label" position="60,1100" size="1427,56" font="Liberation;43" transparent="0" zPosition="3" halign="center" valign="center" backgroundColor="#40000000"/>
+    <widget name="color_name_label" position="60,1034" size="1427,56" font="Liberation;43" transparent="1" zPosition="3" halign="center" valign="center" backgroundColor="#40000000"/>
+    <widget name="color_preview" position="58,960" zPosition="3" size="1427,67" transparent="1" backgroundColor="#40000000"/>
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="46,1158" size="1456,67" font="Liberation;44" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <!-- Background plates -->
+    <widget name="background_plate" position="28,22" backgroundColor="#ff9632" size="1491,1211" zPosition="1" cornerRadius="32"/>
+    <widget name="selection_overlay" position="46,39" backgroundColor="#00000000" size="1456,1176" zPosition="2" cornerRadius="32"/>
+</screen>

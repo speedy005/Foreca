@@ -1,0 +1,34 @@
+<screen name="MapLegendOverlayText" position="141,141" size="846,510" title="Color Legend" flags="wfNoBorder">
+    <!-- Riga 1 -->
+    <widget name="color1" position="27,67" size="40,40" backgroundColor="#ff0000" zPosition="4" cornerRadius="20" transparent="0" />
+    <widget name="desc1" position="80,67" size="720,40" font="Liberation;29" zPosition="4" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+
+    <!-- Riga 2 -->
+    <widget name="color2" position="27,120" size="40,40" backgroundColor="#00ff00" zPosition="4" cornerRadius="20" transparent="0" />
+    <widget name="desc2" position="80,120" size="720,40" font="Liberation;29" zPosition="4" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+
+    <!-- Riga 3 -->
+    <widget name="color3" position="27,173" size="40,40" backgroundColor="#0000ff" zPosition="4" cornerRadius="20" transparent="0" />
+    <widget name="desc3" position="80,173" size="720,40" font="Liberation;29" zPosition="4" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+
+    <!-- Riga 4 -->
+    <widget name="color4" position="27,227" size="40,40" backgroundColor="#ffff00" zPosition="4" cornerRadius="20" transparent="0" />
+    <widget name="desc4" position="80,227" size="720,40" font="Liberation;29" zPosition="4" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+
+    <!-- Riga 5 -->
+    <widget name="color5" position="27,280" size="40,40" backgroundColor="#ffaa00" zPosition="4" cornerRadius="20" transparent="0" />
+    <widget name="desc5" position="80,280" size="720,40" font="Liberation;29" zPosition="4" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+
+    <!-- Riga 6 -->
+    <widget name="color6" position="27,333" size="40,40" backgroundColor="#ff0000" zPosition="4" cornerRadius="20" transparent="0" />
+    <widget name="desc6" position="80,333" size="720,40" font="Liberation;29" zPosition="4" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+
+    <!-- Riga 7 -->
+    <widget name="color7" position="27,387" size="40,40" backgroundColor="white" zPosition="4" cornerRadius="20" transparent="0" />
+    <widget name="desc7" position="80,387" size="720,40" font="Liberation;29" zPosition="4" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+    
+    <!-- Background plates -->
+    <widget name="background_plate" position="11,16" size="819,471" backgroundColor="#ff9632" zPosition="1" cornerRadius="27" />
+    <widget name="selection_overlay" position="21,37" size="798,421" backgroundColor="#000000" zPosition="2" cornerRadius="20" />
+    <widget name="legend_image" position="131,51" size="0,0" zPosition="110" scale="1" backgroundColor="#000000" transparent="1" alphatest="blend" render="Pixmap" />
+</screen>

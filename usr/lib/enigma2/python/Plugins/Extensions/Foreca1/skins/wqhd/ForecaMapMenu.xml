@@ -1,0 +1,12 @@
+<screen name="ForecaMapMenu" position="center,center" size="1423,1246" title="Foreca 1 Live Maps" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- List -->
+    <widget name="list" position="88,192" size="1240,878" itemHeight="63" font="Liberation;58" scrollbarMode="showNever" zPosition="3"/>
+    <!-- Description -->
+    <widget name="title" position="47,44" size="1331,67" font="Liberation;56" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4"/>
+    <widget name="info" position="47,130" size="1328,54" font="Liberation;48" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="46,1096" size="1334,67" font="Liberation;44" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <!-- Background plates -->
+    <widget name="background_plate" size="1367,1190" zPosition="1" position="28,28" backgroundColor="#ff9632" cornerRadius="28"/>
+    <widget name="selection_overlay" size="1334,1155" zPosition="2" position="46,46" backgroundColor="#00000000" cornerRadius="28"/>
+</screen>
