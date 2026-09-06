@@ -5,7 +5,7 @@
 # ForecaOne Installer
 # =========================================================
 
-VERSION="1.4.3"
+VERSION="1.4.5"
 CHANGELOG="Fix Malformated Locale Language.
 Offer coffee if you like this plugin"
 
@@ -15,7 +15,7 @@ BACKUP_DIR="/tmp/foreca_backup"
 
 CONFIG_DIR="/etc/enigma2/foreca"
 
-DOWNLOAD_URL="https://github.com/speedy005/Foreca/archive/refs/heads/main.tar.gz"
+DOWNLOAD_URL="https://github.com/speedy005/Foreca/archive/refs/heads/master.tar.gz"
 
 # ---------------------------------------------------------
 # Determine plugin path
