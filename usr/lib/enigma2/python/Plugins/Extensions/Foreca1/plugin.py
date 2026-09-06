@@ -1267,6 +1267,11 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f"(current values preserved: uvi={self.uvi}, rainp={self.rainp}, snowp={self.snowp}, updated={self.updated})")
             _write_favorite_debug(debug_msg)
 
+        # --- TARGET DATE IMMER BERECHNEN ---
+        # Muss außerhalb von 'if hourly' stehen, damit es immer existiert
+        import datetime
+        target_date = datetime.date.today() + datetime.timedelta(days=day_index)
+
         # Hourly forecast (try free, fallback to auth)
         hourly = None
         # First try free API
@@ -1292,6 +1297,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             except Exception as e:
                 if DEBUG:
                     print(f"[Foreca1] Auth hourly also failed: {e}")
+
         if hourly:
             self.f_time = [h.time.strftime("%H:%M") for h in hourly]
             self.f_cur_temp = [str(h.temp) for h in hourly]
@@ -1301,7 +1307,6 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self.degreesToWindDirection(
                     h.wind_direction) for h in hourly]
             self.f_wind_speed = [str(h.wind_speed) for h in hourly]
-            # self.f_precipitation = [str(h.precipitation) for h in hourly]
             self.f_precipitation = [
                 str(h.precip_prob) if h.precip_prob is not None else '0' for h in hourly]
             self.f_rel_hum = [str(h.humidity) for h in hourly]
@@ -1315,7 +1320,8 @@ class Foreca_Preview(Screen, HelpableScreen):
 
             self.f_solar = [
                 str(h.solar_radiation) if h.solar_radiation is not None else '0' for h in hourly]
-            target_date = datetime.date.today() + datetime.timedelta(days=day_index)
+            
+            # Hier war target_date vorher platziert (zu tief verschachtelt)
             self.f_date = [target_date.strftime("%d.%m.%Y")] * len(hourly)
             self.f_day = target_date.strftime("%A")
 
@@ -1343,7 +1349,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             print(
                 f"[DEBUG] Daily forecast for day {self.tag}: {day_selected.__dict__ if day_selected else 'None'}")
 
-        # Update UI
+        # Update UI (target_date ist nun garantiert definiert)
         self._update_moon(target_date=target_date)
         self.my_cur_weather()
         self.my_forecast_weather()
