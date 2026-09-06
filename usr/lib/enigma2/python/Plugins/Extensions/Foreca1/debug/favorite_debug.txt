@@ -1,0 +1,308 @@
+# DEBUG: Location loaded: Rome-Italy Italy 12.5113 41.8919
+# DEBUG: Current weather for Rome-Italy:
+Temp: 29°C, Feels like: 32°C, Condition: d000
+Wind: wNE 1 km/h, Gust: 5 km/h
+Humidity: 64%, Pressure: 1020.07, Dewpoint: 22
+Precipitation: 0 mm, UV Index: 2, AQI: 22, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 10:23:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:40, sunset=19:35, daylen=12 h 55 min
+temp=29, condition=d000, wind=wNE 1
+rain=0, hum=64
+(current values preserved: uvi=2, rainp=2, snowp=0, updated=06.09.2026 10:23)
+# DEBUG: Hour 10:00: Temp=29°C, Feels=32°C, Condition=d000, Wind=wNE 1 km/h, Precip=2%, Humidity=64%, UV=2
+# DEBUG: Hour 11:00: Temp=31°C, Feels=34°C, Condition=d000, Wind=wN 1 km/h, Precip=2%, Humidity=56%, UV=2
+# DEBUG: Hour 12:00: Temp=33°C, Feels=35°C, Condition=d000, Wind=wNW 1 km/h, Precip=2%, Humidity=47%, UV=2
+# DEBUG: Hour 13:00: Temp=34°C, Feels=35°C, Condition=d000, Wind=wW 1 km/h, Precip=2%, Humidity=40%, UV=2
+# DEBUG: Hour 14:00: Temp=35°C, Feels=37°C, Condition=d000, Wind=wSW 3 km/h, Precip=2%, Humidity=39%, UV=2
+# DEBUG: Hour 15:00: Temp=34°C, Feels=36°C, Condition=d000, Wind=wSW 3 km/h, Precip=2%, Humidity=42%, UV=2
+# DEBUG: Hour 16:00: Temp=33°C, Feels=34°C, Condition=d000, Wind=wSW 4 km/h, Precip=2%, Humidity=42%, UV=2
+# DEBUG: Hour 17:00: Temp=33°C, Feels=34°C, Condition=d000, Wind=wSW 5 km/h, Precip=2%, Humidity=42%, UV=2
+# DEBUG: Hour 18:00: Temp=32°C, Feels=33°C, Condition=d000, Wind=wSW 3 km/h, Precip=2%, Humidity=46%, UV=2
+# DEBUG: Hour 19:00: Temp=30°C, Feels=32°C, Condition=d000, Wind=wSW 3 km/h, Precip=2%, Humidity=53%, UV=2
+# DEBUG: Hour 20:00: Temp=29°C, Feels=32°C, Condition=n000, Wind=wSW 2 km/h, Precip=2%, Humidity=63%, UV=2
+# DEBUG: Hour 21:00: Temp=27°C, Feels=29°C, Condition=n000, Wind=wSW 2 km/h, Precip=2%, Humidity=71%, UV=2
+# DEBUG: Hour 22:00: Temp=27°C, Feels=30°C, Condition=n000, Wind=wW 1 km/h, Precip=2%, Humidity=78%, UV=2
+# DEBUG: Hour 23:00: Temp=26°C, Feels=28°C, Condition=n000, Wind=wW 1 km/h, Precip=2%, Humidity=83%, UV=2
+# DEBUG: Location loaded: Rome-Italy Italy 12.5113 41.8919
+# DEBUG: Current weather for Rome-Italy:
+Temp: 29°C, Feels like: 32°C, Condition: d000
+Wind: wNE 1 km/h, Gust: 5 km/h
+Humidity: 64%, Pressure: 1020.07, Dewpoint: 22
+Precipitation: 0 mm, UV Index: 2, AQI: 22, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 10:23:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:40, sunset=19:35, daylen=12 h 55 min
+temp=29, condition=d000, wind=wNE 1
+rain=0, hum=64
+(current values preserved: uvi=2, rainp=2, snowp=0, updated=06.09.2026 10:23)
+# DEBUG: Hour 10:00: Temp=29°C, Feels=32°C, Condition=d000, Wind=wNE 1 km/h, Precip=2%, Humidity=64%, UV=2
+# DEBUG: Hour 11:00: Temp=31°C, Feels=34°C, Condition=d000, Wind=wN 1 km/h, Precip=2%, Humidity=56%, UV=2
+# DEBUG: Hour 12:00: Temp=33°C, Feels=35°C, Condition=d000, Wind=wNW 1 km/h, Precip=2%, Humidity=47%, UV=2
+# DEBUG: Hour 13:00: Temp=34°C, Feels=35°C, Condition=d000, Wind=wW 1 km/h, Precip=2%, Humidity=40%, UV=2
+# DEBUG: Hour 14:00: Temp=35°C, Feels=37°C, Condition=d000, Wind=wSW 3 km/h, Precip=2%, Humidity=39%, UV=2
+# DEBUG: Hour 15:00: Temp=34°C, Feels=36°C, Condition=d000, Wind=wSW 3 km/h, Precip=2%, Humidity=42%, UV=2
+# DEBUG: Hour 16:00: Temp=33°C, Feels=34°C, Condition=d000, Wind=wSW 4 km/h, Precip=2%, Humidity=42%, UV=2
+# DEBUG: Hour 17:00: Temp=33°C, Feels=34°C, Condition=d000, Wind=wSW 5 km/h, Precip=2%, Humidity=42%, UV=2
+# DEBUG: Hour 18:00: Temp=32°C, Feels=33°C, Condition=d000, Wind=wSW 3 km/h, Precip=2%, Humidity=46%, UV=2
+# DEBUG: Hour 19:00: Temp=30°C, Feels=32°C, Condition=d000, Wind=wSW 3 km/h, Precip=2%, Humidity=53%, UV=2
+# DEBUG: Hour 20:00: Temp=29°C, Feels=32°C, Condition=n000, Wind=wSW 2 km/h, Precip=2%, Humidity=63%, UV=2
+# DEBUG: Hour 21:00: Temp=27°C, Feels=29°C, Condition=n000, Wind=wSW 2 km/h, Precip=2%, Humidity=71%, UV=2
+# DEBUG: Hour 22:00: Temp=27°C, Feels=30°C, Condition=n000, Wind=wW 1 km/h, Precip=2%, Humidity=78%, UV=2
+# DEBUG: Hour 23:00: Temp=26°C, Feels=28°C, Condition=n000, Wind=wW 1 km/h, Precip=2%, Humidity=83%, UV=2
+# DEBUG: Location loaded: Ratingen, Kreis Mettmann, Deutschland Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen, Kreis Mettmann, Deutschland:
+Temp: 16°C, Feels like: 16°C, Condition: d100
+Wind: wS 2 km/h, Gust: 5 km/h
+Humidity: 81%, Pressure: 1027.56, Dewpoint: 13
+Precipitation: 0 mm, UV Index: 1, AQI: 27, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 10:23:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=16, condition=d100, wind=wS 2
+rain=0, hum=81
+(current values preserved: uvi=1, rainp=2, snowp=0, updated=06.09.2026 10:23)
+# DEBUG: Hour 10:00: Temp=16°C, Feels=16°C, Condition=d100, Wind=wS 2 km/h, Precip=2%, Humidity=81%, UV=1
+# DEBUG: Hour 11:00: Temp=18°C, Feels=18°C, Condition=d100, Wind=wSE 4 km/h, Precip=2%, Humidity=70%, UV=1
+# DEBUG: Hour 12:00: Temp=19°C, Feels=19°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=62%, UV=1
+# DEBUG: Hour 13:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=57%, UV=1
+# DEBUG: Hour 14:00: Temp=21°C, Feels=21°C, Condition=d200, Wind=wSE 4 km/h, Precip=1%, Humidity=52%, UV=1
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=1%, Humidity=49%, UV=1
+# DEBUG: Hour 16:00: Temp=22°C, Feels=22°C, Condition=d200, Wind=wSE 2 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 4 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=55%, UV=1
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d200, Wind=wE 3 km/h, Precip=2%, Humidity=59%, UV=1
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 3 km/h, Precip=2%, Humidity=62%, UV=1
+# DEBUG: Hour 22:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 4 km/h, Precip=2%, Humidity=63%, UV=1
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=65%, UV=1
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 16°C, Feels like: 16°C, Condition: d100
+Wind: wS 2 km/h, Gust: 5 km/h
+Humidity: 81%, Pressure: 1027.56, Dewpoint: 13
+Precipitation: 0 mm, UV Index: 1, AQI: 27, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 10:23:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=16, condition=d100, wind=wS 2
+rain=0, hum=81
+(current values preserved: uvi=1, rainp=2, snowp=0, updated=06.09.2026 10:23)
+# DEBUG: Hour 10:00: Temp=16°C, Feels=16°C, Condition=d100, Wind=wS 2 km/h, Precip=2%, Humidity=81%, UV=1
+# DEBUG: Hour 11:00: Temp=18°C, Feels=18°C, Condition=d100, Wind=wSE 4 km/h, Precip=2%, Humidity=70%, UV=1
+# DEBUG: Hour 12:00: Temp=19°C, Feels=19°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=62%, UV=1
+# DEBUG: Hour 13:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=57%, UV=1
+# DEBUG: Hour 14:00: Temp=21°C, Feels=21°C, Condition=d200, Wind=wSE 4 km/h, Precip=1%, Humidity=52%, UV=1
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=1%, Humidity=49%, UV=1
+# DEBUG: Hour 16:00: Temp=22°C, Feels=22°C, Condition=d200, Wind=wSE 2 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 4 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=55%, UV=1
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d200, Wind=wE 3 km/h, Precip=2%, Humidity=59%, UV=1
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 3 km/h, Precip=2%, Humidity=62%, UV=1
+# DEBUG: Hour 22:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 4 km/h, Precip=2%, Humidity=63%, UV=1
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=65%, UV=1
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 16°C, Feels like: 16°C, Condition: d100
+Wind: wS 2 km/h, Gust: 5 km/h
+Humidity: 81%, Pressure: 1027.56, Dewpoint: 13
+Precipitation: 0 mm, UV Index: 1, AQI: 27, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 10:23:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=16, condition=d100, wind=wS 2
+rain=0, hum=81
+(current values preserved: uvi=1, rainp=2, snowp=0, updated=06.09.2026 10:23)
+# DEBUG: Hour 10:00: Temp=16°C, Feels=16°C, Condition=d100, Wind=wS 2 km/h, Precip=2%, Humidity=81%, UV=1
+# DEBUG: Hour 11:00: Temp=18°C, Feels=18°C, Condition=d100, Wind=wSE 4 km/h, Precip=2%, Humidity=70%, UV=1
+# DEBUG: Hour 12:00: Temp=19°C, Feels=19°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=62%, UV=1
+# DEBUG: Hour 13:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=57%, UV=1
+# DEBUG: Hour 14:00: Temp=21°C, Feels=21°C, Condition=d200, Wind=wSE 4 km/h, Precip=1%, Humidity=52%, UV=1
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=1%, Humidity=49%, UV=1
+# DEBUG: Hour 16:00: Temp=22°C, Feels=22°C, Condition=d200, Wind=wSE 2 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 4 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=48%, UV=1
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=55%, UV=1
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d200, Wind=wE 3 km/h, Precip=2%, Humidity=59%, UV=1
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 3 km/h, Precip=2%, Humidity=62%, UV=1
+# DEBUG: Hour 22:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 4 km/h, Precip=2%, Humidity=63%, UV=1
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=65%, UV=1
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 16°C, Feels like: 16°C, Condition: d100
+Wind: wS 2 km/h, Gust: 5 km/h
+Humidity: 80%, Pressure: 1027.56, Dewpoint: 13
+Precipitation: 0 mm, UV Index: 1, AQI: 27, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 10:23:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=16, condition=d100, wind=wS 2
+rain=0, hum=80
+(current values preserved: uvi=1, rainp=2, snowp=0, updated=06.09.2026 10:23)
+# DEBUG: Hour 10:00: Temp=16°C, Feels=16°C, Condition=d100, Wind=wS 2 km/h, Precip=2%, Humidity=80%, UV=1
+# DEBUG: Hour 11:00: Temp=19°C, Feels=19°C, Condition=d000, Wind=wSE 3 km/h, Precip=2%, Humidity=70%, UV=1
+# DEBUG: Hour 12:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=61%, UV=1
+# DEBUG: Hour 13:00: Temp=21°C, Feels=21°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=56%, UV=1
+# DEBUG: Hour 14:00: Temp=22°C, Feels=22°C, Condition=d200, Wind=wSE 4 km/h, Precip=1%, Humidity=52%, UV=1
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=1%, Humidity=49%, UV=1
+# DEBUG: Hour 16:00: Temp=23°C, Feels=23°C, Condition=d200, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=1
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 4 km/h, Precip=2%, Humidity=47%, UV=1
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=1
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=54%, UV=1
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d200, Wind=wE 3 km/h, Precip=2%, Humidity=60%, UV=1
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 3 km/h, Precip=2%, Humidity=63%, UV=1
+# DEBUG: Hour 22:00: Temp=18°C, Feels=18°C, Condition=n200, Wind=wSE 4 km/h, Precip=2%, Humidity=64%, UV=1
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=66%, UV=1
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 16°C, Feels like: 16°C, Condition: d100
+Wind: wS 2 km/h, Gust: 5 km/h
+Humidity: 80%, Pressure: 1027.56, Dewpoint: 13
+Precipitation: 0 mm, UV Index: 1, AQI: 27, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 10:23:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=16, condition=d100, wind=wS 2
+rain=0, hum=80
+(current values preserved: uvi=1, rainp=2, snowp=0, updated=06.09.2026 10:23)
+# DEBUG: Hour 10:00: Temp=16°C, Feels=16°C, Condition=d100, Wind=wS 2 km/h, Precip=2%, Humidity=80%, UV=1
+# DEBUG: Hour 11:00: Temp=19°C, Feels=19°C, Condition=d000, Wind=wSE 3 km/h, Precip=2%, Humidity=70%, UV=1
+# DEBUG: Hour 12:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=61%, UV=1
+# DEBUG: Hour 13:00: Temp=21°C, Feels=21°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=56%, UV=1
+# DEBUG: Hour 14:00: Temp=22°C, Feels=22°C, Condition=d200, Wind=wSE 4 km/h, Precip=1%, Humidity=52%, UV=1
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=1%, Humidity=49%, UV=1
+# DEBUG: Hour 16:00: Temp=23°C, Feels=23°C, Condition=d200, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=1
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 4 km/h, Precip=2%, Humidity=47%, UV=1
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=1
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=54%, UV=1
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d200, Wind=wE 3 km/h, Precip=2%, Humidity=60%, UV=1
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 3 km/h, Precip=2%, Humidity=63%, UV=1
+# DEBUG: Hour 22:00: Temp=18°C, Feels=18°C, Condition=n200, Wind=wSE 4 km/h, Precip=2%, Humidity=64%, UV=1
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=66%, UV=1
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 18°C, Feels like: 18°C, Condition: d000
+Wind: wSE 3 km/h, Gust: 6 km/h
+Humidity: 70%, Pressure: 1027.64, Dewpoint: 13
+Precipitation: 0 mm, UV Index: 2, AQI: 25, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 11:24:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=18, condition=d000, wind=wSE 3
+rain=0, hum=70
+(current values preserved: uvi=2, rainp=2, snowp=0, updated=06.09.2026 11:24)
+# DEBUG: Hour 11:00: Temp=18°C, Feels=18°C, Condition=d000, Wind=wSE 3 km/h, Precip=2%, Humidity=70%, UV=2
+# DEBUG: Hour 12:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=61%, UV=2
+# DEBUG: Hour 13:00: Temp=21°C, Feels=21°C, Condition=d100, Wind=wSE 2 km/h, Precip=2%, Humidity=56%, UV=2
+# DEBUG: Hour 14:00: Temp=21°C, Feels=21°C, Condition=d000, Wind=wSE 4 km/h, Precip=1%, Humidity=52%, UV=2
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d000, Wind=wSE 2 km/h, Precip=1%, Humidity=49%, UV=2
+# DEBUG: Hour 16:00: Temp=22°C, Feels=22°C, Condition=d200, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=2
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 4 km/h, Precip=2%, Humidity=47%, UV=2
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=2
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=54%, UV=2
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d200, Wind=wE 3 km/h, Precip=2%, Humidity=60%, UV=2
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n200, Wind=wSE 3 km/h, Precip=2%, Humidity=63%, UV=2
+# DEBUG: Hour 22:00: Temp=18°C, Feels=18°C, Condition=n200, Wind=wSE 4 km/h, Precip=2%, Humidity=64%, UV=2
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=66%, UV=2
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 20°C, Feels like: 20°C, Condition: d000
+Wind: wSE 2 km/h, Gust: 6 km/h
+Humidity: 61%, Pressure: 1026.76, Dewpoint: 12
+Precipitation: 0 mm, UV Index: 4, AQI: 29, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 12:09:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=20, condition=d000, wind=wSE 2
+rain=0, hum=61
+(current values preserved: uvi=4, rainp=2, snowp=0, updated=06.09.2026 12:09)
+# DEBUG: Hour 12:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=61%, UV=4
+# DEBUG: Hour 13:00: Temp=21°C, Feels=21°C, Condition=d100, Wind=wSE 2 km/h, Precip=2%, Humidity=56%, UV=4
+# DEBUG: Hour 14:00: Temp=22°C, Feels=22°C, Condition=d000, Wind=wSE 4 km/h, Precip=2%, Humidity=52%, UV=4
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=49%, UV=4
+# DEBUG: Hour 16:00: Temp=23°C, Feels=23°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d200, Wind=wSE 4 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=54%, UV=4
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d300, Wind=wSE 3 km/h, Precip=2%, Humidity=60%, UV=4
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n300, Wind=wSE 3 km/h, Precip=2%, Humidity=63%, UV=4
+# DEBUG: Hour 22:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=64%, UV=4
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=66%, UV=4
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 20°C, Feels like: 20°C, Condition: d000
+Wind: wSE 2 km/h, Gust: 6 km/h
+Humidity: 61%, Pressure: 1026.76, Dewpoint: 12
+Precipitation: 0 mm, UV Index: 4, AQI: 29, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 12:09:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=20, condition=d000, wind=wSE 2
+rain=0, hum=61
+(current values preserved: uvi=4, rainp=2, snowp=0, updated=06.09.2026 12:09)
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=20, condition=d000, wind=wSE 2
+rain=0, hum=61, uvi=4, rainp=2, snowp=0
+updated=06.09.2026 12:09
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 20°C, Feels like: 20°C, Condition: d000
+Wind: wSE 2 km/h, Gust: 6 km/h
+Humidity: 61%, Pressure: 1026.76, Dewpoint: 12
+Precipitation: 0 mm, UV Index: 4, AQI: 29, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 12:09:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=20, condition=d000, wind=wSE 2
+rain=0, hum=61
+(current values preserved: uvi=4, rainp=2, snowp=0, updated=06.09.2026 12:09)
+# DEBUG: Hour 12:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=61%, UV=4
+# DEBUG: Hour 13:00: Temp=21°C, Feels=21°C, Condition=d100, Wind=wSE 2 km/h, Precip=2%, Humidity=56%, UV=4
+# DEBUG: Hour 14:00: Temp=22°C, Feels=22°C, Condition=d000, Wind=wSE 4 km/h, Precip=2%, Humidity=52%, UV=4
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=49%, UV=4
+# DEBUG: Hour 16:00: Temp=23°C, Feels=23°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d200, Wind=wSE 4 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=54%, UV=4
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d300, Wind=wSE 3 km/h, Precip=2%, Humidity=60%, UV=4
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n300, Wind=wSE 3 km/h, Precip=2%, Humidity=63%, UV=4
+# DEBUG: Hour 22:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=64%, UV=4
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=66%, UV=4
+# DEBUG: Location loaded: Ratingen Kreis Mettmann, Germany 6.84929 51.2972
+# DEBUG: Current weather for Ratingen:
+Temp: 20°C, Feels like: 20°C, Condition: d000
+Wind: wSE 2 km/h, Gust: 6 km/h
+Humidity: 61%, Pressure: 1026.76, Dewpoint: 12
+Precipitation: 0 mm, UV Index: 4, AQI: 29, Rain: 2, Snow: 0
+ updated: Current updated 06.09.2026 12:09:
+
+# DEBUG: Daily forecast for day 0:
+sunrise=06:52, sunset=20:08, daylen=13 h 15 min
+temp=20, condition=d000, wind=wSE 2
+rain=0, hum=61
+(current values preserved: uvi=4, rainp=2, snowp=0, updated=06.09.2026 12:09)
+# DEBUG: Hour 12:00: Temp=20°C, Feels=20°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=61%, UV=4
+# DEBUG: Hour 13:00: Temp=21°C, Feels=21°C, Condition=d100, Wind=wSE 2 km/h, Precip=2%, Humidity=56%, UV=4
+# DEBUG: Hour 14:00: Temp=22°C, Feels=22°C, Condition=d000, Wind=wSE 4 km/h, Precip=2%, Humidity=52%, UV=4
+# DEBUG: Hour 15:00: Temp=22°C, Feels=22°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=49%, UV=4
+# DEBUG: Hour 16:00: Temp=23°C, Feels=23°C, Condition=d000, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 17:00: Temp=23°C, Feels=23°C, Condition=d200, Wind=wSE 4 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 18:00: Temp=23°C, Feels=23°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=47%, UV=4
+# DEBUG: Hour 19:00: Temp=22°C, Feels=22°C, Condition=d300, Wind=wSE 2 km/h, Precip=2%, Humidity=54%, UV=4
+# DEBUG: Hour 20:00: Temp=20°C, Feels=20°C, Condition=d300, Wind=wSE 3 km/h, Precip=2%, Humidity=60%, UV=4
+# DEBUG: Hour 21:00: Temp=19°C, Feels=19°C, Condition=n300, Wind=wSE 3 km/h, Precip=2%, Humidity=63%, UV=4
+# DEBUG: Hour 22:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=64%, UV=4
+# DEBUG: Hour 23:00: Temp=18°C, Feels=18°C, Condition=n300, Wind=wSE 4 km/h, Precip=2%, Humidity=66%, UV=4

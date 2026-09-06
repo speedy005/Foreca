@@ -1,0 +1,1166 @@
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 10:26:37
+Town        : Rome-Italy
+Unit system : metric
+RAW DATA:
+  Temp       = 29
+  Feels like = 32
+  Dewpoint   = 22
+  Condition  = d000
+  Wind       = wNE 1
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 64
+  Pressure   = 1020.07
+  UV index   = 2
+  AQI        = 22
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:40
+  Sunset     = 19:35
+  Day length = 12 h 55 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 29°C
+  Feels like  : Fühlt sich an wie 32°C
+  Dewpoint    : Taupunkt 22°C
+  Wind speed  : Windgeschwindigkeit: 3.6 km/h
+  Gust        : Böe: 18.0 km/h
+  Pressure    : 1020 hPa
+  Rain        : Regen: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 64%
+  Description : Klar
+  UV index    : 2 (Niedrig)
+  AQI         : AQI 22
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:40
+  Sunset      : 19:35
+  Day length  : 12 h 55 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 10:26:39
+Town        : Rome-Italy
+Unit system : metric
+RAW DATA:
+  Temp       = 29
+  Feels like = 32
+  Dewpoint   = 22
+  Condition  = d000
+  Wind       = wNE 1
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 64
+  Pressure   = 1020.07
+  UV index   = 2
+  AQI        = 22
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:40
+  Sunset     = 19:35
+  Day length = 12 h 55 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 29°C
+  Feels like  : Fühlt sich an wie 32°C
+  Dewpoint    : Taupunkt 22°C
+  Wind speed  : Windgeschwindigkeit: 3.6 km/h
+  Gust        : Böe: 18.0 km/h
+  Pressure    : 1020 hPa
+  Rain        : Regen: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 64%
+  Description : Klar
+  UV index    : 2 (Niedrig)
+  AQI         : AQI 22
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:40
+  Sunset      : 19:35
+  Day length  : 12 h 55 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : Roma Macao
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 27.4%
+  Distance    : 368359 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 10:28:14
+Town        : Rome-Italy
+Unit system : metric
+RAW DATA:
+  Temp       = 29
+  Feels like = 32
+  Dewpoint   = 22
+  Condition  = d000
+  Wind       = wNE 1
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 64
+  Pressure   = 1020.07
+  UV index   = 2
+  AQI        = 22
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:40
+  Sunset     = 19:35
+  Day length = 12 h 55 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 29°C
+  Feels like  : Fühlt sich an wie 32°C
+  Dewpoint    : Taupunkt 22°C
+  Wind speed  : Wind speed: 3.6 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1020 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 64%
+  Description : Klar
+  UV index    : 2 (Niedrig)
+  AQI         : AQI 22
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:40
+  Sunset      : 19:35
+  Day length  : 12 h 55 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 10:28:15
+Town        : Rome-Italy
+Unit system : metric
+RAW DATA:
+  Temp       = 29
+  Feels like = 32
+  Dewpoint   = 22
+  Condition  = d000
+  Wind       = wNE 1
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 64
+  Pressure   = 1020.07
+  UV index   = 2
+  AQI        = 22
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:40
+  Sunset     = 19:35
+  Day length = 12 h 55 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 29°C
+  Feels like  : Fühlt sich an wie 32°C
+  Dewpoint    : Taupunkt 22°C
+  Wind speed  : Wind speed: 3.6 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1020 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 64%
+  Description : Klar
+  UV index    : 2 (Niedrig)
+  AQI         : AQI 22
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:40
+  Sunset      : 19:35
+  Day length  : 12 h 55 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 27.4%
+  Distance    : 368359 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 10:28:58
+Town        : Ratingen, Kreis Mettmann, Deutschland
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 81
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 81%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : Roma Macao
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 10:29:02
+Town        : Ratingen, Kreis Mettmann, Deutschland
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 81
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 81%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : Roma Macao
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 27.4%
+  Distance    : 368359 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 10:38:04
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 81
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 81%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 10:38:05
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 81
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 81%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 27.3%
+  Distance    : 368356 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 10:46:35
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 81
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 81%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 10:46:36
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 81
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 81%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 27.2%
+  Distance    : 368354 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 10:55:06
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 80
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 80%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 10:55:07
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 80
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 80%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 27.2%
+  Distance    : 368352 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 10:59:21
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 80
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 80%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 10:59:22
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 16
+  Feels like = 16
+  Dewpoint   = 13
+  Condition  = d100
+  Wind       = wS 2
+  Gust       = 5
+  Rain       = 0
+  Humidity   = 80
+  Pressure   = 1027.56
+  UV index   = 1
+  AQI        = 27
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 10:23
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 16°C
+  Feels like  : Fühlt sich an wie 16°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 18.0 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 80%
+  Description : Größtenteils klar
+  UV index    : 1 (Niedrig)
+  AQI         : AQI 27
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 10:23
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 27.1%
+  Distance    : 368351 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 11:40:49
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 18
+  Feels like = 18
+  Dewpoint   = 13
+  Condition  = d000
+  Wind       = wSE 3
+  Gust       = 6
+  Rain       = 0
+  Humidity   = 70
+  Pressure   = 1027.64
+  UV index   = 2
+  AQI        = 25
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 11:24
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 18°C
+  Feels like  : Fühlt sich an wie 18°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 10.8 km/h
+  Gust        : Gust: 21.6 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 70%
+  Description : Klar
+  UV index    : 2 (Niedrig)
+  AQI         : AQI 25
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 11:24
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 11:40:50
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 18
+  Feels like = 18
+  Dewpoint   = 13
+  Condition  = d000
+  Wind       = wSE 3
+  Gust       = 6
+  Rain       = 0
+  Humidity   = 70
+  Pressure   = 1027.64
+  UV index   = 2
+  AQI        = 25
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 11:24
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 18°C
+  Feels like  : Fühlt sich an wie 18°C
+  Dewpoint    : Taupunkt 13°C
+  Wind speed  : Wind speed: 10.8 km/h
+  Gust        : Gust: 21.6 km/h
+  Pressure    : 1028 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 70%
+  Description : Klar
+  UV index    : 2 (Niedrig)
+  AQI         : AQI 25
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 11:24
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 26.8%
+  Distance    : 368340 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 12:12:38
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 20
+  Feels like = 20
+  Dewpoint   = 12
+  Condition  = d000
+  Wind       = wSE 2
+  Gust       = 6
+  Rain       = 0
+  Humidity   = 61
+  Pressure   = 1026.76
+  UV index   = 4
+  AQI        = 29
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 12:09
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 20°C
+  Feels like  : Fühlt sich an wie 20°C
+  Dewpoint    : Taupunkt 12°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 21.6 km/h
+  Pressure    : 1027 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 61%
+  Description : Klar
+  UV index    : 4 (Mäßig)
+  AQI         : AQI 29
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 12:09
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 12:12:40
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 20
+  Feels like = 20
+  Dewpoint   = 12
+  Condition  = d000
+  Wind       = wSE 2
+  Gust       = 6
+  Rain       = 0
+  Humidity   = 61
+  Pressure   = 1026.76
+  UV index   = 4
+  AQI        = 29
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 12:09
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 20°C
+  Feels like  : Fühlt sich an wie 20°C
+  Dewpoint    : Taupunkt 12°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 21.6 km/h
+  Pressure    : 1027 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 61%
+  Description : Klar
+  UV index    : 4 (Mäßig)
+  AQI         : AQI 29
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 12:09
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 26.6%
+  Distance    : 368333 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 12:20:09
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 20
+  Feels like = 20
+  Dewpoint   = 12
+  Condition  = d000
+  Wind       = wSE 2
+  Gust       = 6
+  Rain       = 0
+  Humidity   = 61
+  Pressure   = 1026.76
+  UV index   = 4
+  AQI        = 29
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 12:09
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 20°C
+  Feels like  : Fühlt sich an wie 20°C
+  Dewpoint    : Taupunkt 12°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 21.6 km/h
+  Pressure    : 1027 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 61%
+  Description : Klar
+  UV index    : 4 (Mäßig)
+  AQI         : AQI 29
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 12:09
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 12:20:10
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 20
+  Feels like = 20
+  Dewpoint   = 12
+  Condition  = d000
+  Wind       = wSE 2
+  Gust       = 6
+  Rain       = 0
+  Humidity   = 61
+  Pressure   = 1026.76
+  UV index   = 4
+  AQI        = 29
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 12:09
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 20°C
+  Feels like  : Fühlt sich an wie 20°C
+  Dewpoint    : Taupunkt 12°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 21.6 km/h
+  Pressure    : 1027 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 61%
+  Description : Klar
+  UV index    : 4 (Mäßig)
+  AQI         : AQI 29
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 12:09
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 26.6%
+  Distance    : 368331 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 31.1%
+  Distance    : 368540 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------
+
+============================================================
+UPDATE TIME: 2026-09-06 12:20:26
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 20
+  Feels like = 20
+  Dewpoint   = 12
+  Condition  = d000
+  Wind       = wSE 2
+  Gust       = 6
+  Rain       = 0
+  Humidity   = 61
+  Pressure   = 1026.76
+  UV index   = 4
+  AQI        = 29
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 12:09
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 20°C
+  Feels like  : Fühlt sich an wie 20°C
+  Dewpoint    : Taupunkt 12°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 21.6 km/h
+  Pressure    : 1027 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 61%
+  Description : Klar
+  UV index    : 4 (Mäßig)
+  AQI         : AQI 29
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 12:09
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+
+============================================================
+UPDATE TIME: 2026-09-06 12:20:27
+Town        : Ratingen
+Unit system : metric
+RAW DATA:
+  Temp       = 20
+  Feels like = 20
+  Dewpoint   = 12
+  Condition  = d000
+  Wind       = wSE 2
+  Gust       = 6
+  Rain       = 0
+  Humidity   = 61
+  Pressure   = 1026.76
+  UV index   = 4
+  AQI        = 29
+  Rain prob. = 2%
+  Snow prob. = 0%
+  Updated    = 06.09.2026 12:09
+  Sunrise    = 06:52
+  Sunset     = 20:08
+  Day length = 13 h 15 min
+------------------------------------------------------------
+DISPLAY VALUES:
+  Temperature : 20°C
+  Feels like  : Fühlt sich an wie 20°C
+  Dewpoint    : Taupunkt 12°C
+  Wind speed  : Wind speed: 7.2 km/h
+  Gust        : Gust: 21.6 km/h
+  Pressure    : 1027 hPa
+  Rain        : Rain: 0.0 mm
+  Humidity    : Luftfeuchtigkeit: 61%
+  Description : Klar
+  UV index    : 4 (Mäßig)
+  AQI         : AQI 29
+  Rain prob.  : Regen wahrscheinlich. 2%
+  Snow prob.  : Schneewahrscheinlich. 0%
+  Updated     : Aktualisiert 06.09.2026 12:09
+  Sunrise     : 06:52
+  Sunset      : 20:08
+  Day length  : 13 h 15 min
+  Solar rad   : 0 W/m²
+  Solar desc  : Sehr niedrig
+  Station     : N/A
+============================================================
+MOON VALUES:
+  Phase       : Waning Crescent
+  Illumination: 26.6%
+  Distance    : 368331 km
+  Moonrise    : 
+  Moonset     : 
+------------------------------------------------------------

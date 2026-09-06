@@ -1,0 +1,1855 @@
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 10:26:38
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 10:00
+Raw temperature: 29
+Raw symbol: d000
+Raw wind direction: wNE
+Raw wind speed: 1
+Raw feels like: 32
+Raw precipitation: 2
+Raw humidity: 64
+
+------------------------------------------------------------
+INDEX: 1
+Time: 11:00
+Raw temperature: 31
+Raw symbol: d000
+Raw wind direction: wN
+Raw wind speed: 1
+Raw feels like: 34
+Raw precipitation: 2
+Raw humidity: 56
+
+------------------------------------------------------------
+INDEX: 2
+Time: 12:00
+Raw temperature: 33
+Raw symbol: d000
+Raw wind direction: wNW
+Raw wind speed: 1
+Raw feels like: 35
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 3
+Time: 13:00
+Raw temperature: 34
+Raw symbol: d000
+Raw wind direction: wW
+Raw wind speed: 1
+Raw feels like: 35
+Raw precipitation: 2
+Raw humidity: 40
+
+------------------------------------------------------------
+INDEX: 4
+Time: 14:00
+Raw temperature: 35
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 3
+Raw feels like: 37
+Raw precipitation: 2
+Raw humidity: 39
+
+------------------------------------------------------------
+INDEX: 5
+Time: 15:00
+Raw temperature: 34
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 3
+Raw feels like: 36
+Raw precipitation: 2
+Raw humidity: 42
+
+------------------------------------------------------------
+INDEX: 6
+Time: 16:00
+Raw temperature: 33
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 4
+Raw feels like: 34
+Raw precipitation: 2
+Raw humidity: 42
+
+------------------------------------------------------------
+INDEX: 7
+Time: 17:00
+Raw temperature: 33
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 5
+Raw feels like: 34
+Raw precipitation: 2
+Raw humidity: 42
+
+------------------------------------------------------------
+INDEX: 8
+Time: 18:00
+Raw temperature: 32
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 3
+Raw feels like: 33
+Raw precipitation: 2
+Raw humidity: 46
+
+------------------------------------------------------------
+INDEX: 9
+Time: 19:00
+Raw temperature: 30
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 3
+Raw feels like: 32
+Raw precipitation: 2
+Raw humidity: 53
+
+------------------------------------------------------------
+INDEX: 10
+Time: 20:00
+Raw temperature: 29
+Raw symbol: n000
+Raw wind direction: wSW
+Raw wind speed: 2
+Raw feels like: 32
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 11
+Time: 21:00
+Raw temperature: 27
+Raw symbol: n000
+Raw wind direction: wSW
+Raw wind speed: 2
+Raw feels like: 29
+Raw precipitation: 2
+Raw humidity: 71
+
+------------------------------------------------------------
+INDEX: 12
+Time: 22:00
+Raw temperature: 27
+Raw symbol: n000
+Raw wind direction: wW
+Raw wind speed: 1
+Raw feels like: 30
+Raw precipitation: 2
+Raw humidity: 78
+
+------------------------------------------------------------
+INDEX: 13
+Time: 23:00
+Raw temperature: 26
+Raw symbol: n000
+Raw wind direction: wW
+Raw wind speed: 1
+Raw feels like: 28
+Raw precipitation: 2
+Raw humidity: 83
+
+FORECAST UPDATE END: 2026-09-06 10:26:38
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 10:28:14
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 10:00
+Raw temperature: 29
+Raw symbol: d000
+Raw wind direction: wNE
+Raw wind speed: 1
+Raw feels like: 32
+Raw precipitation: 2
+Raw humidity: 64
+
+------------------------------------------------------------
+INDEX: 1
+Time: 11:00
+Raw temperature: 31
+Raw symbol: d000
+Raw wind direction: wN
+Raw wind speed: 1
+Raw feels like: 34
+Raw precipitation: 2
+Raw humidity: 56
+
+------------------------------------------------------------
+INDEX: 2
+Time: 12:00
+Raw temperature: 33
+Raw symbol: d000
+Raw wind direction: wNW
+Raw wind speed: 1
+Raw feels like: 35
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 3
+Time: 13:00
+Raw temperature: 34
+Raw symbol: d000
+Raw wind direction: wW
+Raw wind speed: 1
+Raw feels like: 35
+Raw precipitation: 2
+Raw humidity: 40
+
+------------------------------------------------------------
+INDEX: 4
+Time: 14:00
+Raw temperature: 35
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 3
+Raw feels like: 37
+Raw precipitation: 2
+Raw humidity: 39
+
+------------------------------------------------------------
+INDEX: 5
+Time: 15:00
+Raw temperature: 34
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 3
+Raw feels like: 36
+Raw precipitation: 2
+Raw humidity: 42
+
+------------------------------------------------------------
+INDEX: 6
+Time: 16:00
+Raw temperature: 33
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 4
+Raw feels like: 34
+Raw precipitation: 2
+Raw humidity: 42
+
+------------------------------------------------------------
+INDEX: 7
+Time: 17:00
+Raw temperature: 33
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 5
+Raw feels like: 34
+Raw precipitation: 2
+Raw humidity: 42
+
+------------------------------------------------------------
+INDEX: 8
+Time: 18:00
+Raw temperature: 32
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 3
+Raw feels like: 33
+Raw precipitation: 2
+Raw humidity: 46
+
+------------------------------------------------------------
+INDEX: 9
+Time: 19:00
+Raw temperature: 30
+Raw symbol: d000
+Raw wind direction: wSW
+Raw wind speed: 3
+Raw feels like: 32
+Raw precipitation: 2
+Raw humidity: 53
+
+------------------------------------------------------------
+INDEX: 10
+Time: 20:00
+Raw temperature: 29
+Raw symbol: n000
+Raw wind direction: wSW
+Raw wind speed: 2
+Raw feels like: 32
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 11
+Time: 21:00
+Raw temperature: 27
+Raw symbol: n000
+Raw wind direction: wSW
+Raw wind speed: 2
+Raw feels like: 29
+Raw precipitation: 2
+Raw humidity: 71
+
+------------------------------------------------------------
+INDEX: 12
+Time: 22:00
+Raw temperature: 27
+Raw symbol: n000
+Raw wind direction: wW
+Raw wind speed: 1
+Raw feels like: 30
+Raw precipitation: 2
+Raw humidity: 78
+
+------------------------------------------------------------
+INDEX: 13
+Time: 23:00
+Raw temperature: 26
+Raw symbol: n000
+Raw wind direction: wW
+Raw wind speed: 1
+Raw feels like: 28
+Raw precipitation: 2
+Raw humidity: 83
+
+FORECAST UPDATE END: 2026-09-06 10:28:14
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 10:28:58
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 10:00
+Raw temperature: 16
+Raw symbol: d100
+Raw wind direction: wS
+Raw wind speed: 2
+Raw feels like: 16
+Raw precipitation: 2
+Raw humidity: 81
+
+------------------------------------------------------------
+INDEX: 1
+Time: 11:00
+Raw temperature: 18
+Raw symbol: d100
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 70
+
+------------------------------------------------------------
+INDEX: 2
+Time: 12:00
+Raw temperature: 19
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 62
+
+------------------------------------------------------------
+INDEX: 3
+Time: 13:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 57
+
+------------------------------------------------------------
+INDEX: 4
+Time: 14:00
+Raw temperature: 21
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 21
+Raw precipitation: 1
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 5
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 6
+Time: 16:00
+Raw temperature: 22
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 7
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 8
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 9
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 55
+
+------------------------------------------------------------
+INDEX: 10
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d200
+Raw wind direction: wE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 59
+
+------------------------------------------------------------
+INDEX: 11
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 62
+
+------------------------------------------------------------
+INDEX: 12
+Time: 22:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 13
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 65
+
+FORECAST UPDATE END: 2026-09-06 10:28:59
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 10:29:02
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 10:00
+Raw temperature: 16
+Raw symbol: d100
+Raw wind direction: wS
+Raw wind speed: 2
+Raw feels like: 16
+Raw precipitation: 2
+Raw humidity: 81
+
+------------------------------------------------------------
+INDEX: 1
+Time: 11:00
+Raw temperature: 18
+Raw symbol: d100
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 70
+
+------------------------------------------------------------
+INDEX: 2
+Time: 12:00
+Raw temperature: 19
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 62
+
+------------------------------------------------------------
+INDEX: 3
+Time: 13:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 57
+
+------------------------------------------------------------
+INDEX: 4
+Time: 14:00
+Raw temperature: 21
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 21
+Raw precipitation: 1
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 5
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 6
+Time: 16:00
+Raw temperature: 22
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 7
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 8
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 9
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 55
+
+------------------------------------------------------------
+INDEX: 10
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d200
+Raw wind direction: wE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 59
+
+------------------------------------------------------------
+INDEX: 11
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 62
+
+------------------------------------------------------------
+INDEX: 12
+Time: 22:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 13
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 65
+
+FORECAST UPDATE END: 2026-09-06 10:29:03
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 10:38:04
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 10:00
+Raw temperature: 16
+Raw symbol: d100
+Raw wind direction: wS
+Raw wind speed: 2
+Raw feels like: 16
+Raw precipitation: 2
+Raw humidity: 81
+
+------------------------------------------------------------
+INDEX: 1
+Time: 11:00
+Raw temperature: 18
+Raw symbol: d100
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 70
+
+------------------------------------------------------------
+INDEX: 2
+Time: 12:00
+Raw temperature: 19
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 62
+
+------------------------------------------------------------
+INDEX: 3
+Time: 13:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 57
+
+------------------------------------------------------------
+INDEX: 4
+Time: 14:00
+Raw temperature: 21
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 21
+Raw precipitation: 1
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 5
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 6
+Time: 16:00
+Raw temperature: 22
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 7
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 8
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 9
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 55
+
+------------------------------------------------------------
+INDEX: 10
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d200
+Raw wind direction: wE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 59
+
+------------------------------------------------------------
+INDEX: 11
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 62
+
+------------------------------------------------------------
+INDEX: 12
+Time: 22:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 13
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 65
+
+FORECAST UPDATE END: 2026-09-06 10:38:04
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 10:46:35
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 10:00
+Raw temperature: 16
+Raw symbol: d100
+Raw wind direction: wS
+Raw wind speed: 2
+Raw feels like: 16
+Raw precipitation: 2
+Raw humidity: 81
+
+------------------------------------------------------------
+INDEX: 1
+Time: 11:00
+Raw temperature: 18
+Raw symbol: d100
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 70
+
+------------------------------------------------------------
+INDEX: 2
+Time: 12:00
+Raw temperature: 19
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 62
+
+------------------------------------------------------------
+INDEX: 3
+Time: 13:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 57
+
+------------------------------------------------------------
+INDEX: 4
+Time: 14:00
+Raw temperature: 21
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 21
+Raw precipitation: 1
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 5
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 6
+Time: 16:00
+Raw temperature: 22
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 7
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 8
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 48
+
+------------------------------------------------------------
+INDEX: 9
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 55
+
+------------------------------------------------------------
+INDEX: 10
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d200
+Raw wind direction: wE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 59
+
+------------------------------------------------------------
+INDEX: 11
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 62
+
+------------------------------------------------------------
+INDEX: 12
+Time: 22:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 13
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 65
+
+FORECAST UPDATE END: 2026-09-06 10:46:35
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 10:55:06
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 10:00
+Raw temperature: 16
+Raw symbol: d100
+Raw wind direction: wS
+Raw wind speed: 2
+Raw feels like: 16
+Raw precipitation: 2
+Raw humidity: 80
+
+------------------------------------------------------------
+INDEX: 1
+Time: 11:00
+Raw temperature: 19
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 70
+
+------------------------------------------------------------
+INDEX: 2
+Time: 12:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 61
+
+------------------------------------------------------------
+INDEX: 3
+Time: 13:00
+Raw temperature: 21
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 21
+Raw precipitation: 2
+Raw humidity: 56
+
+------------------------------------------------------------
+INDEX: 4
+Time: 14:00
+Raw temperature: 22
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 5
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 6
+Time: 16:00
+Raw temperature: 23
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 7
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 8
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 9
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 54
+
+------------------------------------------------------------
+INDEX: 10
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d200
+Raw wind direction: wE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 60
+
+------------------------------------------------------------
+INDEX: 11
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 12
+Time: 22:00
+Raw temperature: 18
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 64
+
+------------------------------------------------------------
+INDEX: 13
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 66
+
+FORECAST UPDATE END: 2026-09-06 10:55:06
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 10:59:21
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 10:00
+Raw temperature: 16
+Raw symbol: d100
+Raw wind direction: wS
+Raw wind speed: 2
+Raw feels like: 16
+Raw precipitation: 2
+Raw humidity: 80
+
+------------------------------------------------------------
+INDEX: 1
+Time: 11:00
+Raw temperature: 19
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 70
+
+------------------------------------------------------------
+INDEX: 2
+Time: 12:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 61
+
+------------------------------------------------------------
+INDEX: 3
+Time: 13:00
+Raw temperature: 21
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 21
+Raw precipitation: 2
+Raw humidity: 56
+
+------------------------------------------------------------
+INDEX: 4
+Time: 14:00
+Raw temperature: 22
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 5
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 6
+Time: 16:00
+Raw temperature: 23
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 7
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 8
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 9
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 54
+
+------------------------------------------------------------
+INDEX: 10
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d200
+Raw wind direction: wE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 60
+
+------------------------------------------------------------
+INDEX: 11
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 12
+Time: 22:00
+Raw temperature: 18
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 64
+
+------------------------------------------------------------
+INDEX: 13
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 66
+
+FORECAST UPDATE END: 2026-09-06 10:59:22
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 11:40:49
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 11:00
+Raw temperature: 18
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 70
+
+------------------------------------------------------------
+INDEX: 1
+Time: 12:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 61
+
+------------------------------------------------------------
+INDEX: 2
+Time: 13:00
+Raw temperature: 21
+Raw symbol: d100
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 21
+Raw precipitation: 2
+Raw humidity: 56
+
+------------------------------------------------------------
+INDEX: 3
+Time: 14:00
+Raw temperature: 21
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 21
+Raw precipitation: 1
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 4
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 1
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 5
+Time: 16:00
+Raw temperature: 22
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 6
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 7
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 8
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 54
+
+------------------------------------------------------------
+INDEX: 9
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d200
+Raw wind direction: wE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 60
+
+------------------------------------------------------------
+INDEX: 10
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 11
+Time: 22:00
+Raw temperature: 18
+Raw symbol: n200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 64
+
+------------------------------------------------------------
+INDEX: 12
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 66
+
+FORECAST UPDATE END: 2026-09-06 11:40:50
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 12:12:38
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 12:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 61
+
+------------------------------------------------------------
+INDEX: 1
+Time: 13:00
+Raw temperature: 21
+Raw symbol: d100
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 21
+Raw precipitation: 2
+Raw humidity: 56
+
+------------------------------------------------------------
+INDEX: 2
+Time: 14:00
+Raw temperature: 22
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 3
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 4
+Time: 16:00
+Raw temperature: 23
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 5
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 6
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 7
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 54
+
+------------------------------------------------------------
+INDEX: 8
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 60
+
+------------------------------------------------------------
+INDEX: 9
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 10
+Time: 22:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 64
+
+------------------------------------------------------------
+INDEX: 11
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 66
+
+FORECAST UPDATE END: 2026-09-06 12:12:38
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 12:20:09
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 12:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 61
+
+------------------------------------------------------------
+INDEX: 1
+Time: 13:00
+Raw temperature: 21
+Raw symbol: d100
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 21
+Raw precipitation: 2
+Raw humidity: 56
+
+------------------------------------------------------------
+INDEX: 2
+Time: 14:00
+Raw temperature: 22
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 3
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 4
+Time: 16:00
+Raw temperature: 23
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 5
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 6
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 7
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 54
+
+------------------------------------------------------------
+INDEX: 8
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 60
+
+------------------------------------------------------------
+INDEX: 9
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 10
+Time: 22:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 64
+
+------------------------------------------------------------
+INDEX: 11
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 66
+
+FORECAST UPDATE END: 2026-09-06 12:20:10
+======================================================================
+
+
+======================================================================
+FORECAST UPDATE START: 2026-09-06 12:20:26
+======================================================================
+------------------------------------------------------------
+INDEX: 0
+Time: 12:00
+Raw temperature: 20
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 61
+
+------------------------------------------------------------
+INDEX: 1
+Time: 13:00
+Raw temperature: 21
+Raw symbol: d100
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 21
+Raw precipitation: 2
+Raw humidity: 56
+
+------------------------------------------------------------
+INDEX: 2
+Time: 14:00
+Raw temperature: 22
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 52
+
+------------------------------------------------------------
+INDEX: 3
+Time: 15:00
+Raw temperature: 22
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 49
+
+------------------------------------------------------------
+INDEX: 4
+Time: 16:00
+Raw temperature: 23
+Raw symbol: d000
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 5
+Time: 17:00
+Raw temperature: 23
+Raw symbol: d200
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 6
+Time: 18:00
+Raw temperature: 23
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 23
+Raw precipitation: 2
+Raw humidity: 47
+
+------------------------------------------------------------
+INDEX: 7
+Time: 19:00
+Raw temperature: 22
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 2
+Raw feels like: 22
+Raw precipitation: 2
+Raw humidity: 54
+
+------------------------------------------------------------
+INDEX: 8
+Time: 20:00
+Raw temperature: 20
+Raw symbol: d300
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 20
+Raw precipitation: 2
+Raw humidity: 60
+
+------------------------------------------------------------
+INDEX: 9
+Time: 21:00
+Raw temperature: 19
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 3
+Raw feels like: 19
+Raw precipitation: 2
+Raw humidity: 63
+
+------------------------------------------------------------
+INDEX: 10
+Time: 22:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 64
+
+------------------------------------------------------------
+INDEX: 11
+Time: 23:00
+Raw temperature: 18
+Raw symbol: n300
+Raw wind direction: wSE
+Raw wind speed: 4
+Raw feels like: 18
+Raw precipitation: 2
+Raw humidity: 66
+
+FORECAST UPDATE END: 2026-09-06 12:20:26
+======================================================================
+
