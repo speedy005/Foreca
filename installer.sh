@@ -4,7 +4,7 @@
 # ForecaOne Installer
 # =========================================================
 
-version='1.4.5'
+version='1.4.6'
 
 changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
 
@@ -118,10 +118,28 @@ cleanup()
 
 detect_os()
 {
-    if [ -f "/var/lib/dpkg/status" ]; then
+    # -----------------------------------------------------
+    # DreamOS / Dreambox
+    # -----------------------------------------------------
+
+    if [ -f "/usr/lib/enigma.info" ]; then
 
         OSTYPE="DreamOs"
         STATUS="/var/lib/dpkg/status"
+
+    # -----------------------------------------------------
+    # Debian
+    # -----------------------------------------------------
+
+    elif [ -f "/etc/debian_version" ] &&
+         [ -f "/var/lib/dpkg/status" ]; then
+
+        OSTYPE="Debian"
+        STATUS="/var/lib/dpkg/status"
+
+    # -----------------------------------------------------
+    # OpenEmbedded / OE
+    # -----------------------------------------------------
 
     elif [ -f "/var/lib/opkg/status" ] ||
          [ -f "/etc/opkg/opkg.conf" ]; then
@@ -129,17 +147,13 @@ detect_os()
         OSTYPE="OE"
         STATUS="/var/lib/opkg/status"
 
-    elif [ -f "/etc/debian_version" ]; then
-
-        OSTYPE="Debian"
-        STATUS="/var/lib/dpkg/status"
-
     else
 
         OSTYPE="Unknown"
         STATUS=""
 
     fi
+
 
     log "Detected OS type: $OSTYPE"
 }
@@ -153,11 +167,22 @@ detect_python()
 {
     PYTHON_CMD=""
     PYTHON="Unknown"
+    PYTHON_VERSION="Unknown"
+
+
+    # -----------------------------------------------------
+    # Prefer Python 3
+    # -----------------------------------------------------
 
     if command -v python3 >/dev/null 2>&1; then
 
         PYTHON_CMD="python3"
         PYTHON="PY3"
+
+
+    # -----------------------------------------------------
+    # Check generic python
+    # -----------------------------------------------------
 
     elif command -v python >/dev/null 2>&1; then
 
@@ -173,6 +198,7 @@ detect_python()
 
         fi
 
+
     else
 
         error "Python was not found."
@@ -185,8 +211,13 @@ detect_python()
         "$PYTHON_CMD" --version 2>&1
     )
 
+
     log "Python detected: $PYTHON_VERSION"
 
+
+    # -----------------------------------------------------
+    # Package names
+    # -----------------------------------------------------
 
     if [ "$PYTHON" = "PY3" ]; then
 
@@ -220,6 +251,10 @@ detect_image()
     fi
 
 
+    # -----------------------------------------------------
+    # Enigma.info
+    # -----------------------------------------------------
+
     if [ -f "/usr/lib/enigma.info" ]; then
 
         DISTRO=$(
@@ -235,6 +270,10 @@ detect_image()
         )
 
 
+    # -----------------------------------------------------
+    # image-version
+    # -----------------------------------------------------
+
     elif [ -f "/etc/image-version" ]; then
 
         DISTRO=$(
@@ -248,6 +287,7 @@ detect_image()
             head -n 1 |
             cut -d "=" -f 2-
         )
+
 
     else
 
@@ -292,13 +332,18 @@ install_wget()
         DreamOs|Debian)
 
             if ! apt-get update; then
+
                 error "apt-get update failed."
                 exit 1
+
             fi
 
+
             if ! apt-get install -y wget; then
+
                 error "wget installation failed."
                 exit 1
+
             fi
 
             ;;
@@ -307,13 +352,18 @@ install_wget()
         OE)
 
             if ! opkg update; then
+
                 error "opkg update failed."
                 exit 1
+
             fi
 
+
             if ! opkg install wget; then
+
                 error "wget installation failed."
                 exit 1
+
             fi
 
             ;;
@@ -424,7 +474,9 @@ install_pkg()
         DreamOs|Debian)
 
             if ! apt-get update >/dev/null 2>&1; then
+
                 log "Warning: apt-get update failed."
+
             fi
 
 
@@ -445,7 +497,9 @@ install_pkg()
         OE)
 
             if ! opkg update >/dev/null 2>&1; then
+
                 log "Warning: opkg update failed."
+
             fi
 
 
@@ -495,18 +549,54 @@ install_dependencies()
     log "Checking dependencies..."
 
 
-    if [ "$PYTHON" = "PY3" ]; then
+    # -----------------------------------------------------
+    # six
+    # -----------------------------------------------------
 
-        install_pkg "$PACKAGESIX" || true
+    if [ -n "$PACKAGESIX" ]; then
+
+        if ! install_pkg "$PACKAGESIX"; then
+
+            log "Warning: $PACKAGESIX could not be installed."
+
+        fi
 
     fi
 
 
-    install_pkg "$PACKAGEREQUESTS" || true
+    # -----------------------------------------------------
+    # requests
+    # -----------------------------------------------------
+
+    if [ -n "$PACKAGEREQUESTS" ]; then
+
+        if ! install_pkg "$PACKAGEREQUESTS"; then
+
+            log "Warning: $PACKAGEREQUESTS could not be installed."
+
+        fi
+
+    fi
 
 
-    install_pkg "$PACKAGEPILLOW" || true
+    # -----------------------------------------------------
+    # Pillow
+    # -----------------------------------------------------
 
+    if [ -n "$PACKAGEPILLOW" ]; then
+
+        if ! install_pkg "$PACKAGEPILLOW"; then
+
+            log "Warning: $PACKAGEPILLOW could not be installed."
+
+        fi
+
+    fi
+
+
+    # -----------------------------------------------------
+    # OpenEmbedded extras
+    # -----------------------------------------------------
 
     if [ "$OSTYPE" = "OE" ]; then
 
@@ -520,7 +610,11 @@ install_dependencies()
             enigma2-plugin-systemplugins-serviceapp
         do
 
-            install_pkg "$pkg" || true
+            if ! install_pkg "$pkg"; then
+
+                log "Warning: optional package $pkg unavailable."
+
+            fi
 
         done
 
@@ -551,7 +645,9 @@ backup_config()
 
 
     if [ -d "$BACKUP_DIR" ]; then
+
         rm -rf "$BACKUP_DIR"
+
     fi
 
 
@@ -577,7 +673,9 @@ backup_config()
 restore_config()
 {
     if [ "$BACKUP_CREATED" -ne 1 ]; then
+
         return 0
+
     fi
 
 
@@ -592,7 +690,12 @@ restore_config()
     log "Restoring configuration..."
 
 
-    mkdir -p "$CONFIG_DIR"
+    if ! mkdir -p "$CONFIG_DIR"; then
+
+        log "Warning: Could not create configuration directory."
+        return 1
+
+    fi
 
 
     if cp -a "$BACKUP_DIR"/. "$CONFIG_DIR"/; then
@@ -602,6 +705,7 @@ restore_config()
     else
 
         log "Warning: Configuration restore failed."
+        return 1
 
     fi
 
@@ -609,6 +713,8 @@ restore_config()
     rm -rf "$BACKUP_DIR"
 
     BACKUP_CREATED=0
+
+    return 0
 }
 
 
@@ -620,6 +726,7 @@ download_package()
 {
     log "Downloading ForecaOne v$version..."
     log "Branch: $BRANCH"
+    log "URL: $DOWNLOAD_URL"
 
 
     rm -f "$FILEPATH"
@@ -629,7 +736,6 @@ download_package()
         --no-verbose \
         --timeout=30 \
         --tries=3 \
-        --https-only \
         "$DOWNLOAD_URL" \
         -O "$FILEPATH"
     then
@@ -656,6 +762,10 @@ download_package()
     fi
 
 
+    # -----------------------------------------------------
+    # Validate gzip
+    # -----------------------------------------------------
+
     if ! gzip -t "$FILEPATH" >/dev/null 2>&1; then
 
         error "Downloaded file is not a valid gzip archive."
@@ -664,6 +774,23 @@ download_package()
         exit 1
 
     fi
+
+
+    # -----------------------------------------------------
+    # Validate tar archive
+    # -----------------------------------------------------
+
+    if ! tar -tzf "$FILEPATH" >/dev/null 2>&1; then
+
+        error "Downloaded file is not a valid tar archive."
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    log "Archive validation successful."
 }
 
 
@@ -760,6 +887,10 @@ find_plugin_source()
     fi
 
 
+    # -----------------------------------------------------
+    # Source not found
+    # -----------------------------------------------------
+
     if [ -z "$PLUGIN_SOURCE" ] ||
        [ ! -d "$PLUGIN_SOURCE" ]; then
 
@@ -784,6 +915,10 @@ find_plugin_source()
 
     fi
 
+
+    # -----------------------------------------------------
+    # Validate plugin
+    # -----------------------------------------------------
 
     if [ ! -f "$PLUGIN_SOURCE/__init__.py" ]; then
 
@@ -816,7 +951,9 @@ find_plugin_source()
 backup_existing_plugin()
 {
     if [ -d "$OLD_PLUGIN_BACKUP" ]; then
+
         rm -rf "$OLD_PLUGIN_BACKUP"
+
     fi
 
 
@@ -856,7 +993,34 @@ install_plugin()
     INSTALL_STARTED=1
 
 
-    mkdir -p "$(dirname "$PLUGINPATH")"
+    if ! mkdir -p "$(dirname "$PLUGINPATH")"; then
+
+        error "Could not create plugin parent directory."
+
+        rollback_plugin
+        cleanup
+
+        exit 1
+
+    fi
+
+
+    if [ -d "$PLUGINPATH" ]; then
+
+        log "Removing old plugin files..."
+
+        if ! rm -rf "$PLUGINPATH"; then
+
+            error "Could not remove old plugin installation."
+
+            rollback_plugin
+            cleanup
+
+            exit 1
+
+        fi
+
+    fi
 
 
     if ! mkdir -p "$PLUGINPATH"; then
@@ -870,6 +1034,10 @@ install_plugin()
 
     fi
 
+
+    # -----------------------------------------------------
+    # Copy new plugin
+    # -----------------------------------------------------
 
     if cp -a "$PLUGIN_SOURCE"/. "$PLUGINPATH"/; then
 
@@ -886,6 +1054,10 @@ install_plugin()
 
     fi
 
+
+    # -----------------------------------------------------
+    # Verify essential files
+    # -----------------------------------------------------
 
     if [ ! -f "$PLUGINPATH/__init__.py" ]; then
 
@@ -910,6 +1082,10 @@ install_plugin()
 
     fi
 
+
+    # -----------------------------------------------------
+    # Verify installation isn't empty
+    # -----------------------------------------------------
 
     if [ -z "$(find "$PLUGINPATH" -type f 2>/dev/null | head -n 1)" ]; then
 
@@ -948,7 +1124,12 @@ rollback_plugin()
     rm -rf "$PLUGINPATH"
 
 
-    mkdir -p "$(dirname "$PLUGINPATH")"
+    if ! mkdir -p "$(dirname "$PLUGINPATH")"; then
+
+        log "WARNING: Could not create plugin parent directory!"
+        return 1
+
+    fi
 
 
     if cp -a "$OLD_PLUGIN_BACKUP" "$PLUGINPATH"; then
@@ -957,9 +1138,13 @@ rollback_plugin()
 
         rm -rf "$OLD_PLUGIN_BACKUP"
 
+        return 0
+
     else
 
         log "WARNING: Plugin rollback failed!"
+
+        return 1
 
     fi
 }
@@ -990,16 +1175,16 @@ show_info()
     echo
     echo "#########################################################"
     echo "#                                                     #"
-    echo "#              FORECAONE INSTALLED                    #"
+    echo "#              FORECAONE INSTALLED                   #"
     echo "#                                                     #"
     echo "#########################################################"
     echo "#                                                     #"
-    echo "#  Plugin Version: $version"
+    echo "#  Plugin Version: $version                           #"
     echo "#                                                     #"
     echo "#  Developed by LULULLA                              #"
     echo "#  https://corvoboys.org                              #"
     echo "#                                                     #"
-    echo "#  PLEASE RESTART YOUR DEVICE                         #"
+    echo "#  GUI WILL RESTART AUTOMATICALLY                     #"
     echo "#                                                     #"
     echo "#########################################################"
     echo
@@ -1025,6 +1210,96 @@ show_info()
     echo "$changelog"
     echo "---------------------------------------------------------"
     echo
+}
+
+
+# =========================================================
+# RESTART ENIGMA2 GUI
+# =========================================================
+
+restart_gui()
+{
+    echo
+    echo "========================================================="
+    echo " ForecaOne v$version installed successfully."
+    echo " Enigma2 GUI will restart automatically."
+    echo "========================================================="
+    echo
+
+
+    sync >/dev/null 2>&1 || true
+
+
+    sleep 3
+
+
+    # -----------------------------------------------------
+    # systemd
+    # -----------------------------------------------------
+
+    if command -v systemctl >/dev/null 2>&1; then
+
+        log "Restarting Enigma2 GUI using systemctl..."
+
+        systemctl restart enigma2
+
+        return $?
+
+    fi
+
+
+    # -----------------------------------------------------
+    # init.d
+    # -----------------------------------------------------
+
+    if [ -x "/etc/init.d/enigma2" ]; then
+
+        log "Restarting Enigma2 GUI using init.d..."
+
+        /etc/init.d/enigma2 restart
+
+        return $?
+
+    fi
+
+
+    # -----------------------------------------------------
+    # OpenEmbedded init
+    # -----------------------------------------------------
+
+    if command -v init >/dev/null 2>&1; then
+
+        log "Restarting Enigma2 GUI using init..."
+
+        init 4
+
+        sleep 2
+
+        init 3
+
+        return $?
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Fallback
+    # -----------------------------------------------------
+
+    if command -v killall >/dev/null 2>&1; then
+
+        log "Restarting Enigma2 GUI using killall..."
+
+        killall -HUP enigma2 2>/dev/null || true
+
+        return 0
+
+    fi
+
+
+    log "WARNING: Could not automatically restart Enigma2 GUI."
+
+    return 1
 }
 
 
@@ -1137,7 +1412,11 @@ install_plugin
 # RESTORE CONFIGURATION
 # =========================================================
 
-restore_config
+if ! restore_config; then
+
+    log "WARNING: Configuration restore reported an error."
+
+fi
 
 
 # =========================================================
@@ -1166,6 +1445,13 @@ cleanup
 # =========================================================
 
 show_info
+
+
+# =========================================================
+# AUTOMATIC GUI RESTART
+# =========================================================
+
+restart_gui
 
 
 exit 0
