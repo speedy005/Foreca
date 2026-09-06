@@ -4,10 +4,9 @@
 # ForecaOne Installer
 # =========================================================
 
-VERSION="1.4.5"
+version='1.4.5'
 
-CHANGELOG="Fix Malformed Locale Language.
-Offer coffee if you like this plugin"
+changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
 
 
 # =========================================================
@@ -15,7 +14,7 @@ Offer coffee if you like this plugin"
 # =========================================================
 
 TMPPATH="/tmp/ForecaOne-install"
-FILEPATH="/tmp/ForecaOne-main.tar.gz"
+FILEPATH="/tmp/ForecaOne-master.tar.gz"
 
 BACKUP_DIR="/tmp/foreca_backup"
 OLD_PLUGIN_BACKUP="/tmp/ForecaOne-old-plugin"
@@ -31,7 +30,6 @@ CONFIG_DIR="/etc/enigma2/foreca"
 # Keep this branch identical to INSTALLER_URL in __init__.py.
 
 BRANCH="master"
-
 
 DOWNLOAD_URL="https://github.com/speedy005/Foreca/archive/refs/heads/${BRANCH}.tar.gz"
 
@@ -120,13 +118,11 @@ cleanup()
 
 detect_os()
 {
-    # DreamOS / Debian based Enigma2
     if [ -f "/var/lib/dpkg/status" ]; then
 
         OSTYPE="DreamOs"
         STATUS="/var/lib/dpkg/status"
 
-    # OpenEmbedded / OE
     elif [ -f "/var/lib/opkg/status" ] ||
          [ -f "/etc/opkg/opkg.conf" ]; then
 
@@ -145,7 +141,6 @@ detect_os()
 
     fi
 
-
     log "Detected OS type: $OSTYPE"
 }
 
@@ -159,13 +154,10 @@ detect_python()
     PYTHON_CMD=""
     PYTHON="Unknown"
 
-
-    # Prefer python3
     if command -v python3 >/dev/null 2>&1; then
 
         PYTHON_CMD="python3"
         PYTHON="PY3"
-
 
     elif command -v python >/dev/null 2>&1; then
 
@@ -192,7 +184,6 @@ detect_python()
     PYTHON_VERSION=$(
         "$PYTHON_CMD" --version 2>&1
     )
-
 
     log "Python detected: $PYTHON_VERSION"
 
@@ -229,10 +220,6 @@ detect_image()
     fi
 
 
-    # -----------------------------------------------------
-    # enigma.info
-    # -----------------------------------------------------
-
     if [ -f "/usr/lib/enigma.info" ]; then
 
         DISTRO=$(
@@ -241,17 +228,12 @@ detect_image()
             cut -d "=" -f 2-
         )
 
-
         DISTRO_VERSION=$(
             grep "^imageversion=" /usr/lib/enigma.info 2>/dev/null |
             head -n 1 |
             cut -d "=" -f 2-
         )
 
-
-    # -----------------------------------------------------
-    # /etc/image-version
-    # -----------------------------------------------------
 
     elif [ -f "/etc/image-version" ]; then
 
@@ -261,13 +243,11 @@ detect_image()
             cut -d "=" -f 2-
         )
 
-
         DISTRO_VERSION=$(
             grep "^version=" /etc/image-version 2>/dev/null |
             head -n 1 |
             cut -d "=" -f 2-
         )
-
 
     else
 
@@ -311,16 +291,30 @@ install_wget()
 
         DreamOs|Debian)
 
-            apt-get update &&
-            apt-get install -y wget
+            if ! apt-get update; then
+                error "apt-get update failed."
+                exit 1
+            fi
+
+            if ! apt-get install -y wget; then
+                error "wget installation failed."
+                exit 1
+            fi
 
             ;;
 
 
         OE)
 
-            opkg update &&
-            opkg install wget
+            if ! opkg update; then
+                error "opkg update failed."
+                exit 1
+            fi
+
+            if ! opkg install wget; then
+                error "wget installation failed."
+                exit 1
+            fi
 
             ;;
 
@@ -365,7 +359,7 @@ package_installed()
 
         DreamOs|Debian)
 
-            if command -v dpkg >/dev/null 2>&1; then
+            if command -v dpkg-query >/dev/null 2>&1; then
 
                 dpkg-query \
                     -W \
@@ -430,9 +424,7 @@ install_pkg()
         DreamOs|Debian)
 
             if ! apt-get update >/dev/null 2>&1; then
-
                 log "Warning: apt-get update failed."
-
             fi
 
 
@@ -453,9 +445,7 @@ install_pkg()
         OE)
 
             if ! opkg update >/dev/null 2>&1; then
-
                 log "Warning: opkg update failed."
-
             fi
 
 
@@ -505,10 +495,6 @@ install_dependencies()
     log "Checking dependencies..."
 
 
-    # -----------------------------------------------------
-    # six
-    # -----------------------------------------------------
-
     if [ "$PYTHON" = "PY3" ]; then
 
         install_pkg "$PACKAGESIX" || true
@@ -516,23 +502,11 @@ install_dependencies()
     fi
 
 
-    # -----------------------------------------------------
-    # requests
-    # -----------------------------------------------------
-
     install_pkg "$PACKAGEREQUESTS" || true
 
 
-    # -----------------------------------------------------
-    # Pillow
-    # -----------------------------------------------------
-
     install_pkg "$PACKAGEPILLOW" || true
 
-
-    # -----------------------------------------------------
-    # OE specific packages
-    # -----------------------------------------------------
 
     if [ "$OSTYPE" = "OE" ]; then
 
@@ -644,7 +618,8 @@ restore_config()
 
 download_package()
 {
-    log "Downloading ForecaOne v$VERSION..."
+    log "Downloading ForecaOne v$version..."
+    log "Branch: $BRANCH"
 
 
     rm -f "$FILEPATH"
@@ -681,7 +656,6 @@ download_package()
     fi
 
 
-    # Check that this is actually a gzip archive.
     if ! gzip -t "$FILEPATH" >/dev/null 2>&1; then
 
         error "Downloaded file is not a valid gzip archive."
@@ -743,9 +717,9 @@ find_plugin_source()
     # Normal /usr/lib
     # -----------------------------------------------------
 
-    if [ -d "$TMPPATH/Foreca-main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1" ]; then
+    if [ -d "$TMPPATH/Foreca-master/usr/lib/enigma2/python/Plugins/Extensions/Foreca1" ]; then
 
-        PLUGIN_SOURCE="$TMPPATH/Foreca-main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
+        PLUGIN_SOURCE="$TMPPATH/Foreca-master/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
 
         log "Found plugin in /usr/lib."
 
@@ -754,9 +728,9 @@ find_plugin_source()
     # 64-bit /usr/lib64
     # -----------------------------------------------------
 
-    elif [ -d "$TMPPATH/Foreca-main/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1" ]; then
+    elif [ -d "$TMPPATH/Foreca-master/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1" ]; then
 
-        PLUGIN_SOURCE="$TMPPATH/Foreca-main/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1"
+        PLUGIN_SOURCE="$TMPPATH/Foreca-master/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1"
 
         log "Found plugin in /usr/lib64."
 
@@ -811,10 +785,6 @@ find_plugin_source()
     fi
 
 
-    # -----------------------------------------------------
-    # Basic validation
-    # -----------------------------------------------------
-
     if [ ! -f "$PLUGIN_SOURCE/__init__.py" ]; then
 
         error "Invalid plugin archive: __init__.py not found."
@@ -833,6 +803,9 @@ find_plugin_source()
         exit 1
 
     fi
+
+
+    log "Plugin source validation successful."
 }
 
 
@@ -877,7 +850,7 @@ backup_existing_plugin()
 
 install_plugin()
 {
-    log "Installing ForecaOne v$VERSION..."
+    log "Installing ForecaOne v$version..."
 
 
     INSTALL_STARTED=1
@@ -898,10 +871,6 @@ install_plugin()
     fi
 
 
-    # -----------------------------------------------------
-    # Copy files
-    # -----------------------------------------------------
-
     if cp -a "$PLUGIN_SOURCE"/. "$PLUGINPATH"/; then
 
         log "Plugin files copied successfully."
@@ -917,10 +886,6 @@ install_plugin()
 
     fi
 
-
-    # -----------------------------------------------------
-    # Verify installation
-    # -----------------------------------------------------
 
     if [ ! -f "$PLUGINPATH/__init__.py" ]; then
 
@@ -1029,7 +994,7 @@ show_info()
     echo "#                                                     #"
     echo "#########################################################"
     echo "#                                                     #"
-    echo "#  Plugin Version: $VERSION"
+    echo "#  Plugin Version: $version"
     echo "#                                                     #"
     echo "#  Developed by LULULLA                              #"
     echo "#  https://corvoboys.org                              #"
@@ -1048,7 +1013,7 @@ show_info()
     echo "PYTHON TYPE:     $PYTHON"
     echo "IMAGE NAME:      $DISTRO"
     echo "IMAGE VERSION:   $DISTRO_VERSION"
-    echo "PLUGIN VERSION:  $VERSION"
+    echo "PLUGIN VERSION:  $version"
     echo "PLUGIN PATH:     $PLUGINPATH"
     echo "BRANCH:          $BRANCH"
     echo "---------------------------------------------------------"
@@ -1057,7 +1022,7 @@ show_info()
 
     echo "Changelog:"
     echo "---------------------------------------------------------"
-    echo "$CHANGELOG"
+    echo "$changelog"
     echo "---------------------------------------------------------"
     echo
 }
@@ -1069,7 +1034,7 @@ show_info()
 
 echo
 echo "========================================================="
-echo "              ForecaOne Installer v$VERSION"
+echo "              ForecaOne Installer v$version"
 echo "========================================================="
 echo
 
@@ -1092,9 +1057,7 @@ fi
 # =========================================================
 
 detect_os
-
 detect_python
-
 detect_image
 
 
@@ -1188,7 +1151,7 @@ remove_old_plugin_backup
 # SYNC
 # =========================================================
 
-sync
+sync >/dev/null 2>&1 || true
 
 
 # =========================================================
