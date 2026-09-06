@@ -142,9 +142,9 @@ LANGUAGE_CHOICES = [
 config.plugins.foreca.target_language = ConfigSelection(
     choices=LANGUAGE_CHOICES, default='auto')
 
-__version__ = "1.3.1"
+__version__ = "1.4.2"
 VERSION = __version__
-_AUTHOR_ = "by Lululla - 2026"
+_AUTHOR_ = "by speedy - 2026"
 IDEAS = "@Bauernbub"
 THANKS = "@Orlandox | @atvcaptain"
 BASEURL = "https://www.foreca.com/"
@@ -164,7 +164,7 @@ WEATHER_DETAIL_CACHE = join(TEMP_DIR, "weather_detail")
 TOKEN_FILE = join(CACHE_BASE, "token.json")
 WETTERKONTOR_CACHE = join(CACHE_BASE, "wetterkontor/")
 
-INSTALLER_URL = "https://raw.githubusercontent.com/Belfagor2005/ForecaOne/main/installer.sh"
+INSTALLER_URL = "https://raw.githubusercontent.com/speedy005/Foreca/main/installer.sh"
 
 DEBUG = True
 CACHE_EXPIRE = 3600
