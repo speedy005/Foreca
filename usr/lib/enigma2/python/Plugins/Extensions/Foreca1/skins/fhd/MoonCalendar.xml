@@ -1,19 +1,19 @@
 <screen name="MoonCalendar" position="center,center" size="1920,1080" title="Lunar Calendar" flags="wfNoBorder" backgroundColor="#ff000000">
-    <widget name="title" position="45,45" size="1820,50" font="Liberation; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
-    <widget name="info" position="45,95" size="1820,40" font="Liberation; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <widget name="title" position="45,45" size="1820,50" font="Liberation; 42" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="45,95" size="1820,40" font="Liberation; 38" foregroundColor="blue" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <ePixmap position="1632,983" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
     <ePixmap position="55,200" size="1800,720" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/backgrounds/background.png" zPosition="2" scale="1" cornerRadius="21" />
 
 	<widget name="current_phase_icon" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/moon/moon0050.png" position="1754,71" size="100,100" zPosition="9" alphatest="blend" />
-	<widget name="current_phase_name" position="1405,59" size="340,40" font="Liberation;28" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
-	<widget name="current_distance" position="1405,99" size="340,40" font="Liberation;24" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
-	<widget name="current_illum" position="1405,142" size="340,40" font="Liberation;24" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+	<widget name="current_phase_name" position="1405,59" size="340,40" font="Liberation;28" foregroundColor="green" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+	<widget name="current_distance" position="1405,99" size="340,40" font="Liberation;24" foregroundColor="blue" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+	<widget name="current_illum" position="1405,142" size="340,40" font="Liberation;24" foregroundColor="bpSide" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
 	<widget name="illum_bar" position="1544,178" size="200,15" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/progress_big.png" borderWidth="2" borderColor="#cccccc" zPosition="9" />
 
-	<widget name="Phase" position="230,156" size="200,40" font="Liberation;33" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
-	<widget name="Day" position="840,156" size="200,40" font="Liberation;33" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
-	<widget name="Month" position="980,156" size="200,40" font="Liberation;33" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
-	<widget name="Time" position="1270,156" size="200,40" font="Liberation;33" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
+	<widget name="Phase" position="230,156" size="200,40" font="Liberation;33" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
+	<widget name="Day" position="840,156" size="200,40" font="Liberation;33" foregroundColor="green" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
+	<widget name="Month" position="980,156" size="200,40" font="Liberation;33" foregroundColor="blue" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
+	<widget name="Time" position="1270,154" size="200,40" font="Liberation;33" foregroundColor="bpSide" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
 	<eLabel position="55,197" size="1800,2" zPosition="50" backgroundColor="#FFFFFF" />
     <widget source="menu" render="Listbox" position="55,200" size="1800,720" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="transparent">
         <convert type="TemplatedMultiContent">
