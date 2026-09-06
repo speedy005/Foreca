@@ -2,15 +2,15 @@
     <ePixmap position="58,69" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
 
     <!-- Description -->
-    <widget name="title_main" position="70,27" size="1460,60" font="Liberation;42" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff" />
-    <widget name="title_location" position="70,87" size="1460,50" font="Liberation; 32" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <widget name="title_main" position="70,27" size="1460,60" font="Liberation;42" transparent="1" zPosition="3" halign="center" valign="center" />
+    <widget name="title_location" position="70,87" size="1460,50" font="Liberation; 32" foregroundColor="bpSide" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <widget name="radar_map" position="70,144" size="443,608" zPosition="3" transparent="1" backgroundColor="#000000" scale="1" />
     <widget name="title_today" position="525,140" size="520,40" font="Liberation;32" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00" />
-    <widget name="summary_today" position="523,192" size="520,80" font="Liberation;26" transparent="1" zPosition="3" halign="left" valign="top" foregroundColor="#ffffff" />
+    <widget name="summary_today" position="523,192" size="520,80" font="Liberation;26" transparent="1" zPosition="3" halign="left" valign="top" />
     <widget name="title_tomorrow" position="1055,142" size="506,40" font="Liberation;32" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00" />
-    <widget name="summary_tomorrow" position="1054,192" size="508,80" font="Liberation;26" transparent="1" zPosition="3" halign="left" valign="top" foregroundColor="#ffffff" />
-    <widget name="title_wind_today" position="525,517" size="520,40" font="Liberation;32" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00" />
-    <widget name="title_wind_tomorrow" position="1055,517" size="506,40" font="Liberation;32" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00" />
+    <widget name="summary_tomorrow" position="1054,192" size="508,80" font="Liberation;26" transparent="1" zPosition="3" halign="left" valign="top" />
+    <widget name="title_wind_today" position="525,517" size="520,40" font="Liberation;32" transparent="1" zPosition="3" halign="left" valign="center" />
+    <widget name="title_wind_tomorrow" position="1055,517" size="506,40" font="Liberation;32" transparent="1" zPosition="3" halign="left" valign="center" />
     <widget name="label_morning_1" position="520,282" size="125,35" font="Liberation;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
     <widget name="label_afternoon_1" position="645,282" size="130,35" font="Liberation;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
     <widget name="label_evening_1" position="775,282" size="125,35" font="Liberation;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00" />
@@ -44,9 +44,9 @@
     <widget name="temp_label_overnight_2" position="1451,432" size="100,35" font="Liberation;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00" />
     <widget name="temp_overnight_2" position="1450,462" size="100,40" font="Liberation;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00" />
     <widget name="icon_latitude" position="70,765" size="42,42" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="on" />
-    <widget name="value_latitude" position="119,765" size="200,42" font="Liberation;26" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#ffffff" />
+    <widget name="value_latitude" position="119,765" size="200,42" font="Liberation;26" transparent="1" zPosition="3" halign="left" valign="center" />
     <widget name="icon_longitude" position="473,765" size="42,42" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="on" />
-    <widget name="value_longitude" position="268,765" size="200,42" font="Liberation;26" transparent="1" zPosition="3" halign="right" valign="center" foregroundColor="#ffffff" />
+    <widget name="value_longitude" position="268,765" size="200,42" font="Liberation;26" transparent="1" zPosition="3" halign="right" valign="center" foregroundColor="green" />
     <widget name="zoom_label" position="1342,63" size="200,35" font="Liberation; 30" transparent="1" zPosition="5" halign="right" valign="center" backgroundColor="#000000" foregroundColor="#49bbff" />
     <widget name="wind_icon_today" position="528,570" size="70,70" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/thumb/wN.png" scale="1" zPosition="10" alphatest="on" />
     <widget name="wind_icon_tomorrow" position="1053,570" size="70,70" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/thumb/wN.png" scale="1" zPosition="10" alphatest="on" />
@@ -60,5 +60,5 @@
     <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="516,765" size="400,42" font="Liberation;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa" alphatest="blend" />
     <!-- Background plates -->
     <widget name="background_plate" position="18,18" backgroundColor="#ff9632" size="1564,914" zPosition="1" cornerRadius="42" />
-    <widget name="selection_overlay" position="38,38" backgroundColor="#000000" size="1524,874" zPosition="2" cornerRadius="42" />
+    <widget name="selection_overlay" position="38,38" backgroundColor="black" size="1524,874" zPosition="2" cornerRadius="42" />
 </screen>

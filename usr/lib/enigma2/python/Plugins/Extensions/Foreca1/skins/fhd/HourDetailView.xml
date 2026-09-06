@@ -2,44 +2,44 @@
     <ePixmap position="1363,762" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="12" scale="1" />
     <ePixmap position="56,151" size="1493,662" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/backgrounds/background2.png" zPosition="3" scale="1" cornerRadius="21" />
 
-    <widget name="title_location" position="50,50" size="1500,50" font="Liberation; 36" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="13" />
-    <widget name="title_datetime" position="50,110" size="1500,40" font="Liberation; 30" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="13" />
+    <widget name="title_location" position="50,50" size="1500,50" font="Liberation; 36" backgroundColor="#000000" transparent="1" halign="center" zPosition="13" />
+    <widget name="title_datetime" position="50,110" size="1500,40" font="Liberation; 30" foregroundColor="blue" backgroundColor="#000000" transparent="1" halign="center" zPosition="13" />
 
     <widget name="condition_icon" position="110,210" size="100,100" scale="1" zPosition="13" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="condition_text" position="220,210" size="400,100" font="Liberation; 28" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+    <widget name="condition_text" position="220,210" size="400,100" font="Liberation; 28" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
-    <widget name="summary" position="262,560" size="1000,239" font="Liberation; 36" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="center" valign="center" zPosition="13" />
+    <widget name="summary" position="262,560" size="1000,239" font="Liberation; 36" foregroundColor="green" backgroundColor="#000000" transparent="1" halign="center" valign="center" zPosition="13" />
 
-    <widget name="temp_label" position="200,350" size="200,30" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
-    <widget name="temp_value" position="200,380" size="100,30" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="temp_label" position="200,350" size="200,30" font="Liberation; 24" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="temp_value" position="200,380" size="100,30" font="Liberation; 28" foregroundColor="blue" transparent="1" halign="left" zPosition="13" alphatest="blend" />
     <!-- <ePixmap position="145,355" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/temp.png" zPosition="13" scale="1" /> -->
     <widget name="temp_icon" position="115,340" size="80,80" zPosition="13" alphatest="blend" scale="1" />
 
-    <widget name="feels_label" position="200,460" size="200,30" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
-    <widget name="feels_value" position="200,490" size="100,30" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="feels_label" position="200,460" size="200,30" font="Liberation; 24" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="feels_value" position="200,490" size="100,30" font="Liberation; 28" foregroundColor="blue" transparent="1" halign="left" zPosition="13" alphatest="blend" />
     <!-- <ePixmap position="145,440" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/temp_perc_detail.png" zPosition="13" scale="1" /> -->
     <widget name="feels_icon" position="115,450" size="80,80" zPosition="13" alphatest="blend" scale="1" />
 
-    <widget name="wind_dir_label" position="718,257" size="500,30" font="Liberation; 32" foregroundColor="#92f1fc" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="wind_dir_label" position="718,257" size="500,30" font="Liberation; 32" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="13" alphatest="blend" />
     <widget name="wind_dir_icon" position="630,228" size="80,80" scale="1" zPosition="13" backgroundColor="#000000" transparent="1" alphatest="blend" />
     
-    <widget name="wind_speed_label" position="715,350" size="250,30" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
-    <widget name="wind_speed_value" position="715,380" size="200,30" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="wind_speed_label" position="715,350" size="250,30" font="Liberation; 24" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="wind_speed_value" position="715,380" size="200,30" font="Liberation; 28" foregroundColor="blue" transparent="1" halign="left" zPosition="13" alphatest="blend" />
     <!-- <ePixmap position="660,355" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/wind_speed_detail.png" zPosition="13" scale="1" /> -->
     <widget name="wind_speed_icon" position="630,340" size="80,80" zPosition="13" alphatest="blend" scale="1" />
 
-    <widget name="precip_label" position="715,460" size="250,30" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
-    <widget name="precip_value" position="715,490" size="100,30" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="precip_label" position="715,460" size="250,30" font="Liberation; 24" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="precip_value" position="715,490" size="100,30" font="Liberation; 28" foregroundColor="blue" transparent="1" halign="left" zPosition="13" alphatest="blend" />
     <!-- <ePixmap position="660,440" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/precipitation.png" zPosition="13" scale="1" /> -->
     <widget name="precip_icon" position="630,450" size="80,80" zPosition="13" alphatest="blend" scale="1" />
 
-    <widget name="humidity_label" position="1125,350" size="150,30" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="humidity_label" position="1125,350" size="150,30" font="Liberation; 24" transparent="1" zPosition="13" halign="left" alphatest="blend" />
     <widget name="humidity_value" position="1125,380" size="100,30" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
     <!-- <ePixmap position="1070,355" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/humidity.png" zPosition="13" scale="1" /> -->
     <widget name="humidity_icon" position="1040,340" size="80,80" zPosition="13" alphatest="blend" scale="1" />
 
-    <widget name="uvi_label" position="1125,460" size="150,30" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" zPosition="13" halign="left" alphatest="blend" />
-    <widget name="uvi_value" position="1125,490" size="100,30" font="Liberation; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="13" alphatest="blend" />
+    <widget name="uvi_label" position="1125,460" size="150,30" font="Liberation; 24" transparent="1" zPosition="13" halign="left" alphatest="blend" />
+    <widget name="uvi_value" position="1125,490" size="100,30" font="Liberation; 28" foregroundColor="blue" transparent="1" halign="left" zPosition="13" alphatest="blend" />
     <!-- <ePixmap position="1070,440" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/uva_detail.png" zPosition="13" scale="1" /> -->
     <widget name="uvi_icon" position="1040,450" size="80,80" zPosition="13" alphatest="blend" scale="1" />
 
