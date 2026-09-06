@@ -1,12 +1,10 @@
-```
 #!/bin/bash
 
 # =========================================================
 # ForecaOne Installer
 # =========================================================
 
-version='1.5.0'
-
+version='1.5.1'
 changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
 
 
@@ -21,7 +19,6 @@ BACKUP_DIR="/tmp/foreca_backup"
 OLD_PLUGIN_BACKUP="/tmp/ForecaOne-old-plugin"
 
 CONFIG_DIR="/etc/enigma2/foreca"
-LOGFILE="/tmp/ForecaOne-install.log"
 
 
 # =========================================================
@@ -79,18 +76,6 @@ INSTALL_STARTED=0
 # =========================================================
 # LOGGING
 # =========================================================
-
-# ---------------------------------------------------------
-# Capture the complete installer output.
-# This is important because the Enigma2 GUI disappears during
-# init 4 and the original console may no longer be visible.
-# ---------------------------------------------------------
-mkdir -p "$(dirname "$LOGFILE")" 2>/dev/null || true
-touch "$LOGFILE" 2>/dev/null || true
-
-# Send stdout/stderr both to the visible console and to the log.
-# Bash is required by this installer.
-exec > >(tee -a "$LOGFILE") 2>&1
 
 log()
 {
@@ -1198,10 +1183,11 @@ show_info()
     echo "#  Developed by LULULLA                              #"
     echo "#  https://corvoboys.org                              #"
     echo "#                                                     #"
-    echo "#  INSTALLATION COMPLETED SUCCESSFULLY               #"
+    echo "#  GUI WILL RESTART AUTOMATICALLY                     #"
     echo "#                                                     #"
     echo "#########################################################"
     echo
+
 
     echo "Debug information:"
     echo "---------------------------------------------------------"
@@ -1214,30 +1200,16 @@ show_info()
     echo "PLUGIN VERSION:  $version"
     echo "PLUGIN PATH:     $PLUGINPATH"
     echo "BRANCH:          $BRANCH"
-    echo "LOG FILE:        $LOGFILE"
     echo "---------------------------------------------------------"
     echo
+
 
     echo "Changelog:"
     echo "---------------------------------------------------------"
     echo "$changelog"
     echo "---------------------------------------------------------"
     echo
-
-    echo "========================================================="
-    echo " IMPORTANT"
-    echo "========================================================="
-    echo " The installation is complete."
-    echo " Enigma2 GUI will now restart cleanly."
-    echo
-    echo " The complete installer output has been saved to:"
-    echo " $LOGFILE"
-    echo
-    echo " Please wait while Enigma2 restarts..."
-    echo "========================================================="
-    echo
 }
-
 
 
 # =========================================================
@@ -1253,127 +1225,82 @@ restart_gui()
     echo "========================================================="
     echo
 
-    # Write a persistent completion marker before Enigma2 is stopped.
-    echo "INSTALLATION_COMPLETED=$(date '+%Y-%m-%d %H:%M:%S')" > /tmp/ForecaOne-install-complete
-    echo "VERSION=$version" >> /tmp/ForecaOne-install-complete
-    echo "PLUGIN_PATH=$PLUGINPATH" >> /tmp/ForecaOne-install-complete
 
     sync >/dev/null 2>&1 || true
-    sleep 2
+
+
+    sleep 3
+
 
     # -----------------------------------------------------
-    # OpenEmbedded / OpenATV
+    # systemd
     # -----------------------------------------------------
-    # OpenATV 7.6 uses the classic Enigma2 runlevel method.
-    # init 4 stops Enigma2, init 3 starts it again.
-    # systemctl restart is intentionally NOT used here.
-    # -----------------------------------------------------
-    if [ "$OSTYPE" = "OE" ]; then
 
-        if ! command -v init >/dev/null 2>&1; then
-            log "WARNING: init command not found."
-            return 1
-        fi
+    if command -v systemctl >/dev/null 2>&1; then
 
-        log "OpenEmbedded/OpenATV detected."
-        log "Stopping Enigma2 GUI with init 4..."
-        init 4
+        log "Restarting Enigma2 GUI using systemctl..."
 
-        # Wait until the old Enigma2 process has really gone away.
-        local WAIT=0
-        local ENIGMA2_RUNNING=1
+        systemctl restart enigma2
 
-        while [ "$WAIT" -lt 10 ]; do
-            ENIGMA2_RUNNING=0
+        return $?
 
-            if command -v pgrep >/dev/null 2>&1; then
-                if pgrep -x enigma2 >/dev/null 2>&1; then
-                    ENIGMA2_RUNNING=1
-                fi
-            elif command -v pidof >/dev/null 2>&1; then
-                if pidof enigma2 >/dev/null 2>&1; then
-                    ENIGMA2_RUNNING=1
-                fi
-            else
-                ENIGMA2_RUNNING=1
-            fi
-
-            if [ "$ENIGMA2_RUNNING" -eq 0 ]; then
-                break
-            fi
-
-            sleep 1
-            WAIT=$((WAIT + 1))
-        done
-
-        # If init 4 did not remove Enigma2 completely, terminate the
-        # remaining process before starting the new GUI instance.
-        if [ "$ENIGMA2_RUNNING" -ne 0 ]; then
-            log "WARNING: Enigma2 did not stop completely after init 4."
-            log "Sending TERM to remaining Enigma2 process..."
-
-            if command -v killall >/dev/null 2>&1; then
-                killall enigma2 >/dev/null 2>&1 || true
-            elif command -v pidof >/dev/null 2>&1; then
-                kill $(pidof enigma2) >/dev/null 2>&1 || true
-            fi
-
-            sleep 2
-
-            # Last resort: only kill Enigma2 itself.
-            if command -v pgrep >/dev/null 2>&1; then
-                if pgrep -x enigma2 >/dev/null 2>&1; then
-                    log "WARNING: Enigma2 is still running. Sending KILL..."
-                    killall -9 enigma2 >/dev/null 2>&1 || true
-                    sleep 1
-                fi
-            elif command -v pidof >/dev/null 2>&1; then
-                if pidof enigma2 >/dev/null 2>&1; then
-                    log "WARNING: Enigma2 is still running. Sending KILL..."
-                    kill -9 $(pidof enigma2) >/dev/null 2>&1 || true
-                    sleep 1
-                fi
-            fi
-        fi
-
-        log "Starting Enigma2 GUI with init 3..."
-        init 3
-        RC=$?
-
-        # The old console may disappear here. The log and completion
-        # marker remain available after the GUI has restarted.
-        log "Enigma2 GUI start command finished with return code: $RC"
-        log "Installer log: $LOGFILE"
-        log "Completion marker: /tmp/ForecaOne-install-complete"
-        return $RC
     fi
 
+
     # -----------------------------------------------------
-    # Generic fallback for non-OE images
+    # init.d
     # -----------------------------------------------------
+
     if [ -x "/etc/init.d/enigma2" ]; then
+
         log "Restarting Enigma2 GUI using init.d..."
+
         /etc/init.d/enigma2 restart
-        RC=$?
-        log "Enigma2 restart finished with return code: $RC"
-        log "Installer log: $LOGFILE"
-        return $RC
+
+        return $?
+
     fi
+
+
+    # -----------------------------------------------------
+    # OpenEmbedded init
+    # -----------------------------------------------------
 
     if command -v init >/dev/null 2>&1; then
-        log "Restarting Enigma2 GUI using init 4/3..."
+
+        log "Restarting Enigma2 GUI using init..."
+
         init 4
-        sleep 3
+
+        sleep 2
+
         init 3
-        RC=$?
-        log "Enigma2 restart finished with return code: $RC"
-        log "Installer log: $LOGFILE"
-        return $RC
+
+        return $?
+
     fi
 
+
+    # -----------------------------------------------------
+    # Fallback
+    # -----------------------------------------------------
+
+    if command -v killall >/dev/null 2>&1; then
+
+        log "Restarting Enigma2 GUI using killall..."
+
+        killall -HUP enigma2 2>/dev/null || true
+
+        return 0
+
+    fi
+
+
     log "WARNING: Could not automatically restart Enigma2 GUI."
+
     return 1
 }
+
 
 # =========================================================
 # MAIN
@@ -1523,12 +1450,7 @@ show_info
 # AUTOMATIC GUI RESTART
 # =========================================================
 
-log "Installation finished. All output is stored in $LOGFILE"
-log "Starting clean Enigma2 GUI restart..."
-
 restart_gui
 
 
 exit 0
-
-```
