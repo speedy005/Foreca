@@ -30,7 +30,8 @@ CONFIG_DIR="/etc/enigma2/foreca"
 # IMPORTANT:
 # Keep this branch identical to INSTALLER_URL in __init__.py.
 
-BRANCH="main"
+BRANCH="master"
+
 
 DOWNLOAD_URL="https://github.com/speedy005/Foreca/archive/refs/heads/${BRANCH}.tar.gz"
 
