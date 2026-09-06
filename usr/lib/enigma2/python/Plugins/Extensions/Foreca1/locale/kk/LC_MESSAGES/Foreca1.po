@@ -1,0 +1,1509 @@
+# kk translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: kk <ekekaz@gmail.com>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} сағ {mins} мин"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• Home\n ретінде сақтау үшін КӨК\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 қалаға өту үшін\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• Таңдаулы 1\n ретінде сақтау үшін ЖАСЫЛ\n"
+
+msgid "• OK to select city\n"
+msgstr "• \n қаласын таңдау үшін OK түймесін басыңыз\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• \n іздеу пернетақтасын ашу үшін ҚЫЗЫЛ\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• \n шарлау үшін көрсеткі пернелерді пайдаланыңыз\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- 100 қалаға өту үшін\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• Таңдаулы 2\n ретінде сақтау үшін САРЫ\n"
+
+msgid "← Frame"
+msgstr "← Жақтау"
+
+msgid "0 - Today"
+msgstr "0 - Бүгін"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - бүгін + 1 күн"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Бүгін + 2 күн"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - бүгін + 3 күн"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Бүгін + 4 күн"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Бүгін + 5 күн"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Бүгін + 6 күн"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Бүгін + 7 күн"
+
+msgid "7 Day Forecast"
+msgstr "7 күндік болжам"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Бүгін + 8 күн"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Бүгін + 9 күн"
+
+msgid "Advanced"
+msgstr "Жетілдірілген"
+
+msgid "Advanced Unit Settings"
+msgstr "Кеңейтілген құрылғы параметрлері"
+
+msgid "Afternoon"
+msgstr "Түстен кейін"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Жаңа айдан бері жасы: {:.1f} күн"
+
+msgid "Age: N/A"
+msgstr "Жасы: жоқ"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Бұрыштық диаметр: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Бұрыштық диаметр: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API конфигурация файлы табылмады!\n\nForeca API тіркелгі деректерімен \n{0}\n\n файлын жасаңыз."
+
+msgid "API credentials not configured."
+msgstr "API тіркелгі деректері конфигурацияланбаған."
+
+msgid "API error"
+msgstr "API қатесі"
+
+msgid "API password"
+msgstr "API құпия сөзі"
+
+msgid "API user"
+msgstr "API пайдаланушысы"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Көрінетін шамасы: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: жоқ"
+
+msgid "Assign to Favorite 1"
+msgstr "Таңдаулыға тағайындау 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Таңдаулыға тағайындау 2"
+
+msgid "Assign to Home"
+msgstr "Үйге тағайындау"
+
+msgid "Australia"
+msgstr "Австралия"
+
+msgid "Austria"
+msgstr "Австрия"
+
+msgid "Auth server"
+msgstr "Auth сервері"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Баден-Вюртемберг"
+
+msgid "Barometer"
+msgstr "Барометр"
+
+msgid "Bavaria"
+msgstr "Бавария"
+
+msgid "Belgium"
+msgstr "Бельгия"
+
+msgid "Berlin"
+msgstr "Берлин"
+
+msgid "Black Moon"
+msgstr "Қара ай"
+
+msgid "Blue"
+msgstr "Көк"
+
+msgid "Blue - Home"
+msgstr "Көк - үй"
+
+msgid "Blue Moon"
+msgstr "Көк ай"
+
+msgid "Brandenburg"
+msgstr "Бранденбург"
+
+msgid "Bremen"
+msgstr "Бремен"
+
+msgid "Calculating..."
+msgstr "Есептелуде..."
+
+msgid "Cancel"
+msgstr "Болдырмау"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Цельсий, км/сағ, гПа"
+
+msgid "Changelog: {changelog}"
+msgstr "Өзгеріс журналы: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Өзгерістер дереу қолданылады"
+
+msgid "Check for updates"
+msgstr "Жаңартуларды тексеріңіз"
+
+msgid "Choose detail view"
+msgstr "Егжей-тегжейлі көріністі таңдаңыз"
+
+msgid "City list file not found!"
+msgstr "Қала тізімі файлы табылмады!"
+
+msgid "City Selection"
+msgstr "Қала таңдауы"
+
+msgid "City Selection Help:\n\n"
+msgstr "Қала таңдау анықтамасы:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Foreca One Temp файлдарын тазалау керек пе?"
+
+msgid "Cleanup temp files"
+msgstr "Уақытша файлдарды тазалау"
+
+msgid "Clear"
+msgstr "Таза"
+
+msgid "Close"
+msgstr "Жабу"
+
+msgid "Close legend"
+msgstr "Жабық аңыз"
+
+msgid "Close setup without saving"
+msgstr "Орнатуды сақтамай жабыңыз"
+
+msgid "Cloudy"
+msgstr "Бұлтты"
+
+msgid "Cloudy and light rain"
+msgstr "Бұлтты және аздап жаңбыр жауады"
+
+msgid "Cloudy and light snow"
+msgstr "Бұлтты және аздап қар жауады"
+
+msgid "Cloudy and light wet snow"
+msgstr "Бұлтты және аздап ылғалды қар жауады"
+
+msgid "Cloudy and showers"
+msgstr "Бұлтты және жаңбыр жауады"
+
+msgid "Cloudy and snow showers"
+msgstr "Бұлтты және қар жауады"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Бұлтты және ылғалды қар жауады"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Бұлтты, күн күркіреп, жаңбыр жауады"
+
+msgid "Cold (< 0°C)"
+msgstr "Суық (< 0°C)"
+
+msgid "Color data"
+msgstr "Түс деректері"
+
+msgid "Color legend"
+msgstr "Түс аңызы"
+
+msgid "Color Legend"
+msgstr "Түс аңызы"
+
+msgid "Color name"
+msgstr "Түс атауы"
+
+msgid "Color select"
+msgstr "Түс таңдау"
+
+msgid "Color Selector"
+msgstr "Түс таңдау құралы"
+
+msgid "Condition: {}"
+msgstr "Шарты: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API тіркелгі деректерін конфигурациялаңыз"
+
+msgid "Continents Weather Maps"
+msgstr "Материктердің ауа райы карталары"
+
+msgid "Cool (0-10°C)"
+msgstr "Салқын (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Жаңарту туралы ақпаратты алу мүмкін болмады."
+
+msgid "Could not initialize map API."
+msgstr "API картасын инициализациялау мүмкін болмады."
+
+msgid "Could not load forecast data"
+msgstr "Болжау деректері жүктелмеді"
+
+msgid "Could not parse version information."
+msgstr "Нұсқа ақпаратын талдау мүмкін болмады."
+
+msgid "Current weather and forecast"
+msgstr "Ағымдағы ауа райы және болжам"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Ағымдағы ауа райы және алдағы 10 күнге болжам"
+
+msgid "Current: {}"
+msgstr "Ағымдағы: {}"
+
+msgid "Czech Republic"
+msgstr "Чех Республикасы"
+
+msgid "Data provided by Foreca"
+msgstr "Деректер Foreca ұсынған"
+
+msgid "Date: {}"
+msgstr "Күні: {}"
+
+msgid "Day"
+msgstr "Күн"
+
+msgid "Decrease Speed"
+msgstr "Жылдамдықты азайту"
+
+msgid "Defaults"
+msgstr "Әдепкі"
+
+msgid "Denmark"
+msgstr "Дания"
+
+msgid "Details"
+msgstr "Мәліметтер"
+
+msgid "Dewpoint {}"
+msgstr "Шық нүктесі {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Шық нүктесі {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Шық нүктесі: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Шық нүктесі: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Шық нүктесі: жоқ"
+
+msgid "Distance"
+msgstr "Қашықтық"
+
+msgid "Distance {} km"
+msgstr "Қашықтық {} км"
+
+msgid "Distance: {}"
+msgstr "Қашықтық: {}"
+
+msgid "Distance: {} km"
+msgstr "Қашықтық: {} км"
+
+msgid "Distance: %s"
+msgstr "Қашықтық: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Оны қазір орнатқыңыз келе ме?"
+
+msgid "Down"
+msgstr "Төмен"
+
+msgid "Down - Next page"
+msgstr "Төмен - Келесі бет"
+
+msgid "Download error"
+msgstr "Жүктеп алу қатесі"
+
+msgid "Downloading images..."
+msgstr "Суреттер жүктелуде..."
+
+msgid "Downloading tiles..."
+msgstr "Плиткалар жүктелуде..."
+
+msgid "E"
+msgstr "Е"
+
+msgid "East Asia"
+msgstr "Шығыс Азия"
+
+msgid "Error checking for updates."
+msgstr "Жаңартуларды тексеру қатесі."
+
+msgid "Error loading data"
+msgstr "Деректерді жүктеу қатесі"
+
+msgid "Error loading map"
+msgstr "Картаны жүктеу қатесі"
+
+msgid "Error loading maps. Check connection."
+msgstr "Карталарды жүктеу қатесі. Қосылымды тексеріңіз."
+
+msgid "Error saving favorite!"
+msgstr "Таңдаулыны сақтау қатесі!"
+
+msgid "Europe"
+msgstr "Еуропа"
+
+msgid "European Weather Maps"
+msgstr "Еуропалық ауа райы карталары"
+
+msgid "Evening"
+msgstr "Кеш"
+
+msgid "Exit"
+msgstr "Шығу"
+
+msgid "Exit - End"
+msgstr "Шығу - Аяқтау"
+
+msgid "Exit / Close legend"
+msgstr "Шығу / Шартты жабу"
+
+msgid "Extreme"
+msgstr "Төтенше"
+
+msgid "Extreme / thunderstorms"
+msgstr "Төтенше / найзағай"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Фаренгейт, миль/сағ, рт.б"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Конфигурация файлын жазу сәтсіз аяқталды:\n%s"
+
+msgid "Faster: {}s"
+msgstr "Жылдамырақ: {} с"
+
+msgid "Favorite 1"
+msgstr "Сүйікті 1"
+
+msgid "Favorite 2"
+msgstr "Сүйікті 2"
+
+msgid "Favorites details"
+msgstr "Таңдаулы мәліметтер"
+
+msgid "Favorites Details"
+msgstr "Таңдаулылар мәліметтері"
+
+msgid "Feels like"
+msgstr "Ұқсайды"
+
+msgid "Feels like {}"
+msgstr "{} сияқты"
+
+msgid "Feels like {}{}"
+msgstr "{}{} сияқты"
+
+msgid "Feels like: {}"
+msgstr "Мынадай сезім: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Мынадай сезім: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Мынадай сезінеді: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Мынадай сезіледі: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Мынадай сезінеді: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Мынадай сезінеді: жоқ"
+
+msgid "Finland"
+msgstr "Финляндия"
+
+msgid "First Quarter"
+msgstr "Бірінші тоқсан"
+
+msgid "Fog"
+msgstr "Тұман"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API тіркелгі деректері әлі конфигурацияланбаған. Оларды орнату экранына енгізіңіз."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API параметрлері сәтті сақталды."
+
+msgid "Foreca API Setup"
+msgstr "Foreca API орнатуы"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | {} картасы"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One мәзірі"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Станциялар табылмады"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One орнату"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One станциялары: маңайдағы {} станция ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One ауа райы болжамы"
+
+msgid "Frame →"
+msgstr "Жақтау →"
+
+msgid "Frame: {}"
+msgstr "Кадр: {}"
+
+msgid "France"
+msgstr "Франция"
+
+msgid "Full Moon"
+msgstr "Толық ай"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Дауыл күші (>60 км/сағ)"
+
+msgid "German States Weather Maps"
+msgstr "Германия мемлекеттерінің ауа райы карталары"
+
+msgid "Germany"
+msgstr "Германия"
+
+msgid "Good"
+msgstr "Жақсы"
+
+msgid "Great Britain"
+msgstr "Ұлыбритания"
+
+msgid "Greece"
+msgstr "Греция"
+
+msgid "Green"
+msgstr "Жасыл"
+
+msgid "Green - Favorite 1"
+msgstr "Жасыл - сүйікті 1"
+
+msgid "Gust {}"
+msgstr "{}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Жел: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Гамбург"
+
+msgid "Hazardous"
+msgstr "Қауіпті"
+
+msgid "Header - not selectable"
+msgstr "Тақырып - таңдау мүмкін емес"
+
+msgid "Heavy rain"
+msgstr "Қатты жаңбыр"
+
+msgid "Help"
+msgstr "Көмек"
+
+msgid "Hesse"
+msgstr "Гессе"
+
+msgid "High"
+msgstr "Жоғары"
+
+msgid "Home"
+msgstr "Үй"
+
+msgid "Hot (30-40°C)"
+msgstr "Ыстық (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Сағат мәліметтері"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Ылғалдылық"
+
+msgid "Humidity: {}%"
+msgstr "Ылғалдылық: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Ылғалдылық: %s%%"
+
+msgid "Hungary"
+msgstr "Венгрия"
+
+msgid "Ice / frost"
+msgstr "Мұз / аяз"
+
+msgid "Illumination"
+msgstr "Жарықтандыру"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Жарықтандыру: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Кескін %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Кескін %(current)d/%(total)d – %(day)s (кідіртілген)"
+
+msgid "Image not available"
+msgstr "Кескін қолжетімді емес"
+
+msgid "Imperial System"
+msgstr "Императорлық жүйе"
+
+msgid "Increase Speed"
+msgstr "Жылдамдықты арттыру"
+
+msgid "Info"
+msgstr "Ақпарат"
+
+msgid "Info - About"
+msgstr "Ақпарат - туралы"
+
+msgid "Ireland"
+msgstr "Ирландия"
+
+msgid "Italy"
+msgstr "Италия"
+
+msgid "Jump 100 down"
+msgstr "100 төмен секіріңіз"
+
+msgid "Jump 100 up"
+msgstr "100 жоғары секіріңіз"
+
+msgid "Jump 500 down"
+msgstr "500 төмен секіріңіз"
+
+msgid "Jump 500 up"
+msgstr "500 жоғары секіріңіз"
+
+msgid "Keyboard"
+msgstr "Пернетақта"
+
+msgid "Last Quarter"
+msgstr "Соңғы тоқсан"
+
+msgid "Last update"
+msgstr "Соңғы жаңарту"
+
+msgid "Latvia"
+msgstr "Латвия"
+
+msgid "Left - Previous day"
+msgstr "Сол жақ - алдыңғы күн"
+
+msgid "Left arrow - Previous day"
+msgstr "Сол жақ көрсеткі - Алдыңғы күн"
+
+msgid "Light (0-20 km/h)"
+msgstr "Жеңіл (0-20 км/сағ)"
+
+msgid "Light rain / drizzle"
+msgstr "Жеңіл жаңбыр / жаңбыр"
+
+msgid "Light to moderate"
+msgstr "Жеңілден орташаға дейін"
+
+msgid "Loading available maps..."
+msgstr "Қолжетімді карталар жүктелуде..."
+
+msgid "Loading lunar phases..."
+msgstr "Айдың фазалары жүктелуде..."
+
+msgid "Loading nearby stations..."
+msgstr "Маңайдағы станциялар жүктелуде..."
+
+msgid "Loading tiles..."
+msgstr "Плиткалар жүктелуде..."
+
+msgid "Loading weekly forecast..."
+msgstr "Апталық болжам жүктелуде..."
+
+msgid "Loading..."
+msgstr "Жүктелуде..."
+
+msgid "Low"
+msgstr "Төмен"
+
+msgid "Lower Saxony"
+msgstr "Төменгі Саксония"
+
+msgid "Lunar Calendar"
+msgstr "Ай күнтізбесі"
+
+msgid "Lunar phases from next month"
+msgstr "Келесі айдан бастап ай фазалары"
+
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+msgid "Magnitude: N/A"
+msgstr "Магнитудасы: жоқ"
+
+msgid "Map {} selected"
+msgstr "{} картасы таңдалды"
+
+msgid "Map & Tiles Loaded"
+msgstr "Карта және тақталар жүктелді"
+
+msgid "Map loaded"
+msgstr "Карта жүктелді"
+
+msgid "Map server"
+msgstr "Карта сервері"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Мекленбург-Алдыңғы Померания"
+
+msgid "Menu"
+msgstr "Мәзір"
+
+msgid "Menu - Settings"
+msgstr "Мәзір - Параметрлер"
+
+msgid "Merge failed"
+msgstr "Біріктіру сәтсіз аяқталды"
+
+msgid "Meteogram"
+msgstr "Метеограмма"
+
+msgid "Metric System"
+msgstr "Метрикалық жүйе"
+
+msgid "Middle America"
+msgstr "Орта Америка"
+
+msgid "Middle Asia"
+msgstr "Орта Азия"
+
+msgid "Middle East"
+msgstr "Таяу шығыс"
+
+msgid "Mild (10-20°C)"
+msgstr "Жұмсақ (10-20°C)"
+
+msgid "Moderate"
+msgstr "Орташа"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Орташа (20-40 км/сағ)"
+
+msgid "Moderate rain"
+msgstr "Орташа жаңбыр"
+
+msgid "Month"
+msgstr "Ай"
+
+msgid "Moon details"
+msgstr "Ай туралы мәліметтер"
+
+msgid "Moon Details"
+msgstr "Ай туралы мәліметтер"
+
+msgid "Moonrise: {}"
+msgstr "Айдың шығуы: {}"
+
+msgid "Moonset: {}"
+msgstr "Айдың батуы: {}"
+
+msgid "Morning"
+msgstr "Таң"
+
+msgid "Mostly clear"
+msgstr "Көбінесе анық"
+
+msgid "Move down"
+msgstr "Төмен жылжытыңыз"
+
+msgid "Move Down"
+msgstr "Төменге жылжытыңыз"
+
+msgid "Move up"
+msgstr "Жоғары жылжытыңыз"
+
+msgid "Move Up"
+msgstr "Жоғары жылжыту"
+
+msgid "N"
+msgstr "Н"
+
+msgid "N/A"
+msgstr "Жоқ"
+
+msgid "Netherlands"
+msgstr "Нидерланды"
+
+msgid "New Moon"
+msgstr "Жаңа ай"
+
+msgid "New version {version} is available."
+msgstr "{version} жаңа нұсқасы қолжетімді."
+
+msgid "Next"
+msgstr "Келесі"
+
+msgid "Next frame"
+msgstr "Келесі кадр"
+
+msgid "Next Image"
+msgstr "Келесі сурет"
+
+msgid "Next page"
+msgstr "Келесі бет"
+
+msgid "Next time"
+msgstr "Келесі рет"
+
+msgid "No city selected"
+msgstr "Ешбір қала таңдалмаған"
+
+msgid "No data"
+msgstr "Деректер жоқ"
+
+msgid "No date available"
+msgstr "Күн жоқ"
+
+msgid "No Internet connection detected."
+msgstr "Интернет байланысы анықталмады."
+
+msgid "No location selected"
+msgstr "Ешбір орын таңдалмаған"
+
+msgid "No OSM tiles"
+msgstr "OSM тақталары жоқ"
+
+msgid "No specific legend available."
+msgstr "Арнайы аңыз жоқ."
+
+msgid "No station data"
+msgstr "Станция деректері жоқ"
+
+msgid "No station data available"
+msgstr "Станция деректері жоқ"
+
+msgid "No stations found"
+msgstr "Станциялар табылмады"
+
+msgid "No tiles downloaded"
+msgstr "Жүктеп алынған плиткалар жоқ"
+
+msgid "North Africa"
+msgstr "Солтүстік Африка"
+
+msgid "North America"
+msgstr "Солтүстік америка"
+
+msgid "North Rhine-Westphalia"
+msgstr "Солтүстік Рейн-Вестфалия"
+
+msgid "Norway"
+msgstr "Норвегия"
+
+msgid "Ok - Details"
+msgstr "Жарайды - Мәліметтер"
+
+msgid "OK - Ext Info"
+msgstr "OK - Қосымша ақпарат"
+
+msgid "OK - Forecast"
+msgstr "Жарайды - Болжам"
+
+msgid "OK - Open Map"
+msgstr "OK - Картаны ашу"
+
+msgid "Open Keyboard"
+msgstr "Пернетақтаны ашыңыз"
+
+msgid "Open Map"
+msgstr "Картаны ашу"
+
+msgid "Original design and idea by %s"
+msgstr "Түпнұсқа дизайн және идея %s"
+
+msgid "Overcast"
+msgstr "Бұлтты"
+
+msgid "Overcast and light rain"
+msgstr "Бұлтты және аздаған жаңбыр"
+
+msgid "Overcast and light snow"
+msgstr "Бұлтты және аздаған қар жауады"
+
+msgid "Overcast and light wet snow"
+msgstr "Бұлтты және аздап ылғалды қар"
+
+msgid "Overcast and rain"
+msgstr "Бұлтты және жаңбыр"
+
+msgid "Overcast and showers"
+msgstr "Бұлтты және жаңбыр жауады"
+
+msgid "Overcast and snow"
+msgstr "Бұлтты және қар"
+
+msgid "Overcast and snow showers"
+msgstr "Бұлтты және қар жауады"
+
+msgid "Overcast and wet snow"
+msgstr "Бұлтты және ылғалды қар"
+
+msgid "Overcast and wet snow showers"
+msgstr "Бұлтты және ылғалды қар жауады"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Бұлтты, күн күркіреп, жаңбыр жауады"
+
+msgid "Overnight"
+msgstr "Түнде"
+
+msgid "Page down"
+msgstr "Бет төмен"
+
+msgid "Page Down"
+msgstr "Бет төмен"
+
+msgid "Page up"
+msgstr "Бет жоғары"
+
+msgid "Page Up"
+msgstr "Page Up"
+
+msgid "Pan down"
+msgstr "Төмен жылжытыңыз"
+
+msgid "Pan left"
+msgstr "Солға жылжытыңыз"
+
+msgid "Pan right"
+msgstr "Оңға жылжытыңыз"
+
+msgid "Pan up"
+msgstr "Жоғары қарай жылжытыңыз"
+
+msgid "Partly cloudy"
+msgstr "Жартылай бұлтты"
+
+msgid "Partly cloudy and light rain"
+msgstr "Көшпелі бұлтты, аздап жаңбыр"
+
+msgid "Partly cloudy and light snow"
+msgstr "Көшіп-қонып, аздаған қар жауады"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Көшпелі бұлтты, аздап ылғалды қар"
+
+msgid "Partly cloudy and showers"
+msgstr "Көшіп-қонып, жаңбыр жауады"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Көшіп-қонып, қар жауады"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Көшіп-қонып, жаңбыр жауады"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Көшпелі бұлтты, жаңбыр жаууы мүмкін"
+
+msgid "Perigee"
+msgstr "Перижи"
+
+msgid "Phase"
+msgstr "Фаза"
+
+msgid "Phase: {}"
+msgstr "Кезең: {}"
+
+msgid "Play/Pause"
+msgstr "Ойнату/Кідірту"
+
+msgid "Please enter both API user and API password."
+msgstr "API пайдаланушысы мен API құпия сөзін енгізіңіз."
+
+msgid "Please wait ..."
+msgstr "Күте тұрыңыз..."
+
+msgid "Poland"
+msgstr "Польша"
+
+msgid "Portugal"
+msgstr "Португалия"
+
+msgid "Precipitation"
+msgstr "Жауын-шашын"
+
+msgid "Precipitation: {}"
+msgstr "Жауын-шашын: {}"
+
+msgid "Precipitations"
+msgstr "Жауын-шашын"
+
+msgid "Precipitations: {}%"
+msgstr "Жауын-шашын: {}%"
+
+msgid "Press RED to search again"
+msgstr "Қайта іздеу үшін ҚЫЗЫЛ түймесін басыңыз"
+
+msgid "Pressure"
+msgstr "Қысым"
+
+msgid "Pressure: {}"
+msgstr "Қысым: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Қысым: {} гПа"
+
+msgid "Pressure: %s"
+msgstr "Қысым: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Қысым: %s гПа"
+
+msgid "Pressure: N/A"
+msgstr "Қысым: жоқ"
+
+msgid "Prev"
+msgstr "Алдыңғы"
+
+msgid "Previous"
+msgstr "Алдыңғы"
+
+msgid "Previous frame"
+msgstr "Алдыңғы кадр"
+
+msgid "Previous Image"
+msgstr "Алдыңғы сурет"
+
+msgid "Previous page"
+msgstr "Алдыңғы бет"
+
+msgid "Previous time"
+msgstr "Алдыңғы уақыт"
+
+msgid "Rain Prob."
+msgstr "Жаңбыр проб."
+
+msgid "Rain prob. {}%"
+msgstr "Жаңбыр проб. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Жаңбыр болжамы: жоқ"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Жаңбыр: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer радары"
+
+msgid "Red"
+msgstr "Қызыл"
+
+msgid "Red - Color select"
+msgstr "Қызыл - түсті таңдау"
+
+msgid "Refresh"
+msgstr "Жаңарту"
+
+msgid "Restore default server values"
+msgstr "Әдепкі сервер мәндерін қалпына келтіріңіз"
+
+msgid "Rhineland-Palatine"
+msgstr "Рейнланд-Пфальц"
+
+msgid "Right - Next day"
+msgstr "Оң жақ - келесі күні"
+
+msgid "Right arrow - Next day"
+msgstr "Оң жақ көрсеткі - Келесі күні"
+
+msgid "Rise"
+msgstr "Көтерілу"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Көтерілу азимуты: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Көтерілу азимуты: жоқ"
+
+msgid "Russia"
+msgstr "Ресей"
+
+msgid "S"
+msgstr "С"
+
+msgid "Saarland"
+msgstr "Саар жері"
+
+msgid "Satellite Photos"
+msgstr "Спутниктік фотосуреттер"
+
+msgid "Satellite photos coming soon!"
+msgstr "Жақында спутниктік фотосуреттер!"
+
+msgid "Save"
+msgstr "Сақтау"
+
+msgid "Save API settings"
+msgstr "API параметрлерін сақтаңыз"
+
+msgid "Save translation settings"
+msgstr "Аударма параметрлерін сақтаңыз"
+
+msgid "Saxony"
+msgstr "Саксония"
+
+msgid "Saxony-Anhalt"
+msgstr "Саксония-Анхальт"
+
+msgid "Schleswig-Holstein"
+msgstr "Шлезвиг-Гольштейн"
+
+msgid "Scraped"
+msgstr "Қырылған"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Іздеу алдымен желіде әрекет етеді, егер сәтсіз болса, жергілікті тізімді пайдаланады."
+
+msgid "Search your City"
+msgstr "Қалаңызды іздеңіз"
+
+msgid "Select"
+msgstr "таңдаңыз"
+
+msgid "Select {} unit"
+msgstr "{} бірлік таңдаңыз"
+
+msgid "Select a city"
+msgstr "Қаланы таңдаңыз"
+
+msgid "Select a map with OK"
+msgstr "OK түймесін басып картаны таңдаңыз"
+
+msgid "Select Region"
+msgstr "Аймақты таңдаңыз"
+
+msgid "Select unit system"
+msgstr "Бірлік жүйесін таңдаңыз"
+
+msgid "Select wind unit"
+msgstr "Жел бірлігін таңдаңыз"
+
+msgid "Selected hour details"
+msgstr "Таңдалған сағат мәліметтері"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Азимут орнату: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Азимут орнату: жоқ"
+
+msgid "Sets"
+msgstr "Жиындар"
+
+msgid "Show info"
+msgstr "Ақпаратты көрсету"
+
+msgid "Showers"
+msgstr "Душ"
+
+msgid "Slovakia"
+msgstr "Словакия"
+
+msgid "Slower: {}s"
+msgstr "Баяу: {}с"
+
+msgid "Snow / ice"
+msgstr "Қар / мұз"
+
+msgid "Snow prob. {}%"
+msgstr "Қар проб. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Қар проблемасы: жоқ"
+
+msgid "South Africa"
+msgstr "Оңтүстік Африка"
+
+msgid "South America"
+msgstr "Оңтүстік америка"
+
+msgid "Southeast Asia"
+msgstr "Оңтүстік-Шығыс Азия"
+
+msgid "Spain"
+msgstr "Испания"
+
+msgid "Station Observations"
+msgstr "Станцияларды бақылау"
+
+msgid "Station: {}"
+msgstr "Станция: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Күшті (40-60 км/сағ)"
+
+msgid "Sunrise"
+msgstr "Күннің шығуы"
+
+msgid "Sunset"
+msgstr "Күннің батуы"
+
+msgid "Super Full Moon"
+msgstr "Супер толық ай"
+
+msgid "Sweden"
+msgstr "Швеция"
+
+msgid "Switzerland"
+msgstr "Швейцария"
+
+msgid "Target Language"
+msgstr "Мақсатты тіл"
+
+msgid "Temp"
+msgstr "Темп"
+
+msgid "Temperature"
+msgstr "Температура"
+
+msgid "Temperature: {}"
+msgstr "Температура: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Температура: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Температура: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Температура: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Температура: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Температура: жоқ"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Ұсыныстары үшін {thanks} және басқа достарға рахмет"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Қашықтағы нұсқа ({remote}) ағымдағы нұсқасынан ({current}) ескірек."
+
+msgid "Thin upper cloud"
+msgstr "Жұқа жоғарғы бұлт"
+
+msgid "Thuringia"
+msgstr "Тюрингия"
+
+msgid "Time"
+msgstr "Уақыт"
+
+msgid "Today"
+msgstr "Бүгін"
+
+msgid "Today/Tomorrow details"
+msgstr "Бүгін/ертең мәліметтер"
+
+msgid "Toggle legend"
+msgstr "Легенданы ауыстырып-қосқыш"
+
+msgid "Token expire hours"
+msgstr "Токеннің мерзімі аяқталатын сағат"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Токеннің жарамдылық мерзімі -1 ​​немесе оң сан болуы керек."
+
+msgid "Token expire hours must be a number."
+msgstr "Токеннің жарамдылық мерзімі сан болуы керек."
+
+msgid "Tomorrow"
+msgstr "Ертең"
+
+msgid "Transit (culmination): {}"
+msgstr "Транзит (кулминация): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Транзиттік биіктік: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Транзиттік биіктік: жоқ"
+
+msgid "Translation Settings"
+msgstr "Аударма параметрлері"
+
+msgid "Transparency level"
+msgstr "Мөлдірлік деңгейі"
+
+msgid "Transparency Settings"
+msgstr "Мөлдірлік параметрлері"
+
+msgid "Unhealthy"
+msgstr "Дені сау емес"
+
+msgid "Unhealthy for sensitives"
+msgstr "Сезімтал адамдар үшін зиянды"
+
+msgid "Unit Settings"
+msgstr "Бірлік параметрлері"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Құрылғы параметрлері (қосымша)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Құрылғы параметрлері (қарапайым)"
+
+msgid "Unknown"
+msgstr "Белгісіз"
+
+msgid "Up"
+msgstr "Жоғары"
+
+msgid "Up - Previous page"
+msgstr "Жоғары - Алдыңғы бет"
+
+msgid "Update canceled."
+msgstr "Жаңарту тоқтатылды."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Жаңарту аяқталды. Enigma2 қайта іске қосыңыз."
+
+msgid "Updated {}"
+msgstr "Жаңартылған {}"
+
+msgid "Updated: {}"
+msgstr "Жаңартылған: {}"
+
+msgid "Updated: N/A"
+msgstr "Жаңартылған: жоқ"
+
+msgid "Updating..."
+msgstr "Жаңарту..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Уақытты өзгерту үшін ← → пайдаланыңыз Шығу үшін жарайды"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Жылжыту үшін ←/→/↑/↓ пайдаланыңыз Шығу үшін жарайды"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Өзгерту үшін ▲/▼, таңдау үшін OK түймесін пайдаланыңыз"
+
+msgid "Use arrow keys to scroll"
+msgstr "Айналдыру үшін көрсеткі пернелерді пайдаланыңыз"
+
+msgid "Use Google Translate"
+msgstr "Google Translate қолданбасын пайдаланыңыз"
+
+msgid "Using current time"
+msgstr "Ағымдағы уақытты пайдалану"
+
+msgid "UV"
+msgstr "УК"
+
+msgid "UV Index"
+msgstr "УК индексі"
+
+msgid "UV N/A"
+msgstr "УКЖ жоқ"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Өте қатты жаңбыр"
+
+msgid "Very high"
+msgstr "Өте жоғары"
+
+msgid "Very hot (>40°C)"
+msgstr "Өте ыстық (>40°C)"
+
+msgid "Very low"
+msgstr "Өте төмен"
+
+msgid "Very unhealthy"
+msgstr "Өте зиянды"
+
+msgid "Visibility: {} m"
+msgstr "Көріну: {} м"
+
+msgid "Visibility: %s m"
+msgstr "Көріну: %s м"
+
+msgid "W"
+msgstr "В"
+
+msgid "Waning Crescent"
+msgstr "Жарты ай"
+
+msgid "Waning Gibbous"
+msgstr "Күйіп бара жатқан Гиббоус"
+
+msgid "Warm (20-30°C)"
+msgstr "Жылы (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Балауыз ай"
+
+msgid "Waxing Gibbous"
+msgstr "Балауыздан тазарту"
+
+msgid "Weather"
+msgstr "Ауа райы"
+
+msgid "Weather Map"
+msgstr "Ауа райы картасы"
+
+msgid "Weather Maps"
+msgstr "Ауа райы карталары"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Ауа райы карталары (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Ауа райы карталары және спутник"
+
+msgid "Weather Maps Slideshow"
+msgstr "Ауа райы карталары слайд-шоуы"
+
+msgid "Weather Radar"
+msgstr "Ауа райы радары"
+
+msgid "Weather today"
+msgstr "Бүгінгі ауа райы"
+
+msgid "Weather tomorrow"
+msgstr "Ертеңгі ауа райы"
+
+msgid "Weekly Forecast"
+msgstr "Апталық болжам"
+
+msgid "Wind"
+msgstr "Жел"
+
+msgid "Wind direction"
+msgstr "Жел бағыты"
+
+msgid "Wind Direction today"
+msgstr "Бүгінгі желдің бағыты"
+
+msgid "Wind Direction tomorrow"
+msgstr "Ертеңгі жел бағыты"
+
+msgid "Wind speed"
+msgstr "Жел жылдамдығы"
+
+msgid "Wind speed {}"
+msgstr "Жел жылдамдығы {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Жел жылдамдығы: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Жел: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Жел: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Жел: {} км/сағ {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Жел: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Жел: %s км/сағ %s"
+
+msgid "Wind: N/A"
+msgstr "Жел: жоқ"
+
+msgid "Window transparency"
+msgstr "Терезе мөлдірлігі"
+
+msgid "Yellow - Favorite 2"
+msgstr "Сары - сүйікті 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Сізде {version} нұсқасы әлдеқашан орнатылған.\nОны қайта орнатқыңыз келе ме?"
+
+msgid "Zoom In"
+msgstr "Үлкейту"
+
+msgid "Zoom Out"
+msgstr "Кішірейту"
+
+msgid "Zoom-"
+msgstr "Масштабтау-"
+
+msgid "Zoom:"
+msgstr "Масштабтау:"
+
+msgid "Zoom+"
+msgstr "Масштабтау+"
+

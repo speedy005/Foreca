@@ -1,0 +1,1509 @@
+# lt translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: lt <ekekaz@gmail.com>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} val. {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• MĖLYNA, jei norite išsaugoti kaip Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- peršokti per 500 miestų\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• ŽALIA, kad išsaugotumėte kaip mėgstamiausią 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• Gerai, kad pasirinktumėte miestą\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RAUDONA, kad atidarytumėte paieškos klaviatūrą\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Norėdami naršyti \n, naudokite rodyklių klavišus\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- peršokti į 100 miestų\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GELTONA, kad išsaugotumėte kaip mėgstamiausią 2\n"
+
+msgid "← Frame"
+msgstr "← Rėmas"
+
+msgid "0 - Today"
+msgstr "0 - Šiandien"
+
+msgid "1 - Today + 1 day"
+msgstr "1 – šiandien + 1 diena"
+
+msgid "2 - Today + 2 days"
+msgstr "2 – šiandien + 2 dienos"
+
+msgid "3 - Today + 3 days"
+msgstr "3 – šiandien + 3 dienos"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - šiandien + 4 dienos"
+
+msgid "5 - Today + 5 days"
+msgstr "5 – šiandien + 5 dienos"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - šiandien + 6 dienos"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - šiandien + 7 dienos"
+
+msgid "7 Day Forecast"
+msgstr "7 dienų prognozė"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - šiandien + 8 dienos"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - šiandien + 9 dienos"
+
+msgid "Advanced"
+msgstr "Išplėstinė"
+
+msgid "Advanced Unit Settings"
+msgstr "Išplėstiniai vieneto nustatymai"
+
+msgid "Afternoon"
+msgstr "Popietė"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Amžius nuo jaunaties: {:.1f} dienų"
+
+msgid "Age: N/A"
+msgstr "Amžius: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kampinis skersmuo: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Kampinis skersmuo: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API konfigūracijos failas nerastas!\n\nSukurkite failą:\n{0}\n\nsu Foreca API kredencialais."
+
+msgid "API credentials not configured."
+msgstr "API kredencialai nesukonfigūruoti."
+
+msgid "API error"
+msgstr "API klaida"
+
+msgid "API password"
+msgstr "API slaptažodis"
+
+msgid "API user"
+msgstr "API vartotojas"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Tariamas dydis: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "Priskirti prie mėgstamiausio 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Priskirti prie mėgstamiausio 2"
+
+msgid "Assign to Home"
+msgstr "Priskirti prie namų"
+
+msgid "Australia"
+msgstr "Australija"
+
+msgid "Austria"
+msgstr "Austrija"
+
+msgid "Auth server"
+msgstr "Auth serveris"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Badenas-Viurtembergas"
+
+msgid "Barometer"
+msgstr "Barometras"
+
+msgid "Bavaria"
+msgstr "Bavarija"
+
+msgid "Belgium"
+msgstr "Belgija"
+
+msgid "Berlin"
+msgstr "Berlynas"
+
+msgid "Black Moon"
+msgstr "Juodasis mėnulis"
+
+msgid "Blue"
+msgstr "Mėlyna"
+
+msgid "Blue - Home"
+msgstr "Mėlyna – Namai"
+
+msgid "Blue Moon"
+msgstr "Mėlynas mėnulis"
+
+msgid "Brandenburg"
+msgstr "Brandenburgas"
+
+msgid "Bremen"
+msgstr "Brėmenas"
+
+msgid "Calculating..."
+msgstr "Skaičiuojama..."
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsijaus, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Pakeitimų žurnalas: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Pakeitimai taikomi nedelsiant"
+
+msgid "Check for updates"
+msgstr "Patikrinkite, ar nėra atnaujinimų"
+
+msgid "Choose detail view"
+msgstr "Pasirinkite išsamų vaizdą"
+
+msgid "City list file not found!"
+msgstr "Miesto sąrašo failas nerastas!"
+
+msgid "City Selection"
+msgstr "Miesto pasirinkimas"
+
+msgid "City Selection Help:\n\n"
+msgstr "Miesto pasirinkimo pagalba:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Išvalyti Foreca One Temp failus?"
+
+msgid "Cleanup temp files"
+msgstr "Išvalyti laikinuosius failus"
+
+msgid "Clear"
+msgstr "Aišku"
+
+msgid "Close"
+msgstr "Uždaryti"
+
+msgid "Close legend"
+msgstr "Artima legenda"
+
+msgid "Close setup without saving"
+msgstr "Uždarykite sąranką neišsaugoję"
+
+msgid "Cloudy"
+msgstr "Debesuota"
+
+msgid "Cloudy and light rain"
+msgstr "Debesuota ir nedidelis lietus"
+
+msgid "Cloudy and light snow"
+msgstr "Debesuota ir nedidelis sniegas"
+
+msgid "Cloudy and light wet snow"
+msgstr "Debesuota ir lengvas šlapias sniegas"
+
+msgid "Cloudy and showers"
+msgstr "Debesuota ir lietus"
+
+msgid "Cloudy and snow showers"
+msgstr "Debesuota ir sniego lietus"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Debesuota ir šlapias sniegas"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Debesuota, perkūnija su lietumi"
+
+msgid "Cold (< 0°C)"
+msgstr "Šalta (< 0°C)"
+
+msgid "Color data"
+msgstr "Spalvų duomenys"
+
+msgid "Color legend"
+msgstr "Spalvų legenda"
+
+msgid "Color Legend"
+msgstr "Spalvų legenda"
+
+msgid "Color name"
+msgstr "Spalvos pavadinimas"
+
+msgid "Color select"
+msgstr "Spalvos pasirinkimas"
+
+msgid "Color Selector"
+msgstr "Spalvų parinkiklis"
+
+msgid "Condition: {}"
+msgstr "Būklė: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfigūruokite Foreca API kredencialus"
+
+msgid "Continents Weather Maps"
+msgstr "Žemynų orų žemėlapiai"
+
+msgid "Cool (0-10°C)"
+msgstr "Vėsus (0–10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Nepavyko gauti atnaujinimo informacijos."
+
+msgid "Could not initialize map API."
+msgstr "Nepavyko inicijuoti žemėlapio API."
+
+msgid "Could not load forecast data"
+msgstr "Nepavyko įkelti prognozės duomenų"
+
+msgid "Could not parse version information."
+msgstr "Nepavyko išanalizuoti versijos informacijos."
+
+msgid "Current weather and forecast"
+msgstr "Dabartinis oras ir prognozė"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Dabartiniai orai ir prognozė artimiausioms 10 dienų"
+
+msgid "Current: {}"
+msgstr "Dabartinis: {}"
+
+msgid "Czech Republic"
+msgstr "Čekijos Respublika"
+
+msgid "Data provided by Foreca"
+msgstr "„Foreca“ pateikti duomenys"
+
+msgid "Date: {}"
+msgstr "Data: {}"
+
+msgid "Day"
+msgstr "Diena"
+
+msgid "Decrease Speed"
+msgstr "Sumažinti greitį"
+
+msgid "Defaults"
+msgstr "Numatytieji nustatymai"
+
+msgid "Denmark"
+msgstr "Danija"
+
+msgid "Details"
+msgstr "Detalės"
+
+msgid "Dewpoint {}"
+msgstr "Rasos taškas {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Rasos taškas {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Rasos taškas: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Rasos taškas: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Rasos taškas: N/A"
+
+msgid "Distance"
+msgstr "Atstumas"
+
+msgid "Distance {} km"
+msgstr "Atstumas {} km"
+
+msgid "Distance: {}"
+msgstr "Atstumas: {}"
+
+msgid "Distance: {} km"
+msgstr "Atstumas: {} km"
+
+msgid "Distance: %s"
+msgstr "Atstumas: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Ar norite jį įdiegti dabar?"
+
+msgid "Down"
+msgstr "Žemyn"
+
+msgid "Down - Next page"
+msgstr "Žemyn – Kitas puslapis"
+
+msgid "Download error"
+msgstr "Atsisiuntimo klaida"
+
+msgid "Downloading images..."
+msgstr "Atsisiunčiami vaizdai..."
+
+msgid "Downloading tiles..."
+msgstr "Atsisiunčiamos plytelės..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Rytų Azija"
+
+msgid "Error checking for updates."
+msgstr "Klaida tikrinant, ar nėra naujinimų."
+
+msgid "Error loading data"
+msgstr "Įkeliant duomenis įvyko klaida"
+
+msgid "Error loading map"
+msgstr "Įkeliant žemėlapį įvyko klaida"
+
+msgid "Error loading maps. Check connection."
+msgstr "Įkeliant žemėlapius įvyko klaida. Patikrinkite ryšį."
+
+msgid "Error saving favorite!"
+msgstr "Išsaugant mėgstamiausią įvyko klaida!"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "European Weather Maps"
+msgstr "Europos orų žemėlapiai"
+
+msgid "Evening"
+msgstr "Vakaras"
+
+msgid "Exit"
+msgstr "Išeiti"
+
+msgid "Exit - End"
+msgstr "Išėjimas – pabaiga"
+
+msgid "Exit / Close legend"
+msgstr "Išeiti / uždaryti legendą"
+
+msgid "Extreme"
+msgstr "Ekstremalus"
+
+msgid "Extreme / thunderstorms"
+msgstr "Ekstremalios / perkūnijos"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Farenheitas, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Nepavyko įrašyti konfigūracijos failo: \n%s"
+
+msgid "Faster: {}s"
+msgstr "Greičiau: {}s"
+
+msgid "Favorite 1"
+msgstr "Mėgstamiausias 1"
+
+msgid "Favorite 2"
+msgstr "Mėgstamiausias 2"
+
+msgid "Favorites details"
+msgstr "Mėgstamiausios detalės"
+
+msgid "Favorites Details"
+msgstr "Išsami informacija apie mėgstamiausius"
+
+msgid "Feels like"
+msgstr "Jaučiasi"
+
+msgid "Feels like {}"
+msgstr "Jaučiasi kaip {}"
+
+msgid "Feels like {}{}"
+msgstr "Atrodo kaip {}{}"
+
+msgid "Feels like: {}"
+msgstr "Atrodo: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Toks jausmas: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Jaučiasi: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Atrodo: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Atrodo: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Toks jausmas: N/A"
+
+msgid "Finland"
+msgstr "Suomija"
+
+msgid "First Quarter"
+msgstr "Pirmasis ketvirtis"
+
+msgid "Fog"
+msgstr "Rūkas"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API kredencialai dar nesukonfigūruoti. Įveskite juos sąrankos ekrane."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API nustatymai sėkmingai išsaugoti."
+
+msgid "Foreca API Setup"
+msgstr "Foreca API sąranka"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Žemėlapis {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "„Foreca One“ tiesioginiai žemėlapiai (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One meniu"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Nerasta stočių"
+
+msgid "Foreca One Setup"
+msgstr "„Foreca One“ sąranka"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "„Foreca One“ stotys: netoliese yra {} stotys ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Orų ir prognozių ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "„Foreca One“ orų prognozė"
+
+msgid "Frame →"
+msgstr "Rėmas →"
+
+msgid "Frame: {}"
+msgstr "Rėmas: {}"
+
+msgid "France"
+msgstr "Prancūzija"
+
+msgid "Full Moon"
+msgstr "Pilnatis"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Gale jėga (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Vokietijos valstijų orų žemėlapiai"
+
+msgid "Germany"
+msgstr "Vokietija"
+
+msgid "Good"
+msgstr "Gerai"
+
+msgid "Great Britain"
+msgstr "Didžioji Britanija"
+
+msgid "Greece"
+msgstr "Graikija"
+
+msgid "Green"
+msgstr "Žalia"
+
+msgid "Green - Favorite 1"
+msgstr "Žalia – 1 mėgstamiausia"
+
+msgid "Gust {}"
+msgstr "gūsis {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Gūstis: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hamburgas"
+
+msgid "Hazardous"
+msgstr "Pavojinga"
+
+msgid "Header - not selectable"
+msgstr "Antraštė – nepasirenkama"
+
+msgid "Heavy rain"
+msgstr "Stiprus lietus"
+
+msgid "Help"
+msgstr "Pagalba"
+
+msgid "Hesse"
+msgstr "Hesenas"
+
+msgid "High"
+msgstr "Aukštas"
+
+msgid "Home"
+msgstr "Pradžia"
+
+msgid "Hot (30-40°C)"
+msgstr "Karšta (30–40°C)"
+
+msgid "Hour Details"
+msgstr "Išsami informacija apie valandą"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Drėgmė"
+
+msgid "Humidity: {}%"
+msgstr "Drėgmė: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Drėgmė: %s%%"
+
+msgid "Hungary"
+msgstr "Vengrija"
+
+msgid "Ice / frost"
+msgstr "Ledas / šerkšnas"
+
+msgid "Illumination"
+msgstr "Apšvietimas"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Apšvietimas: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Vaizdas %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Vaizdas %(current)d/%(total)d – %(day)s (pristabdyta)"
+
+msgid "Image not available"
+msgstr "Vaizdas nepasiekiamas"
+
+msgid "Imperial System"
+msgstr "Imperatoriškoji sistema"
+
+msgid "Increase Speed"
+msgstr "Padidinkite greitį"
+
+msgid "Info"
+msgstr "Informacija"
+
+msgid "Info - About"
+msgstr "Informacija – apie"
+
+msgid "Ireland"
+msgstr "Airija"
+
+msgid "Italy"
+msgstr "Italija"
+
+msgid "Jump 100 down"
+msgstr "Peršok 100 žemyn"
+
+msgid "Jump 100 up"
+msgstr "Šokite 100 aukštyn"
+
+msgid "Jump 500 down"
+msgstr "Peršokti 500 žemyn"
+
+msgid "Jump 500 up"
+msgstr "Peršokti 500 aukštyn"
+
+msgid "Keyboard"
+msgstr "Klaviatūra"
+
+msgid "Last Quarter"
+msgstr "Paskutinis ketvirtis"
+
+msgid "Last update"
+msgstr "Paskutinis atnaujinimas"
+
+msgid "Latvia"
+msgstr "Latvija"
+
+msgid "Left - Previous day"
+msgstr "Kairė – ankstesnė diena"
+
+msgid "Left arrow - Previous day"
+msgstr "Rodyklė kairėn – ankstesnė diena"
+
+msgid "Light (0-20 km/h)"
+msgstr "Lengvas (0–20 km/val.)"
+
+msgid "Light rain / drizzle"
+msgstr "Lietus / šlapdriba"
+
+msgid "Light to moderate"
+msgstr "Lengvas ar vidutinio sunkumo"
+
+msgid "Loading available maps..."
+msgstr "Įkeliami galimi žemėlapiai..."
+
+msgid "Loading lunar phases..."
+msgstr "Įkeliamos mėnulio fazės..."
+
+msgid "Loading nearby stations..."
+msgstr "Įkeliamos netoliese esančios stotys..."
+
+msgid "Loading tiles..."
+msgstr "Įkeliamos plytelės..."
+
+msgid "Loading weekly forecast..."
+msgstr "Įkeliama savaitės prognozė..."
+
+msgid "Loading..."
+msgstr "Įkeliama..."
+
+msgid "Low"
+msgstr "Žemas"
+
+msgid "Lower Saxony"
+msgstr "Žemutinė Saksonija"
+
+msgid "Lunar Calendar"
+msgstr "Mėnulio kalendorius"
+
+msgid "Lunar phases from next month"
+msgstr "Mėnulio fazės nuo kito mėnesio"
+
+msgid "Luxembourg"
+msgstr "Liuksemburgas"
+
+msgid "Magnitude: N/A"
+msgstr "Didumas: N/A"
+
+msgid "Map {} selected"
+msgstr "Pasirinktas {} žemėlapis"
+
+msgid "Map & Tiles Loaded"
+msgstr "Žemėlapis ir plytelės įkelti"
+
+msgid "Map loaded"
+msgstr "Žemėlapis įkeltas"
+
+msgid "Map server"
+msgstr "Žemėlapio serveris"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Meklenburgas-Pomeranija"
+
+msgid "Menu"
+msgstr "Meniu"
+
+msgid "Menu - Settings"
+msgstr "Meniu – Nustatymai"
+
+msgid "Merge failed"
+msgstr "Sujungti nepavyko"
+
+msgid "Meteogram"
+msgstr "Meteograma"
+
+msgid "Metric System"
+msgstr "Metrinė sistema"
+
+msgid "Middle America"
+msgstr "Vidurio Amerika"
+
+msgid "Middle Asia"
+msgstr "Vidurinė Azija"
+
+msgid "Middle East"
+msgstr "Artimieji Rytai"
+
+msgid "Mild (10-20°C)"
+msgstr "Švelnus (10-20°C)"
+
+msgid "Moderate"
+msgstr "Vidutinis"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Vidutinis (20–40 km/val.)"
+
+msgid "Moderate rain"
+msgstr "Vidutinis lietus"
+
+msgid "Month"
+msgstr "Mėnuo"
+
+msgid "Moon details"
+msgstr "Mėnulio detalės"
+
+msgid "Moon Details"
+msgstr "Mėnulio detalės"
+
+msgid "Moonrise: {}"
+msgstr "Mėnulio pakilimas: {}"
+
+msgid "Moonset: {}"
+msgstr "Mėnulis leidžiasi: {}"
+
+msgid "Morning"
+msgstr "Rytas"
+
+msgid "Mostly clear"
+msgstr "Dažniausiai aiškus"
+
+msgid "Move down"
+msgstr "Judėti žemyn"
+
+msgid "Move Down"
+msgstr "Judėti žemyn"
+
+msgid "Move up"
+msgstr "Judėti aukštyn"
+
+msgid "Move Up"
+msgstr "Judėti aukštyn"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Netherlands"
+msgstr "Nyderlandai"
+
+msgid "New Moon"
+msgstr "Jaunatis"
+
+msgid "New version {version} is available."
+msgstr "Yra nauja versija {version}."
+
+msgid "Next"
+msgstr "Kitas"
+
+msgid "Next frame"
+msgstr "Kitas kadras"
+
+msgid "Next Image"
+msgstr "Kitas vaizdas"
+
+msgid "Next page"
+msgstr "Kitas puslapis"
+
+msgid "Next time"
+msgstr "Kitą kartą"
+
+msgid "No city selected"
+msgstr "Miestas nepasirinktas"
+
+msgid "No data"
+msgstr "Nėra duomenų"
+
+msgid "No date available"
+msgstr "Nėra datos"
+
+msgid "No Internet connection detected."
+msgstr "Interneto ryšys neaptiktas."
+
+msgid "No location selected"
+msgstr "Vieta nepasirinkta"
+
+msgid "No OSM tiles"
+msgstr "Nėra OSM plytelių"
+
+msgid "No specific legend available."
+msgstr "Nėra jokios konkrečios legendos."
+
+msgid "No station data"
+msgstr "Nėra stoties duomenų"
+
+msgid "No station data available"
+msgstr "Stoties duomenų nėra"
+
+msgid "No stations found"
+msgstr "Nerasta stočių"
+
+msgid "No tiles downloaded"
+msgstr "Nėra atsisiųsta plytelių"
+
+msgid "North Africa"
+msgstr "Šiaurės Afrika"
+
+msgid "North America"
+msgstr "Šiaurės Amerika"
+
+msgid "North Rhine-Westphalia"
+msgstr "Šiaurės Reinas-Vestfalija"
+
+msgid "Norway"
+msgstr "Norvegija"
+
+msgid "Ok - Details"
+msgstr "Gerai – detalės"
+
+msgid "OK - Ext Info"
+msgstr "Gerai – išorinė informacija"
+
+msgid "OK - Forecast"
+msgstr "Gerai – prognozė"
+
+msgid "OK - Open Map"
+msgstr "Gerai – atidarykite žemėlapį"
+
+msgid "Open Keyboard"
+msgstr "Atidarykite klaviatūrą"
+
+msgid "Open Map"
+msgstr "Atidaryti žemėlapį"
+
+msgid "Original design and idea by %s"
+msgstr "Originalus %s dizainas ir idėja"
+
+msgid "Overcast"
+msgstr "Debesuota"
+
+msgid "Overcast and light rain"
+msgstr "Debesuota ir nedidelis lietus"
+
+msgid "Overcast and light snow"
+msgstr "Debesuota ir nedidelis sniegas"
+
+msgid "Overcast and light wet snow"
+msgstr "Apniukęs ir lengvas šlapias sniegas"
+
+msgid "Overcast and rain"
+msgstr "Debesuota ir lietus"
+
+msgid "Overcast and showers"
+msgstr "Debesuota ir lietus"
+
+msgid "Overcast and snow"
+msgstr "Debesuota ir sniegas"
+
+msgid "Overcast and snow showers"
+msgstr "Debesuota ir sniego lietus"
+
+msgid "Overcast and wet snow"
+msgstr "Apniukęs ir šlapias sniegas"
+
+msgid "Overcast and wet snow showers"
+msgstr "Apniukęs ir šlapias sniegas"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Debesuota, perkūnija su lietumi"
+
+msgid "Overnight"
+msgstr "Nakvynė"
+
+msgid "Page down"
+msgstr "Puslapis žemyn"
+
+msgid "Page Down"
+msgstr "Puslapis žemyn"
+
+msgid "Page up"
+msgstr "Puslapis aukštyn"
+
+msgid "Page Up"
+msgstr "Puslapis į viršų"
+
+msgid "Pan down"
+msgstr "Pasukite žemyn"
+
+msgid "Pan left"
+msgstr "Pan paliko"
+
+msgid "Pan right"
+msgstr "Pasukite į dešinę"
+
+msgid "Pan up"
+msgstr "Pakelkite"
+
+msgid "Partly cloudy"
+msgstr "Debesuota"
+
+msgid "Partly cloudy and light rain"
+msgstr "Debesuota ir nedidelis lietus"
+
+msgid "Partly cloudy and light snow"
+msgstr "Debesuota ir nedidelis sniegas"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Debesuota ir nedidelis šlapias sniegas"
+
+msgid "Partly cloudy and showers"
+msgstr "Debesuota su pragiedruliais"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Debesuota ir sniego lietus"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Mažai debesuota ir šlapias sniegas"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Debesuota, galima perkūnija su lietumi"
+
+msgid "Perigee"
+msgstr "Perigee"
+
+msgid "Phase"
+msgstr "Fazė"
+
+msgid "Phase: {}"
+msgstr "Fazė: {}"
+
+msgid "Play/Pause"
+msgstr "Leisti / pristabdyti"
+
+msgid "Please enter both API user and API password."
+msgstr "Įveskite API naudotoją ir API slaptažodį."
+
+msgid "Please wait ..."
+msgstr "Prašome palaukti..."
+
+msgid "Poland"
+msgstr "Lenkija"
+
+msgid "Portugal"
+msgstr "Portugalija"
+
+msgid "Precipitation"
+msgstr "Krituliai"
+
+msgid "Precipitation: {}"
+msgstr "Krituliai: {}"
+
+msgid "Precipitations"
+msgstr "Krituliai"
+
+msgid "Precipitations: {}%"
+msgstr "Krituliai: {} %"
+
+msgid "Press RED to search again"
+msgstr "Norėdami ieškoti dar kartą, paspauskite RAUDONĄ"
+
+msgid "Pressure"
+msgstr "Slėgis"
+
+msgid "Pressure: {}"
+msgstr "Slėgis: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Slėgis: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Slėgis: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Slėgis: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Slėgis: N/A"
+
+msgid "Prev"
+msgstr "Ankst"
+
+msgid "Previous"
+msgstr "Ankstesnis"
+
+msgid "Previous frame"
+msgstr "Ankstesnis kadras"
+
+msgid "Previous Image"
+msgstr "Ankstesnis vaizdas"
+
+msgid "Previous page"
+msgstr "Ankstesnis puslapis"
+
+msgid "Previous time"
+msgstr "Ankstesnis laikas"
+
+msgid "Rain Prob."
+msgstr "Lietus Prob."
+
+msgid "Rain prob. {}%"
+msgstr "Lietaus prob. {} %"
+
+msgid "Rain prob.: N/A"
+msgstr "Lietaus tikimybė: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Lietus: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer radaras"
+
+msgid "Red"
+msgstr "Raudona"
+
+msgid "Red - Color select"
+msgstr "Raudona – pasirinkite spalvą"
+
+msgid "Refresh"
+msgstr "Atnaujinti"
+
+msgid "Restore default server values"
+msgstr "Atkurti numatytąsias serverio reikšmes"
+
+msgid "Rhineland-Palatine"
+msgstr "Reino kraštas-Pfalcas"
+
+msgid "Right - Next day"
+msgstr "Teisingai – kitą dieną"
+
+msgid "Right arrow - Next day"
+msgstr "Rodyklė dešinėn – kitą dieną"
+
+msgid "Rise"
+msgstr "Pakilti"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Kilimo azimutas: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Kilimo azimutas: N/A"
+
+msgid "Russia"
+msgstr "Rusija"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saro kraštas"
+
+msgid "Satellite Photos"
+msgstr "Palydovinės nuotraukos"
+
+msgid "Satellite photos coming soon!"
+msgstr "Palydovinės nuotraukos netrukus!"
+
+msgid "Save"
+msgstr "Išsaugoti"
+
+msgid "Save API settings"
+msgstr "Išsaugokite API nustatymus"
+
+msgid "Save translation settings"
+msgstr "Išsaugokite vertimo nustatymus"
+
+msgid "Saxony"
+msgstr "Saksonija"
+
+msgid "Saxony-Anhalt"
+msgstr "Saksonija-Anhaltas"
+
+msgid "Schleswig-Holstein"
+msgstr "Šlėzvigas-Holšteinas"
+
+msgid "Scraped"
+msgstr "Nubraukė"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Pirmiausia paieška bandoma internete, jei nepavyksta, naudojamas vietinis sąrašas."
+
+msgid "Search your City"
+msgstr "Ieškokite savo miesto"
+
+msgid "Select"
+msgstr "Pasirinkite"
+
+msgid "Select {} unit"
+msgstr "Pasirinkite {} vienetą"
+
+msgid "Select a city"
+msgstr "Pasirinkite miestą"
+
+msgid "Select a map with OK"
+msgstr "Pasirinkite žemėlapį paspausdami OK"
+
+msgid "Select Region"
+msgstr "Pasirinkite regioną"
+
+msgid "Select unit system"
+msgstr "Pasirinkite vienetų sistemą"
+
+msgid "Select wind unit"
+msgstr "Pasirinkite vėjo vienetą"
+
+msgid "Selected hour details"
+msgstr "Išsami informacija apie pasirinktą valandą"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Nustatyti azimutą: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Nustatyti azimutą: N/A"
+
+msgid "Sets"
+msgstr "Rinkiniai"
+
+msgid "Show info"
+msgstr "Rodyti informaciją"
+
+msgid "Showers"
+msgstr "Dušai"
+
+msgid "Slovakia"
+msgstr "Slovakija"
+
+msgid "Slower: {}s"
+msgstr "Lėčiau: {}s"
+
+msgid "Snow / ice"
+msgstr "Sniegas / ledas"
+
+msgid "Snow prob. {}%"
+msgstr "Sniego problema. {} %"
+
+msgid "Snow prob.: N/A"
+msgstr "Sniego problema: N/A"
+
+msgid "South Africa"
+msgstr "Pietų Afrika"
+
+msgid "South America"
+msgstr "Pietų Amerika"
+
+msgid "Southeast Asia"
+msgstr "Pietryčių Azija"
+
+msgid "Spain"
+msgstr "Ispanija"
+
+msgid "Station Observations"
+msgstr "Stoties stebėjimai"
+
+msgid "Station: {}"
+msgstr "Stotis: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Stiprus (40–60 km/val.)"
+
+msgid "Sunrise"
+msgstr "Saulėtekis"
+
+msgid "Sunset"
+msgstr "Saulėlydis"
+
+msgid "Super Full Moon"
+msgstr "Super pilnatis"
+
+msgid "Sweden"
+msgstr "Švedija"
+
+msgid "Switzerland"
+msgstr "Šveicarija"
+
+msgid "Target Language"
+msgstr "Tikslinė kalba"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Temperatūra"
+
+msgid "Temperature: {}"
+msgstr "Temperatūra: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatūra: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatūra: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Temperatūra: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatūra: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatūra: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Dėkojame {thanks} ir kitiems draugams už pasiūlymus"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Nuotolinė versija ({remote}) yra senesnė nei dabartinė ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Plonas viršutinis debesis"
+
+msgid "Thuringia"
+msgstr "Tiuringija"
+
+msgid "Time"
+msgstr "Laikas"
+
+msgid "Today"
+msgstr "Šiandien"
+
+msgid "Today/Tomorrow details"
+msgstr "Šiandien / rytoj detalės"
+
+msgid "Toggle legend"
+msgstr "Perjungti legendą"
+
+msgid "Token expire hours"
+msgstr "Ženklo galiojimo laikas"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Ženklo galiojimo laikas turi būti –1 arba teigiamas skaičius."
+
+msgid "Token expire hours must be a number."
+msgstr "Ženklo galiojimo laikas turi būti skaičius."
+
+msgid "Tomorrow"
+msgstr "Rytoj"
+
+msgid "Transit (culmination): {}"
+msgstr "Tranzitas (kulminacija): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Tranzito aukštis: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Tranzito aukštis: N/A"
+
+msgid "Translation Settings"
+msgstr "Vertimo nustatymai"
+
+msgid "Transparency level"
+msgstr "Skaidrumo lygis"
+
+msgid "Transparency Settings"
+msgstr "Skaidrumo nustatymai"
+
+msgid "Unhealthy"
+msgstr "Nesveika"
+
+msgid "Unhealthy for sensitives"
+msgstr "Nesveika jautriems žmonėms"
+
+msgid "Unit Settings"
+msgstr "Vieneto nustatymai"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Vieneto nustatymai (išplėstiniai)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Vieneto nustatymai (paprasti)"
+
+msgid "Unknown"
+msgstr "Nežinoma"
+
+msgid "Up"
+msgstr "Aukštyn"
+
+msgid "Up - Previous page"
+msgstr "Aukštyn – ankstesnis puslapis"
+
+msgid "Update canceled."
+msgstr "Atnaujinimas atšauktas."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Atnaujinimas baigtas. Iš naujo paleiskite „Enigma2“."
+
+msgid "Updated {}"
+msgstr "Atnaujinta {}"
+
+msgid "Updated: {}"
+msgstr "Atnaujinta: {}"
+
+msgid "Updated: N/A"
+msgstr "Atnaujinta: N/A"
+
+msgid "Updating..."
+msgstr "Atnaujinama..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Naudokite ← → norėdami pakeisti laiką | Gerai, kad išeitumėte"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Norėdami perkelti |, naudokite ←/→/↑/↓ Gerai, kad išeitumėte"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Norėdami pakeisti, naudokite ▲/▼, norėdami pasirinkti, OK"
+
+msgid "Use arrow keys to scroll"
+msgstr "Norėdami slinkti, naudokite rodyklių klavišus"
+
+msgid "Use Google Translate"
+msgstr "Naudokite Google vertėją"
+
+msgid "Using current time"
+msgstr "Naudojant esamą laiką"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV indeksas"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Labai stiprus lietus"
+
+msgid "Very high"
+msgstr "Labai aukštas"
+
+msgid "Very hot (>40°C)"
+msgstr "Labai karšta (>40°C)"
+
+msgid "Very low"
+msgstr "Labai žemas"
+
+msgid "Very unhealthy"
+msgstr "Labai nesveika"
+
+msgid "Visibility: {} m"
+msgstr "Matomumas: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Matomumas: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Mažėjantis pusmėnulis"
+
+msgid "Waning Gibbous"
+msgstr "Mažėjantis Gibbousas"
+
+msgid "Warm (20-30°C)"
+msgstr "Šiltas (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Augantis pusmėnulis"
+
+msgid "Waxing Gibbous"
+msgstr "Gibbous vaškavimas"
+
+msgid "Weather"
+msgstr "Orai"
+
+msgid "Weather Map"
+msgstr "Orų žemėlapis"
+
+msgid "Weather Maps"
+msgstr "Orų žemėlapiai"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Orų žemėlapiai (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Orų žemėlapiai ir palydovas"
+
+msgid "Weather Maps Slideshow"
+msgstr "Orų žemėlapių skaidrių demonstracija"
+
+msgid "Weather Radar"
+msgstr "Orų radaras"
+
+msgid "Weather today"
+msgstr "Oras šiandien"
+
+msgid "Weather tomorrow"
+msgstr "Oras rytoj"
+
+msgid "Weekly Forecast"
+msgstr "Savaitės prognozė"
+
+msgid "Wind"
+msgstr "Vėjas"
+
+msgid "Wind direction"
+msgstr "Vėjo kryptis"
+
+msgid "Wind Direction today"
+msgstr "Vėjo kryptis šiandien"
+
+msgid "Wind Direction tomorrow"
+msgstr "Vėjo kryptis rytoj"
+
+msgid "Wind speed"
+msgstr "Vėjo greitis"
+
+msgid "Wind speed {}"
+msgstr "Vėjo greitis {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Vėjo greitis: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Vėjas: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vėjas: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vėjas: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Vėjas: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Vėjas: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Vėjas: N/A"
+
+msgid "Window transparency"
+msgstr "Lango skaidrumas"
+
+msgid "Yellow - Favorite 2"
+msgstr "Geltona – 2 mėgstamiausia"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Jau įdiegėte {version} versiją.\nAr norite ją įdiegti iš naujo?"
+
+msgid "Zoom In"
+msgstr "Priartinti"
+
+msgid "Zoom Out"
+msgstr "Sumažinti"
+
+msgid "Zoom-"
+msgstr "Padidinti -"
+
+msgid "Zoom:"
+msgstr "Mastelio keitimas:"
+
+msgid "Zoom+"
+msgstr "Zoom+"
+

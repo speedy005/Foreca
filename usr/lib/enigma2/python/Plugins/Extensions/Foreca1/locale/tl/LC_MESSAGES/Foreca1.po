@@ -1,0 +1,1509 @@
+# tl translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tl <ekekaz@gmail.com>\n"
+"Language: tl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLUE para i-save bilang Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- para tumalon sa 500 lungsod\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• BERDE upang i-save bilang Paboritong 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK upang piliin ang lungsod\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RED para buksan ang keyboard sa paghahanap\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Gumamit ng mga arrow key upang mag-navigate\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- para tumalon ng 100 lungsod\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• DILAW upang i-save bilang Paboritong 2\n"
+
+msgid "← Frame"
+msgstr "← Frame"
+
+msgid "0 - Today"
+msgstr "0 - Ngayon"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Ngayon + 1 araw"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Ngayon + 2 araw"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Ngayon + 3 araw"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Ngayon + 4 na araw"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Ngayon + 5 araw"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Ngayon + 6 na araw"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Ngayon + 7 araw"
+
+msgid "7 Day Forecast"
+msgstr "7 Araw na Pagtataya"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Ngayon + 8 araw"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Ngayon + 9 na araw"
+
+msgid "Advanced"
+msgstr "Advanced"
+
+msgid "Advanced Unit Settings"
+msgstr "Mga Advanced na Setting ng Unit"
+
+msgid "Afternoon"
+msgstr "hapon"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Edad mula noong Bagong Buwan: {:.1f} araw"
+
+msgid "Age: N/A"
+msgstr "Edad: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Angular na diameter: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Angular na diameter: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Hindi nakita ang file ng configuration ng API!\n\nMangyaring lumikha ng file:\n{0}\n\ngamit ang iyong mga kredensyal sa Foreca API."
+
+msgid "API credentials not configured."
+msgstr "Hindi na-configure ang mga kredensyal ng API."
+
+msgid "API error"
+msgstr "error sa API"
+
+msgid "API password"
+msgstr "Password ng API"
+
+msgid "API user"
+msgstr "Gumagamit ng API"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Tila magnitude: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "Italaga sa Paborito 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Italaga sa Paborito 2"
+
+msgid "Assign to Home"
+msgstr "Italaga sa Tahanan"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Auth server"
+msgstr "Server ng pagpapatunay"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Wuerttemberg"
+
+msgid "Barometer"
+msgstr "Barometer"
+
+msgid "Bavaria"
+msgstr "Bavaria"
+
+msgid "Belgium"
+msgstr "Belgium"
+
+msgid "Berlin"
+msgstr "Berlin"
+
+msgid "Black Moon"
+msgstr "Itim na Buwan"
+
+msgid "Blue"
+msgstr "Asul"
+
+msgid "Blue - Home"
+msgstr "Asul - Tahanan"
+
+msgid "Blue Moon"
+msgstr "Blue Moon"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "Kinakalkula..."
+
+msgid "Cancel"
+msgstr "Kanselahin"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsius, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Changelog: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Nalalapat kaagad ang mga pagbabago"
+
+msgid "Check for updates"
+msgstr "Tingnan ang mga update"
+
+msgid "Choose detail view"
+msgstr "Pumili ng view ng detalye"
+
+msgid "City list file not found!"
+msgstr "Hindi nakita ang file ng listahan ng lungsod!"
+
+msgid "City Selection"
+msgstr "Pagpili ng Lungsod"
+
+msgid "City Selection Help:\n\n"
+msgstr "Tulong sa Pagpili ng Lungsod:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Linisin ang Foreca One Temp Files?"
+
+msgid "Cleanup temp files"
+msgstr "Paglilinis ng mga temp file"
+
+msgid "Clear"
+msgstr "Maaliwalas"
+
+msgid "Close"
+msgstr "Isara"
+
+msgid "Close legend"
+msgstr "Isara ang alamat"
+
+msgid "Close setup without saving"
+msgstr "Isara ang setup nang hindi nagse-save"
+
+msgid "Cloudy"
+msgstr "Maulap"
+
+msgid "Cloudy and light rain"
+msgstr "Maulap at mahinang ulan"
+
+msgid "Cloudy and light snow"
+msgstr "Maulap at mahinang niyebe"
+
+msgid "Cloudy and light wet snow"
+msgstr "Maulap at mahinang basang niyebe"
+
+msgid "Cloudy and showers"
+msgstr "Maulap at ambon"
+
+msgid "Cloudy and snow showers"
+msgstr "Maulap at pag-ulan ng niyebe"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Maulap at basang snow showers"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Maulap, pagkidlat-pagkulog na may pag-ulan"
+
+msgid "Cold (< 0°C)"
+msgstr "Malamig (< 0°C)"
+
+msgid "Color data"
+msgstr "Data ng kulay"
+
+msgid "Color legend"
+msgstr "Alamat ng kulay"
+
+msgid "Color Legend"
+msgstr "Alamat ng Kulay"
+
+msgid "Color name"
+msgstr "Pangalan ng kulay"
+
+msgid "Color select"
+msgstr "Pumili ng kulay"
+
+msgid "Color Selector"
+msgstr "Tagapili ng Kulay"
+
+msgid "Condition: {}"
+msgstr "Kundisyon: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "I-configure ang mga kredensyal ng Foreca API"
+
+msgid "Continents Weather Maps"
+msgstr "Mga Mapa ng Panahon ng Kontinente"
+
+msgid "Cool (0-10°C)"
+msgstr "Malamig (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Hindi makuha ang update na impormasyon."
+
+msgid "Could not initialize map API."
+msgstr "Hindi masimulan ang map API."
+
+msgid "Could not load forecast data"
+msgstr "Hindi ma-load ang data ng hula"
+
+msgid "Could not parse version information."
+msgstr "Hindi ma-parse ang impormasyon ng bersyon."
+
+msgid "Current weather and forecast"
+msgstr "Kasalukuyang panahon at pagtataya"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Kasalukuyang panahon at forecast para sa susunod na 10 araw"
+
+msgid "Current: {}"
+msgstr "Kasalukuyan: {}"
+
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+msgid "Data provided by Foreca"
+msgstr "Data na ibinigay ng Foreca"
+
+msgid "Date: {}"
+msgstr "Petsa: {}"
+
+msgid "Day"
+msgstr "Araw"
+
+msgid "Decrease Speed"
+msgstr "Bawasan ang Bilis"
+
+msgid "Defaults"
+msgstr "Mga Default"
+
+msgid "Denmark"
+msgstr "Denmark"
+
+msgid "Details"
+msgstr "Mga Detalye"
+
+msgid "Dewpoint {}"
+msgstr "Dewpoint {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Dewpoint {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Dewpoint: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Dewpoint: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Dewpoint: N/A"
+
+msgid "Distance"
+msgstr "Distansya"
+
+msgid "Distance {} km"
+msgstr "Distansya {} km"
+
+msgid "Distance: {}"
+msgstr "Distansya: {}"
+
+msgid "Distance: {} km"
+msgstr "Distansya: {} km"
+
+msgid "Distance: %s"
+msgstr "Distansya: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Gusto mo bang i-install ito ngayon?"
+
+msgid "Down"
+msgstr "Pababa"
+
+msgid "Down - Next page"
+msgstr "Pababa - Susunod na pahina"
+
+msgid "Download error"
+msgstr "Error sa pag-download"
+
+msgid "Downloading images..."
+msgstr "Nagda-download ng mga larawan..."
+
+msgid "Downloading tiles..."
+msgstr "Dina-download ang mga tile..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Silangang Asya"
+
+msgid "Error checking for updates."
+msgstr "Error sa pagsuri para sa mga update."
+
+msgid "Error loading data"
+msgstr "Error sa paglo-load ng data"
+
+msgid "Error loading map"
+msgstr "Error sa paglo-load ng mapa"
+
+msgid "Error loading maps. Check connection."
+msgstr "Error sa paglo-load ng mga mapa. Suriin ang koneksyon."
+
+msgid "Error saving favorite!"
+msgstr "Error sa pag-save ng paborito!"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "European Weather Maps"
+msgstr "European Weather Maps"
+
+msgid "Evening"
+msgstr "Gabi"
+
+msgid "Exit"
+msgstr "Lumabas"
+
+msgid "Exit - End"
+msgstr "Lumabas - Tapusin"
+
+msgid "Exit / Close legend"
+msgstr "Lumabas / Isara ang alamat"
+
+msgid "Extreme"
+msgstr "Extreme"
+
+msgid "Extreme / thunderstorms"
+msgstr "Matindi / bagyong may pagkulog at pagkidlat"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mph, saHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Nabigong isulat ang configuration file:\n%s"
+
+msgid "Faster: {}s"
+msgstr "Mas mabilis: {}s"
+
+msgid "Favorite 1"
+msgstr "Paborito 1"
+
+msgid "Favorite 2"
+msgstr "Paborito 2"
+
+msgid "Favorites details"
+msgstr "Mga detalye ng paborito"
+
+msgid "Favorites Details"
+msgstr "Mga Detalye ng Paborito"
+
+msgid "Feels like"
+msgstr "Parang"
+
+msgid "Feels like {}"
+msgstr "Parang {}"
+
+msgid "Feels like {}{}"
+msgstr "Parang {}{}"
+
+msgid "Feels like: {}"
+msgstr "Parang: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Parang: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Parang: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Parang: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Parang: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Parang: N/A"
+
+msgid "Finland"
+msgstr "Finland"
+
+msgid "First Quarter"
+msgstr "Unang Kwarter"
+
+msgid "Fog"
+msgstr "Ulap"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Hindi pa naka-configure ang mga kredensyal ng Foreca API. Mangyaring ilagay ang mga ito sa screen ng pag-setup."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Matagumpay na na-save ang mga setting ng Foreca API."
+
+msgid "Foreca API Setup"
+msgstr "Pag-setup ng Foreca API"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Mapa {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One Menu"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Walang nahanap na istasyon"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One Setup"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Mga Istasyon ng Foreca One: {} mga istasyon sa malapit ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Weather Forecast"
+
+msgid "Frame →"
+msgstr "Frame →"
+
+msgid "Frame: {}"
+msgstr "Frame: {}"
+
+msgid "France"
+msgstr "France"
+
+msgid "Full Moon"
+msgstr "Full Moon"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Lakas ng unos (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Mapa ng Panahon ng Estado ng Aleman"
+
+msgid "Germany"
+msgstr "Alemanya"
+
+msgid "Good"
+msgstr "Mabuti"
+
+msgid "Great Britain"
+msgstr "Great Britain"
+
+msgid "Greece"
+msgstr "Greece"
+
+msgid "Green"
+msgstr "Berde"
+
+msgid "Green - Favorite 1"
+msgstr "Berde - Paborito 1"
+
+msgid "Gust {}"
+msgstr "bugso ng hangin {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Bugso: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hamburg"
+
+msgid "Hazardous"
+msgstr "Mapanganib"
+
+msgid "Header - not selectable"
+msgstr "Header - hindi mapipili"
+
+msgid "Heavy rain"
+msgstr "Malakas na ulan"
+
+msgid "Help"
+msgstr "Tulong"
+
+msgid "Hesse"
+msgstr "Hesse"
+
+msgid "High"
+msgstr "Mataas"
+
+msgid "Home"
+msgstr "Bahay"
+
+msgid "Hot (30-40°C)"
+msgstr "Mainit (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Mga Detalye ng Oras"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Halumigmig"
+
+msgid "Humidity: {}%"
+msgstr "Halumigmig: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Halumigmig: %s%%"
+
+msgid "Hungary"
+msgstr "Hungary"
+
+msgid "Ice / frost"
+msgstr "Yelo / hamog na nagyelo"
+
+msgid "Illumination"
+msgstr "Pag-iilaw"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Pag-iilaw: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Larawan %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Larawan %(current)d/%(total)d – %(day)s (Naka-pause)"
+
+msgid "Image not available"
+msgstr "Hindi available ang larawan"
+
+msgid "Imperial System"
+msgstr "Sistemang Imperial"
+
+msgid "Increase Speed"
+msgstr "Dagdagan ang Bilis"
+
+msgid "Info"
+msgstr "Impormasyon"
+
+msgid "Info - About"
+msgstr "Impormasyon - Tungkol sa"
+
+msgid "Ireland"
+msgstr "Ireland"
+
+msgid "Italy"
+msgstr "Italya"
+
+msgid "Jump 100 down"
+msgstr "Tumalon ng 100 pababa"
+
+msgid "Jump 100 up"
+msgstr "Tumalon ng 100 pataas"
+
+msgid "Jump 500 down"
+msgstr "Tumalon ng 500 pababa"
+
+msgid "Jump 500 up"
+msgstr "Tumalon ng 500 pataas"
+
+msgid "Keyboard"
+msgstr "Keyboard"
+
+msgid "Last Quarter"
+msgstr "Last Quarter"
+
+msgid "Last update"
+msgstr "Huling update"
+
+msgid "Latvia"
+msgstr "Latvia"
+
+msgid "Left - Previous day"
+msgstr "Kaliwa - Nakaraang araw"
+
+msgid "Left arrow - Previous day"
+msgstr "Kaliwang arrow - Nakaraang araw"
+
+msgid "Light (0-20 km/h)"
+msgstr "Banayad (0-20 km/h)"
+
+msgid "Light rain / drizzle"
+msgstr "Banayad na ulan / ambon"
+
+msgid "Light to moderate"
+msgstr "Banayad hanggang katamtaman"
+
+msgid "Loading available maps..."
+msgstr "Nilo-load ang mga available na mapa..."
+
+msgid "Loading lunar phases..."
+msgstr "Nilo-load ang mga yugto ng buwan..."
+
+msgid "Loading nearby stations..."
+msgstr "Naglo-load ng mga kalapit na istasyon..."
+
+msgid "Loading tiles..."
+msgstr "Naglo-load ng mga tile..."
+
+msgid "Loading weekly forecast..."
+msgstr "Nilo-load ang lingguhang hula..."
+
+msgid "Loading..."
+msgstr "Naglo-load..."
+
+msgid "Low"
+msgstr "Mababa"
+
+msgid "Lower Saxony"
+msgstr "Lower Saxony"
+
+msgid "Lunar Calendar"
+msgstr "Lunar Calendar"
+
+msgid "Lunar phases from next month"
+msgstr "Lunar phase mula sa susunod na buwan"
+
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgid "Magnitude: N/A"
+msgstr "Magnitude: N/A"
+
+msgid "Map {} selected"
+msgstr "Mapa {} ang napili"
+
+msgid "Map & Tiles Loaded"
+msgstr "Na-load ang Mapa at Mga Tile"
+
+msgid "Map loaded"
+msgstr "Na-load ang mapa"
+
+msgid "Map server"
+msgstr "Server ng mapa"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Mecklenburg-Vorpommern"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Menu - Settings"
+msgstr "Menu - Mga Setting"
+
+msgid "Merge failed"
+msgstr "Nabigo ang pagsasama"
+
+msgid "Meteogram"
+msgstr "Meteogram"
+
+msgid "Metric System"
+msgstr "Sistema ng Sukatan"
+
+msgid "Middle America"
+msgstr "Gitnang Amerika"
+
+msgid "Middle Asia"
+msgstr "Gitnang Asya"
+
+msgid "Middle East"
+msgstr "Gitnang Silangan"
+
+msgid "Mild (10-20°C)"
+msgstr "Banayad (10-20°C)"
+
+msgid "Moderate"
+msgstr "Katamtaman"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Katamtaman (20-40 km/h)"
+
+msgid "Moderate rain"
+msgstr "Katamtamang ulan"
+
+msgid "Month"
+msgstr "buwan"
+
+msgid "Moon details"
+msgstr "Mga detalye ng buwan"
+
+msgid "Moon Details"
+msgstr "Mga Detalye ng Buwan"
+
+msgid "Moonrise: {}"
+msgstr "Pagsikat ng buwan: {}"
+
+msgid "Moonset: {}"
+msgstr "Paglubog ng buwan: {}"
+
+msgid "Morning"
+msgstr "Umaga"
+
+msgid "Mostly clear"
+msgstr "Karamihan malinaw"
+
+msgid "Move down"
+msgstr "Ilipat pababa"
+
+msgid "Move Down"
+msgstr "Ilipat Pababa"
+
+msgid "Move up"
+msgstr "Umakyat"
+
+msgid "Move Up"
+msgstr "Move Up"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Netherlands"
+msgstr "Netherlands"
+
+msgid "New Moon"
+msgstr "Bagong Buwan"
+
+msgid "New version {version} is available."
+msgstr "Available ang bagong bersyon {version}."
+
+msgid "Next"
+msgstr "Susunod"
+
+msgid "Next frame"
+msgstr "Susunod na frame"
+
+msgid "Next Image"
+msgstr "Susunod na Larawan"
+
+msgid "Next page"
+msgstr "Susunod na pahina"
+
+msgid "Next time"
+msgstr "Sa susunod"
+
+msgid "No city selected"
+msgstr "Walang napiling lungsod"
+
+msgid "No data"
+msgstr "Walang data"
+
+msgid "No date available"
+msgstr "Walang available na petsa"
+
+msgid "No Internet connection detected."
+msgstr "Walang natukoy na koneksyon sa Internet."
+
+msgid "No location selected"
+msgstr "Walang napiling lokasyon"
+
+msgid "No OSM tiles"
+msgstr "Walang OSM tile"
+
+msgid "No specific legend available."
+msgstr "Walang available na partikular na alamat."
+
+msgid "No station data"
+msgstr "Walang data ng istasyon"
+
+msgid "No station data available"
+msgstr "Walang available na data ng istasyon"
+
+msgid "No stations found"
+msgstr "Walang nahanap na istasyon"
+
+msgid "No tiles downloaded"
+msgstr "Walang na-download na tile"
+
+msgid "North Africa"
+msgstr "Hilagang Africa"
+
+msgid "North America"
+msgstr "Hilagang Amerika"
+
+msgid "North Rhine-Westphalia"
+msgstr "Hilagang Rhine-Westphalia"
+
+msgid "Norway"
+msgstr "Norway"
+
+msgid "Ok - Details"
+msgstr "Ok - Mga Detalye"
+
+msgid "OK - Ext Info"
+msgstr "OK - Ext Info"
+
+msgid "OK - Forecast"
+msgstr "OK - Pagtataya"
+
+msgid "OK - Open Map"
+msgstr "OK - Buksan ang Mapa"
+
+msgid "Open Keyboard"
+msgstr "Buksan ang Keyboard"
+
+msgid "Open Map"
+msgstr "Buksan ang Mapa"
+
+msgid "Original design and idea by %s"
+msgstr "Orihinal na disenyo at ideya ni %s"
+
+msgid "Overcast"
+msgstr "maulap"
+
+msgid "Overcast and light rain"
+msgstr "Makulimlim at mahinang ulan"
+
+msgid "Overcast and light snow"
+msgstr "Makulimlim at mahinang niyebe"
+
+msgid "Overcast and light wet snow"
+msgstr "Maulap at mahinang basang niyebe"
+
+msgid "Overcast and rain"
+msgstr "Maulap at ulan"
+
+msgid "Overcast and showers"
+msgstr "Maulap at ambon"
+
+msgid "Overcast and snow"
+msgstr "Makulimlim at niyebe"
+
+msgid "Overcast and snow showers"
+msgstr "Makulimlim at pag-ulan ng niyebe"
+
+msgid "Overcast and wet snow"
+msgstr "Maulap at basang niyebe"
+
+msgid "Overcast and wet snow showers"
+msgstr "Maulap at basang snow showers"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Maulap, pagkidlat-pagkulog na may kasamang ulan"
+
+msgid "Overnight"
+msgstr "Magdamag"
+
+msgid "Page down"
+msgstr "pahina pababa"
+
+msgid "Page Down"
+msgstr "Pababa ng Pahina"
+
+msgid "Page up"
+msgstr "Itaas ang pahina"
+
+msgid "Page Up"
+msgstr "Itaas ang Pahina"
+
+msgid "Pan down"
+msgstr "I-pan pababa"
+
+msgid "Pan left"
+msgstr "Pan kaliwa"
+
+msgid "Pan right"
+msgstr "I-pan kanan"
+
+msgid "Pan up"
+msgstr "I-pan up"
+
+msgid "Partly cloudy"
+msgstr "Bahagyang maulap"
+
+msgid "Partly cloudy and light rain"
+msgstr "Bahagyang maulap at mahinang ulan"
+
+msgid "Partly cloudy and light snow"
+msgstr "Bahagyang maulap at mahinang snow"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Bahagyang maulap at mahinang basang snow"
+
+msgid "Partly cloudy and showers"
+msgstr "Bahagyang maulap at ambon"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Bahagyang maulap at pag-ulan ng niyebe"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Bahagyang maulap at basang pag-ulan ng niyebe"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Bahagyang maulap, posibleng mga pagkidlat-pagkulog na may pag-ulan"
+
+msgid "Perigee"
+msgstr "Perigee"
+
+msgid "Phase"
+msgstr "Phase"
+
+msgid "Phase: {}"
+msgstr "Yugto: {}"
+
+msgid "Play/Pause"
+msgstr "I-play/I-pause"
+
+msgid "Please enter both API user and API password."
+msgstr "Mangyaring ipasok ang parehong API user at API password."
+
+msgid "Please wait ..."
+msgstr "Mangyaring maghintay ..."
+
+msgid "Poland"
+msgstr "Poland"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Precipitation"
+msgstr "Pag-ulan"
+
+msgid "Precipitation: {}"
+msgstr "Pag-ulan: {}"
+
+msgid "Precipitations"
+msgstr "Mga pag-ulan"
+
+msgid "Precipitations: {}%"
+msgstr "Mga pag-ulan: {}%"
+
+msgid "Press RED to search again"
+msgstr "Pindutin ang RED para maghanap muli"
+
+msgid "Pressure"
+msgstr "Presyon"
+
+msgid "Pressure: {}"
+msgstr "Presyon: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Presyon: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Presyon: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Presyon: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Presyon: N/A"
+
+msgid "Prev"
+msgstr "Nakaraan"
+
+msgid "Previous"
+msgstr "Nakaraang"
+
+msgid "Previous frame"
+msgstr "Nakaraang frame"
+
+msgid "Previous Image"
+msgstr "Nakaraang Larawan"
+
+msgid "Previous page"
+msgstr "Nakaraang pahina"
+
+msgid "Previous time"
+msgstr "Nakaraang panahon"
+
+msgid "Rain Prob."
+msgstr "Ulan Prob."
+
+msgid "Rain prob. {}%"
+msgstr "Ulan prob. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Problema sa ulan: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Ulan: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "Radar ng RainViewer"
+
+msgid "Red"
+msgstr "Pula"
+
+msgid "Red - Color select"
+msgstr "Pula - Pumili ng kulay"
+
+msgid "Refresh"
+msgstr "I-refresh"
+
+msgid "Restore default server values"
+msgstr "Ibalik ang mga default na halaga ng server"
+
+msgid "Rhineland-Palatine"
+msgstr "Rhineland-Palatine"
+
+msgid "Right - Next day"
+msgstr "Tama - Sa susunod na araw"
+
+msgid "Right arrow - Next day"
+msgstr "Kanang arrow - Sa susunod na araw"
+
+msgid "Rise"
+msgstr "Bumangon"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Rise azimuth: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Rise azimuth: N/A"
+
+msgid "Russia"
+msgstr "Russia"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saarland"
+
+msgid "Satellite Photos"
+msgstr "Mga Larawan ng Satellite"
+
+msgid "Satellite photos coming soon!"
+msgstr "Paparating na ang mga satellite na larawan!"
+
+msgid "Save"
+msgstr "I-save"
+
+msgid "Save API settings"
+msgstr "I-save ang mga setting ng API"
+
+msgid "Save translation settings"
+msgstr "I-save ang mga setting ng pagsasalin"
+
+msgid "Saxony"
+msgstr "Saxony"
+
+msgid "Saxony-Anhalt"
+msgstr "Saxony-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+msgid "Scraped"
+msgstr "Kinamot"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Maghanap muna sa online, kung nabigo ay gumagamit ng lokal na listahan."
+
+msgid "Search your City"
+msgstr "Hanapin ang iyong Lungsod"
+
+msgid "Select"
+msgstr "Pumili"
+
+msgid "Select {} unit"
+msgstr "Piliin ang {} unit"
+
+msgid "Select a city"
+msgstr "Pumili ng lungsod"
+
+msgid "Select a map with OK"
+msgstr "Pumili ng mapa na may OK"
+
+msgid "Select Region"
+msgstr "Piliin ang Rehiyon"
+
+msgid "Select unit system"
+msgstr "Piliin ang sistema ng yunit"
+
+msgid "Select wind unit"
+msgstr "Pumili ng yunit ng hangin"
+
+msgid "Selected hour details"
+msgstr "Mga napiling detalye ng oras"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Itakda ang azimuth: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Itakda ang azimuth: N/A"
+
+msgid "Sets"
+msgstr "Mga set"
+
+msgid "Show info"
+msgstr "Ipakita ang impormasyon"
+
+msgid "Showers"
+msgstr "Mga shower"
+
+msgid "Slovakia"
+msgstr "Slovakia"
+
+msgid "Slower: {}s"
+msgstr "Mas mabagal: {}s"
+
+msgid "Snow / ice"
+msgstr "Niyebe / yelo"
+
+msgid "Snow prob. {}%"
+msgstr "Snow prob. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Snow prob.: N/A"
+
+msgid "South Africa"
+msgstr "South Africa"
+
+msgid "South America"
+msgstr "Timog Amerika"
+
+msgid "Southeast Asia"
+msgstr "Timog-silangang Asya"
+
+msgid "Spain"
+msgstr "Espanya"
+
+msgid "Station Observations"
+msgstr "Mga Obserbasyon sa Istasyon"
+
+msgid "Station: {}"
+msgstr "Istasyon: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Malakas (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "pagsikat ng araw"
+
+msgid "Sunset"
+msgstr "Paglubog ng araw"
+
+msgid "Super Full Moon"
+msgstr "Super Full Moon"
+
+msgid "Sweden"
+msgstr "Sweden"
+
+msgid "Switzerland"
+msgstr "Switzerland"
+
+msgid "Target Language"
+msgstr "Target na Wika"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgid "Temperature: {}"
+msgstr "Temperatura: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatura: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatura: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Temperatura: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatura: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatura: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Salamat {thanks} at iba pang mga kaibigan para sa mga mungkahi"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Ang malayuang bersyon ({remote}) ay mas luma kaysa sa kasalukuyang ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Manipis na ulap sa itaas"
+
+msgid "Thuringia"
+msgstr "Thuringia"
+
+msgid "Time"
+msgstr "Oras"
+
+msgid "Today"
+msgstr "Ngayong araw"
+
+msgid "Today/Tomorrow details"
+msgstr "Mga detalye ngayon/Bukas"
+
+msgid "Toggle legend"
+msgstr "I-toggle ang alamat"
+
+msgid "Token expire hours"
+msgstr "Mga oras na mawawalan ng bisa ang token"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Ang mga oras ng pag-expire ng token ay dapat na -1 o isang positibong numero."
+
+msgid "Token expire hours must be a number."
+msgstr "Ang mga oras ng pag-expire ng token ay dapat isang numero."
+
+msgid "Tomorrow"
+msgstr "Bukas"
+
+msgid "Transit (culmination): {}"
+msgstr "Transit (kulminasyon): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Altitude ng transit: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Altitude ng transit: N/A"
+
+msgid "Translation Settings"
+msgstr "Mga Setting ng Pagsasalin"
+
+msgid "Transparency level"
+msgstr "Antas ng transparency"
+
+msgid "Transparency Settings"
+msgstr "Mga Setting ng Transparency"
+
+msgid "Unhealthy"
+msgstr "Hindi malusog"
+
+msgid "Unhealthy for sensitives"
+msgstr "Hindi malusog para sa mga sensitibo"
+
+msgid "Unit Settings"
+msgstr "Mga Setting ng Unit"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Mga Setting ng Unit (Advanced)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Mga Setting ng Unit (Simple)"
+
+msgid "Unknown"
+msgstr "Hindi kilala"
+
+msgid "Up"
+msgstr "pataas"
+
+msgid "Up - Previous page"
+msgstr "Pataas - Nakaraang pahina"
+
+msgid "Update canceled."
+msgstr "Kinansela ang pag-update."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Nakumpleto ang pag-update. Paki-restart ang Enigma2."
+
+msgid "Updated {}"
+msgstr "Na-update {}"
+
+msgid "Updated: {}"
+msgstr "Na-update: {}"
+
+msgid "Updated: N/A"
+msgstr "Na-update: N/A"
+
+msgid "Updating..."
+msgstr "Ina-update..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Gamitin ang ← → upang baguhin ang oras | OK na lumabas"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Gamitin ang ←/→/↑/↓ upang ilipat | OK na lumabas"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Gamitin ang ▲/▼ para baguhin, OK para pumili"
+
+msgid "Use arrow keys to scroll"
+msgstr "Gumamit ng mga arrow key para mag-scroll"
+
+msgid "Use Google Translate"
+msgstr "Gamitin ang Google Translate"
+
+msgid "Using current time"
+msgstr "Gamit ang kasalukuyang oras"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV Index"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Napakalakas ng ulan"
+
+msgid "Very high"
+msgstr "Napakataas"
+
+msgid "Very hot (>40°C)"
+msgstr "Napakainit (>40°C)"
+
+msgid "Very low"
+msgstr "Napakababa"
+
+msgid "Very unhealthy"
+msgstr "Napaka-unhealthy"
+
+msgid "Visibility: {} m"
+msgstr "Visibility: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Visibility: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Waning Crescent"
+
+msgid "Waning Gibbous"
+msgstr "Waning Gibbous"
+
+msgid "Warm (20-30°C)"
+msgstr "Mainit (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Waxing Crescent"
+
+msgid "Waxing Gibbous"
+msgstr "Waxing Gibbous"
+
+msgid "Weather"
+msgstr "Panahon"
+
+msgid "Weather Map"
+msgstr "Mapa ng Panahon"
+
+msgid "Weather Maps"
+msgstr "Mapa ng Panahon"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Mapa ng Panahon (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Weather Maps at Satellite"
+
+msgid "Weather Maps Slideshow"
+msgstr "Slideshow ng Weather Maps"
+
+msgid "Weather Radar"
+msgstr "Radar ng Panahon"
+
+msgid "Weather today"
+msgstr "Panahon ngayon"
+
+msgid "Weather tomorrow"
+msgstr "Lagay ng panahon bukas"
+
+msgid "Weekly Forecast"
+msgstr "Lingguhang Pagtataya"
+
+msgid "Wind"
+msgstr "Hangin"
+
+msgid "Wind direction"
+msgstr "direksyon ng hangin"
+
+msgid "Wind Direction today"
+msgstr "Direksyon ng Hangin ngayon"
+
+msgid "Wind Direction tomorrow"
+msgstr "Direksyon ng Hangin bukas"
+
+msgid "Wind speed"
+msgstr "Ang bilis ng hangin"
+
+msgid "Wind speed {}"
+msgstr "Bilis ng hangin {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Bilis ng hangin: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Hangin: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Hangin: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Hangin: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Hangin: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Hangin: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Hangin: N/A"
+
+msgid "Window transparency"
+msgstr "Transparency ng bintana"
+
+msgid "Yellow - Favorite 2"
+msgstr "Dilaw - Paborito 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Mayroon ka nang bersyong {version} na naka-install.\nGusto mo bang muling i-install ito?"
+
+msgid "Zoom In"
+msgstr "Mag-zoom In"
+
+msgid "Zoom Out"
+msgstr "Mag-zoom Out"
+
+msgid "Zoom-"
+msgstr "Mag-zoom-"
+
+msgid "Zoom:"
+msgstr "Mag-zoom:"
+
+msgid "Zoom+"
+msgstr "Mag-zoom+"
+

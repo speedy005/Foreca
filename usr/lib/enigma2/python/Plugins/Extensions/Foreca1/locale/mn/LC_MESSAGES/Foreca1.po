@@ -1,0 +1,1509 @@
+# mn translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: mn <ekekaz@gmail.com>\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} цаг {mins} мин"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• Home\n болгон хадгалах бол ЦЭНХЭР\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 хот руу үсрэх \n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• Дуртай 1\n болгон хадгалахын тулд НОГООН\n"
+
+msgid "• OK to select city\n"
+msgstr "• City\n сонгох бол OK\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• Хайлтын гарыг \n нээхийн тулд УЛААН\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• \n руу шилжихийн тулд сум товчийг ашиглана уу\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• 100 хот руу үсрэхийн тулд VOL+/VOL-.\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• Дуртай 2\n болгон хадгалахын тулд ШАР\n"
+
+msgid "← Frame"
+msgstr "← Хүрээ"
+
+msgid "0 - Today"
+msgstr "0 - Өнөөдөр"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Өнөөдөр + 1 өдөр"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Өнөөдөр + 2 өдөр"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Өнөөдөр + 3 өдөр"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Өнөөдөр + 4 өдөр"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Өнөөдөр + 5 хоног"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Өнөөдөр + 6 өдөр"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Өнөөдөр + 7 хоног"
+
+msgid "7 Day Forecast"
+msgstr "7 хоногийн урьдчилсан мэдээ"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Өнөөдөр + 8 хоног"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Өнөөдөр + 9 хоног"
+
+msgid "Advanced"
+msgstr "Дэвшилтэт"
+
+msgid "Advanced Unit Settings"
+msgstr "Нэгжийн нарийвчилсан тохиргоо"
+
+msgid "Afternoon"
+msgstr "Үдээс хойш"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Сар шинийн үеэс хойшхи нас: {:.1f} хоног"
+
+msgid "Age: N/A"
+msgstr "Нас: Үгүй"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Өнцгийн диаметр: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Өнцгийн диаметр: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API тохиргооны файл олдсонгүй!\n\n Өөрийн Foreca API итгэмжлэлээр файл үүсгэнэ үү:\n{0}\n\n."
+
+msgid "API credentials not configured."
+msgstr "API итгэмжлэлүүдийг тохируулаагүй байна."
+
+msgid "API error"
+msgstr "API алдаа"
+
+msgid "API password"
+msgstr "API нууц үг"
+
+msgid "API user"
+msgstr "API хэрэглэгч"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Харагдах хэмжээ: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Үгүй"
+
+msgid "Assign to Favorite 1"
+msgstr "Дуртай 1-д оноох"
+
+msgid "Assign to Favorite 2"
+msgstr "Дуртай 2-т оноох"
+
+msgid "Assign to Home"
+msgstr "Гэрт хуваарилах"
+
+msgid "Australia"
+msgstr "Австрали"
+
+msgid "Austria"
+msgstr "Австри"
+
+msgid "Auth server"
+msgstr "Auth сервер"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Баден-Вюртемберг"
+
+msgid "Barometer"
+msgstr "Барометр"
+
+msgid "Bavaria"
+msgstr "Бавари"
+
+msgid "Belgium"
+msgstr "Бельги"
+
+msgid "Berlin"
+msgstr "Берлин"
+
+msgid "Black Moon"
+msgstr "Хар сар"
+
+msgid "Blue"
+msgstr "Цэнхэр"
+
+msgid "Blue - Home"
+msgstr "Цэнхэр - Гэр"
+
+msgid "Blue Moon"
+msgstr "Цэнхэр сар"
+
+msgid "Brandenburg"
+msgstr "Бранденбург"
+
+msgid "Bremen"
+msgstr "Бремен"
+
+msgid "Calculating..."
+msgstr "Тооцож байна..."
+
+msgid "Cancel"
+msgstr "Цуцлах"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Цельсийн хэм, км/цаг, гПа"
+
+msgid "Changelog: {changelog}"
+msgstr "Өөрчлөлтийн бүртгэл: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Өөрчлөлтүүд нэн даруй хэрэгжинэ"
+
+msgid "Check for updates"
+msgstr "Шинэчлэлт байгаа эсэхийг шалгана уу"
+
+msgid "Choose detail view"
+msgstr "Нарийвчилсан харагдацыг сонгоно уу"
+
+msgid "City list file not found!"
+msgstr "Хотын жагсаалтын файл олдсонгүй!"
+
+msgid "City Selection"
+msgstr "Хотын сонголт"
+
+msgid "City Selection Help:\n\n"
+msgstr "Хот сонгох тусламж:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Foreca One Temp файлуудыг цэвэрлэх үү?"
+
+msgid "Cleanup temp files"
+msgstr "Түр файлуудыг цэвэрлэх"
+
+msgid "Clear"
+msgstr "Тодорхой"
+
+msgid "Close"
+msgstr "Хаах"
+
+msgid "Close legend"
+msgstr "Хаах домог"
+
+msgid "Close setup without saving"
+msgstr "Тохиргоог хадгалахгүйгээр хаах"
+
+msgid "Cloudy"
+msgstr "Үүлэрхэг"
+
+msgid "Cloudy and light rain"
+msgstr "Үүлэрхэг, бага зэргийн бороо орно"
+
+msgid "Cloudy and light snow"
+msgstr "Үүлэрхэг, бага зэргийн цас орно"
+
+msgid "Cloudy and light wet snow"
+msgstr "Үүлэрхэг, бага зэргийн нойтон цас орно"
+
+msgid "Cloudy and showers"
+msgstr "Үүлэрхэг, бороо орно"
+
+msgid "Cloudy and snow showers"
+msgstr "Үүлэрхэг, цасан шуурга шуурна"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Үүлэрхэг, нойтон цас орно"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Үүлэрхэг, аадар бороо орно"
+
+msgid "Cold (< 0°C)"
+msgstr "Хүйтэн (< 0°C)"
+
+msgid "Color data"
+msgstr "Өнгөний өгөгдөл"
+
+msgid "Color legend"
+msgstr "Өнгөний домог"
+
+msgid "Color Legend"
+msgstr "Өнгөний домог"
+
+msgid "Color name"
+msgstr "Өнгөний нэр"
+
+msgid "Color select"
+msgstr "Өнгө сонгох"
+
+msgid "Color Selector"
+msgstr "Өнгө сонгогч"
+
+msgid "Condition: {}"
+msgstr "Нөхцөл: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API итгэмжлэлийг тохируулах"
+
+msgid "Continents Weather Maps"
+msgstr "Тивүүдийн цаг агаарын газрын зураг"
+
+msgid "Cool (0-10°C)"
+msgstr "Хөргөх (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Шинэчлэлийн мэдээллийг авч чадсангүй."
+
+msgid "Could not initialize map API."
+msgstr "Газрын зургийн API-г эхлүүлж чадсангүй."
+
+msgid "Could not load forecast data"
+msgstr "Урьдчилсан мэдээг ачаалж чадсангүй"
+
+msgid "Could not parse version information."
+msgstr "Хувилбарын мэдээллийг задлан шинжилж чадсангүй."
+
+msgid "Current weather and forecast"
+msgstr "Одоогийн цаг агаар, урьдчилсан мэдээ"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Одоогийн цаг агаар, ойрын 10 хоногийн урьдчилсан мэдээ"
+
+msgid "Current: {}"
+msgstr "Одоогийн: {}"
+
+msgid "Czech Republic"
+msgstr "Чех"
+
+msgid "Data provided by Foreca"
+msgstr "Foreca-аас өгсөн өгөгдөл"
+
+msgid "Date: {}"
+msgstr "Огноо: {}"
+
+msgid "Day"
+msgstr "Өдөр"
+
+msgid "Decrease Speed"
+msgstr "Хурд бууруулах"
+
+msgid "Defaults"
+msgstr "Өгөгдмөл"
+
+msgid "Denmark"
+msgstr "Дани"
+
+msgid "Details"
+msgstr "Дэлгэрэнгүй мэдээлэл"
+
+msgid "Dewpoint {}"
+msgstr "Шүүдэр цэг {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Шүүдэр цэг {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Шүүдэр цэг: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Шүүдэр цэг: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Шүүдэр цэг: Үгүй"
+
+msgid "Distance"
+msgstr "Зай"
+
+msgid "Distance {} km"
+msgstr "Зай {} км"
+
+msgid "Distance: {}"
+msgstr "Зай: {}"
+
+msgid "Distance: {} km"
+msgstr "Зай: {} км"
+
+msgid "Distance: %s"
+msgstr "Зай: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Та үүнийг одоо суулгахыг хүсч байна уу?"
+
+msgid "Down"
+msgstr "Доош"
+
+msgid "Down - Next page"
+msgstr "Доош - Дараагийн хуудас"
+
+msgid "Download error"
+msgstr "Татаж авах алдаа"
+
+msgid "Downloading images..."
+msgstr "Зургийг татаж байна..."
+
+msgid "Downloading tiles..."
+msgstr "Хавтанг татаж байна..."
+
+msgid "E"
+msgstr "Э"
+
+msgid "East Asia"
+msgstr "Зүүн Ази"
+
+msgid "Error checking for updates."
+msgstr "Шинэчлэлтүүдийг шалгахад алдаа гарлаа."
+
+msgid "Error loading data"
+msgstr "Өгөгдлийг ачаалахад алдаа гарлаа"
+
+msgid "Error loading map"
+msgstr "Газрын зургийг ачаалахад алдаа гарлаа"
+
+msgid "Error loading maps. Check connection."
+msgstr "Газрын зургийг ачаалахад алдаа гарлаа. Холболтыг шалгана уу."
+
+msgid "Error saving favorite!"
+msgstr "Дуртайг хадгалахад алдаа гарлаа!"
+
+msgid "Europe"
+msgstr "Европ"
+
+msgid "European Weather Maps"
+msgstr "Европын цаг агаарын газрын зураг"
+
+msgid "Evening"
+msgstr "Орой"
+
+msgid "Exit"
+msgstr "Гарах"
+
+msgid "Exit - End"
+msgstr "Гарах - Төгсгөл"
+
+msgid "Exit / Close legend"
+msgstr "Гарах / Домог хаах"
+
+msgid "Extreme"
+msgstr "Хэт их"
+
+msgid "Extreme / thunderstorms"
+msgstr "Хүчтэй аадар бороо"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Фаренгейт, миль цаг, Hg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Тохируулгын файлыг бичиж чадсангүй:\n%s"
+
+msgid "Faster: {}s"
+msgstr "Илүү хурдан: {}с"
+
+msgid "Favorite 1"
+msgstr "Дуртай 1"
+
+msgid "Favorite 2"
+msgstr "Дуртай 2"
+
+msgid "Favorites details"
+msgstr "Дуртай дэлгэрэнгүй мэдээлэл"
+
+msgid "Favorites Details"
+msgstr "Дуртай зүйлсийн дэлгэрэнгүй мэдээлэл"
+
+msgid "Feels like"
+msgstr "санагдаж байна"
+
+msgid "Feels like {}"
+msgstr "{} шиг санагдаж байна"
+
+msgid "Feels like {}{}"
+msgstr "{}{} шиг санагдаж байна"
+
+msgid "Feels like: {}"
+msgstr "Санаж байна: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Санаж байна: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Санаж байна: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Санаж байна: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Санаж байна: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Санаж байна: Үгүй"
+
+msgid "Finland"
+msgstr "Финланд"
+
+msgid "First Quarter"
+msgstr "Эхний улирал"
+
+msgid "Fog"
+msgstr "Манан"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API итгэмжлэлүүдийг хараахан тохируулаагүй байна. Тэдгээрийг тохиргооны дэлгэцэнд оруулна уу."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API тохиргоог амжилттай хадгаллаа."
+
+msgid "Foreca API Setup"
+msgstr "Foreca API тохиргоо"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Газрын зураг {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One цэс"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Ямар ч станц олдсонгүй"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One тохиргоо"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One станцууд: ойролцоох {} буудал ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One цаг агаарын урьдчилсан мэдээ"
+
+msgid "Frame →"
+msgstr "Хүрээ →"
+
+msgid "Frame: {}"
+msgstr "Хүрээ: {}"
+
+msgid "France"
+msgstr "Франц"
+
+msgid "Full Moon"
+msgstr "Бүтэн сар"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Хар салхины хүч (>60 км/цаг)"
+
+msgid "German States Weather Maps"
+msgstr "Германы муж улсын цаг агаарын газрын зураг"
+
+msgid "Germany"
+msgstr "Герман"
+
+msgid "Good"
+msgstr "Сайн байна"
+
+msgid "Great Britain"
+msgstr "Их Британи"
+
+msgid "Greece"
+msgstr "Грек"
+
+msgid "Green"
+msgstr "Ногоон"
+
+msgid "Green - Favorite 1"
+msgstr "Ногоон - Дуртай 1"
+
+msgid "Gust {}"
+msgstr "Шуурхай {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Шуурхай: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Гамбург"
+
+msgid "Hazardous"
+msgstr "Аюултай"
+
+msgid "Header - not selectable"
+msgstr "Толгой хэсэг - сонгох боломжгүй"
+
+msgid "Heavy rain"
+msgstr "Хүчтэй бороо"
+
+msgid "Help"
+msgstr "Туслаач"
+
+msgid "Hesse"
+msgstr "Хэссе"
+
+msgid "High"
+msgstr "Өндөр"
+
+msgid "Home"
+msgstr "Гэр"
+
+msgid "Hot (30-40°C)"
+msgstr "Халуун (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Цагийн дэлгэрэнгүй мэдээлэл"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Чийгшил"
+
+msgid "Humidity: {}%"
+msgstr "Чийгшил: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Чийгшил: %s%%"
+
+msgid "Hungary"
+msgstr "Унгар"
+
+msgid "Ice / frost"
+msgstr "Мөс / хяруу"
+
+msgid "Illumination"
+msgstr "Гэрэлтүүлэг"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Гэрэлтүүлэг: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Зураг %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Зураг %(current)d/%(total)d – %(day)s (түр зогсоосон)"
+
+msgid "Image not available"
+msgstr "Зураг байхгүй байна"
+
+msgid "Imperial System"
+msgstr "Эзэн хааны систем"
+
+msgid "Increase Speed"
+msgstr "Хурд нэмэгдүүлэх"
+
+msgid "Info"
+msgstr "Мэдээлэл"
+
+msgid "Info - About"
+msgstr "Мэдээлэл - тухай"
+
+msgid "Ireland"
+msgstr "Ирланд"
+
+msgid "Italy"
+msgstr "Итали"
+
+msgid "Jump 100 down"
+msgstr "100 доошоо харай"
+
+msgid "Jump 100 up"
+msgstr "100 дээш харай"
+
+msgid "Jump 500 down"
+msgstr "500 доошоо үсэр"
+
+msgid "Jump 500 up"
+msgstr "500 дээш үсрэх"
+
+msgid "Keyboard"
+msgstr "Гар"
+
+msgid "Last Quarter"
+msgstr "Өнгөрсөн улирал"
+
+msgid "Last update"
+msgstr "Сүүлийн шинэчлэл"
+
+msgid "Latvia"
+msgstr "Латви"
+
+msgid "Left - Previous day"
+msgstr "Зүүн - өмнөх өдөр"
+
+msgid "Left arrow - Previous day"
+msgstr "Зүүн сум - Өмнөх өдөр"
+
+msgid "Light (0-20 km/h)"
+msgstr "Хөнгөн (0-20 км/ц)"
+
+msgid "Light rain / drizzle"
+msgstr "Бага зэргийн бороо / шиврээ бороо"
+
+msgid "Light to moderate"
+msgstr "Хөнгөн ба дунд зэрэг"
+
+msgid "Loading available maps..."
+msgstr "Боломжтой газрын зургийг ачаалж байна..."
+
+msgid "Loading lunar phases..."
+msgstr "Сарны үе шатуудыг ачаалж байна..."
+
+msgid "Loading nearby stations..."
+msgstr "Ойролцоох буудлуудыг ачаалж байна..."
+
+msgid "Loading tiles..."
+msgstr "Хавтанг ачаалж байна..."
+
+msgid "Loading weekly forecast..."
+msgstr "Долоо хоног тутмын урьдчилсан мэдээг ачаалж байна..."
+
+msgid "Loading..."
+msgstr "Ачааж байна..."
+
+msgid "Low"
+msgstr "Бага"
+
+msgid "Lower Saxony"
+msgstr "Доод Саксони"
+
+msgid "Lunar Calendar"
+msgstr "Сарны хуанли"
+
+msgid "Lunar phases from next month"
+msgstr "Ирэх сараас сарны үе шатууд"
+
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+msgid "Magnitude: N/A"
+msgstr "Хэмжээ: Үгүй"
+
+msgid "Map {} selected"
+msgstr "Газрын зураг {}-г сонгосон"
+
+msgid "Map & Tiles Loaded"
+msgstr "Газрын зураг, хавтан ачаалагдсан"
+
+msgid "Map loaded"
+msgstr "Газрын зураг ачаалагдсан"
+
+msgid "Map server"
+msgstr "Газрын зургийн сервер"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Мекленбург-Ард Поммерн"
+
+msgid "Menu"
+msgstr "Цэс"
+
+msgid "Menu - Settings"
+msgstr "Цэс - Тохиргоо"
+
+msgid "Merge failed"
+msgstr "Нэгтгэж чадсангүй"
+
+msgid "Meteogram"
+msgstr "Метеограмм"
+
+msgid "Metric System"
+msgstr "Метрийн систем"
+
+msgid "Middle America"
+msgstr "Дундад Америк"
+
+msgid "Middle Asia"
+msgstr "Дундад Ази"
+
+msgid "Middle East"
+msgstr "Ойрхи Дорнод"
+
+msgid "Mild (10-20°C)"
+msgstr "Зөөлөн (10-20°C)"
+
+msgid "Moderate"
+msgstr "Дунд зэрэг"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Дунд зэрэг (20-40 км/ц)"
+
+msgid "Moderate rain"
+msgstr "Дунд зэргийн бороо"
+
+msgid "Month"
+msgstr "Сар"
+
+msgid "Moon details"
+msgstr "Сарны дэлгэрэнгүй мэдээлэл"
+
+msgid "Moon Details"
+msgstr "Сарны дэлгэрэнгүй мэдээлэл"
+
+msgid "Moonrise: {}"
+msgstr "Сар мандах: {}"
+
+msgid "Moonset: {}"
+msgstr "Сар жаргах: {}"
+
+msgid "Morning"
+msgstr "Өглөө"
+
+msgid "Mostly clear"
+msgstr "Ихэнхдээ тодорхой"
+
+msgid "Move down"
+msgstr "Доош хөдөл"
+
+msgid "Move Down"
+msgstr "Доош хөдөл"
+
+msgid "Move up"
+msgstr "Дээш хөдөл"
+
+msgid "Move Up"
+msgstr "Дээш хөдөл"
+
+msgid "N"
+msgstr "Н"
+
+msgid "N/A"
+msgstr "Үгүй"
+
+msgid "Netherlands"
+msgstr "Нидерланд"
+
+msgid "New Moon"
+msgstr "Шинэ сар"
+
+msgid "New version {version} is available."
+msgstr "{version} шинэ хувилбар бэлэн боллоо."
+
+msgid "Next"
+msgstr "Дараа нь"
+
+msgid "Next frame"
+msgstr "Дараагийн хүрээ"
+
+msgid "Next Image"
+msgstr "Дараагийн зураг"
+
+msgid "Next page"
+msgstr "Дараагийн хуудас"
+
+msgid "Next time"
+msgstr "Дараагийн удаа"
+
+msgid "No city selected"
+msgstr "Хот сонгоогүй"
+
+msgid "No data"
+msgstr "Өгөгдөл алга"
+
+msgid "No date available"
+msgstr "Огноо байхгүй байна"
+
+msgid "No Internet connection detected."
+msgstr "Интернэт холболт илэрсэнгүй."
+
+msgid "No location selected"
+msgstr "Сонгосон байршил алга"
+
+msgid "No OSM tiles"
+msgstr "OSM хавтан байхгүй"
+
+msgid "No specific legend available."
+msgstr "Тодорхой домог байхгүй."
+
+msgid "No station data"
+msgstr "Станцын мэдээлэл алга"
+
+msgid "No station data available"
+msgstr "Станцын мэдээлэл байхгүй байна"
+
+msgid "No stations found"
+msgstr "Ямар ч станц олдсонгүй"
+
+msgid "No tiles downloaded"
+msgstr "Ямар ч хавтан татаж аваагүй"
+
+msgid "North Africa"
+msgstr "Хойд Африк"
+
+msgid "North America"
+msgstr "Хойд Америк"
+
+msgid "North Rhine-Westphalia"
+msgstr "Хойд Рейн-Вестфали"
+
+msgid "Norway"
+msgstr "Норвеги"
+
+msgid "Ok - Details"
+msgstr "За - Дэлгэрэнгүй"
+
+msgid "OK - Ext Info"
+msgstr "OK - Нэмэлт мэдээлэл"
+
+msgid "OK - Forecast"
+msgstr "OK - Урьдчилан таамаглах"
+
+msgid "OK - Open Map"
+msgstr "OK - Газрын зургийг нээх"
+
+msgid "Open Keyboard"
+msgstr "Гарыг нээх"
+
+msgid "Open Map"
+msgstr "Газрын зургийг нээх"
+
+msgid "Original design and idea by %s"
+msgstr "Анхны загвар, санаа %s"
+
+msgid "Overcast"
+msgstr "Бүрхэг"
+
+msgid "Overcast and light rain"
+msgstr "Үүлэрхэг, бага зэргийн бороо орно"
+
+msgid "Overcast and light snow"
+msgstr "Үүлэрхэг, бага зэргийн цас орно"
+
+msgid "Overcast and light wet snow"
+msgstr "Үүлэрхэг, бага зэргийн нойтон цас орно"
+
+msgid "Overcast and rain"
+msgstr "Үүлэрхэг, бороо орно"
+
+msgid "Overcast and showers"
+msgstr "Үүлэрхэг, бороо орно"
+
+msgid "Overcast and snow"
+msgstr "Бүрхэг, цас орно"
+
+msgid "Overcast and snow showers"
+msgstr "Үүлэрхэг, цасан шуурга шуурна"
+
+msgid "Overcast and wet snow"
+msgstr "Үүлэрхэг, нойтон цас орно"
+
+msgid "Overcast and wet snow showers"
+msgstr "Үүлэрхэг, нойтон цас орно"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Үүлэрхэг, аянга цахилгаантай бороо орно"
+
+msgid "Overnight"
+msgstr "Шөнөдөө"
+
+msgid "Page down"
+msgstr "Хуудас доош"
+
+msgid "Page Down"
+msgstr "Page Down"
+
+msgid "Page up"
+msgstr "Хуудас дээшлүүлнэ"
+
+msgid "Page Up"
+msgstr "Page Up"
+
+msgid "Pan down"
+msgstr "Доош эргүүл"
+
+msgid "Pan left"
+msgstr "Зүүн тийш эргүүл"
+
+msgid "Pan right"
+msgstr "Баруун тийш эргүүл"
+
+msgid "Pan up"
+msgstr "Дээш эргүүл"
+
+msgid "Partly cloudy"
+msgstr "Багавтар үүлтэй"
+
+msgid "Partly cloudy and light rain"
+msgstr "Багавтар үүлтэй, бага зэргийн бороо орно"
+
+msgid "Partly cloudy and light snow"
+msgstr "Багавтар үүлтэй, бага зэргийн цас орно"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Багавтар үүлтэй, бага зэргийн нойтон цас орно"
+
+msgid "Partly cloudy and showers"
+msgstr "Багавтар үүлтэй, бороо орно"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Багавтар үүлтэй, цасан шуурга шуурна"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Багавтар үүлтэй, нойтон цас орно"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Багавтар үүлтэй, аадар бороо орно"
+
+msgid "Perigee"
+msgstr "Перигэй"
+
+msgid "Phase"
+msgstr "Үе шат"
+
+msgid "Phase: {}"
+msgstr "Үе шат: {}"
+
+msgid "Play/Pause"
+msgstr "Тоглуулах/түр зогсоох"
+
+msgid "Please enter both API user and API password."
+msgstr "API хэрэглэгчийн болон API нууц үгийг хоёуланг нь оруулна уу."
+
+msgid "Please wait ..."
+msgstr "Хүлээгээрэй..."
+
+msgid "Poland"
+msgstr "Польш"
+
+msgid "Portugal"
+msgstr "Португал"
+
+msgid "Precipitation"
+msgstr "Хур тунадас"
+
+msgid "Precipitation: {}"
+msgstr "Хур тунадас: {}"
+
+msgid "Precipitations"
+msgstr "Хур тунадас"
+
+msgid "Precipitations: {}%"
+msgstr "Хур тунадас: {}%"
+
+msgid "Press RED to search again"
+msgstr "Дахин хайх бол УЛААН дээр дарна уу"
+
+msgid "Pressure"
+msgstr "Даралт"
+
+msgid "Pressure: {}"
+msgstr "Даралт: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Даралт: {} гПа"
+
+msgid "Pressure: %s"
+msgstr "Даралт: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Даралт: %s гПа"
+
+msgid "Pressure: N/A"
+msgstr "Даралт: Үгүй"
+
+msgid "Prev"
+msgstr "Өмнөх"
+
+msgid "Previous"
+msgstr "Өмнөх"
+
+msgid "Previous frame"
+msgstr "Өмнөх хүрээ"
+
+msgid "Previous Image"
+msgstr "Өмнөх зураг"
+
+msgid "Previous page"
+msgstr "Өмнөх хуудас"
+
+msgid "Previous time"
+msgstr "Өмнөх цаг"
+
+msgid "Rain Prob."
+msgstr "Rain Prob."
+
+msgid "Rain prob. {}%"
+msgstr "Борооны асуудал. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Борооны асуудал: Үгүй"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Бороо: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer радар"
+
+msgid "Red"
+msgstr "Улаан"
+
+msgid "Red - Color select"
+msgstr "Улаан - Өнгө сонгох"
+
+msgid "Refresh"
+msgstr "Сэргээх"
+
+msgid "Restore default server values"
+msgstr "Анхдагч серверийн утгыг сэргээх"
+
+msgid "Rhineland-Palatine"
+msgstr "Рейнланд-Палатин"
+
+msgid "Right - Next day"
+msgstr "Баруун - Дараагийн өдөр"
+
+msgid "Right arrow - Next day"
+msgstr "Баруун сум - Дараагийн өдөр"
+
+msgid "Rise"
+msgstr "Бос"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Өсөх азимут: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Өсөх азимут: Үгүй"
+
+msgid "Russia"
+msgstr "Орос"
+
+msgid "S"
+msgstr "С"
+
+msgid "Saarland"
+msgstr "Саарланд"
+
+msgid "Satellite Photos"
+msgstr "Хиймэл дагуулын зураг"
+
+msgid "Satellite photos coming soon!"
+msgstr "Удахгүй хиймэл дагуулын зурагнууд!"
+
+msgid "Save"
+msgstr "Хадгалах"
+
+msgid "Save API settings"
+msgstr "API тохиргоог хадгалах"
+
+msgid "Save translation settings"
+msgstr "Орчуулгын тохиргоог хадгалах"
+
+msgid "Saxony"
+msgstr "Саксон"
+
+msgid "Saxony-Anhalt"
+msgstr "Саксони-Анхальт"
+
+msgid "Schleswig-Holstein"
+msgstr "Шлезвиг-Голштейн"
+
+msgid "Scraped"
+msgstr "Хуссан"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Хайлт эхлээд онлайнаар оролдоно, хэрэв амжилтгүй бол локал жагсаалтыг ашиглана."
+
+msgid "Search your City"
+msgstr "Хотоо хай"
+
+msgid "Select"
+msgstr "Сонго"
+
+msgid "Select {} unit"
+msgstr "{} нэгжийг сонгоно уу"
+
+msgid "Select a city"
+msgstr "Хот сонгоно уу"
+
+msgid "Select a map with OK"
+msgstr "OK товчлуураар газрын зургийг сонгоно уу"
+
+msgid "Select Region"
+msgstr "Бүсийг сонгоно уу"
+
+msgid "Select unit system"
+msgstr "Нэгжийн системийг сонгох"
+
+msgid "Select wind unit"
+msgstr "Салхины нэгжийг сонгоно уу"
+
+msgid "Selected hour details"
+msgstr "Сонгосон цагийн дэлгэрэнгүй мэдээлэл"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Азимутыг тохируулах: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Азимутыг тохируулах: Үгүй"
+
+msgid "Sets"
+msgstr "Багцууд"
+
+msgid "Show info"
+msgstr "Мэдээллийг харуулах"
+
+msgid "Showers"
+msgstr "Шүршүүр"
+
+msgid "Slovakia"
+msgstr "Словак"
+
+msgid "Slower: {}s"
+msgstr "Удаан: {}с"
+
+msgid "Snow / ice"
+msgstr "Цас / мөс"
+
+msgid "Snow prob. {}%"
+msgstr "Цасны проб. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Цасны асуудал: Үгүй"
+
+msgid "South Africa"
+msgstr "Өмнөд Африк"
+
+msgid "South America"
+msgstr "Өмнөд Америк"
+
+msgid "Southeast Asia"
+msgstr "Зүүн өмнөд Ази"
+
+msgid "Spain"
+msgstr "Испани"
+
+msgid "Station Observations"
+msgstr "Станцын ажиглалт"
+
+msgid "Station: {}"
+msgstr "Станц: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Хүчтэй (40-60 км/цаг)"
+
+msgid "Sunrise"
+msgstr "Нар мандах"
+
+msgid "Sunset"
+msgstr "Нар жаргах"
+
+msgid "Super Full Moon"
+msgstr "Супер бүтэн сар"
+
+msgid "Sweden"
+msgstr "Швед"
+
+msgid "Switzerland"
+msgstr "Швейцарь"
+
+msgid "Target Language"
+msgstr "Зорилтот хэл"
+
+msgid "Temp"
+msgstr "Температур"
+
+msgid "Temperature"
+msgstr "Температур"
+
+msgid "Temperature: {}"
+msgstr "Температур: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Температур: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Температур: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Температур: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Температур: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Температур: Үгүй"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Санал өгсөн {thanks} болон бусад найзууддаа баярлалаа"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Алсын хувилбар ({remote}) нь одоогийн хувилбараас ({current}) хуучин байна."
+
+msgid "Thin upper cloud"
+msgstr "Нимгэн дээд үүл"
+
+msgid "Thuringia"
+msgstr "Тюрингия"
+
+msgid "Time"
+msgstr "Цаг хугацаа"
+
+msgid "Today"
+msgstr "Өнөөдөр"
+
+msgid "Today/Tomorrow details"
+msgstr "Өнөөдөр/маргааш дэлгэрэнгүй"
+
+msgid "Toggle legend"
+msgstr "Домог сэлгэх"
+
+msgid "Token expire hours"
+msgstr "Токены хугацаа дуусах цаг"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Токен дуусах цаг -1 эсвэл эерэг тоо байх ёстой."
+
+msgid "Token expire hours must be a number."
+msgstr "Токен дуусах цаг нь тоо байх ёстой."
+
+msgid "Tomorrow"
+msgstr "Маргааш"
+
+msgid "Transit (culmination): {}"
+msgstr "Дамжин өнгөрөх (оргил цэг): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Дамжин өнгөрөх өндөр: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Дамжин өнгөрөх өндөр: Үгүй"
+
+msgid "Translation Settings"
+msgstr "Орчуулгын тохиргоо"
+
+msgid "Transparency level"
+msgstr "Ил тод байдлын түвшин"
+
+msgid "Transparency Settings"
+msgstr "Ил тод байдлын тохиргоо"
+
+msgid "Unhealthy"
+msgstr "Эрүүл бус"
+
+msgid "Unhealthy for sensitives"
+msgstr "Мэдрэмтгий хүмүүст тохиромжгүй"
+
+msgid "Unit Settings"
+msgstr "Нэгжийн тохиргоо"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Нэгжийн тохиргоо (Нарийвчилсан)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Нэгжийн тохиргоо (Энгийн)"
+
+msgid "Unknown"
+msgstr "Тодорхойгүй"
+
+msgid "Up"
+msgstr "Дээшээ"
+
+msgid "Up - Previous page"
+msgstr "Дээш - Өмнөх хуудас"
+
+msgid "Update canceled."
+msgstr "Шинэчлэлтийг цуцалсан."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Шинэчлэлт дууссан. Enigma2-г дахин эхлүүлнэ үү."
+
+msgid "Updated {}"
+msgstr "Шинэчлэгдсэн {}"
+
+msgid "Updated: {}"
+msgstr "Шинэчлэгдсэн: {}"
+
+msgid "Updated: N/A"
+msgstr "Шинэчлэгдсэн: Үгүй"
+
+msgid "Updating..."
+msgstr "Шинэчилж байна..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Use ← → to change time | Гарахын тулд OK"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "| зөөхийн тулд ←/→/↑/↓ ашиглана уу Гарахын тулд OK"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Өөрчлөхийн тулд ▲/▼, сонгохын тулд OK-г ашиглана уу"
+
+msgid "Use arrow keys to scroll"
+msgstr "Гүйлгэхийн тулд сум товчийг ашиглана уу"
+
+msgid "Use Google Translate"
+msgstr "Google Translate ашигла"
+
+msgid "Using current time"
+msgstr "Одоогийн цагийг ашиглаж байна"
+
+msgid "UV"
+msgstr "Хэт ягаан туяа"
+
+msgid "UV Index"
+msgstr "Хэт ягаан туяаны индекс"
+
+msgid "UV N/A"
+msgstr "Хэт ягаан туяа байхгүй"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Маш хүчтэй бороо"
+
+msgid "Very high"
+msgstr "Маш өндөр"
+
+msgid "Very hot (>40°C)"
+msgstr "Маш халуун (>40 ° C)"
+
+msgid "Very low"
+msgstr "Маш бага"
+
+msgid "Very unhealthy"
+msgstr "Маш эрүүл бус"
+
+msgid "Visibility: {} m"
+msgstr "Харагдах байдал: {} м"
+
+msgid "Visibility: %s m"
+msgstr "Харагдах байдал: %s м"
+
+msgid "W"
+msgstr "В"
+
+msgid "Waning Crescent"
+msgstr "Хагас сар"
+
+msgid "Waning Gibbous"
+msgstr "Усан Гиббоус"
+
+msgid "Warm (20-30°C)"
+msgstr "Дулаан (20-30 ° C)"
+
+msgid "Waxing Crescent"
+msgstr "Хавирган сар"
+
+msgid "Waxing Gibbous"
+msgstr "Waxing Gibbous"
+
+msgid "Weather"
+msgstr "Цаг агаар"
+
+msgid "Weather Map"
+msgstr "Цаг агаарын газрын зураг"
+
+msgid "Weather Maps"
+msgstr "Цаг агаарын газрын зураг"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Цаг агаарын газрын зураг (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Цаг агаарын газрын зураг, хиймэл дагуул"
+
+msgid "Weather Maps Slideshow"
+msgstr "Цаг агаарын газрын зургийн слайд шоу"
+
+msgid "Weather Radar"
+msgstr "Цаг агаарын радар"
+
+msgid "Weather today"
+msgstr "Өнөөдөр цаг агаар"
+
+msgid "Weather tomorrow"
+msgstr "Маргааш цаг агаар"
+
+msgid "Weekly Forecast"
+msgstr "Долоо хоног тутмын урьдчилсан мэдээ"
+
+msgid "Wind"
+msgstr "Салхи"
+
+msgid "Wind direction"
+msgstr "Салхины чиглэл"
+
+msgid "Wind Direction today"
+msgstr "Өнөөдөр салхины чиглэл"
+
+msgid "Wind Direction tomorrow"
+msgstr "Маргааш салхины чиглэл"
+
+msgid "Wind speed"
+msgstr "Салхины хурд"
+
+msgid "Wind speed {}"
+msgstr "Салхины хурд {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Салхины хурд: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Салхи: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Салхи: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Салхи: {} км/ц {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Салхи: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Салхи: %s км/ц %s"
+
+msgid "Wind: N/A"
+msgstr "Салхи: Үгүй"
+
+msgid "Window transparency"
+msgstr "Цонхны ил тод байдал"
+
+msgid "Yellow - Favorite 2"
+msgstr "Шар - Дуртай 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Та аль хэдийн {version} хувилбарыг суулгасан байна.\n Та үүнийг дахин суулгахыг хүсэж байна уу?"
+
+msgid "Zoom In"
+msgstr "Томруулах"
+
+msgid "Zoom Out"
+msgstr "Жижигрүүлэх"
+
+msgid "Zoom-"
+msgstr "Томруулах -"
+
+msgid "Zoom:"
+msgstr "Томруулах:"
+
+msgid "Zoom+"
+msgstr "Томруулах+"
+

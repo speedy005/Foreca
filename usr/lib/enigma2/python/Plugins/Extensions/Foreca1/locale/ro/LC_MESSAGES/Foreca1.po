@@ -1,0 +1,1509 @@
+# ro translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ro <ekekaz@gmail.com>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• ALBASTRU pentru a salva ca Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- pentru a sări 500 de orașe\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• VERDE pentru a salva ca Favorit 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK pentru a selecta orașul\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ROȘU pentru a deschide tastatura de căutare\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Folosiți tastele săgeți pentru a naviga prin \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- pentru a sări 100 de orașe\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GALBEN pentru a salva ca Favorit 2\n"
+
+msgid "← Frame"
+msgstr "← Cadru"
+
+msgid "0 - Today"
+msgstr "0 - Astăzi"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Azi + 1 zi"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Azi + 2 zile"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Azi + 3 zile"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Azi + 4 zile"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Azi + 5 zile"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Azi + 6 zile"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Azi + 7 zile"
+
+msgid "7 Day Forecast"
+msgstr "Prognoza pe 7 zile"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Azi + 8 zile"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Azi + 9 zile"
+
+msgid "Advanced"
+msgstr "Avansat"
+
+msgid "Advanced Unit Settings"
+msgstr "Setări avansate ale unității"
+
+msgid "Afternoon"
+msgstr "după-amiază"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Vârsta de la Luna Nouă: {:.1f} zile"
+
+msgid "Age: N/A"
+msgstr "Vârsta: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diametru unghiular: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Diametru unghiular: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Fișierul de configurare API nu a fost găsit! \n\nVă rugăm să creați fișierul:\n{0}\n\ncu acreditările dvs. Foreca API."
+
+msgid "API credentials not configured."
+msgstr "Acreditările API nu au fost configurate."
+
+msgid "API error"
+msgstr "Eroare API"
+
+msgid "API password"
+msgstr "parola API"
+
+msgid "API user"
+msgstr "utilizator API"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Mărimea aparentă: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "Atribuiți la Favorit 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Atribuiți la Favorit 2"
+
+msgid "Assign to Home"
+msgstr "Atribuiți la Acasă"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Auth server"
+msgstr "Server de autentificare"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Wuerttemberg"
+
+msgid "Barometer"
+msgstr "Barometru"
+
+msgid "Bavaria"
+msgstr "Bavaria"
+
+msgid "Belgium"
+msgstr "Belgia"
+
+msgid "Berlin"
+msgstr "Berlin"
+
+msgid "Black Moon"
+msgstr "Luna Neagră"
+
+msgid "Blue"
+msgstr "Albastru"
+
+msgid "Blue - Home"
+msgstr "Albastru - Acasă"
+
+msgid "Blue Moon"
+msgstr "Luna albastră"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "De calculat..."
+
+msgid "Cancel"
+msgstr "Anula"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsius, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Jurnal de modificări: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Modificările se aplică imediat"
+
+msgid "Check for updates"
+msgstr "Verificați actualizările"
+
+msgid "Choose detail view"
+msgstr "Alegeți vizualizarea de detaliu"
+
+msgid "City list file not found!"
+msgstr "Fișierul listei orașelor nu a fost găsit!"
+
+msgid "City Selection"
+msgstr "Selectia orasului"
+
+msgid "City Selection Help:\n\n"
+msgstr "Ajutor pentru selectarea orașului: \n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Curățați fișierele Foreca One Temp?"
+
+msgid "Cleanup temp files"
+msgstr "Curățați fișierele temporare"
+
+msgid "Clear"
+msgstr "Clar"
+
+msgid "Close"
+msgstr "Aproape"
+
+msgid "Close legend"
+msgstr "Închide legenda"
+
+msgid "Close setup without saving"
+msgstr "Închideți configurarea fără a salva"
+
+msgid "Cloudy"
+msgstr "Noros"
+
+msgid "Cloudy and light rain"
+msgstr "Înnorat și ploaie slabă"
+
+msgid "Cloudy and light snow"
+msgstr "Înnorat și ninsoare slabă"
+
+msgid "Cloudy and light wet snow"
+msgstr "Înnorat și zăpadă umedă ușoară"
+
+msgid "Cloudy and showers"
+msgstr "Înnorat și averse"
+
+msgid "Cloudy and snow showers"
+msgstr "Averse cu nori și ninsoare"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Averse de zăpadă înnorată și umedă"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Înnorat, furtuni cu ploaie"
+
+msgid "Cold (< 0°C)"
+msgstr "Rece (< 0°C)"
+
+msgid "Color data"
+msgstr "Date de culoare"
+
+msgid "Color legend"
+msgstr "Legenda culorii"
+
+msgid "Color Legend"
+msgstr "Legenda culorilor"
+
+msgid "Color name"
+msgstr "Numele culorii"
+
+msgid "Color select"
+msgstr "Selectare culoare"
+
+msgid "Color Selector"
+msgstr "Selector de culoare"
+
+msgid "Condition: {}"
+msgstr "Stare: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Configurați acreditările Foreca API"
+
+msgid "Continents Weather Maps"
+msgstr "Hărți meteorologice ale continentelor"
+
+msgid "Cool (0-10°C)"
+msgstr "rece (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Nu s-au putut prelua informațiile de actualizare."
+
+msgid "Could not initialize map API."
+msgstr "API-ul map nu a putut fi inițializat."
+
+msgid "Could not load forecast data"
+msgstr "Nu s-au putut încărca datele de prognoză"
+
+msgid "Could not parse version information."
+msgstr "Nu s-au putut analiza informațiile despre versiune."
+
+msgid "Current weather and forecast"
+msgstr "Vremea și prognoza actuală"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Vremea actuală și prognoza pentru următoarele 10 zile"
+
+msgid "Current: {}"
+msgstr "Curent: {}"
+
+msgid "Czech Republic"
+msgstr "Republica Cehă"
+
+msgid "Data provided by Foreca"
+msgstr "Date furnizate de Foreca"
+
+msgid "Date: {}"
+msgstr "Data: {}"
+
+msgid "Day"
+msgstr "Zi"
+
+msgid "Decrease Speed"
+msgstr "Scade viteza"
+
+msgid "Defaults"
+msgstr "Valori implicite"
+
+msgid "Denmark"
+msgstr "Danemarca"
+
+msgid "Details"
+msgstr "Detalii"
+
+msgid "Dewpoint {}"
+msgstr "Punct de rouă {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Punct de rouă {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Punct de rouă: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Punct de rouă: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Punct de rouă: N/A"
+
+msgid "Distance"
+msgstr "Distanţă"
+
+msgid "Distance {} km"
+msgstr "Distanța {} km"
+
+msgid "Distance: {}"
+msgstr "Distanță: {}"
+
+msgid "Distance: {} km"
+msgstr "Distanță: {} km"
+
+msgid "Distance: %s"
+msgstr "Distanță: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Vrei să-l instalezi acum?"
+
+msgid "Down"
+msgstr "Jos"
+
+msgid "Down - Next page"
+msgstr "Jos - Pagina următoare"
+
+msgid "Download error"
+msgstr "Eroare de descărcare"
+
+msgid "Downloading images..."
+msgstr "Se descarcă imagini..."
+
+msgid "Downloading tiles..."
+msgstr "Se descarcă piese..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Asia de Est"
+
+msgid "Error checking for updates."
+msgstr "Eroare la verificarea actualizărilor."
+
+msgid "Error loading data"
+msgstr "Eroare la încărcarea datelor"
+
+msgid "Error loading map"
+msgstr "Eroare la încărcarea hărții"
+
+msgid "Error loading maps. Check connection."
+msgstr "Eroare la încărcarea hărților. Verificați conexiunea."
+
+msgid "Error saving favorite!"
+msgstr "Eroare la salvarea preferatului!"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "European Weather Maps"
+msgstr "Hărți meteorologice europene"
+
+msgid "Evening"
+msgstr "Seară"
+
+msgid "Exit"
+msgstr "Ieșire"
+
+msgid "Exit - End"
+msgstr "Ieșire - Sfârșit"
+
+msgid "Exit / Close legend"
+msgstr "Ieșire / Închidere legendă"
+
+msgid "Extreme"
+msgstr "Extrem"
+
+msgid "Extreme / thunderstorms"
+msgstr "Extreme / furtuni"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Nu s-a putut scrie fișierul de configurare: \n%s"
+
+msgid "Faster: {}s"
+msgstr "Mai rapid: {}s"
+
+msgid "Favorite 1"
+msgstr "Favorit 1"
+
+msgid "Favorite 2"
+msgstr "Favorit 2"
+
+msgid "Favorites details"
+msgstr "Detalii favorite"
+
+msgid "Favorites Details"
+msgstr "Detalii Favorite"
+
+msgid "Feels like"
+msgstr "Se simte ca"
+
+msgid "Feels like {}"
+msgstr "Se simte ca {}"
+
+msgid "Feels like {}{}"
+msgstr "Se simte ca {}{}"
+
+msgid "Feels like: {}"
+msgstr "Se simte ca: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Se simte ca: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Se simte ca: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Simt ca: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Se simte ca: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Se simte ca: N/A"
+
+msgid "Finland"
+msgstr "Finlanda"
+
+msgid "First Quarter"
+msgstr "Primul trimestru"
+
+msgid "Fog"
+msgstr "Ceaţă"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Acreditările API Foreca nu sunt încă configurate. Vă rugăm să le introduceți în ecranul de configurare."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Setările API-ului Foreca au fost salvate cu succes."
+
+msgid "Foreca API Setup"
+msgstr "Configurare API Foreca"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Harta {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Meniu Foreca One"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Nu au fost găsite posturi"
+
+msgid "Foreca One Setup"
+msgstr "Configurare Foreca One"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Stații Foreca One: {} stații în apropiere ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Prognoza meteo Foreca One"
+
+msgid "Frame →"
+msgstr "Cadru →"
+
+msgid "Frame: {}"
+msgstr "Cadru: {}"
+
+msgid "France"
+msgstr "Franţa"
+
+msgid "Full Moon"
+msgstr "Lună plină"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Forța de vânt (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Hărți meteo ale statelor germane"
+
+msgid "Germany"
+msgstr "Germania"
+
+msgid "Good"
+msgstr "Bun"
+
+msgid "Great Britain"
+msgstr "Marea Britanie"
+
+msgid "Greece"
+msgstr "Grecia"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "Green - Favorite 1"
+msgstr "Verde - Favorit 1"
+
+msgid "Gust {}"
+msgstr "Rafală {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Rafală: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hamburg"
+
+msgid "Hazardous"
+msgstr "Periculoase"
+
+msgid "Header - not selectable"
+msgstr "Antet - nu poate fi selectat"
+
+msgid "Heavy rain"
+msgstr "Ploaie puternică"
+
+msgid "Help"
+msgstr "Ajutor"
+
+msgid "Hesse"
+msgstr "Hesse"
+
+msgid "High"
+msgstr "Ridicat"
+
+msgid "Home"
+msgstr "Acasă"
+
+msgid "Hot (30-40°C)"
+msgstr "fierbinte (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Detalii oră"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Umiditate"
+
+msgid "Humidity: {}%"
+msgstr "Umiditate: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Umiditate: %s%%"
+
+msgid "Hungary"
+msgstr "Ungaria"
+
+msgid "Ice / frost"
+msgstr "Gheață / îngheț"
+
+msgid "Illumination"
+msgstr "Iluminare"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Iluminare: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Imaginea %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Imaginea %(current)d/%(total)d – %(day)s (Întreruptă)"
+
+msgid "Image not available"
+msgstr "Imaginea nu este disponibilă"
+
+msgid "Imperial System"
+msgstr "Sistemul Imperial"
+
+msgid "Increase Speed"
+msgstr "Măriți viteza"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Info - About"
+msgstr "Info - Despre"
+
+msgid "Ireland"
+msgstr "Irlanda"
+
+msgid "Italy"
+msgstr "Italia"
+
+msgid "Jump 100 down"
+msgstr "Sari 100 jos"
+
+msgid "Jump 100 up"
+msgstr "Sari cu 100 în sus"
+
+msgid "Jump 500 down"
+msgstr "Sari 500 jos"
+
+msgid "Jump 500 up"
+msgstr "Sari cu 500 în sus"
+
+msgid "Keyboard"
+msgstr "Tastatura"
+
+msgid "Last Quarter"
+msgstr "Ultimul trimestru"
+
+msgid "Last update"
+msgstr "Ultima actualizare"
+
+msgid "Latvia"
+msgstr "Letonia"
+
+msgid "Left - Previous day"
+msgstr "Stânga - Ziua anterioară"
+
+msgid "Left arrow - Previous day"
+msgstr "Săgeată stânga - Ziua anterioară"
+
+msgid "Light (0-20 km/h)"
+msgstr "Ușoară (0-20 km/h)"
+
+msgid "Light rain / drizzle"
+msgstr "Ploaie slabă / burniță"
+
+msgid "Light to moderate"
+msgstr "Ușoară spre moderată"
+
+msgid "Loading available maps..."
+msgstr "Se încarcă hărțile disponibile..."
+
+msgid "Loading lunar phases..."
+msgstr "Se încarcă fazele lunare..."
+
+msgid "Loading nearby stations..."
+msgstr "Se încarcă stațiile din apropiere..."
+
+msgid "Loading tiles..."
+msgstr "Se încarcă plăci..."
+
+msgid "Loading weekly forecast..."
+msgstr "Se încarcă prognoza săptămânală..."
+
+msgid "Loading..."
+msgstr "Încărcare..."
+
+msgid "Low"
+msgstr "Scăzut"
+
+msgid "Lower Saxony"
+msgstr "Saxonia Inferioară"
+
+msgid "Lunar Calendar"
+msgstr "Calendarul lunar"
+
+msgid "Lunar phases from next month"
+msgstr "Fazele lunare de luna viitoare"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Magnitude: N/A"
+msgstr "Magnitudine: N/A"
+
+msgid "Map {} selected"
+msgstr "Harta {} selectată"
+
+msgid "Map & Tiles Loaded"
+msgstr "Hartă și plăci încărcate"
+
+msgid "Map loaded"
+msgstr "Harta a fost încărcată"
+
+msgid "Map server"
+msgstr "Server de hartă"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Mecklenburg-Vorpommern"
+
+msgid "Menu"
+msgstr "Meniu"
+
+msgid "Menu - Settings"
+msgstr "Meniu - Setări"
+
+msgid "Merge failed"
+msgstr "Îmbinarea a eșuat"
+
+msgid "Meteogram"
+msgstr "Meteograma"
+
+msgid "Metric System"
+msgstr "Sistem metric"
+
+msgid "Middle America"
+msgstr "America de mijloc"
+
+msgid "Middle Asia"
+msgstr "Asia de mijloc"
+
+msgid "Middle East"
+msgstr "Orientul Mijlociu"
+
+msgid "Mild (10-20°C)"
+msgstr "Ușoară (10-20°C)"
+
+msgid "Moderate"
+msgstr "Moderat"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Moderat (20-40 km/h)"
+
+msgid "Moderate rain"
+msgstr "Ploaie moderată"
+
+msgid "Month"
+msgstr "Lună"
+
+msgid "Moon details"
+msgstr "Detalii de lună"
+
+msgid "Moon Details"
+msgstr "Detalii Luna"
+
+msgid "Moonrise: {}"
+msgstr "Răsărit de lună: {}"
+
+msgid "Moonset: {}"
+msgstr "Apus de Lună: {}"
+
+msgid "Morning"
+msgstr "Dimineaţă"
+
+msgid "Mostly clear"
+msgstr "În mare parte clar"
+
+msgid "Move down"
+msgstr "Deplasați-vă în jos"
+
+msgid "Move Down"
+msgstr "Mutați în jos"
+
+msgid "Move up"
+msgstr "Mișcă-te în sus"
+
+msgid "Move Up"
+msgstr "Deplasați-vă în sus"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "N / A"
+
+msgid "Netherlands"
+msgstr "Olanda"
+
+msgid "New Moon"
+msgstr "Lună nouă"
+
+msgid "New version {version} is available."
+msgstr "Noua versiune {version} este disponibilă."
+
+msgid "Next"
+msgstr "Următorul"
+
+msgid "Next frame"
+msgstr "Următorul cadru"
+
+msgid "Next Image"
+msgstr "Imaginea următoare"
+
+msgid "Next page"
+msgstr "Pagina următoare"
+
+msgid "Next time"
+msgstr "Data viitoare"
+
+msgid "No city selected"
+msgstr "Niciun oraș selectat"
+
+msgid "No data"
+msgstr "Fără date"
+
+msgid "No date available"
+msgstr "Nu există o dată disponibilă"
+
+msgid "No Internet connection detected."
+msgstr "Nu a fost detectată conexiune la internet."
+
+msgid "No location selected"
+msgstr "Nicio locație selectată"
+
+msgid "No OSM tiles"
+msgstr "Fără plăci OSM"
+
+msgid "No specific legend available."
+msgstr "Nu există nicio legendă specifică disponibilă."
+
+msgid "No station data"
+msgstr "Nu există date despre stație"
+
+msgid "No station data available"
+msgstr "Nu sunt disponibile date despre stație"
+
+msgid "No stations found"
+msgstr "Nu s-au găsit stații"
+
+msgid "No tiles downloaded"
+msgstr "Nu au fost descărcate piese"
+
+msgid "North Africa"
+msgstr "Africa de Nord"
+
+msgid "North America"
+msgstr "America de Nord"
+
+msgid "North Rhine-Westphalia"
+msgstr "Renania de Nord-Westfalia"
+
+msgid "Norway"
+msgstr "Norvegia"
+
+msgid "Ok - Details"
+msgstr "Ok - Detalii"
+
+msgid "OK - Ext Info"
+msgstr "OK - Ext Info"
+
+msgid "OK - Forecast"
+msgstr "OK - Prognoză"
+
+msgid "OK - Open Map"
+msgstr "OK - Deschide Harta"
+
+msgid "Open Keyboard"
+msgstr "Deschideți tastatura"
+
+msgid "Open Map"
+msgstr "Deschide Harta"
+
+msgid "Original design and idea by %s"
+msgstr "Design și idee originale de %s"
+
+msgid "Overcast"
+msgstr "Acoperit de nori"
+
+msgid "Overcast and light rain"
+msgstr "Înnorat și ploaie slabă"
+
+msgid "Overcast and light snow"
+msgstr "Înnorat și ninsoare slabă"
+
+msgid "Overcast and light wet snow"
+msgstr "Înnorat și zăpadă umedă ușoară"
+
+msgid "Overcast and rain"
+msgstr "Înnorat și ploaie"
+
+msgid "Overcast and showers"
+msgstr "Înnorat și averse"
+
+msgid "Overcast and snow"
+msgstr "Înnorat și ninsoare"
+
+msgid "Overcast and snow showers"
+msgstr "Averse cu nori și zăpadă"
+
+msgid "Overcast and wet snow"
+msgstr "Zăpadă înnorat și umedă"
+
+msgid "Overcast and wet snow showers"
+msgstr "Averse de zăpadă umedă și înnorat"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Înnorat, furtuni cu ploaie"
+
+msgid "Overnight"
+msgstr "Peste noapte"
+
+msgid "Page down"
+msgstr "Pagina în jos"
+
+msgid "Page Down"
+msgstr "Pagina în jos"
+
+msgid "Page up"
+msgstr "Pagina în sus"
+
+msgid "Page Up"
+msgstr "Pagina în sus"
+
+msgid "Pan down"
+msgstr "Pană în jos"
+
+msgid "Pan left"
+msgstr "Pan la stânga"
+
+msgid "Pan right"
+msgstr "Pan dreapta"
+
+msgid "Pan up"
+msgstr "Pana sus"
+
+msgid "Partly cloudy"
+msgstr "Parțial înnorat"
+
+msgid "Partly cloudy and light rain"
+msgstr "Parţial noros şi ploaie slabă"
+
+msgid "Partly cloudy and light snow"
+msgstr "Parţial noros şi ninsoare slabă"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Parțial noros și zăpadă umedă ușoară"
+
+msgid "Partly cloudy and showers"
+msgstr "Parţial noros şi averse"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Parțial noros și averse de ninsoare"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Parțial noros și averse umede de zăpadă"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Parțial noros, posibile furtuni cu ploaie"
+
+msgid "Perigee"
+msgstr "Perigeu"
+
+msgid "Phase"
+msgstr "Fază"
+
+msgid "Phase: {}"
+msgstr "Faza: {}"
+
+msgid "Play/Pause"
+msgstr "Redare/Pauză"
+
+msgid "Please enter both API user and API password."
+msgstr "Vă rugăm să introduceți atât utilizatorul API, cât și parola API."
+
+msgid "Please wait ..."
+msgstr "Va rugam asteptati ..."
+
+msgid "Poland"
+msgstr "Polonia"
+
+msgid "Portugal"
+msgstr "Portugalia"
+
+msgid "Precipitation"
+msgstr "Precipitare"
+
+msgid "Precipitation: {}"
+msgstr "Precipitații: {}"
+
+msgid "Precipitations"
+msgstr "Precipitaţii"
+
+msgid "Precipitations: {}%"
+msgstr "Precipitații: {}%"
+
+msgid "Press RED to search again"
+msgstr "Apăsați roșu pentru a căuta din nou"
+
+msgid "Pressure"
+msgstr "Presiune"
+
+msgid "Pressure: {}"
+msgstr "Presiune: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Presiune: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Presiune: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Presiune: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Presiune: N/A"
+
+msgid "Prev"
+msgstr "Prev"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Previous frame"
+msgstr "Cadrul anterior"
+
+msgid "Previous Image"
+msgstr "Imaginea anterioară"
+
+msgid "Previous page"
+msgstr "Pagina anterioară"
+
+msgid "Previous time"
+msgstr "Ora anterioară"
+
+msgid "Rain Prob."
+msgstr "Ploaie Prob."
+
+msgid "Rain prob. {}%"
+msgstr "problema ploii {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Prob. ploaie: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Ploaie: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "Radar RainViewer"
+
+msgid "Red"
+msgstr "Roşu"
+
+msgid "Red - Color select"
+msgstr "Roșu - Selectare culoare"
+
+msgid "Refresh"
+msgstr "Reîmprospăta"
+
+msgid "Restore default server values"
+msgstr "Restaurați valorile implicite ale serverului"
+
+msgid "Rhineland-Palatine"
+msgstr "Renania-Palatină"
+
+msgid "Right - Next day"
+msgstr "Corect - a doua zi"
+
+msgid "Right arrow - Next day"
+msgstr "Săgeată dreapta - A doua zi"
+
+msgid "Rise"
+msgstr "Creştere"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Azimut de creștere: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Azimut de creștere: N/A"
+
+msgid "Russia"
+msgstr "Rusia"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saarland"
+
+msgid "Satellite Photos"
+msgstr "Fotografii prin satelit"
+
+msgid "Satellite photos coming soon!"
+msgstr "Fotografii prin satelit în curând!"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Save API settings"
+msgstr "Salvați setările API"
+
+msgid "Save translation settings"
+msgstr "Salvați setările de traducere"
+
+msgid "Saxony"
+msgstr "Saxonia"
+
+msgid "Saxony-Anhalt"
+msgstr "Saxonia-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+msgid "Scraped"
+msgstr "Razuit"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Căutarea încearcă mai întâi online, dacă eșuează, folosește lista locală."
+
+msgid "Search your City"
+msgstr "Căutați orașul dvs"
+
+msgid "Select"
+msgstr "Selecta"
+
+msgid "Select {} unit"
+msgstr "Selectați {} unitate"
+
+msgid "Select a city"
+msgstr "Selectați un oraș"
+
+msgid "Select a map with OK"
+msgstr "Selectați o hartă cu OK"
+
+msgid "Select Region"
+msgstr "Selectați Regiune"
+
+msgid "Select unit system"
+msgstr "Selectați sistemul de unitate"
+
+msgid "Select wind unit"
+msgstr "Selectați unitatea de vânt"
+
+msgid "Selected hour details"
+msgstr "Detalii ale orei selectate"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Setați azimut: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Setați azimut: N/A"
+
+msgid "Sets"
+msgstr "Seturi"
+
+msgid "Show info"
+msgstr "Afișați informații"
+
+msgid "Showers"
+msgstr "Averse"
+
+msgid "Slovakia"
+msgstr "Slovacia"
+
+msgid "Slower: {}s"
+msgstr "Mai încet: {}s"
+
+msgid "Snow / ice"
+msgstr "Zăpadă/gheață"
+
+msgid "Snow prob. {}%"
+msgstr "problema de zapada. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Problemă zăpadă: N/A"
+
+msgid "South Africa"
+msgstr "Africa de Sud"
+
+msgid "South America"
+msgstr "America de Sud"
+
+msgid "Southeast Asia"
+msgstr "Asia de Sud-Est"
+
+msgid "Spain"
+msgstr "Spania"
+
+msgid "Station Observations"
+msgstr "Observații ale stației"
+
+msgid "Station: {}"
+msgstr "Stație: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Puternic (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "Răsărit de soare"
+
+msgid "Sunset"
+msgstr "Apus de soare"
+
+msgid "Super Full Moon"
+msgstr "Super Lună Plină"
+
+msgid "Sweden"
+msgstr "Suedia"
+
+msgid "Switzerland"
+msgstr "Elveţia"
+
+msgid "Target Language"
+msgstr "Limba țintă"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Temperatură"
+
+msgid "Temperature: {}"
+msgstr "Temperatura: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatura: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatura: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Temperatura: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatura: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatura: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Mulțumesc {thanks} și altor prieteni pentru sugestii"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Versiunea la distanță ({remote}) este mai veche decât cea actuală ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Nor subțire superior"
+
+msgid "Thuringia"
+msgstr "Turingia"
+
+msgid "Time"
+msgstr "Timp"
+
+msgid "Today"
+msgstr "Astăzi"
+
+msgid "Today/Tomorrow details"
+msgstr "Detalii azi/mâine"
+
+msgid "Toggle legend"
+msgstr "Comutați legenda"
+
+msgid "Token expire hours"
+msgstr "Orele de expirare a simbolului"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Orele de expirare a simbolului trebuie să fie -1 sau un număr pozitiv."
+
+msgid "Token expire hours must be a number."
+msgstr "Orele de expirare a simbolului trebuie să fie un număr."
+
+msgid "Tomorrow"
+msgstr "Mâine"
+
+msgid "Transit (culmination): {}"
+msgstr "Tranzit (apogeu): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Altitudine de tranzit: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Altitudine de tranzit: N/A"
+
+msgid "Translation Settings"
+msgstr "Setări de traducere"
+
+msgid "Transparency level"
+msgstr "Nivel de transparență"
+
+msgid "Transparency Settings"
+msgstr "Setări de transparență"
+
+msgid "Unhealthy"
+msgstr "Nesănătos"
+
+msgid "Unhealthy for sensitives"
+msgstr "Nesănătos pentru sensibili"
+
+msgid "Unit Settings"
+msgstr "Setările unității"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Setări unități (avansate)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Setări unități (simple)"
+
+msgid "Unknown"
+msgstr "Necunoscut"
+
+msgid "Up"
+msgstr "Sus"
+
+msgid "Up - Previous page"
+msgstr "Sus - Pagina anterioară"
+
+msgid "Update canceled."
+msgstr "Actualizare anulată."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Actualizare finalizată. Vă rugăm să reporniți Enigma2."
+
+msgid "Updated {}"
+msgstr "Actualizat {}"
+
+msgid "Updated: {}"
+msgstr "Actualizat: {}"
+
+msgid "Updated: N/A"
+msgstr "Actualizat: N/A"
+
+msgid "Updating..."
+msgstr "Se actualizează..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Folosiți ← → pentru a schimba ora | OK pentru a ieși"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Folosiți ←/→/↑/↓ pentru a vă deplasa | OK pentru a ieși"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Folosiți ▲/▼ pentru a schimba, OK pentru a selecta"
+
+msgid "Use arrow keys to scroll"
+msgstr "Folosiți tastele săgeți pentru a derula"
+
+msgid "Use Google Translate"
+msgstr "Utilizați Google Translate"
+
+msgid "Using current time"
+msgstr "Folosind ora curentă"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "Index UV"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Ploaie foarte puternică"
+
+msgid "Very high"
+msgstr "Foarte sus"
+
+msgid "Very hot (>40°C)"
+msgstr "Foarte cald (>40°C)"
+
+msgid "Very low"
+msgstr "Foarte scăzut"
+
+msgid "Very unhealthy"
+msgstr "Foarte nesănătos"
+
+msgid "Visibility: {} m"
+msgstr "Vizibilitate: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Vizibilitate: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Semiluna în scădere"
+
+msgid "Waning Gibbous"
+msgstr "Waning Gibbous"
+
+msgid "Warm (20-30°C)"
+msgstr "Cald (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Semiluna în ceară"
+
+msgid "Waxing Gibbous"
+msgstr "Gibos în ceară"
+
+msgid "Weather"
+msgstr "Vreme"
+
+msgid "Weather Map"
+msgstr "Harta vremii"
+
+msgid "Weather Maps"
+msgstr "Hărți meteo"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Hărți meteo (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Hărți meteo și satelit"
+
+msgid "Weather Maps Slideshow"
+msgstr "Prezentare Hărți meteo"
+
+msgid "Weather Radar"
+msgstr "Radar meteo"
+
+msgid "Weather today"
+msgstr "Vremea azi"
+
+msgid "Weather tomorrow"
+msgstr "Vremea mâine"
+
+msgid "Weekly Forecast"
+msgstr "Prognoza săptămânală"
+
+msgid "Wind"
+msgstr "Vânt"
+
+msgid "Wind direction"
+msgstr "Direcția vântului"
+
+msgid "Wind Direction today"
+msgstr "Direcția vântului astăzi"
+
+msgid "Wind Direction tomorrow"
+msgstr "Direcția vântului mâine"
+
+msgid "Wind speed"
+msgstr "Viteza vântului"
+
+msgid "Wind speed {}"
+msgstr "Viteza vântului {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Viteza vântului: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Vânt: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vânt: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vânt: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Vânt: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Vânt: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Vânt: N/A"
+
+msgid "Window transparency"
+msgstr "Transparența ferestrei"
+
+msgid "Yellow - Favorite 2"
+msgstr "Galben - Favorit 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Aveți deja instalată versiunea {version}.\nDoriți să o reinstalați?"
+
+msgid "Zoom In"
+msgstr "Măriți"
+
+msgid "Zoom Out"
+msgstr "Micșorați"
+
+msgid "Zoom-"
+msgstr "Zoom-"
+
+msgid "Zoom:"
+msgstr "Zoom:"
+
+msgid "Zoom+"
+msgstr "Zoom+"
+

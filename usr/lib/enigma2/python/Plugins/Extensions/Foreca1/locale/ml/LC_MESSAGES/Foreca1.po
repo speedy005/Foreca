@@ -1,0 +1,1509 @@
+# ml translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ml <ekekaz@gmail.com>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} മിനിറ്റ്"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• Home\n ആയി സംരക്ഷിക്കാൻ നീല\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 നഗരങ്ങളിലേക്ക് കുതിക്കാൻ\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• പ്രിയപ്പെട്ട 1\n ആയി സംരക്ഷിക്കാൻ പച്ച\n"
+
+msgid "• OK to select city\n"
+msgstr "• city\n തിരഞ്ഞെടുക്കാൻ ശരി\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• തിരയൽ കീബോർഡ് \n തുറക്കാൻ ചുവപ്പ്\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "•\n നാവിഗേറ്റ് ചെയ്യാൻ അമ്പടയാള കീകൾ ഉപയോഗിക്കുക\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- 100 നഗരങ്ങളിലേക്ക് കുതിക്കാൻ\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• പ്രിയപ്പെട്ട 2\n ആയി സംരക്ഷിക്കാൻ മഞ്ഞ\n"
+
+msgid "← Frame"
+msgstr "← ഫ്രെയിം"
+
+msgid "0 - Today"
+msgstr "0 - ഇന്ന്"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - ഇന്ന് + 1 ദിവസം"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - ഇന്ന് + 2 ദിവസം"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - ഇന്ന് + 3 ദിവസം"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - ഇന്ന് + 4 ദിവസം"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - ഇന്ന് + 5 ദിവസം"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - ഇന്ന് + 6 ദിവസം"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - ഇന്ന് + 7 ദിവസം"
+
+msgid "7 Day Forecast"
+msgstr "7 ദിവസത്തെ പ്രവചനം"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - ഇന്ന് + 8 ദിവസം"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - ഇന്ന് + 9 ദിവസം"
+
+msgid "Advanced"
+msgstr "വിപുലമായ"
+
+msgid "Advanced Unit Settings"
+msgstr "വിപുലമായ യൂണിറ്റ് ക്രമീകരണങ്ങൾ"
+
+msgid "Afternoon"
+msgstr "ഉച്ചയ്ക്ക്"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "അമാവാസി മുതലുള്ള പ്രായം: {:.1f} ദിവസം"
+
+msgid "Age: N/A"
+msgstr "പ്രായം: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "കോണീയ വ്യാസം: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "കോണീയ വ്യാസം: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API കോൺഫിഗറേഷൻ ഫയൽ കണ്ടെത്തിയില്ല!\n\nദയവായി ഫയൽ സൃഷ്‌ടിക്കുക:\n{0}\n\nനിങ്ങളുടെ Foreca API ക്രെഡൻഷ്യലുകൾ ഉപയോഗിച്ച്."
+
+msgid "API credentials not configured."
+msgstr "API ക്രെഡൻഷ്യലുകൾ കോൺഫിഗർ ചെയ്തിട്ടില്ല."
+
+msgid "API error"
+msgstr "API പിശക്"
+
+msgid "API password"
+msgstr "API പാസ്‌വേഡ്"
+
+msgid "API user"
+msgstr "API ഉപയോക്താവ്"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "ദൃശ്യകാന്തിമാനം: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "പ്രിയപ്പെട്ട 1-ലേക്ക് അസൈൻ ചെയ്യുക"
+
+msgid "Assign to Favorite 2"
+msgstr "പ്രിയപ്പെട്ട 2 ലേക്ക് അസൈൻ ചെയ്യുക"
+
+msgid "Assign to Home"
+msgstr "വീട്ടിലേക്ക് അസൈൻ ചെയ്യുക"
+
+msgid "Australia"
+msgstr "ഓസ്ട്രേലിയ"
+
+msgid "Austria"
+msgstr "ഓസ്ട്രിയ"
+
+msgid "Auth server"
+msgstr "ഓത്ത് സെർവർ"
+
+msgid "Baden-Wuerttemberg"
+msgstr "ബാഡൻ-വുർട്ടെംബർഗ്"
+
+msgid "Barometer"
+msgstr "ബാരോമീറ്റർ"
+
+msgid "Bavaria"
+msgstr "ബവേറിയ"
+
+msgid "Belgium"
+msgstr "ബെൽജിയം"
+
+msgid "Berlin"
+msgstr "ബെർലിൻ"
+
+msgid "Black Moon"
+msgstr "കറുത്ത ചന്ദ്രൻ"
+
+msgid "Blue"
+msgstr "നീല"
+
+msgid "Blue - Home"
+msgstr "നീല - വീട്"
+
+msgid "Blue Moon"
+msgstr "ബ്ലൂ മൂൺ"
+
+msgid "Brandenburg"
+msgstr "ബ്രാൻഡൻബർഗ്"
+
+msgid "Bremen"
+msgstr "ബ്രെമെൻ"
+
+msgid "Calculating..."
+msgstr "കണക്കാക്കുന്നു..."
+
+msgid "Cancel"
+msgstr "റദ്ദാക്കുക"
+
+msgid "Celsius, km/h, hPa"
+msgstr "സെൽഷ്യസ്, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "ചേഞ്ച്ലോഗ്: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "മാറ്റങ്ങൾ ഉടനടി ബാധകമാണ്"
+
+msgid "Check for updates"
+msgstr "അപ്ഡേറ്റുകൾക്കായി പരിശോധിക്കുക"
+
+msgid "Choose detail view"
+msgstr "വിശദമായ കാഴ്ച തിരഞ്ഞെടുക്കുക"
+
+msgid "City list file not found!"
+msgstr "സിറ്റി ലിസ്റ്റ് ഫയൽ കണ്ടെത്തിയില്ല!"
+
+msgid "City Selection"
+msgstr "നഗര തിരഞ്ഞെടുപ്പ്"
+
+msgid "City Selection Help:\n\n"
+msgstr "നഗര തിരഞ്ഞെടുപ്പ് സഹായം:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "ഒരു താൽക്കാലിക ഫയലുകൾ ക്ലീനപ്പ് ചെയ്യണോ?"
+
+msgid "Cleanup temp files"
+msgstr "താൽക്കാലിക ഫയലുകൾ വൃത്തിയാക്കുക"
+
+msgid "Clear"
+msgstr "ക്ലിയർ"
+
+msgid "Close"
+msgstr "അടയ്ക്കുക"
+
+msgid "Close legend"
+msgstr "ക്ലോസ് ലെജൻഡ്"
+
+msgid "Close setup without saving"
+msgstr "സംരക്ഷിക്കാതെ സജ്ജീകരണം അടയ്ക്കുക"
+
+msgid "Cloudy"
+msgstr "മേഘാവൃതമായ"
+
+msgid "Cloudy and light rain"
+msgstr "മേഘാവൃതവും നേരിയ മഴയും"
+
+msgid "Cloudy and light snow"
+msgstr "മേഘാവൃതവും നേരിയ മഞ്ഞും"
+
+msgid "Cloudy and light wet snow"
+msgstr "മേഘാവൃതവും നേരിയ നനഞ്ഞ മഞ്ഞും"
+
+msgid "Cloudy and showers"
+msgstr "മേഘാവൃതവും മഴയും"
+
+msgid "Cloudy and snow showers"
+msgstr "മേഘാവൃതവും മഞ്ഞുവീഴ്ചയും"
+
+msgid "Cloudy and wet snow showers"
+msgstr "മേഘാവൃതവും നനഞ്ഞതുമായ മഞ്ഞ് മഴ"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "മേഘാവൃതമായ, ഇടിമിന്നലോട് കൂടിയ മഴ"
+
+msgid "Cold (< 0°C)"
+msgstr "തണുപ്പ് (< 0°C)"
+
+msgid "Color data"
+msgstr "വർണ്ണ ഡാറ്റ"
+
+msgid "Color legend"
+msgstr "വർണ്ണ ഇതിഹാസം"
+
+msgid "Color Legend"
+msgstr "കളർ ലെജൻഡ്"
+
+msgid "Color name"
+msgstr "നിറത്തിൻ്റെ പേര്"
+
+msgid "Color select"
+msgstr "നിറം തിരഞ്ഞെടുക്കുക"
+
+msgid "Color Selector"
+msgstr "കളർ സെലക്ടർ"
+
+msgid "Condition: {}"
+msgstr "അവസ്ഥ: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API ക്രെഡൻഷ്യലുകൾ കോൺഫിഗർ ചെയ്യുക"
+
+msgid "Continents Weather Maps"
+msgstr "ഭൂഖണ്ഡങ്ങളുടെ കാലാവസ്ഥാ മാപ്പുകൾ"
+
+msgid "Cool (0-10°C)"
+msgstr "തണുപ്പ് (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "അപ്ഡേറ്റ് വിവരങ്ങൾ ലഭ്യമാക്കാനായില്ല."
+
+msgid "Could not initialize map API."
+msgstr "മാപ്പ് API ആരംഭിക്കാൻ കഴിഞ്ഞില്ല."
+
+msgid "Could not load forecast data"
+msgstr "പ്രവചന ഡാറ്റ ലോഡ് ചെയ്യാനായില്ല"
+
+msgid "Could not parse version information."
+msgstr "പതിപ്പ് വിവരങ്ങൾ പാഴ്‌സ് ചെയ്യാനായില്ല."
+
+msgid "Current weather and forecast"
+msgstr "നിലവിലെ കാലാവസ്ഥയും പ്രവചനവും"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "നിലവിലെ കാലാവസ്ഥയും അടുത്ത 10 ദിവസത്തേക്കുള്ള പ്രവചനവും"
+
+msgid "Current: {}"
+msgstr "നിലവിലുള്ളത്: {}"
+
+msgid "Czech Republic"
+msgstr "ചെക്ക് റിപ്പബ്ലിക്"
+
+msgid "Data provided by Foreca"
+msgstr "Foreca നൽകിയ ഡാറ്റ"
+
+msgid "Date: {}"
+msgstr "തീയതി: {}"
+
+msgid "Day"
+msgstr "ദിവസം"
+
+msgid "Decrease Speed"
+msgstr "വേഗത കുറയ്ക്കുക"
+
+msgid "Defaults"
+msgstr "സ്ഥിരസ്ഥിതികൾ"
+
+msgid "Denmark"
+msgstr "ഡെൻമാർക്ക്"
+
+msgid "Details"
+msgstr "വിശദാംശങ്ങൾ"
+
+msgid "Dewpoint {}"
+msgstr "ഡ്യൂപോയിൻ്റ് {}"
+
+msgid "Dewpoint {}°C"
+msgstr "ഡ്യൂപോയിൻ്റ് {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "ഡ്യൂപോയിൻ്റ്: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "ഡ്യൂപോയിൻ്റ്: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "ഡ്യൂപോയിൻ്റ്: N/A"
+
+msgid "Distance"
+msgstr "ദൂരം"
+
+msgid "Distance {} km"
+msgstr "ദൂരം {} കി.മീ"
+
+msgid "Distance: {}"
+msgstr "ദൂരം: {}"
+
+msgid "Distance: {} km"
+msgstr "ദൂരം: {} കി.മീ"
+
+msgid "Distance: %s"
+msgstr "ദൂരം: %s"
+
+msgid "Do you want to install it now?"
+msgstr "നിങ്ങൾക്കിത് ഇപ്പോൾ ഇൻസ്റ്റാൾ ചെയ്യണോ?"
+
+msgid "Down"
+msgstr "താഴേക്ക്"
+
+msgid "Down - Next page"
+msgstr "താഴേക്ക് - അടുത്ത പേജ്"
+
+msgid "Download error"
+msgstr "ഡൗൺലോഡ് പിശക്"
+
+msgid "Downloading images..."
+msgstr "ചിത്രങ്ങൾ ഡൗൺലോഡ് ചെയ്യുന്നു..."
+
+msgid "Downloading tiles..."
+msgstr "ടൈലുകൾ ഡൗൺലോഡ് ചെയ്യുന്നു..."
+
+msgid "E"
+msgstr "ഇ"
+
+msgid "East Asia"
+msgstr "കിഴക്കൻ ഏഷ്യ"
+
+msgid "Error checking for updates."
+msgstr "അപ്‌ഡേറ്റുകൾക്കായി പരിശോധിക്കുന്നതിൽ പിശക്."
+
+msgid "Error loading data"
+msgstr "ഡാറ്റ ലോഡുചെയ്യുന്നതിൽ പിശക്"
+
+msgid "Error loading map"
+msgstr "മാപ്പ് ലോഡ് ചെയ്യുന്നതിൽ പിശക്"
+
+msgid "Error loading maps. Check connection."
+msgstr "മാപ്പുകൾ ലോഡുചെയ്യുന്നതിൽ പിശക്. കണക്ഷൻ പരിശോധിക്കുക."
+
+msgid "Error saving favorite!"
+msgstr "പ്രിയപ്പെട്ടത് സംരക്ഷിക്കുന്നതിൽ പിശക്!"
+
+msgid "Europe"
+msgstr "യൂറോപ്പ്"
+
+msgid "European Weather Maps"
+msgstr "യൂറോപ്യൻ കാലാവസ്ഥാ മാപ്പുകൾ"
+
+msgid "Evening"
+msgstr "വൈകുന്നേരം"
+
+msgid "Exit"
+msgstr "പുറത്ത്"
+
+msgid "Exit - End"
+msgstr "പുറത്തുകടക്കുക - അവസാനം"
+
+msgid "Exit / Close legend"
+msgstr "എക്സിറ്റ് / ക്ലോസ് ലെജൻഡ്"
+
+msgid "Extreme"
+msgstr "അങ്ങേയറ്റം"
+
+msgid "Extreme / thunderstorms"
+msgstr "അതിശക്തമായ / ഇടിമിന്നൽ"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "ഫാരൻഹീറ്റ്, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "കോൺഫിഗറേഷൻ ഫയൽ എഴുതുന്നതിൽ പരാജയപ്പെട്ടു:\n%s"
+
+msgid "Faster: {}s"
+msgstr "വേഗത്തിൽ: {}s"
+
+msgid "Favorite 1"
+msgstr "പ്രിയപ്പെട്ട 1"
+
+msgid "Favorite 2"
+msgstr "പ്രിയപ്പെട്ട 2"
+
+msgid "Favorites details"
+msgstr "പ്രിയപ്പെട്ട വിശദാംശങ്ങൾ"
+
+msgid "Favorites Details"
+msgstr "പ്രിയപ്പെട്ടവയുടെ വിശദാംശങ്ങൾ"
+
+msgid "Feels like"
+msgstr "പോലെ തോന്നുന്നു"
+
+msgid "Feels like {}"
+msgstr "{} പോലെ തോന്നുന്നു"
+
+msgid "Feels like {}{}"
+msgstr "{}{} പോലെ തോന്നുന്നു"
+
+msgid "Feels like: {}"
+msgstr "ഇതുപോലെ തോന്നുന്നു: {}"
+
+msgid "Feels like: {}{}"
+msgstr "ഇതുപോലെ തോന്നുന്നു: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "ഇതുപോലെ തോന്നുന്നു: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "ഇതുപോലെ തോന്നുന്നു: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "ഇതുപോലെ തോന്നുന്നു: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "തോന്നുന്നു: N/A"
+
+msgid "Finland"
+msgstr "ഫിൻലാൻഡ്"
+
+msgid "First Quarter"
+msgstr "ആദ്യ പാദം"
+
+msgid "Fog"
+msgstr "മൂടൽമഞ്ഞ്"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API ക്രെഡൻഷ്യലുകൾ ഇതുവരെ കോൺഫിഗർ ചെയ്തിട്ടില്ല. ദയവായി അവ സജ്ജീകരണ സ്ക്രീനിൽ നൽകുക."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API ക്രമീകരണങ്ങൾ വിജയകരമായി സംരക്ഷിച്ചു."
+
+msgid "Foreca API Setup"
+msgstr "ഫോർക്ക API സജ്ജീകരണം"
+
+msgid "Foreca One"
+msgstr "പ്രവചനം ഒന്ന്"
+
+msgid "Foreca One | Map {}"
+msgstr "ഫോർക്ക വൺ | മാപ്പ് {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "ഫോർക്ക വൺ മെനു"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One സ്റ്റേഷനുകളൊന്നും കണ്ടെത്തിയില്ല"
+
+msgid "Foreca One Setup"
+msgstr "ഫോർക്ക വൺ സെറ്റപ്പ്"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "ഫോർക്ക വൺ സ്റ്റേഷനുകൾ: {} സമീപത്തുള്ള സ്റ്റേഷനുകൾ ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "പ്രവചനം വൺ കാലാവസ്ഥയും പ്രവചനവും. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "പ്രവചനം വൺ കാലാവസ്ഥാ പ്രവചനം"
+
+msgid "Frame →"
+msgstr "ഫ്രെയിം →"
+
+msgid "Frame: {}"
+msgstr "ഫ്രെയിം: {}"
+
+msgid "France"
+msgstr "ഫ്രാൻസ്"
+
+msgid "Full Moon"
+msgstr "പൂർണ്ണ ചന്ദ്രൻ"
+
+msgid "Gale force (>60 km/h)"
+msgstr "കാറ്റിൻ്റെ ശക്തി (>60 കി.മീ/മണിക്കൂർ)"
+
+msgid "German States Weather Maps"
+msgstr "ജർമ്മൻ സംസ്ഥാനങ്ങളുടെ കാലാവസ്ഥാ മാപ്പുകൾ"
+
+msgid "Germany"
+msgstr "ജർമ്മനി"
+
+msgid "Good"
+msgstr "നല്ലത്"
+
+msgid "Great Britain"
+msgstr "ഗ്രേറ്റ് ബ്രിട്ടൻ"
+
+msgid "Greece"
+msgstr "ഗ്രീസ്"
+
+msgid "Green"
+msgstr "പച്ച"
+
+msgid "Green - Favorite 1"
+msgstr "പച്ച - പ്രിയപ്പെട്ട 1"
+
+msgid "Gust {}"
+msgstr "ഗസ്റ്റ് {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "ഗസ്റ്റ്: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "ഹാംബർഗ്"
+
+msgid "Hazardous"
+msgstr "അപകടകരമായ"
+
+msgid "Header - not selectable"
+msgstr "തലക്കെട്ട് - തിരഞ്ഞെടുക്കാനാകില്ല"
+
+msgid "Heavy rain"
+msgstr "കനത്ത മഴ"
+
+msgid "Help"
+msgstr "സഹായം"
+
+msgid "Hesse"
+msgstr "ഹെസ്സെ"
+
+msgid "High"
+msgstr "ഉയർന്നത്"
+
+msgid "Home"
+msgstr "വീട്"
+
+msgid "Hot (30-40°C)"
+msgstr "ചൂട് (30-40°C)"
+
+msgid "Hour Details"
+msgstr "മണിക്കൂർ വിശദാംശങ്ങൾ"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "ഈർപ്പം"
+
+msgid "Humidity: {}%"
+msgstr "ഈർപ്പം: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "ഈർപ്പം: %s%%"
+
+msgid "Hungary"
+msgstr "ഹംഗറി"
+
+msgid "Ice / frost"
+msgstr "ഐസ് / മഞ്ഞ്"
+
+msgid "Illumination"
+msgstr "പ്രകാശം"
+
+msgid "Illumination: {:.1f}%"
+msgstr "പ്രകാശം: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "ചിത്രം %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "ചിത്രം %(current)d/%(total)d – %(day)s (താൽക്കാലികമായി നിർത്തി)"
+
+msgid "Image not available"
+msgstr "ചിത്രം ലഭ്യമല്ല"
+
+msgid "Imperial System"
+msgstr "സാമ്രാജ്യത്വ സംവിധാനം"
+
+msgid "Increase Speed"
+msgstr "വേഗത കൂട്ടുക"
+
+msgid "Info"
+msgstr "വിവരം"
+
+msgid "Info - About"
+msgstr "വിവരം - കുറിച്ച്"
+
+msgid "Ireland"
+msgstr "അയർലൻഡ്"
+
+msgid "Italy"
+msgstr "ഇറ്റലി"
+
+msgid "Jump 100 down"
+msgstr "100 താഴേക്ക് ചാടുക"
+
+msgid "Jump 100 up"
+msgstr "100 മുകളിലേക്ക് ചാടുക"
+
+msgid "Jump 500 down"
+msgstr "500 താഴേക്ക് ചാടുക"
+
+msgid "Jump 500 up"
+msgstr "500 മുകളിലേക്ക് ചാടുക"
+
+msgid "Keyboard"
+msgstr "കീബോർഡ്"
+
+msgid "Last Quarter"
+msgstr "അവസാന പാദം"
+
+msgid "Last update"
+msgstr "അവസാന അപ്ഡേറ്റ്"
+
+msgid "Latvia"
+msgstr "ലാത്വിയ"
+
+msgid "Left - Previous day"
+msgstr "ഇടത് - കഴിഞ്ഞ ദിവസം"
+
+msgid "Left arrow - Previous day"
+msgstr "ഇടത് അമ്പടയാളം - കഴിഞ്ഞ ദിവസം"
+
+msgid "Light (0-20 km/h)"
+msgstr "പ്രകാശം (മണിക്കൂറിൽ 0-20 കി.മീ.)"
+
+msgid "Light rain / drizzle"
+msgstr "നേരിയ മഴ / ചാറ്റൽ മഴ"
+
+msgid "Light to moderate"
+msgstr "നേരിയതോ മിതമായതോ"
+
+msgid "Loading available maps..."
+msgstr "ലഭ്യമായ മാപ്പുകൾ ലോഡുചെയ്യുന്നു..."
+
+msgid "Loading lunar phases..."
+msgstr "ചാന്ദ്ര ഘട്ടങ്ങൾ ലോഡ് ചെയ്യുന്നു..."
+
+msgid "Loading nearby stations..."
+msgstr "സമീപത്തുള്ള സ്റ്റേഷനുകൾ ലോഡുചെയ്യുന്നു..."
+
+msgid "Loading tiles..."
+msgstr "ടൈലുകൾ ലോഡുചെയ്യുന്നു..."
+
+msgid "Loading weekly forecast..."
+msgstr "പ്രതിവാര പ്രവചനം ലോഡുചെയ്യുന്നു..."
+
+msgid "Loading..."
+msgstr "ലോഡ് ചെയ്യുന്നു..."
+
+msgid "Low"
+msgstr "താഴ്ന്നത്"
+
+msgid "Lower Saxony"
+msgstr "ലോവർ സാക്സണി"
+
+msgid "Lunar Calendar"
+msgstr "ചാന്ദ്ര കലണ്ടർ"
+
+msgid "Lunar phases from next month"
+msgstr "അടുത്ത മാസം മുതൽ ചാന്ദ്ര ഘട്ടങ്ങൾ"
+
+msgid "Luxembourg"
+msgstr "ലക്സംബർഗ്"
+
+msgid "Magnitude: N/A"
+msgstr "കാന്തിമാനം: N/A"
+
+msgid "Map {} selected"
+msgstr "മാപ്പ് {} തിരഞ്ഞെടുത്തു"
+
+msgid "Map & Tiles Loaded"
+msgstr "മാപ്പും ടൈലുകളും ലോഡുചെയ്‌തു"
+
+msgid "Map loaded"
+msgstr "മാപ്പ് ലോഡ് ചെയ്തു"
+
+msgid "Map server"
+msgstr "മാപ്പ് സെർവർ"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "മെക്ക്ലെൻബർഗ്-വോർപോമ്മേൺ"
+
+msgid "Menu"
+msgstr "മെനു"
+
+msgid "Menu - Settings"
+msgstr "മെനു - ക്രമീകരണങ്ങൾ"
+
+msgid "Merge failed"
+msgstr "ലയിപ്പിക്കൽ പരാജയപ്പെട്ടു"
+
+msgid "Meteogram"
+msgstr "മെറ്റിയോഗ്രാം"
+
+msgid "Metric System"
+msgstr "മെട്രിക് സിസ്റ്റം"
+
+msgid "Middle America"
+msgstr "മധ്യ അമേരിക്ക"
+
+msgid "Middle Asia"
+msgstr "മധ്യേഷ്യ"
+
+msgid "Middle East"
+msgstr "മിഡിൽ ഈസ്റ്റ്"
+
+msgid "Mild (10-20°C)"
+msgstr "നേരിയ (10-20°C)"
+
+msgid "Moderate"
+msgstr "മിതത്വം"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "മിതമായ (മണിക്കൂറിൽ 20-40 കി.മീ.)"
+
+msgid "Moderate rain"
+msgstr "മിതമായ മഴ"
+
+msgid "Month"
+msgstr "മാസം"
+
+msgid "Moon details"
+msgstr "ചന്ദ്രൻ്റെ വിശദാംശങ്ങൾ"
+
+msgid "Moon Details"
+msgstr "ചന്ദ്രൻ്റെ വിശദാംശങ്ങൾ"
+
+msgid "Moonrise: {}"
+msgstr "ചന്ദ്രോദയം: {}"
+
+msgid "Moonset: {}"
+msgstr "മൂൺസെറ്റ്: {}"
+
+msgid "Morning"
+msgstr "രാവിലെ"
+
+msgid "Mostly clear"
+msgstr "മിക്കവാറും വ്യക്തമാണ്"
+
+msgid "Move down"
+msgstr "താഴേക്ക് നീങ്ങുക"
+
+msgid "Move Down"
+msgstr "താഴേക്ക് നീങ്ങുക"
+
+msgid "Move up"
+msgstr "മുകളിലേക്ക് നീങ്ങുക"
+
+msgid "Move Up"
+msgstr "മുകളിലേക്ക് നീങ്ങുക"
+
+msgid "N"
+msgstr "എൻ"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Netherlands"
+msgstr "നെതർലാൻഡ്സ്"
+
+msgid "New Moon"
+msgstr "അമാവാസി"
+
+msgid "New version {version} is available."
+msgstr "പുതിയ പതിപ്പ് {version} ലഭ്യമാണ്."
+
+msgid "Next"
+msgstr "അടുത്തത്"
+
+msgid "Next frame"
+msgstr "അടുത്ത ഫ്രെയിം"
+
+msgid "Next Image"
+msgstr "അടുത്ത ചിത്രം"
+
+msgid "Next page"
+msgstr "അടുത്ത പേജ്"
+
+msgid "Next time"
+msgstr "അടുത്ത തവണ"
+
+msgid "No city selected"
+msgstr "നഗരമൊന്നും തിരഞ്ഞെടുത്തിട്ടില്ല"
+
+msgid "No data"
+msgstr "ഡാറ്റ ഇല്ല"
+
+msgid "No date available"
+msgstr "തീയതി ലഭ്യമല്ല"
+
+msgid "No Internet connection detected."
+msgstr "ഇൻ്റർനെറ്റ് കണക്ഷൻ കണ്ടെത്തിയില്ല."
+
+msgid "No location selected"
+msgstr "ലൊക്കേഷനൊന്നും തിരഞ്ഞെടുത്തിട്ടില്ല"
+
+msgid "No OSM tiles"
+msgstr "OSM ടൈലുകളൊന്നുമില്ല"
+
+msgid "No specific legend available."
+msgstr "പ്രത്യേക ഐതിഹ്യമൊന്നും ലഭ്യമല്ല."
+
+msgid "No station data"
+msgstr "സ്റ്റേഷൻ ഡാറ്റ ഇല്ല"
+
+msgid "No station data available"
+msgstr "സ്റ്റേഷൻ ഡാറ്റ ലഭ്യമല്ല"
+
+msgid "No stations found"
+msgstr "സ്റ്റേഷനുകളൊന്നും കണ്ടെത്തിയില്ല"
+
+msgid "No tiles downloaded"
+msgstr "ടൈലുകളൊന്നും ഡൗൺലോഡ് ചെയ്തിട്ടില്ല"
+
+msgid "North Africa"
+msgstr "വടക്കേ ആഫ്രിക്ക"
+
+msgid "North America"
+msgstr "വടക്കേ അമേരിക്ക"
+
+msgid "North Rhine-Westphalia"
+msgstr "നോർത്ത് റൈൻ-വെസ്റ്റ്ഫാലിയ"
+
+msgid "Norway"
+msgstr "നോർവേ"
+
+msgid "Ok - Details"
+msgstr "ശരി - വിശദാംശങ്ങൾ"
+
+msgid "OK - Ext Info"
+msgstr "ശരി - കൂടുതൽ വിവരങ്ങൾ"
+
+msgid "OK - Forecast"
+msgstr "ശരി - പ്രവചനം"
+
+msgid "OK - Open Map"
+msgstr "ശരി - മാപ്പ് തുറക്കുക"
+
+msgid "Open Keyboard"
+msgstr "കീബോർഡ് തുറക്കുക"
+
+msgid "Open Map"
+msgstr "മാപ്പ് തുറക്കുക"
+
+msgid "Original design and idea by %s"
+msgstr "യഥാർത്ഥ രൂപകൽപ്പനയും ആശയവും %s പ്രകാരം"
+
+msgid "Overcast"
+msgstr "മൂടൽമഞ്ഞ്"
+
+msgid "Overcast and light rain"
+msgstr "മൂടിക്കെട്ടിയ നേരിയ മഴ"
+
+msgid "Overcast and light snow"
+msgstr "മൂടൽ മഞ്ഞും നേരിയ മഞ്ഞും"
+
+msgid "Overcast and light wet snow"
+msgstr "മൂടിക്കെട്ടിയതും നേരിയ നനഞ്ഞ മഞ്ഞും"
+
+msgid "Overcast and rain"
+msgstr "മൂടിക്കെട്ടിയ മഴയും"
+
+msgid "Overcast and showers"
+msgstr "മൂടിക്കെട്ടിയ മഴയും"
+
+msgid "Overcast and snow"
+msgstr "മൂടൽ മഞ്ഞും"
+
+msgid "Overcast and snow showers"
+msgstr "മൂടൽ മഞ്ഞും മഴയും"
+
+msgid "Overcast and wet snow"
+msgstr "മൂടിക്കെട്ടിയതും നനഞ്ഞതുമായ മഞ്ഞ്"
+
+msgid "Overcast and wet snow showers"
+msgstr "മൂടിക്കെട്ടിയതും നനഞ്ഞതുമായ മഞ്ഞ് മഴ"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "മൂടൽമഞ്ഞ്, ഇടിമിന്നലോട് കൂടിയ മഴ"
+
+msgid "Overnight"
+msgstr "ഒറ്റരാത്രികൊണ്ട്"
+
+msgid "Page down"
+msgstr "പേജ് താഴേക്ക്"
+
+msgid "Page Down"
+msgstr "പേജ് ഡൗൺ"
+
+msgid "Page up"
+msgstr "പേജ് മുകളിലേക്ക്"
+
+msgid "Page Up"
+msgstr "പേജ് മുകളിലേക്ക്"
+
+msgid "Pan down"
+msgstr "താഴേക്ക് പാൻ ചെയ്യുക"
+
+msgid "Pan left"
+msgstr "പാൻ വിട്ടു"
+
+msgid "Pan right"
+msgstr "വലത്തേക്ക് പാൻ ചെയ്യുക"
+
+msgid "Pan up"
+msgstr "പാൻ അപ്പ്"
+
+msgid "Partly cloudy"
+msgstr "ഭാഗികമായി മേഘാവൃതം"
+
+msgid "Partly cloudy and light rain"
+msgstr "ഭാഗികമായി മേഘാവൃതവും നേരിയ മഴയും"
+
+msgid "Partly cloudy and light snow"
+msgstr "ഭാഗികമായി മേഘാവൃതവും നേരിയ മഞ്ഞും"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "ഭാഗികമായി മേഘാവൃതവും നേരിയ നനഞ്ഞ മഞ്ഞും"
+
+msgid "Partly cloudy and showers"
+msgstr "ഭാഗികമായി മേഘാവൃതവും മഴയും"
+
+msgid "Partly cloudy and snow showers"
+msgstr "ഭാഗികമായി മേഘാവൃതവും മഞ്ഞുവീഴ്ചയും"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "ഭാഗികമായി മേഘാവൃതവും നനഞ്ഞ മഞ്ഞുവീഴ്ചയും"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "ഭാഗികമായി മേഘാവൃതമാണ്, മഴയ്‌ക്കൊപ്പം ഇടിമിന്നലിനും സാധ്യതയുണ്ട്"
+
+msgid "Perigee"
+msgstr "പെരിജി"
+
+msgid "Phase"
+msgstr "ഘട്ടം"
+
+msgid "Phase: {}"
+msgstr "ഘട്ടം: {}"
+
+msgid "Play/Pause"
+msgstr "പ്ലേ/താൽക്കാലികമായി നിർത്തുക"
+
+msgid "Please enter both API user and API password."
+msgstr "API ഉപയോക്താവും API പാസ്‌വേഡും നൽകുക."
+
+msgid "Please wait ..."
+msgstr "കാത്തിരിക്കൂ ..."
+
+msgid "Poland"
+msgstr "പോളണ്ട്"
+
+msgid "Portugal"
+msgstr "പോർച്ചുഗൽ"
+
+msgid "Precipitation"
+msgstr "മഴ"
+
+msgid "Precipitation: {}"
+msgstr "മഴ: {}"
+
+msgid "Precipitations"
+msgstr "മഴ"
+
+msgid "Precipitations: {}%"
+msgstr "മഴ: {}%"
+
+msgid "Press RED to search again"
+msgstr "വീണ്ടും തിരയാൻ RED അമർത്തുക"
+
+msgid "Pressure"
+msgstr "സമ്മർദ്ദം"
+
+msgid "Pressure: {}"
+msgstr "സമ്മർദ്ദം: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "മർദ്ദം: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "മർദ്ദം: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "മർദ്ദം: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "മർദ്ദം: N/A"
+
+msgid "Prev"
+msgstr "മുൻ"
+
+msgid "Previous"
+msgstr "മുമ്പത്തെ"
+
+msgid "Previous frame"
+msgstr "മുമ്പത്തെ ഫ്രെയിം"
+
+msgid "Previous Image"
+msgstr "മുമ്പത്തെ ചിത്രം"
+
+msgid "Previous page"
+msgstr "മുൻ പേജ്"
+
+msgid "Previous time"
+msgstr "മുൻ സമയം"
+
+msgid "Rain Prob."
+msgstr "റെയിൻ പ്രോബ്."
+
+msgid "Rain prob. {}%"
+msgstr "മഴ പെയ്യുക. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "റെയിൻ പ്രോബ്.: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "മഴ: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "റെയിൻ വ്യൂവർ റഡാർ"
+
+msgid "Red"
+msgstr "ചുവപ്പ്"
+
+msgid "Red - Color select"
+msgstr "ചുവപ്പ് - നിറം തിരഞ്ഞെടുക്കുക"
+
+msgid "Refresh"
+msgstr "പുതുക്കുക"
+
+msgid "Restore default server values"
+msgstr "ഡിഫോൾട്ട് സെർവർ മൂല്യങ്ങൾ പുനഃസ്ഥാപിക്കുക"
+
+msgid "Rhineland-Palatine"
+msgstr "റൈൻലാൻഡ്-പാലറ്റൈൻ"
+
+msgid "Right - Next day"
+msgstr "വലത് - അടുത്ത ദിവസം"
+
+msgid "Right arrow - Next day"
+msgstr "വലത് അമ്പടയാളം - അടുത്ത ദിവസം"
+
+msgid "Rise"
+msgstr "എഴുന്നേൽക്കുക"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "ഉദയം അസിമുത്ത്: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "ഉദയം അസിമുത്ത്: N/A"
+
+msgid "Russia"
+msgstr "റഷ്യ"
+
+msgid "S"
+msgstr "എസ്"
+
+msgid "Saarland"
+msgstr "സാർലാൻഡ്"
+
+msgid "Satellite Photos"
+msgstr "സാറ്റലൈറ്റ് ഫോട്ടോകൾ"
+
+msgid "Satellite photos coming soon!"
+msgstr "സാറ്റലൈറ്റ് ഫോട്ടോകൾ ഉടൻ വരുന്നു!"
+
+msgid "Save"
+msgstr "സംരക്ഷിക്കുക"
+
+msgid "Save API settings"
+msgstr "API ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുക"
+
+msgid "Save translation settings"
+msgstr "വിവർത്തന ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുക"
+
+msgid "Saxony"
+msgstr "സാക്സണി"
+
+msgid "Saxony-Anhalt"
+msgstr "സാക്സോണി-അൻഹാൾട്ട്"
+
+msgid "Schleswig-Holstein"
+msgstr "ഷ്ലെസ്വിഗ്-ഹോൾസ്റ്റീൻ"
+
+msgid "Scraped"
+msgstr "ചുരണ്ടിയത്"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "തിരയൽ ആദ്യം ഓൺലൈനിൽ ശ്രമിക്കുന്നു, പരാജയപ്പെട്ടാൽ പ്രാദേശിക ലിസ്റ്റ് ഉപയോഗിക്കുന്നു."
+
+msgid "Search your City"
+msgstr "നിങ്ങളുടെ നഗരം തിരയുക"
+
+msgid "Select"
+msgstr "തിരഞ്ഞെടുക്കുക"
+
+msgid "Select {} unit"
+msgstr "{} യൂണിറ്റ് തിരഞ്ഞെടുക്കുക"
+
+msgid "Select a city"
+msgstr "ഒരു നഗരം തിരഞ്ഞെടുക്കുക"
+
+msgid "Select a map with OK"
+msgstr "ശരി ഉള്ള ഒരു മാപ്പ് തിരഞ്ഞെടുക്കുക"
+
+msgid "Select Region"
+msgstr "പ്രദേശം തിരഞ്ഞെടുക്കുക"
+
+msgid "Select unit system"
+msgstr "യൂണിറ്റ് സിസ്റ്റം തിരഞ്ഞെടുക്കുക"
+
+msgid "Select wind unit"
+msgstr "കാറ്റ് യൂണിറ്റ് തിരഞ്ഞെടുക്കുക"
+
+msgid "Selected hour details"
+msgstr "തിരഞ്ഞെടുത്ത മണിക്കൂർ വിശദാംശങ്ങൾ"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "അസിമുത്ത് സജ്ജമാക്കുക: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "അസിമുത്ത് സജ്ജമാക്കുക: N/A"
+
+msgid "Sets"
+msgstr "സെറ്റുകൾ"
+
+msgid "Show info"
+msgstr "വിവരങ്ങൾ കാണിക്കുക"
+
+msgid "Showers"
+msgstr "ചാറ്റൽ മഴ"
+
+msgid "Slovakia"
+msgstr "സ്ലൊവാക്യ"
+
+msgid "Slower: {}s"
+msgstr "പതുക്കെ: {}s"
+
+msgid "Snow / ice"
+msgstr "മഞ്ഞ് / ഐസ്"
+
+msgid "Snow prob. {}%"
+msgstr "സ്നോ പ്രോബ്. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "സ്നോ പ്രോബ്.: N/A"
+
+msgid "South Africa"
+msgstr "ദക്ഷിണാഫ്രിക്ക"
+
+msgid "South America"
+msgstr "തെക്കേ അമേരിക്ക"
+
+msgid "Southeast Asia"
+msgstr "തെക്കുകിഴക്കൻ ഏഷ്യ"
+
+msgid "Spain"
+msgstr "സ്പെയിൻ"
+
+msgid "Station Observations"
+msgstr "സ്റ്റേഷൻ നിരീക്ഷണങ്ങൾ"
+
+msgid "Station: {}"
+msgstr "സ്റ്റേഷൻ: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "ശക്തമായ (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "സൂര്യോദയം"
+
+msgid "Sunset"
+msgstr "സൂര്യാസ്തമയം"
+
+msgid "Super Full Moon"
+msgstr "സൂപ്പർ പൗർണ്ണമി"
+
+msgid "Sweden"
+msgstr "സ്വീഡൻ"
+
+msgid "Switzerland"
+msgstr "സ്വിറ്റ്സർലൻഡ്"
+
+msgid "Target Language"
+msgstr "ലക്ഷ്യ ഭാഷ"
+
+msgid "Temp"
+msgstr "താൽക്കാലികം"
+
+msgid "Temperature"
+msgstr "താപനില"
+
+msgid "Temperature: {}"
+msgstr "താപനില: {}"
+
+msgid "Temperature: {}{}"
+msgstr "താപനില: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "താപനില: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "താപനില: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "താപനില: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "താപനില: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "നിർദ്ദേശങ്ങൾക്ക് {thanks} കൂടാതെ മറ്റ് സുഹൃത്തുക്കൾക്കും നന്ദി"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "വിദൂര പതിപ്പ് ({remote}) നിലവിലുള്ളതിനേക്കാൾ പഴയതാണ് ({current})."
+
+msgid "Thin upper cloud"
+msgstr "നേർത്ത മുകളിലെ മേഘം"
+
+msgid "Thuringia"
+msgstr "തുരിംഗിയ"
+
+msgid "Time"
+msgstr "സമയം"
+
+msgid "Today"
+msgstr "ഇന്ന്"
+
+msgid "Today/Tomorrow details"
+msgstr "ഇന്ന്/നാളെ വിശദാംശങ്ങൾ"
+
+msgid "Toggle legend"
+msgstr "ലെജൻഡ് ടോഗിൾ ചെയ്യുക"
+
+msgid "Token expire hours"
+msgstr "ടോക്കൺ കാലഹരണപ്പെടുന്ന സമയം"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "ടോക്കൺ കാലഹരണപ്പെടുന്ന സമയം -1 അല്ലെങ്കിൽ പോസിറ്റീവ് നമ്പർ ആയിരിക്കണം."
+
+msgid "Token expire hours must be a number."
+msgstr "ടോക്കൺ കാലഹരണപ്പെടുന്ന സമയം ഒരു സംഖ്യ ആയിരിക്കണം."
+
+msgid "Tomorrow"
+msgstr "നാളെ"
+
+msgid "Transit (culmination): {}"
+msgstr "ട്രാൻസിറ്റ് (അവസാനം): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "ട്രാൻസിറ്റ് ഉയരം: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "ട്രാൻസിറ്റ് ഉയരം: N/A"
+
+msgid "Translation Settings"
+msgstr "വിവർത്തന ക്രമീകരണങ്ങൾ"
+
+msgid "Transparency level"
+msgstr "സുതാര്യത നില"
+
+msgid "Transparency Settings"
+msgstr "സുതാര്യത ക്രമീകരണങ്ങൾ"
+
+msgid "Unhealthy"
+msgstr "അനാരോഗ്യം"
+
+msgid "Unhealthy for sensitives"
+msgstr "സെൻസിറ്റീവുകൾക്ക് അനാരോഗ്യകരമാണ്"
+
+msgid "Unit Settings"
+msgstr "യൂണിറ്റ് ക്രമീകരണങ്ങൾ"
+
+msgid "Unit Settings (Advanced)"
+msgstr "യൂണിറ്റ് ക്രമീകരണങ്ങൾ (വിപുലമായത്)"
+
+msgid "Unit Settings (Simple)"
+msgstr "യൂണിറ്റ് ക്രമീകരണങ്ങൾ (ലളിതമായ)"
+
+msgid "Unknown"
+msgstr "അജ്ഞാതം"
+
+msgid "Up"
+msgstr "മുകളിലേക്ക്"
+
+msgid "Up - Previous page"
+msgstr "മുകളിലേക്ക് - മുമ്പത്തെ പേജ്"
+
+msgid "Update canceled."
+msgstr "അപ്ഡേറ്റ് റദ്ദാക്കി."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "അപ്ഡേറ്റ് പൂർത്തിയായി. ദയവായി Enigma2 പുനരാരംഭിക്കുക."
+
+msgid "Updated {}"
+msgstr "അപ്ഡേറ്റ് ചെയ്തത് {}"
+
+msgid "Updated: {}"
+msgstr "അപ്ഡേറ്റ് ചെയ്തത്: {}"
+
+msgid "Updated: N/A"
+msgstr "അപ്ഡേറ്റ് ചെയ്തത്: N/A"
+
+msgid "Updating..."
+msgstr "അപ്ഡേറ്റ് ചെയ്യുന്നു..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "സമയം മാറ്റാൻ ← → ഉപയോഗിക്കുക | പുറത്തുകടക്കാൻ ശരി"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "നീക്കാൻ ←/→/↑/↓ ഉപയോഗിക്കുക | പുറത്തുകടക്കാൻ ശരി"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "മാറ്റാൻ ▲/▼ ഉപയോഗിക്കുക, തിരഞ്ഞെടുക്കാൻ ശരി"
+
+msgid "Use arrow keys to scroll"
+msgstr "സ്ക്രോൾ ചെയ്യാൻ ആരോ കീകൾ ഉപയോഗിക്കുക"
+
+msgid "Use Google Translate"
+msgstr "Google വിവർത്തനം ഉപയോഗിക്കുക"
+
+msgid "Using current time"
+msgstr "നിലവിലെ സമയം ഉപയോഗിക്കുന്നു"
+
+msgid "UV"
+msgstr "യു.വി"
+
+msgid "UV Index"
+msgstr "യുവി സൂചിക"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "വി."
+
+msgid "Very heavy rain"
+msgstr "വളരെ കനത്ത മഴ"
+
+msgid "Very high"
+msgstr "വളരെ ഉയർന്നത്"
+
+msgid "Very hot (>40°C)"
+msgstr "വളരെ ചൂട് (>40°C)"
+
+msgid "Very low"
+msgstr "വളരെ കുറവാണ്"
+
+msgid "Very unhealthy"
+msgstr "വളരെ അനാരോഗ്യകരമാണ്"
+
+msgid "Visibility: {} m"
+msgstr "ദൃശ്യപരത: {} മീ"
+
+msgid "Visibility: %s m"
+msgstr "ദൃശ്യപരത: %s മീ"
+
+msgid "W"
+msgstr "ഡബ്ല്യു"
+
+msgid "Waning Crescent"
+msgstr "ക്ഷയിക്കുന്ന ചന്ദ്രക്കല"
+
+msgid "Waning Gibbous"
+msgstr "ക്ഷയിച്ചുപോകുന്ന ഗിബ്ബസ്"
+
+msgid "Warm (20-30°C)"
+msgstr "ചൂട് (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "വാക്സിംഗ് ക്രസൻ്റ്"
+
+msgid "Waxing Gibbous"
+msgstr "വാക്സിംഗ് ഗിബ്ബസ്"
+
+msgid "Weather"
+msgstr "കാലാവസ്ഥ"
+
+msgid "Weather Map"
+msgstr "കാലാവസ്ഥ ഭൂപടം"
+
+msgid "Weather Maps"
+msgstr "കാലാവസ്ഥാ മാപ്പുകൾ"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "കാലാവസ്ഥാ ഭൂപടങ്ങൾ (വെറ്റർകണ്ടർ)"
+
+msgid "Weather Maps & Satellite"
+msgstr "കാലാവസ്ഥാ ഭൂപടങ്ങളും ഉപഗ്രഹവും"
+
+msgid "Weather Maps Slideshow"
+msgstr "കാലാവസ്ഥാ മാപ്‌സ് സ്ലൈഡ്‌ഷോ"
+
+msgid "Weather Radar"
+msgstr "കാലാവസ്ഥ റഡാർ"
+
+msgid "Weather today"
+msgstr "ഇന്നത്തെ കാലാവസ്ഥ"
+
+msgid "Weather tomorrow"
+msgstr "നാളെ കാലാവസ്ഥ"
+
+msgid "Weekly Forecast"
+msgstr "പ്രതിവാര പ്രവചനം"
+
+msgid "Wind"
+msgstr "കാറ്റ്"
+
+msgid "Wind direction"
+msgstr "കാറ്റിൻ്റെ ദിശ"
+
+msgid "Wind Direction today"
+msgstr "ഇന്ന് കാറ്റിൻ്റെ ദിശ"
+
+msgid "Wind Direction tomorrow"
+msgstr "നാളെ കാറ്റിൻ്റെ ദിശ"
+
+msgid "Wind speed"
+msgstr "കാറ്റിൻ്റെ വേഗത"
+
+msgid "Wind speed {}"
+msgstr "കാറ്റിൻ്റെ വേഗത {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "കാറ്റിൻ്റെ വേഗത: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "കാറ്റ്: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "കാറ്റ്: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "കാറ്റ്: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "കാറ്റ്: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "കാറ്റ്: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "കാറ്റ്: N/A"
+
+msgid "Window transparency"
+msgstr "വിൻഡോ സുതാര്യത"
+
+msgid "Yellow - Favorite 2"
+msgstr "മഞ്ഞ - പ്രിയപ്പെട്ടത് 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "നിങ്ങൾക്ക് ഇതിനകം {version} പതിപ്പ് ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ട്.\nഇത് വീണ്ടും ഇൻസ്റ്റാൾ ചെയ്യണോ?"
+
+msgid "Zoom In"
+msgstr "സൂം ഇൻ ചെയ്യുക"
+
+msgid "Zoom Out"
+msgstr "സൂം ഔട്ട്"
+
+msgid "Zoom-"
+msgstr "സൂം-"
+
+msgid "Zoom:"
+msgstr "സൂം:"
+
+msgid "Zoom+"
+msgstr "സൂം+"
+

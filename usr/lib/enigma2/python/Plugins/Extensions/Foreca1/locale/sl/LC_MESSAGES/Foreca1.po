@@ -1,0 +1,1509 @@
+# sl translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sl <ekekaz@gmail.com>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• MODRA za shranjevanje kot Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- za skok na 500 mest\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• ZELENA za shranjevanje kot priljubljeno 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK za izbiro mesta\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RDEČA za odpiranje tipkovnice za iskanje \n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Za krmarjenje po \n uporabite puščične tipke\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- za skok na 100 mest\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• RUMENA ​​za shranjevanje kot priljubljeno 2\n"
+
+msgid "← Frame"
+msgstr "← Okvir"
+
+msgid "0 - Today"
+msgstr "0 - Danes"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - danes + 1 dan"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Danes + 2 dni"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Danes + 3 dni"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Danes + 4 dni"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Danes + 5 dni"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Danes + 6 dni"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Danes + 7 dni"
+
+msgid "7 Day Forecast"
+msgstr "7-dnevna napoved"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Danes + 8 dni"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Danes + 9 dni"
+
+msgid "Advanced"
+msgstr "Napredno"
+
+msgid "Advanced Unit Settings"
+msgstr "Napredne nastavitve enote"
+
+msgid "Afternoon"
+msgstr "popoldan"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Starost od mlaja: {:.1f} dni"
+
+msgid "Age: N/A"
+msgstr "Starost: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kotni premer: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Kotni premer: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Konfiguracijske datoteke API ni bilo mogoče najti!\n\nProsimo, ustvarite datoteko:\n{0}\n\ns svojimi poverilnicami za API Foreca."
+
+msgid "API credentials not configured."
+msgstr "Poverilnice za API niso konfigurirane."
+
+msgid "API error"
+msgstr "Napaka API-ja"
+
+msgid "API password"
+msgstr "API geslo"
+
+msgid "API user"
+msgstr "Uporabnik API-ja"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Navidezna magnituda: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "Dodeli med priljubljene 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Dodeli med priljubljene 2"
+
+msgid "Assign to Home"
+msgstr "Dodeli na dom"
+
+msgid "Australia"
+msgstr "Avstralija"
+
+msgid "Austria"
+msgstr "Avstrija"
+
+msgid "Auth server"
+msgstr "Auth server"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Württemberg"
+
+msgid "Barometer"
+msgstr "Barometer"
+
+msgid "Bavaria"
+msgstr "Bavarska"
+
+msgid "Belgium"
+msgstr "Belgija"
+
+msgid "Berlin"
+msgstr "Berlin"
+
+msgid "Black Moon"
+msgstr "Črna luna"
+
+msgid "Blue"
+msgstr "Modra"
+
+msgid "Blue - Home"
+msgstr "Modra - Dom"
+
+msgid "Blue Moon"
+msgstr "Modra luna"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "Izračun ..."
+
+msgid "Cancel"
+msgstr "Prekliči"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celzija, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Dnevnik sprememb: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Spremembe veljajo takoj"
+
+msgid "Check for updates"
+msgstr "Preverite posodobitve"
+
+msgid "Choose detail view"
+msgstr "Izberite podroben pogled"
+
+msgid "City list file not found!"
+msgstr "Datoteke s seznamom mest ni mogoče najti!"
+
+msgid "City Selection"
+msgstr "Izbor mesta"
+
+msgid "City Selection Help:\n\n"
+msgstr "Pomoč pri izbiri mesta:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Očistiti začasne datoteke Foreca One?"
+
+msgid "Cleanup temp files"
+msgstr "Očisti začasne datoteke"
+
+msgid "Clear"
+msgstr "jasno"
+
+msgid "Close"
+msgstr "Zapri"
+
+msgid "Close legend"
+msgstr "Zapri legendo"
+
+msgid "Close setup without saving"
+msgstr "Zaprite nastavitev brez shranjevanja"
+
+msgid "Cloudy"
+msgstr "Oblačno"
+
+msgid "Cloudy and light rain"
+msgstr "Oblačno in rahlo dežuje"
+
+msgid "Cloudy and light snow"
+msgstr "Oblačno in rahlo sneži"
+
+msgid "Cloudy and light wet snow"
+msgstr "Oblačno in rahlo moker sneg"
+
+msgid "Cloudy and showers"
+msgstr "Oblačno in plohe"
+
+msgid "Cloudy and snow showers"
+msgstr "Oblačno in snežne plohe"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Oblačno in mokro sneženje"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Oblačno, nevihte z dežjem"
+
+msgid "Cold (< 0°C)"
+msgstr "Hladno (< 0°C)"
+
+msgid "Color data"
+msgstr "Barvni podatki"
+
+msgid "Color legend"
+msgstr "Barvna legenda"
+
+msgid "Color Legend"
+msgstr "Barvna legenda"
+
+msgid "Color name"
+msgstr "Ime barve"
+
+msgid "Color select"
+msgstr "Izbira barve"
+
+msgid "Color Selector"
+msgstr "Izbirnik barv"
+
+msgid "Condition: {}"
+msgstr "Pogoj: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfigurirajte poverilnice za API Foreca"
+
+msgid "Continents Weather Maps"
+msgstr "Vremenski zemljevidi celin"
+
+msgid "Cool (0-10°C)"
+msgstr "Hladno (0-10 °C)"
+
+msgid "Could not fetch update information."
+msgstr "Podatkov o posodobitvi ni bilo mogoče pridobiti."
+
+msgid "Could not initialize map API."
+msgstr "API-ja zemljevida ni bilo mogoče inicializirati."
+
+msgid "Could not load forecast data"
+msgstr "Podatkov napovedi ni bilo mogoče naložiti"
+
+msgid "Could not parse version information."
+msgstr "Podatkov o različici ni bilo mogoče razčleniti."
+
+msgid "Current weather and forecast"
+msgstr "Trenutno vreme in napoved"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Trenutno vreme in napoved za naslednjih 10 dni"
+
+msgid "Current: {}"
+msgstr "Trenutno: {}"
+
+msgid "Czech Republic"
+msgstr "Češka"
+
+msgid "Data provided by Foreca"
+msgstr "Podatke zagotavlja Foreca"
+
+msgid "Date: {}"
+msgstr "Datum: {}"
+
+msgid "Day"
+msgstr "Dan"
+
+msgid "Decrease Speed"
+msgstr "Zmanjšajte hitrost"
+
+msgid "Defaults"
+msgstr "Privzete nastavitve"
+
+msgid "Denmark"
+msgstr "Danska"
+
+msgid "Details"
+msgstr "Podrobnosti"
+
+msgid "Dewpoint {}"
+msgstr "Rosišče {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Rosišče {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Rosišče: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Rosišče: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Rosišče: N/A"
+
+msgid "Distance"
+msgstr "Razdalja"
+
+msgid "Distance {} km"
+msgstr "Razdalja {} km"
+
+msgid "Distance: {}"
+msgstr "Razdalja: {}"
+
+msgid "Distance: {} km"
+msgstr "Razdalja: {} km"
+
+msgid "Distance: %s"
+msgstr "Razdalja: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Ali ga želite namestiti zdaj?"
+
+msgid "Down"
+msgstr "Dol"
+
+msgid "Down - Next page"
+msgstr "Dol - naslednja stran"
+
+msgid "Download error"
+msgstr "Napaka pri prenosu"
+
+msgid "Downloading images..."
+msgstr "Prenašanje slik ..."
+
+msgid "Downloading tiles..."
+msgstr "Prenašanje ploščic ..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Vzhodna Azija"
+
+msgid "Error checking for updates."
+msgstr "Napaka pri preverjanju posodobitev."
+
+msgid "Error loading data"
+msgstr "Napaka pri nalaganju podatkov"
+
+msgid "Error loading map"
+msgstr "Napaka pri nalaganju zemljevida"
+
+msgid "Error loading maps. Check connection."
+msgstr "Napaka pri nalaganju zemljevidov. Preverite povezavo."
+
+msgid "Error saving favorite!"
+msgstr "Napaka pri shranjevanju priljubljenih!"
+
+msgid "Europe"
+msgstr "Evropi"
+
+msgid "European Weather Maps"
+msgstr "Evropski vremenski zemljevidi"
+
+msgid "Evening"
+msgstr "Večer"
+
+msgid "Exit"
+msgstr "Izhod"
+
+msgid "Exit - End"
+msgstr "Izhod - Konec"
+
+msgid "Exit / Close legend"
+msgstr "Izhod/Zapri legendo"
+
+msgid "Extreme"
+msgstr "Ekstremno"
+
+msgid "Extreme / thunderstorms"
+msgstr "Ekstremne / nevihte"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Konfiguracijske datoteke ni bilo mogoče zapisati: \n%s"
+
+msgid "Faster: {}s"
+msgstr "Hitreje: {}s"
+
+msgid "Favorite 1"
+msgstr "najljubši 1"
+
+msgid "Favorite 2"
+msgstr "najljubši 2"
+
+msgid "Favorites details"
+msgstr "Podrobnosti o priljubljenih"
+
+msgid "Favorites Details"
+msgstr "Priljubljene Podrobnosti"
+
+msgid "Feels like"
+msgstr "Zdi se kot"
+
+msgid "Feels like {}"
+msgstr "Zdi se kot {}"
+
+msgid "Feels like {}{}"
+msgstr "Zdi se kot {}{}"
+
+msgid "Feels like: {}"
+msgstr "Zdi se kot: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Zdi se kot: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Občutek: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Občutek: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Občutek: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Občutek: N/A"
+
+msgid "Finland"
+msgstr "Finska"
+
+msgid "First Quarter"
+msgstr "Prva četrtina"
+
+msgid "Fog"
+msgstr "megla"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Poverilnice Foreca API še niso konfigurirane. Vnesite jih v nastavitveni zaslon."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Nastavitve API Foreca so uspešno shranjene."
+
+msgid "Foreca API Setup"
+msgstr "Nastavitev API-ja Foreca"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Zemljevid {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One Menu"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Ni najdenih postaj"
+
+msgid "Foreca One Setup"
+msgstr "Nastavitev Foreca One"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Postaje Foreca One: {} postaj v bližini ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Vreme in napoved ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Vremenska napoved"
+
+msgid "Frame →"
+msgstr "Okvir →"
+
+msgid "Frame: {}"
+msgstr "Okvir: {}"
+
+msgid "France"
+msgstr "Francija"
+
+msgid "Full Moon"
+msgstr "polna luna"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Viharna sila (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Vremenske karte nemških držav"
+
+msgid "Germany"
+msgstr "Nemčija"
+
+msgid "Good"
+msgstr "Dobro"
+
+msgid "Great Britain"
+msgstr "Velika Britanija"
+
+msgid "Greece"
+msgstr "Grčija"
+
+msgid "Green"
+msgstr "zelena"
+
+msgid "Green - Favorite 1"
+msgstr "Zelena - najljubša 1"
+
+msgid "Gust {}"
+msgstr "sunek {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Gost: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hamburg"
+
+msgid "Hazardous"
+msgstr "Nevarno"
+
+msgid "Header - not selectable"
+msgstr "Glava - ni mogoče izbrati"
+
+msgid "Heavy rain"
+msgstr "Močan dež"
+
+msgid "Help"
+msgstr "pomoč"
+
+msgid "Hesse"
+msgstr "Hessen"
+
+msgid "High"
+msgstr "visoko"
+
+msgid "Home"
+msgstr "domov"
+
+msgid "Hot (30-40°C)"
+msgstr "Vroče (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Podrobnosti o uri"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Vlažnost"
+
+msgid "Humidity: {}%"
+msgstr "Vlažnost: {} %"
+
+msgid "Humidity: %s%%"
+msgstr "Vlažnost: %s%%"
+
+msgid "Hungary"
+msgstr "Madžarska"
+
+msgid "Ice / frost"
+msgstr "Led / zmrzal"
+
+msgid "Illumination"
+msgstr "Osvetlitev"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Osvetlitev: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Slika %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Slika %(current)d/%(total)d – %(day)s (Zaustavljeno)"
+
+msgid "Image not available"
+msgstr "Slika ni na voljo"
+
+msgid "Imperial System"
+msgstr "Imperialni sistem"
+
+msgid "Increase Speed"
+msgstr "Povečajte hitrost"
+
+msgid "Info"
+msgstr "Informacije"
+
+msgid "Info - About"
+msgstr "Informacije - O"
+
+msgid "Ireland"
+msgstr "Irska"
+
+msgid "Italy"
+msgstr "Italija"
+
+msgid "Jump 100 down"
+msgstr "Skoči 100 navzdol"
+
+msgid "Jump 100 up"
+msgstr "Skoči 100 navzgor"
+
+msgid "Jump 500 down"
+msgstr "Skoči 500 navzdol"
+
+msgid "Jump 500 up"
+msgstr "Skoči 500 navzgor"
+
+msgid "Keyboard"
+msgstr "Tipkovnica"
+
+msgid "Last Quarter"
+msgstr "Zadnja četrtina"
+
+msgid "Last update"
+msgstr "Zadnja posodobitev"
+
+msgid "Latvia"
+msgstr "Latvija"
+
+msgid "Left - Previous day"
+msgstr "Levo - Prejšnji dan"
+
+msgid "Left arrow - Previous day"
+msgstr "Puščica levo - Prejšnji dan"
+
+msgid "Light (0-20 km/h)"
+msgstr "Lahka (0-20 km/h)"
+
+msgid "Light rain / drizzle"
+msgstr "Rahel dež/rosenje"
+
+msgid "Light to moderate"
+msgstr "Lahka do zmerna"
+
+msgid "Loading available maps..."
+msgstr "Nalaganje razpoložljivih zemljevidov ..."
+
+msgid "Loading lunar phases..."
+msgstr "Nalaganje luninih faz ..."
+
+msgid "Loading nearby stations..."
+msgstr "Nalaganje bližnjih postaj ..."
+
+msgid "Loading tiles..."
+msgstr "Nalaganje ploščic ..."
+
+msgid "Loading weekly forecast..."
+msgstr "Nalaganje tedenske napovedi ..."
+
+msgid "Loading..."
+msgstr "Nalaganje..."
+
+msgid "Low"
+msgstr "Nizka"
+
+msgid "Lower Saxony"
+msgstr "Spodnja Saška"
+
+msgid "Lunar Calendar"
+msgstr "Lunin koledar"
+
+msgid "Lunar phases from next month"
+msgstr "Lunine faze od naslednjega meseca"
+
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+msgid "Magnitude: N/A"
+msgstr "Magnituda: N/A"
+
+msgid "Map {} selected"
+msgstr "Zemljevid {} izbran"
+
+msgid "Map & Tiles Loaded"
+msgstr "Zemljevid in ploščice so naložene"
+
+msgid "Map loaded"
+msgstr "Zemljevid je naložen"
+
+msgid "Map server"
+msgstr "Zemljevidni strežnik"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Mecklenburg-Predpomorjansko"
+
+msgid "Menu"
+msgstr "meni"
+
+msgid "Menu - Settings"
+msgstr "Meni – Nastavitve"
+
+msgid "Merge failed"
+msgstr "Spajanje ni uspelo"
+
+msgid "Meteogram"
+msgstr "meteogram"
+
+msgid "Metric System"
+msgstr "Metrični sistem"
+
+msgid "Middle America"
+msgstr "Srednja Amerika"
+
+msgid "Middle Asia"
+msgstr "Srednja Azija"
+
+msgid "Middle East"
+msgstr "Bližnji vzhod"
+
+msgid "Mild (10-20°C)"
+msgstr "Blaga (10-20 °C)"
+
+msgid "Moderate"
+msgstr "Zmerno"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Zmerno (20-40 km/h)"
+
+msgid "Moderate rain"
+msgstr "Zmeren dež"
+
+msgid "Month"
+msgstr "mesec"
+
+msgid "Moon details"
+msgstr "Podrobnosti lune"
+
+msgid "Moon Details"
+msgstr "Moon Podrobnosti"
+
+msgid "Moonrise: {}"
+msgstr "Lunin vzhod: {}"
+
+msgid "Moonset: {}"
+msgstr "Mesečev zahod: {}"
+
+msgid "Morning"
+msgstr "jutro"
+
+msgid "Mostly clear"
+msgstr "Pretežno jasno"
+
+msgid "Move down"
+msgstr "Premakni se navzdol"
+
+msgid "Move Down"
+msgstr "Premakni navzdol"
+
+msgid "Move up"
+msgstr "Premakni se navzgor"
+
+msgid "Move Up"
+msgstr "Premakni gor"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Netherlands"
+msgstr "Nizozemska"
+
+msgid "New Moon"
+msgstr "Nova luna"
+
+msgid "New version {version} is available."
+msgstr "Na voljo je nova različica {version}."
+
+msgid "Next"
+msgstr "Naprej"
+
+msgid "Next frame"
+msgstr "Naslednji okvir"
+
+msgid "Next Image"
+msgstr "Naslednja slika"
+
+msgid "Next page"
+msgstr "Naslednja stran"
+
+msgid "Next time"
+msgstr "Naslednjič"
+
+msgid "No city selected"
+msgstr "Izbrano ni nobeno mesto"
+
+msgid "No data"
+msgstr "Ni podatkov"
+
+msgid "No date available"
+msgstr "Datum ni na voljo"
+
+msgid "No Internet connection detected."
+msgstr "Ni internetne povezave."
+
+msgid "No location selected"
+msgstr "Izbrana ni nobena lokacija"
+
+msgid "No OSM tiles"
+msgstr "Brez ploščic OSM"
+
+msgid "No specific legend available."
+msgstr "Posebna legenda ni na voljo."
+
+msgid "No station data"
+msgstr "Ni podatkov o postaji"
+
+msgid "No station data available"
+msgstr "Podatki o postaji niso na voljo"
+
+msgid "No stations found"
+msgstr "Ni najdenih postaj"
+
+msgid "No tiles downloaded"
+msgstr "Ni prenesenih ploščic"
+
+msgid "North Africa"
+msgstr "Severna Afrika"
+
+msgid "North America"
+msgstr "Severna Amerika"
+
+msgid "North Rhine-Westphalia"
+msgstr "Severno Porenje-Vestfalija"
+
+msgid "Norway"
+msgstr "Norveška"
+
+msgid "Ok - Details"
+msgstr "V redu - podrobnosti"
+
+msgid "OK - Ext Info"
+msgstr "OK - Ext Info"
+
+msgid "OK - Forecast"
+msgstr "OK - Napoved"
+
+msgid "OK - Open Map"
+msgstr "OK - Odpri zemljevid"
+
+msgid "Open Keyboard"
+msgstr "Odprite tipkovnico"
+
+msgid "Open Map"
+msgstr "Odprite zemljevid"
+
+msgid "Original design and idea by %s"
+msgstr "Izvirna zasnova in ideja %s"
+
+msgid "Overcast"
+msgstr "Oblačno"
+
+msgid "Overcast and light rain"
+msgstr "Oblačno in rahlo dežuje"
+
+msgid "Overcast and light snow"
+msgstr "Oblačno in rahlo sneži"
+
+msgid "Overcast and light wet snow"
+msgstr "Oblačno in rahlo moker sneg"
+
+msgid "Overcast and rain"
+msgstr "Oblačno in dež"
+
+msgid "Overcast and showers"
+msgstr "Oblačno in plohe"
+
+msgid "Overcast and snow"
+msgstr "Oblačno in sneg"
+
+msgid "Overcast and snow showers"
+msgstr "Oblačno in snežne plohe"
+
+msgid "Overcast and wet snow"
+msgstr "Oblačno in moker sneg"
+
+msgid "Overcast and wet snow showers"
+msgstr "Oblačno in moker sneg"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Oblačno, nevihte z dežjem"
+
+msgid "Overnight"
+msgstr "Nočitev"
+
+msgid "Page down"
+msgstr "Stran navzdol"
+
+msgid "Page Down"
+msgstr "Page Down"
+
+msgid "Page up"
+msgstr "Stran gor"
+
+msgid "Page Up"
+msgstr "Page Up"
+
+msgid "Pan down"
+msgstr "Pomikanje navzdol"
+
+msgid "Pan left"
+msgstr "Pomik levo"
+
+msgid "Pan right"
+msgstr "Pomik desno"
+
+msgid "Pan up"
+msgstr "Premikanje navzgor"
+
+msgid "Partly cloudy"
+msgstr "Delno oblačno"
+
+msgid "Partly cloudy and light rain"
+msgstr "Spremenljivo oblačno in rahlo dežuje"
+
+msgid "Partly cloudy and light snow"
+msgstr "Spremenljivo oblačno in rahlo sneži"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Spremenljivo oblačno in rahlo moker sneg"
+
+msgid "Partly cloudy and showers"
+msgstr "Spremenljivo oblačno in plohe"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Spremenljivo oblačno in snežne plohe"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Spremenljivo oblačno in moker sneg"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Spremenljivo oblačno, možne nevihte z dežjem"
+
+msgid "Perigee"
+msgstr "perigej"
+
+msgid "Phase"
+msgstr "Faza"
+
+msgid "Phase: {}"
+msgstr "Faza: {}"
+
+msgid "Play/Pause"
+msgstr "Predvajaj/Premor"
+
+msgid "Please enter both API user and API password."
+msgstr "Vnesite uporabnika API-ja in geslo API-ja."
+
+msgid "Please wait ..."
+msgstr "Počakajte prosim ..."
+
+msgid "Poland"
+msgstr "Poljska"
+
+msgid "Portugal"
+msgstr "Portugalska"
+
+msgid "Precipitation"
+msgstr "Padavine"
+
+msgid "Precipitation: {}"
+msgstr "Padavine: {}"
+
+msgid "Precipitations"
+msgstr "Padavine"
+
+msgid "Precipitations: {}%"
+msgstr "Padavine: {} %"
+
+msgid "Press RED to search again"
+msgstr "Za ponovno iskanje pritisnite RDEČO"
+
+msgid "Pressure"
+msgstr "Pritisk"
+
+msgid "Pressure: {}"
+msgstr "Tlak: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Tlak: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Tlak: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Tlak: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Tlak: N/A"
+
+msgid "Prev"
+msgstr "Prejšnji"
+
+msgid "Previous"
+msgstr "Prejšnja"
+
+msgid "Previous frame"
+msgstr "Prejšnji okvir"
+
+msgid "Previous Image"
+msgstr "Prejšnja slika"
+
+msgid "Previous page"
+msgstr "Prejšnja stran"
+
+msgid "Previous time"
+msgstr "Prejšnji čas"
+
+msgid "Rain Prob."
+msgstr "Verjetnost dežja"
+
+msgid "Rain prob. {}%"
+msgstr "Možnost dežja. {} %"
+
+msgid "Rain prob.: N/A"
+msgstr "Verjetnost dežja: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Dež: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer Radar"
+
+msgid "Red"
+msgstr "Rdeča"
+
+msgid "Red - Color select"
+msgstr "Rdeča - izbira barve"
+
+msgid "Refresh"
+msgstr "Osveži"
+
+msgid "Restore default server values"
+msgstr "Obnovi privzete vrednosti strežnika"
+
+msgid "Rhineland-Palatine"
+msgstr "Porenje-Pfalško"
+
+msgid "Right - Next day"
+msgstr "Pravilno - naslednji dan"
+
+msgid "Right arrow - Next day"
+msgstr "Desna puščica - naslednji dan"
+
+msgid "Rise"
+msgstr "Vstani"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Azimut vzpona: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Azimut vzpona: N/A"
+
+msgid "Russia"
+msgstr "Rusija"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saarland"
+
+msgid "Satellite Photos"
+msgstr "Satelitske fotografije"
+
+msgid "Satellite photos coming soon!"
+msgstr "Satelitske fotografije kmalu!"
+
+msgid "Save"
+msgstr "Shrani"
+
+msgid "Save API settings"
+msgstr "Shrani nastavitve API-ja"
+
+msgid "Save translation settings"
+msgstr "Shranite nastavitve prevajanja"
+
+msgid "Saxony"
+msgstr "Saška"
+
+msgid "Saxony-Anhalt"
+msgstr "Saška-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+msgid "Scraped"
+msgstr "postrgan"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Iskanje najprej poskusi na spletu, če ne uspe, uporabi lokalni seznam."
+
+msgid "Search your City"
+msgstr "Poiščite svoje mesto"
+
+msgid "Select"
+msgstr "Izberite"
+
+msgid "Select {} unit"
+msgstr "Izberite enoto {}"
+
+msgid "Select a city"
+msgstr "Izberite mesto"
+
+msgid "Select a map with OK"
+msgstr "Izberite zemljevid z OK"
+
+msgid "Select Region"
+msgstr "Izberite Regija"
+
+msgid "Select unit system"
+msgstr "Izberite sistem enot"
+
+msgid "Select wind unit"
+msgstr "Izberite vetrno enoto"
+
+msgid "Selected hour details"
+msgstr "Podrobnosti izbrane ure"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Nastavite azimut: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Nastavite azimut: N/A"
+
+msgid "Sets"
+msgstr "Kompleti"
+
+msgid "Show info"
+msgstr "Prikaži informacije"
+
+msgid "Showers"
+msgstr "Tuši"
+
+msgid "Slovakia"
+msgstr "Slovaška"
+
+msgid "Slower: {}s"
+msgstr "Počasneje: {}s"
+
+msgid "Snow / ice"
+msgstr "Sneg/led"
+
+msgid "Snow prob. {}%"
+msgstr "Snežna težava. {} %"
+
+msgid "Snow prob.: N/A"
+msgstr "Verjetnost snega: N/A"
+
+msgid "South Africa"
+msgstr "Južna Afrika"
+
+msgid "South America"
+msgstr "Južna Amerika"
+
+msgid "Southeast Asia"
+msgstr "Jugovzhodna Azija"
+
+msgid "Spain"
+msgstr "Španija"
+
+msgid "Station Observations"
+msgstr "Opazovanja postaje"
+
+msgid "Station: {}"
+msgstr "Postaja: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Močan (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "sončni vzhod"
+
+msgid "Sunset"
+msgstr "sončni zahod"
+
+msgid "Super Full Moon"
+msgstr "Super polna luna"
+
+msgid "Sweden"
+msgstr "Švedska"
+
+msgid "Switzerland"
+msgstr "Švica"
+
+msgid "Target Language"
+msgstr "Ciljni jezik"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgid "Temperature: {}"
+msgstr "Temperatura: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatura: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatura: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Temperatura: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatura: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatura: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Hvala {thanks} in drugim prijateljem za predloge"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Oddaljena različica ({remote}) je starejša od trenutne ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Tanek zgornji oblak"
+
+msgid "Thuringia"
+msgstr "Turingija"
+
+msgid "Time"
+msgstr "Čas"
+
+msgid "Today"
+msgstr "Danes"
+
+msgid "Today/Tomorrow details"
+msgstr "Danes/jutri podrobnosti"
+
+msgid "Toggle legend"
+msgstr "Preklopi legendo"
+
+msgid "Token expire hours"
+msgstr "Žeton poteče ure"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Ure poteka žetona morajo biti -1 ali pozitivno število."
+
+msgid "Token expire hours must be a number."
+msgstr "Ure poteka žetona morajo biti številke."
+
+msgid "Tomorrow"
+msgstr "jutri"
+
+msgid "Transit (culmination): {}"
+msgstr "Tranzit (kulminacija): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Tranzitna višina: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Tranzitna višina: N/A"
+
+msgid "Translation Settings"
+msgstr "Nastavitve prevajanja"
+
+msgid "Transparency level"
+msgstr "Stopnja preglednosti"
+
+msgid "Transparency Settings"
+msgstr "Nastavitve preglednosti"
+
+msgid "Unhealthy"
+msgstr "Nezdravo"
+
+msgid "Unhealthy for sensitives"
+msgstr "Nezdravo za občutljive"
+
+msgid "Unit Settings"
+msgstr "Nastavitve enote"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Nastavitve enote (napredno)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Nastavitve enote (preprosto)"
+
+msgid "Unknown"
+msgstr "Neznano"
+
+msgid "Up"
+msgstr "Gor"
+
+msgid "Up - Previous page"
+msgstr "Gor - prejšnja stran"
+
+msgid "Update canceled."
+msgstr "Posodobitev preklicana."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Posodobitev končana. Prosim znova zaženite Enigmo2."
+
+msgid "Updated {}"
+msgstr "Posodobljeno {}"
+
+msgid "Updated: {}"
+msgstr "Posodobljeno: {}"
+
+msgid "Updated: N/A"
+msgstr "Posodobljeno: N/A"
+
+msgid "Updating..."
+msgstr "Posodabljanje ..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Uporabite ← → za spremembo časa | OK za izhod"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Uporabite ←/→/↑/↓ za premikanje | OK za izhod"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Uporabite ▲/▼ za spreminjanje, OK za izbiro"
+
+msgid "Use arrow keys to scroll"
+msgstr "Za pomikanje uporabite puščične tipke"
+
+msgid "Use Google Translate"
+msgstr "Uporabite Google Translate"
+
+msgid "Using current time"
+msgstr "Uporaba trenutnega časa"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV indeks"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Zelo močan dež"
+
+msgid "Very high"
+msgstr "Zelo visoko"
+
+msgid "Very hot (>40°C)"
+msgstr "Zelo vroče (>40°C)"
+
+msgid "Very low"
+msgstr "Zelo nizko"
+
+msgid "Very unhealthy"
+msgstr "Zelo nezdravo"
+
+msgid "Visibility: {} m"
+msgstr "Vidljivost: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Vidljivost: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Padajoči polmesec"
+
+msgid "Waning Gibbous"
+msgstr "Pojemajoči Gibbous"
+
+msgid "Warm (20-30°C)"
+msgstr "Toplo (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Rastoči polmesec"
+
+msgid "Waxing Gibbous"
+msgstr "Voščenje Gibbous"
+
+msgid "Weather"
+msgstr "Vreme"
+
+msgid "Weather Map"
+msgstr "Vremenska karta"
+
+msgid "Weather Maps"
+msgstr "Vremenske karte"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Vremenske karte (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Vremenske karte in satelit"
+
+msgid "Weather Maps Slideshow"
+msgstr "Diaprojekcija vremenskih zemljevidov"
+
+msgid "Weather Radar"
+msgstr "Vremenski radar"
+
+msgid "Weather today"
+msgstr "Vreme danes"
+
+msgid "Weather tomorrow"
+msgstr "Vreme jutri"
+
+msgid "Weekly Forecast"
+msgstr "Tedenska napoved"
+
+msgid "Wind"
+msgstr "Veter"
+
+msgid "Wind direction"
+msgstr "Smer vetra"
+
+msgid "Wind Direction today"
+msgstr "Smer vetra danes"
+
+msgid "Wind Direction tomorrow"
+msgstr "Smer vetra jutri"
+
+msgid "Wind speed"
+msgstr "Hitrost vetra"
+
+msgid "Wind speed {}"
+msgstr "Hitrost vetra {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Hitrost vetra: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Veter: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Veter: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Veter: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Veter: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Veter: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Veter: N/A"
+
+msgid "Window transparency"
+msgstr "Preglednost oken"
+
+msgid "Yellow - Favorite 2"
+msgstr "Rumena - najljubša 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Različico {version} že imate nameščeno.\nAli jo želite znova namestiti?"
+
+msgid "Zoom In"
+msgstr "Povečaj"
+
+msgid "Zoom Out"
+msgstr "Pomanjšaj"
+
+msgid "Zoom-"
+msgstr "Zoom-"
+
+msgid "Zoom:"
+msgstr "Zoom:"
+
+msgid "Zoom+"
+msgstr "Zoom+"
+

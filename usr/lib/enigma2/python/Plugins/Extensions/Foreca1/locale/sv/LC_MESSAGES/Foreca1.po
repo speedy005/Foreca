@@ -1,0 +1,1509 @@
+# sv translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sv <ekekaz@gmail.com>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLÅ för att spara som Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- för att hoppa 500 städer\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GRÖN för att spara som favorit 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK för att välja stad\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RÖD för att öppna söktangentbordet\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Använd piltangenterna för att navigera i\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- för att hoppa över 100 städer\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GUL för att spara som favorit 2\n"
+
+msgid "← Frame"
+msgstr "← Ram"
+
+msgid "0 - Today"
+msgstr "0 - Idag"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Idag + 1 dag"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Idag + 2 dagar"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Idag + 3 dagar"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Idag + 4 dagar"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Idag + 5 dagar"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Idag + 6 dagar"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Idag + 7 dagar"
+
+msgid "7 Day Forecast"
+msgstr "7 dagars prognos"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Idag + 8 dagar"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Idag + 9 dagar"
+
+msgid "Advanced"
+msgstr "Avancerad"
+
+msgid "Advanced Unit Settings"
+msgstr "Avancerade enhetsinställningar"
+
+msgid "Afternoon"
+msgstr "Eftermiddag"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Ålder sedan nymåne: {:.1f} dagar"
+
+msgid "Age: N/A"
+msgstr "Ålder: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Vinkeldiameter: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Vinkeldiameter: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API-konfigurationsfil hittades inte!\n\nSkapa filen:\n{0}\n\nmed dina Foreca API-uppgifter."
+
+msgid "API credentials not configured."
+msgstr "API-uppgifter är inte konfigurerade."
+
+msgid "API error"
+msgstr "API-fel"
+
+msgid "API password"
+msgstr "API-lösenord"
+
+msgid "API user"
+msgstr "API-användare"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Skenbar magnitud: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "Tilldela till favorit 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Tilldela till favorit 2"
+
+msgid "Assign to Home"
+msgstr "Tilldela till Hem"
+
+msgid "Australia"
+msgstr "Australien"
+
+msgid "Austria"
+msgstr "Österrike"
+
+msgid "Auth server"
+msgstr "Auth server"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Württemberg"
+
+msgid "Barometer"
+msgstr "Barometer"
+
+msgid "Bavaria"
+msgstr "Bayern"
+
+msgid "Belgium"
+msgstr "Belgien"
+
+msgid "Berlin"
+msgstr "Berlin"
+
+msgid "Black Moon"
+msgstr "Svart måne"
+
+msgid "Blue"
+msgstr "Blå"
+
+msgid "Blue - Home"
+msgstr "Blå - Hem"
+
+msgid "Blue Moon"
+msgstr "Blå måne"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "Beräknande..."
+
+msgid "Cancel"
+msgstr "Avboka"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsius, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Ändringslogg: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Ändringar gäller omedelbart"
+
+msgid "Check for updates"
+msgstr "Sök efter uppdateringar"
+
+msgid "Choose detail view"
+msgstr "Välj detaljvy"
+
+msgid "City list file not found!"
+msgstr "Stadslista fil hittades inte!"
+
+msgid "City Selection"
+msgstr "Stadsval"
+
+msgid "City Selection Help:\n\n"
+msgstr "Hjälp för stadsval:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Rensa Foreca One Temp-filer?"
+
+msgid "Cleanup temp files"
+msgstr "Rensa temporära filer"
+
+msgid "Clear"
+msgstr "Rensa"
+
+msgid "Close"
+msgstr "Nära"
+
+msgid "Close legend"
+msgstr "Nära legend"
+
+msgid "Close setup without saving"
+msgstr "Stäng installationen utan att spara"
+
+msgid "Cloudy"
+msgstr "Molnig"
+
+msgid "Cloudy and light rain"
+msgstr "Molnigt och lätt regn"
+
+msgid "Cloudy and light snow"
+msgstr "Molnigt och lätt snö"
+
+msgid "Cloudy and light wet snow"
+msgstr "Molnigt och lätt blöt snö"
+
+msgid "Cloudy and showers"
+msgstr "Molnigt och regnskurar"
+
+msgid "Cloudy and snow showers"
+msgstr "Molnigt och snöskurar"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Molnigt och blöta snöskurar"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Molnigt, åskväder med regn"
+
+msgid "Cold (< 0°C)"
+msgstr "Kallt (< 0°C)"
+
+msgid "Color data"
+msgstr "Färgdata"
+
+msgid "Color legend"
+msgstr "Färg legend"
+
+msgid "Color Legend"
+msgstr "Färg Legend"
+
+msgid "Color name"
+msgstr "Färgnamn"
+
+msgid "Color select"
+msgstr "Välj färg"
+
+msgid "Color Selector"
+msgstr "Färgväljare"
+
+msgid "Condition: {}"
+msgstr "Skick: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfigurera Foreca API-uppgifter"
+
+msgid "Continents Weather Maps"
+msgstr "Kontinenter väderkartor"
+
+msgid "Cool (0-10°C)"
+msgstr "Sval (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Det gick inte att hämta uppdateringsinformation."
+
+msgid "Could not initialize map API."
+msgstr "Det gick inte att initiera kart-API."
+
+msgid "Could not load forecast data"
+msgstr "Det gick inte att läsa in prognosdata"
+
+msgid "Could not parse version information."
+msgstr "Det gick inte att analysera versionsinformation."
+
+msgid "Current weather and forecast"
+msgstr "Aktuellt väder och prognos"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Aktuellt väder och prognos för de kommande 10 dagarna"
+
+msgid "Current: {}"
+msgstr "Aktuell: {}"
+
+msgid "Czech Republic"
+msgstr "Tjeckien"
+
+msgid "Data provided by Foreca"
+msgstr "Data tillhandahålls av Foreca"
+
+msgid "Date: {}"
+msgstr "Datum: {}"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "Decrease Speed"
+msgstr "Minska hastigheten"
+
+msgid "Defaults"
+msgstr "Standardvärden"
+
+msgid "Denmark"
+msgstr "Danmark"
+
+msgid "Details"
+msgstr "Detaljer"
+
+msgid "Dewpoint {}"
+msgstr "Daggpunkt {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Daggpunkt {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Daggpunkt: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Daggpunkt: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Daggpunkt: N/A"
+
+msgid "Distance"
+msgstr "Avstånd"
+
+msgid "Distance {} km"
+msgstr "Avstånd {} km"
+
+msgid "Distance: {}"
+msgstr "Avstånd: {}"
+
+msgid "Distance: {} km"
+msgstr "Avstånd: {} km"
+
+msgid "Distance: %s"
+msgstr "Avstånd: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Vill du installera det nu?"
+
+msgid "Down"
+msgstr "Ner"
+
+msgid "Down - Next page"
+msgstr "Ner - Nästa sida"
+
+msgid "Download error"
+msgstr "Nedladdningsfel"
+
+msgid "Downloading images..."
+msgstr "Laddar ner bilder..."
+
+msgid "Downloading tiles..."
+msgstr "Laddar ned brickor..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Östasien"
+
+msgid "Error checking for updates."
+msgstr "Fel vid sökning efter uppdateringar."
+
+msgid "Error loading data"
+msgstr "Det gick inte att ladda data"
+
+msgid "Error loading map"
+msgstr "Det gick inte att läsa in kartan"
+
+msgid "Error loading maps. Check connection."
+msgstr "Det gick inte att läsa in kartor. Kontrollera anslutningen."
+
+msgid "Error saving favorite!"
+msgstr "Det gick inte att spara favorit!"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "European Weather Maps"
+msgstr "Europeiska väderkartor"
+
+msgid "Evening"
+msgstr "Kväll"
+
+msgid "Exit"
+msgstr "Utgång"
+
+msgid "Exit - End"
+msgstr "Avsluta - Avsluta"
+
+msgid "Exit / Close legend"
+msgstr "Avsluta / Stäng förklaring"
+
+msgid "Extreme"
+msgstr "Extrem"
+
+msgid "Extreme / thunderstorms"
+msgstr "Extrema / åskväder"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Det gick inte att skriva konfigurationsfilen:\n%s"
+
+msgid "Faster: {}s"
+msgstr "Snabbare: {}s"
+
+msgid "Favorite 1"
+msgstr "Favorit 1"
+
+msgid "Favorite 2"
+msgstr "Favorit 2"
+
+msgid "Favorites details"
+msgstr "Favoritdetaljer"
+
+msgid "Favorites Details"
+msgstr "Favoriter Detaljer"
+
+msgid "Feels like"
+msgstr "Känns som"
+
+msgid "Feels like {}"
+msgstr "Känns som {}"
+
+msgid "Feels like {}{}"
+msgstr "Känns som {}{}"
+
+msgid "Feels like: {}"
+msgstr "Känns som: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Känns som: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Känns som: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Känns som: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Känns som: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Känns som: N/A"
+
+msgid "Finland"
+msgstr "Finland"
+
+msgid "First Quarter"
+msgstr "Första kvartalet"
+
+msgid "Fog"
+msgstr "Dimma"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API-uppgifter är inte konfigurerade än. Ange dem på inställningsskärmen."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API-inställningar har sparats."
+
+msgid "Foreca API Setup"
+msgstr "Foreca API-inställning"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Karta {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One Meny"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Inga stationer hittades"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One-installation"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One Stations: {} stationer i närheten ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One väderprognos"
+
+msgid "Frame →"
+msgstr "Ram →"
+
+msgid "Frame: {}"
+msgstr "Ram: {}"
+
+msgid "France"
+msgstr "Frankrike"
+
+msgid "Full Moon"
+msgstr "Fullmåne"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Kulingstyrka (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Väderkartor för tyska stater"
+
+msgid "Germany"
+msgstr "Tyskland"
+
+msgid "Good"
+msgstr "Bra"
+
+msgid "Great Britain"
+msgstr "Storbritannien"
+
+msgid "Greece"
+msgstr "Grekland"
+
+msgid "Green"
+msgstr "Grön"
+
+msgid "Green - Favorite 1"
+msgstr "Grön - Favorit 1"
+
+msgid "Gust {}"
+msgstr "Gust {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Gust: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hamburg"
+
+msgid "Hazardous"
+msgstr "Farlig"
+
+msgid "Header - not selectable"
+msgstr "Rubrik - ej valbar"
+
+msgid "Heavy rain"
+msgstr "Mycket regn"
+
+msgid "Help"
+msgstr "Hjälp"
+
+msgid "Hesse"
+msgstr "Hesse"
+
+msgid "High"
+msgstr "Hög"
+
+msgid "Home"
+msgstr "Hem"
+
+msgid "Hot (30-40°C)"
+msgstr "Varm (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Timme detaljer"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Fuktighet"
+
+msgid "Humidity: {}%"
+msgstr "Luftfuktighet: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Luftfuktighet: %s%%"
+
+msgid "Hungary"
+msgstr "Ungern"
+
+msgid "Ice / frost"
+msgstr "Is / frost"
+
+msgid "Illumination"
+msgstr "Belysning"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Belysning: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Bild %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Bild %(current)d/%(total)d – %(day)s (pausad)"
+
+msgid "Image not available"
+msgstr "Bild inte tillgänglig"
+
+msgid "Imperial System"
+msgstr "Imperialistiska systemet"
+
+msgid "Increase Speed"
+msgstr "Öka hastigheten"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Info - About"
+msgstr "Info - Om"
+
+msgid "Ireland"
+msgstr "Irland"
+
+msgid "Italy"
+msgstr "Italien"
+
+msgid "Jump 100 down"
+msgstr "Hoppa 100 ner"
+
+msgid "Jump 100 up"
+msgstr "Hoppa 100 uppåt"
+
+msgid "Jump 500 down"
+msgstr "Hoppa ner 500"
+
+msgid "Jump 500 up"
+msgstr "Hoppa 500 uppåt"
+
+msgid "Keyboard"
+msgstr "Tangentbord"
+
+msgid "Last Quarter"
+msgstr "Sista kvartalet"
+
+msgid "Last update"
+msgstr "Senaste uppdatering"
+
+msgid "Latvia"
+msgstr "Lettland"
+
+msgid "Left - Previous day"
+msgstr "Vänster - Föregående dag"
+
+msgid "Left arrow - Previous day"
+msgstr "Vänsterpil - Föregående dag"
+
+msgid "Light (0-20 km/h)"
+msgstr "Ljus (0-20 km/h)"
+
+msgid "Light rain / drizzle"
+msgstr "Lätt regn / duggregn"
+
+msgid "Light to moderate"
+msgstr "Lätt till måttlig"
+
+msgid "Loading available maps..."
+msgstr "Laddar tillgängliga kartor..."
+
+msgid "Loading lunar phases..."
+msgstr "Laddar månfaser..."
+
+msgid "Loading nearby stations..."
+msgstr "Laddar närliggande stationer..."
+
+msgid "Loading tiles..."
+msgstr "Laddar brickor..."
+
+msgid "Loading weekly forecast..."
+msgstr "Laddar veckoprognos..."
+
+msgid "Loading..."
+msgstr "Belastning..."
+
+msgid "Low"
+msgstr "Låg"
+
+msgid "Lower Saxony"
+msgstr "Niedersachsen"
+
+msgid "Lunar Calendar"
+msgstr "Månkalender"
+
+msgid "Lunar phases from next month"
+msgstr "Månfaser från nästa månad"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Magnitude: N/A"
+msgstr "Storlek: N/A"
+
+msgid "Map {} selected"
+msgstr "Karta {} har valts"
+
+msgid "Map & Tiles Loaded"
+msgstr "Karta och plattor laddade"
+
+msgid "Map loaded"
+msgstr "Kartan laddad"
+
+msgid "Map server"
+msgstr "Kartserver"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Mecklenburg-Vorpommern"
+
+msgid "Menu"
+msgstr "Meny"
+
+msgid "Menu - Settings"
+msgstr "Meny - Inställningar"
+
+msgid "Merge failed"
+msgstr "Sammanfogningen misslyckades"
+
+msgid "Meteogram"
+msgstr "Meteogram"
+
+msgid "Metric System"
+msgstr "Metriskt system"
+
+msgid "Middle America"
+msgstr "Mellanamerika"
+
+msgid "Middle Asia"
+msgstr "Mellanasien"
+
+msgid "Middle East"
+msgstr "Mellanöstern"
+
+msgid "Mild (10-20°C)"
+msgstr "Mild (10-20°C)"
+
+msgid "Moderate"
+msgstr "Måttlig"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Måttlig (20-40 km/h)"
+
+msgid "Moderate rain"
+msgstr "Måttligt regn"
+
+msgid "Month"
+msgstr "Månad"
+
+msgid "Moon details"
+msgstr "Månens detaljer"
+
+msgid "Moon Details"
+msgstr "Månedetaljer"
+
+msgid "Moonrise: {}"
+msgstr "Månuppgång: {}"
+
+msgid "Moonset: {}"
+msgstr "Månnedgång: {}"
+
+msgid "Morning"
+msgstr "Morgon"
+
+msgid "Mostly clear"
+msgstr "För det mesta klart"
+
+msgid "Move down"
+msgstr "Flytta ner"
+
+msgid "Move Down"
+msgstr "Flytta ner"
+
+msgid "Move up"
+msgstr "Flytta upp"
+
+msgid "Move Up"
+msgstr "Flytta upp"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Netherlands"
+msgstr "Nederländerna"
+
+msgid "New Moon"
+msgstr "Nymåne"
+
+msgid "New version {version} is available."
+msgstr "Ny version {version} är tillgänglig."
+
+msgid "Next"
+msgstr "Nästa"
+
+msgid "Next frame"
+msgstr "Nästa ram"
+
+msgid "Next Image"
+msgstr "Nästa bild"
+
+msgid "Next page"
+msgstr "Nästa sida"
+
+msgid "Next time"
+msgstr "Nästa gång"
+
+msgid "No city selected"
+msgstr "Ingen stad har valts"
+
+msgid "No data"
+msgstr "Inga data"
+
+msgid "No date available"
+msgstr "Inget datum tillgängligt"
+
+msgid "No Internet connection detected."
+msgstr "Ingen internetanslutning upptäcktes."
+
+msgid "No location selected"
+msgstr "Ingen plats har valts"
+
+msgid "No OSM tiles"
+msgstr "Inga OSM-plattor"
+
+msgid "No specific legend available."
+msgstr "Ingen specifik legend tillgänglig."
+
+msgid "No station data"
+msgstr "Inga stationsdata"
+
+msgid "No station data available"
+msgstr "Inga stationsdata tillgängliga"
+
+msgid "No stations found"
+msgstr "Inga stationer hittades"
+
+msgid "No tiles downloaded"
+msgstr "Inga brickor har laddats ner"
+
+msgid "North Africa"
+msgstr "Nordafrika"
+
+msgid "North America"
+msgstr "Nordamerika"
+
+msgid "North Rhine-Westphalia"
+msgstr "Nordrhein-Westfalen"
+
+msgid "Norway"
+msgstr "Norge"
+
+msgid "Ok - Details"
+msgstr "Ok - Detaljer"
+
+msgid "OK - Ext Info"
+msgstr "OK - Ext Info"
+
+msgid "OK - Forecast"
+msgstr "OK - Prognos"
+
+msgid "OK - Open Map"
+msgstr "OK - Öppna karta"
+
+msgid "Open Keyboard"
+msgstr "Öppna tangentbordet"
+
+msgid "Open Map"
+msgstr "Öppna karta"
+
+msgid "Original design and idea by %s"
+msgstr "Originaldesign och idé av %s"
+
+msgid "Overcast"
+msgstr "Mulen"
+
+msgid "Overcast and light rain"
+msgstr "Mulet och lätt regn"
+
+msgid "Overcast and light snow"
+msgstr "Mulet och lätt snö"
+
+msgid "Overcast and light wet snow"
+msgstr "Mulet och lätt blöt snö"
+
+msgid "Overcast and rain"
+msgstr "Mulet och regn"
+
+msgid "Overcast and showers"
+msgstr "Mulet och regnskurar"
+
+msgid "Overcast and snow"
+msgstr "Mulet och snö"
+
+msgid "Overcast and snow showers"
+msgstr "Mulet och snöskurar"
+
+msgid "Overcast and wet snow"
+msgstr "Mulet och blöt snö"
+
+msgid "Overcast and wet snow showers"
+msgstr "Mulet och blött snöskurar"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Mulet, åska med regn"
+
+msgid "Overnight"
+msgstr "Över natten"
+
+msgid "Page down"
+msgstr "Sida ner"
+
+msgid "Page Down"
+msgstr "Sida ner"
+
+msgid "Page up"
+msgstr "Sida upp"
+
+msgid "Page Up"
+msgstr "Sida upp"
+
+msgid "Pan down"
+msgstr "Panorera ner"
+
+msgid "Pan left"
+msgstr "Panorera vänster"
+
+msgid "Pan right"
+msgstr "Panorera höger"
+
+msgid "Pan up"
+msgstr "Panorera upp"
+
+msgid "Partly cloudy"
+msgstr "Delvis molnigt"
+
+msgid "Partly cloudy and light rain"
+msgstr "Halvmolnigt och lätt regn"
+
+msgid "Partly cloudy and light snow"
+msgstr "Halvmolnigt och lätt snö"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Halvmolnigt och lätt blöt snö"
+
+msgid "Partly cloudy and showers"
+msgstr "Delvis molnigt och regnskurar"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Halvmolnigt och snöskurar"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Halvmolnigt och blöta snöskurar"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Delvis molnigt, möjliga åska med regn"
+
+msgid "Perigee"
+msgstr "Perigeum"
+
+msgid "Phase"
+msgstr "Fas"
+
+msgid "Phase: {}"
+msgstr "Fas: {}"
+
+msgid "Play/Pause"
+msgstr "Spela/Pausa"
+
+msgid "Please enter both API user and API password."
+msgstr "Ange både API-användare och API-lösenord."
+
+msgid "Please wait ..."
+msgstr "Vänligen vänta..."
+
+msgid "Poland"
+msgstr "Polen"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Precipitation"
+msgstr "Nederbörd"
+
+msgid "Precipitation: {}"
+msgstr "Nederbörd: {}"
+
+msgid "Precipitations"
+msgstr "Nederbörd"
+
+msgid "Precipitations: {}%"
+msgstr "Nederbörd: {}%"
+
+msgid "Press RED to search again"
+msgstr "Tryck på RÖD för att söka igen"
+
+msgid "Pressure"
+msgstr "Tryck"
+
+msgid "Pressure: {}"
+msgstr "Tryck: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Tryck: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Tryck: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Tryck: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Tryck: N/A"
+
+msgid "Prev"
+msgstr "Föreg"
+
+msgid "Previous"
+msgstr "Tidigare"
+
+msgid "Previous frame"
+msgstr "Föregående ram"
+
+msgid "Previous Image"
+msgstr "Föregående bild"
+
+msgid "Previous page"
+msgstr "Föregående sida"
+
+msgid "Previous time"
+msgstr "Tidigare gång"
+
+msgid "Rain Prob."
+msgstr "Regn Prob."
+
+msgid "Rain prob. {}%"
+msgstr "Regn troligt. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Regnproblem: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Regn: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer radar"
+
+msgid "Red"
+msgstr "Röd"
+
+msgid "Red - Color select"
+msgstr "Röd - Välj färg"
+
+msgid "Refresh"
+msgstr "Uppdatera"
+
+msgid "Restore default server values"
+msgstr "Återställ standardservervärden"
+
+msgid "Rhineland-Palatine"
+msgstr "Rheinland-Pfalz"
+
+msgid "Right - Next day"
+msgstr "Höger - Nästa dag"
+
+msgid "Right arrow - Next day"
+msgstr "Högerpil - Nästa dag"
+
+msgid "Rise"
+msgstr "Stiga"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Ökningsazimut: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Stigningsazimut: N/A"
+
+msgid "Russia"
+msgstr "Ryssland"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saarland"
+
+msgid "Satellite Photos"
+msgstr "Satellitbilder"
+
+msgid "Satellite photos coming soon!"
+msgstr "Satellitbilder kommer snart!"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Save API settings"
+msgstr "Spara API-inställningar"
+
+msgid "Save translation settings"
+msgstr "Spara översättningsinställningar"
+
+msgid "Saxony"
+msgstr "Sachsen"
+
+msgid "Saxony-Anhalt"
+msgstr "Sachsen-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+msgid "Scraped"
+msgstr "Skrapad"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Sök först försöker online, om det misslyckas använder lokal lista."
+
+msgid "Search your City"
+msgstr "Sök i din stad"
+
+msgid "Select"
+msgstr "Välja"
+
+msgid "Select {} unit"
+msgstr "Välj {} enhet"
+
+msgid "Select a city"
+msgstr "Välj en stad"
+
+msgid "Select a map with OK"
+msgstr "Välj en karta med OK"
+
+msgid "Select Region"
+msgstr "Välj Region"
+
+msgid "Select unit system"
+msgstr "Välj enhetssystem"
+
+msgid "Select wind unit"
+msgstr "Välj vindenhet"
+
+msgid "Selected hour details"
+msgstr "Valda timdetaljer"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Ställ in azimut: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Ställ in azimut: N/A"
+
+msgid "Sets"
+msgstr "Uppsättningar"
+
+msgid "Show info"
+msgstr "Visa info"
+
+msgid "Showers"
+msgstr "Duschar"
+
+msgid "Slovakia"
+msgstr "Slovakien"
+
+msgid "Slower: {}s"
+msgstr "Långsammare: {}s"
+
+msgid "Snow / ice"
+msgstr "Snö/is"
+
+msgid "Snow prob. {}%"
+msgstr "Snö troligt. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Snöproblem: N/A"
+
+msgid "South Africa"
+msgstr "Sydafrika"
+
+msgid "South America"
+msgstr "Sydamerika"
+
+msgid "Southeast Asia"
+msgstr "Sydostasien"
+
+msgid "Spain"
+msgstr "Spanien"
+
+msgid "Station Observations"
+msgstr "Stationsobservationer"
+
+msgid "Station: {}"
+msgstr "Station: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Stark (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "Soluppgång"
+
+msgid "Sunset"
+msgstr "Solnedgång"
+
+msgid "Super Full Moon"
+msgstr "Super fullmåne"
+
+msgid "Sweden"
+msgstr "Sverige"
+
+msgid "Switzerland"
+msgstr "Schweiz"
+
+msgid "Target Language"
+msgstr "Målspråk"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Temperatur"
+
+msgid "Temperature: {}"
+msgstr "Temperatur: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatur: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatur: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Temperatur: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatur: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatur: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Tack {thanks} och andra vänner för förslag"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Fjärrversionen ({remote}) är äldre än den nuvarande ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Tunt övre moln"
+
+msgid "Thuringia"
+msgstr "Thüringen"
+
+msgid "Time"
+msgstr "Tid"
+
+msgid "Today"
+msgstr "I dag"
+
+msgid "Today/Tomorrow details"
+msgstr "Information om idag/imorgon"
+
+msgid "Toggle legend"
+msgstr "Växla legend"
+
+msgid "Token expire hours"
+msgstr "Token löper ut timmar"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Tokens förfallotid måste vara -1 eller ett positivt tal."
+
+msgid "Token expire hours must be a number."
+msgstr "Tokens utgångstider måste vara ett nummer."
+
+msgid "Tomorrow"
+msgstr "I morgon"
+
+msgid "Transit (culmination): {}"
+msgstr "Transit (kulminering): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Transithöjd: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Transithöjd: N/A"
+
+msgid "Translation Settings"
+msgstr "Översättningsinställningar"
+
+msgid "Transparency level"
+msgstr "Transparensnivå"
+
+msgid "Transparency Settings"
+msgstr "Transparensinställningar"
+
+msgid "Unhealthy"
+msgstr "Ohälsosam"
+
+msgid "Unhealthy for sensitives"
+msgstr "Ohälsosamt för känsliga"
+
+msgid "Unit Settings"
+msgstr "Enhetsinställningar"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Enhetsinställningar (avancerat)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Enhetsinställningar (enkel)"
+
+msgid "Unknown"
+msgstr "Okänd"
+
+msgid "Up"
+msgstr "Upp"
+
+msgid "Up - Previous page"
+msgstr "Upp - Föregående sida"
+
+msgid "Update canceled."
+msgstr "Uppdateringen avbröts."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Uppdatering slutförd. Vänligen starta om Enigma2."
+
+msgid "Updated {}"
+msgstr "Uppdaterade {}"
+
+msgid "Updated: {}"
+msgstr "Uppdaterad: {}"
+
+msgid "Updated: N/A"
+msgstr "Uppdaterad: N/A"
+
+msgid "Updating..."
+msgstr "Uppdaterar..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Använd ← → för att ändra tid | OK för att avsluta"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Använd ←/→/↑/↓ för att flytta | OK för att avsluta"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Använd ▲/▼ för att ändra, OK för att välja"
+
+msgid "Use arrow keys to scroll"
+msgstr "Använd piltangenterna för att bläddra"
+
+msgid "Use Google Translate"
+msgstr "Använd Google Translate"
+
+msgid "Using current time"
+msgstr "Använder aktuell tid"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV-index"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Mycket kraftigt regn"
+
+msgid "Very high"
+msgstr "Mycket hög"
+
+msgid "Very hot (>40°C)"
+msgstr "Mycket varmt (>40°C)"
+
+msgid "Very low"
+msgstr "Mycket låg"
+
+msgid "Very unhealthy"
+msgstr "Väldigt ohälsosamt"
+
+msgid "Visibility: {} m"
+msgstr "Sikt: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Synlighet: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Avtagande halvmåne"
+
+msgid "Waning Gibbous"
+msgstr "Avtagande Gibbous"
+
+msgid "Warm (20-30°C)"
+msgstr "Varm (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Vaxande Crescent"
+
+msgid "Waxing Gibbous"
+msgstr "Vaxande Gibbous"
+
+msgid "Weather"
+msgstr "Väder"
+
+msgid "Weather Map"
+msgstr "Väderkarta"
+
+msgid "Weather Maps"
+msgstr "Väderkartor"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Väderkartor (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Väderkartor och satellit"
+
+msgid "Weather Maps Slideshow"
+msgstr "Väderkartor bildspel"
+
+msgid "Weather Radar"
+msgstr "Väderradar"
+
+msgid "Weather today"
+msgstr "Vädret idag"
+
+msgid "Weather tomorrow"
+msgstr "Vädret imorgon"
+
+msgid "Weekly Forecast"
+msgstr "Veckoprognos"
+
+msgid "Wind"
+msgstr "Vind"
+
+msgid "Wind direction"
+msgstr "Vindriktning"
+
+msgid "Wind Direction today"
+msgstr "Vindriktning idag"
+
+msgid "Wind Direction tomorrow"
+msgstr "Vindriktning imorgon"
+
+msgid "Wind speed"
+msgstr "Vindhastighet"
+
+msgid "Wind speed {}"
+msgstr "Vindhastighet {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Vindhastighet: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Vind: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vind: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vind: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Vind: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Vind: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Vind: N/A"
+
+msgid "Window transparency"
+msgstr "Fönster genomskinlighet"
+
+msgid "Yellow - Favorite 2"
+msgstr "Gul - Favorit 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Du har redan version {version} installerad.\nVill du installera om den?"
+
+msgid "Zoom In"
+msgstr "Zooma in"
+
+msgid "Zoom Out"
+msgstr "Zooma ut"
+
+msgid "Zoom-"
+msgstr "Zoom-"
+
+msgid "Zoom:"
+msgstr "Zoom:"
+
+msgid "Zoom+"
+msgstr "Zoom+"
+
