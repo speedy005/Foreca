@@ -1977,7 +1977,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f"FORECAST UPDATE END: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             write_forecast_weather_debug("=" * 70 + "\n")
 
-        def update_me(self):
+    def update_me(self):
         """Checks for updates and asks for confirmation to install them."""
         import requests
         import re
