@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Copyright (c) @Lululla 2026
@@ -1306,4 +1305,4 @@ try:
     localeInit()
 except Exception:
     pass
-```
+
