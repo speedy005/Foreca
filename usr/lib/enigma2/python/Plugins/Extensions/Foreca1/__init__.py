@@ -1,308 +1,1534 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
-# Copyright (c) @Lululla 2026
+```
+#!/bin/bash
 
-from Tools.Directories import resolveFilename, SCOPE_PLUGINS
-from Components.Language import language
-from os.path import exists, join, dirname
-from enigma import getDesktop, gRGB
-from skin import parseColor
-from os import makedirs, environ, rmdir, walk, remove
-import gettext
-import codecs
-import shutil
+# =========================================================
+# ForecaOne Installer
+# =========================================================
 
-__version__ = "1.4.8"
-VERSION = __version__
-_AUTHOR_ = "by speedy - 2026"
-IDEAS = "@Bauernbub"
-THANKS = "@Orlandox | @atvcaptain"
-BASEURL = "https://www.foreca.com/"
-TEMP_DIR = '/tmp/foreca'
-SYSTEM_DIR = '/etc/enigma2/foreca'
-PLUGIN_PATH = dirname(__file__)
-SKINS_PATH = join(PLUGIN_PATH, "skins")
-CUSTOM_SKINS_PATH = join(PLUGIN_PATH, "skins_user")
-MOON_ICON_PATH = join(PLUGIN_PATH, "moon")
-THUMB_PATH = join(PLUGIN_PATH, "thumb/")
-DBG_DIR = join(PLUGIN_PATH, 'debug')
-CONFIG_FILE = join(SYSTEM_DIR, "api_config.txt")
-DATA_FILE = join(SYSTEM_DIR, "color_database.txt")
-CACHE_BASE = join(TEMP_DIR, "foreca_map_cache")
-METEOGRAM_CACHE = join(TEMP_DIR, "meteogram")
-WEATHER_DETAIL_CACHE = join(TEMP_DIR, "weather_detail")
-TOKEN_FILE = join(CACHE_BASE, "token.json")
-WETTERKONTOR_CACHE = join(CACHE_BASE, "wetterkontor/")
+version='1.4.9'
 
-INSTALLER_URL = "https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/installer.sh"
-
-DEBUG = True
-CACHE_EXPIRE = 3600
+changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
 
 
-if not exists(SYSTEM_DIR):
-    makedirs(SYSTEM_DIR)
+# =========================================================
+# PATHS
+# =========================================================
 
-if not exists(TEMP_DIR):
-    makedirs(TEMP_DIR)
+TMPPATH="/tmp/ForecaOne-install"
+FILEPATH="/tmp/ForecaOne-master.tar.gz"
 
-if not exists(DBG_DIR):
-    makedirs(DBG_DIR)
+BACKUP_DIR="/tmp/foreca_backup"
+OLD_PLUGIN_BACKUP="/tmp/ForecaOne-old-plugin"
 
-if not exists(CACHE_BASE):
-    makedirs(CACHE_BASE)
+CONFIG_DIR="/etc/enigma2/foreca"
+LOGFILE="/tmp/ForecaOne-install.log"
 
-if not exists(WETTERKONTOR_CACHE):
-    makedirs(WETTERKONTOR_CACHE)
 
-if not exists(METEOGRAM_CACHE):
-    makedirs(METEOGRAM_CACHE)
+# =========================================================
+# DOWNLOAD
+# =========================================================
 
-if not exists(WEATHER_DETAIL_CACHE):
-    makedirs(WEATHER_DETAIL_CACHE)
+# IMPORTANT:
+# Keep this branch identical to INSTALLER_URL in __init__.py.
 
-PluginLanguageDomain = "Foreca1"
-PluginLanguagePath = "Extensions/Foreca1/locale"
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/134.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Connection": "keep-alive",
+BRANCH="master"
+
+DOWNLOAD_URL="https://github.com/speedy005/Foreca/archive/refs/heads/${BRANCH}.tar.gz"
+
+
+# =========================================================
+# DETERMINE PLUGIN PATH
+# =========================================================
+
+if [ -d "/usr/lib64" ]; then
+
+    PLUGINPATH="/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1"
+
+else
+
+    PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
+
+fi
+
+
+# =========================================================
+# GLOBAL VARIABLES
+# =========================================================
+
+OSTYPE="Unknown"
+STATUS=""
+
+PYTHON="Unknown"
+PYTHON_CMD=""
+PYTHON_VERSION="Unknown"
+
+DISTRO="Unknown"
+DISTRO_VERSION="Unknown"
+BOX_TYPE="Unknown"
+
+PACKAGESIX=""
+PACKAGEREQUESTS=""
+PACKAGEPILLOW=""
+
+PLUGIN_SOURCE=""
+
+BACKUP_CREATED=0
+INSTALL_STARTED=0
+
+
+# =========================================================
+# LOGGING
+# =========================================================
+
+# ---------------------------------------------------------
+# Capture the complete installer output.
+# This is important because the Enigma2 GUI disappears during
+# init 4 and the original console may no longer be visible.
+# ---------------------------------------------------------
+mkdir -p "$(dirname "$LOGFILE")" 2>/dev/null || true
+touch "$LOGFILE" 2>/dev/null || true
+
+# Send stdout/stderr both to the visible console and to the log.
+# Bash is required by this installer.
+exec > >(tee -a "$LOGFILE") 2>&1
+
+log()
+{
+    echo "[ForecaOne] $1"
 }
 
-OSM_HEADERS = {
-    "User-Agent": "ForecaPlugin/1.1.4 (Enigma2; OpenStreetMap; non-commercial; +https://github.com/speedy005/Foreca/tree/master/)",
-    "Referer": "https://www.foreca.com",
-    "Accept": "image/webp,image/png,image/*;q=0.8",
-    "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Connection": "keep-alive",
+
+error()
+{
+    echo
+    echo "========================================================="
+    echo "ERROR: $1"
+    echo "========================================================="
+    echo
 }
 
 
-def localeInit():
-    lang = language.getLanguage()[:2]
-    environ["LANGUAGE"] = lang
-    if PluginLanguageDomain and PluginLanguagePath:
-        gettext.bindtextdomain(
-            PluginLanguageDomain,
-            resolveFilename(
-                SCOPE_PLUGINS,
-                PluginLanguagePath),
+# =========================================================
+# CLEANUP
+# =========================================================
+
+cleanup()
+{
+    log "Cleaning up temporary files..."
+
+    if [ -d "$TMPPATH" ]; then
+        rm -rf "$TMPPATH"
+    fi
+
+    if [ -f "$FILEPATH" ]; then
+        rm -f "$FILEPATH"
+    fi
+}
+
+
+# =========================================================
+# OS DETECTION
+# =========================================================
+
+detect_os()
+{
+    # -----------------------------------------------------
+    # DreamOS / Dreambox
+    # -----------------------------------------------------
+
+    if [ -f "/usr/lib/enigma.info" ]; then
+
+        OSTYPE="DreamOs"
+        STATUS="/var/lib/dpkg/status"
+
+    # -----------------------------------------------------
+    # Debian
+    # -----------------------------------------------------
+
+    elif [ -f "/etc/debian_version" ] &&
+         [ -f "/var/lib/dpkg/status" ]; then
+
+        OSTYPE="Debian"
+        STATUS="/var/lib/dpkg/status"
+
+    # -----------------------------------------------------
+    # OpenEmbedded / OE
+    # -----------------------------------------------------
+
+    elif [ -f "/var/lib/opkg/status" ] ||
+         [ -f "/etc/opkg/opkg.conf" ]; then
+
+        OSTYPE="OE"
+        STATUS="/var/lib/opkg/status"
+
+    else
+
+        OSTYPE="Unknown"
+        STATUS=""
+
+    fi
+
+
+    log "Detected OS type: $OSTYPE"
+}
+
+
+# =========================================================
+# PYTHON DETECTION
+# =========================================================
+
+detect_python()
+{
+    PYTHON_CMD=""
+    PYTHON="Unknown"
+    PYTHON_VERSION="Unknown"
+
+
+    # -----------------------------------------------------
+    # Prefer Python 3
+    # -----------------------------------------------------
+
+    if command -v python3 >/dev/null 2>&1; then
+
+        PYTHON_CMD="python3"
+        PYTHON="PY3"
+
+
+    # -----------------------------------------------------
+    # Check generic python
+    # -----------------------------------------------------
+
+    elif command -v python >/dev/null 2>&1; then
+
+        if python --version 2>&1 | grep -q "^Python 3\."; then
+
+            PYTHON_CMD="python"
+            PYTHON="PY3"
+
+        else
+
+            PYTHON_CMD="python"
+            PYTHON="PY2"
+
+        fi
+
+
+    else
+
+        error "Python was not found."
+        exit 1
+
+    fi
+
+
+    PYTHON_VERSION=$(
+        "$PYTHON_CMD" --version 2>&1
+    )
+
+
+    log "Python detected: $PYTHON_VERSION"
+
+
+    # -----------------------------------------------------
+    # Package names
+    # -----------------------------------------------------
+
+    if [ "$PYTHON" = "PY3" ]; then
+
+        PACKAGESIX="python3-six"
+        PACKAGEREQUESTS="python3-requests"
+        PACKAGEPILLOW="python3-pillow"
+
+    else
+
+        PACKAGESIX="python-six"
+        PACKAGEREQUESTS="python-requests"
+        PACKAGEPILLOW="python-pillow"
+
+    fi
+}
+
+
+# =========================================================
+# IMAGE DETECTION
+# =========================================================
+
+detect_image()
+{
+    BOX_TYPE=$(
+        head -n 1 /etc/hostname 2>/dev/null
+    )
+
+
+    if [ -z "$BOX_TYPE" ]; then
+        BOX_TYPE="Unknown"
+    fi
+
+
+    # -----------------------------------------------------
+    # Enigma.info
+    # -----------------------------------------------------
+
+    if [ -f "/usr/lib/enigma.info" ]; then
+
+        DISTRO=$(
+            grep "^distro=" /usr/lib/enigma.info 2>/dev/null |
+            head -n 1 |
+            cut -d "=" -f 2-
+        )
+
+        DISTRO_VERSION=$(
+            grep "^imageversion=" /usr/lib/enigma.info 2>/dev/null |
+            head -n 1 |
+            cut -d "=" -f 2-
         )
 
 
-def _(txt):
-    if not txt:
-        return ""
+    # -----------------------------------------------------
+    # image-version
+    # -----------------------------------------------------
 
-    translated = gettext.dgettext(PluginLanguageDomain, txt)
-    if translated and translated != txt:
-        return translated
+    elif [ -f "/etc/image-version" ]; then
 
-    print(
-        "[%s] fallback to default translation for %s" %
-        (PluginLanguageDomain, txt)
-    )
-    return gettext.gettext(txt)
+        DISTRO=$(
+            grep "^distro=" /etc/image-version 2>/dev/null |
+            head -n 1 |
+            cut -d "=" -f 2-
+        )
 
-
-localeInit()
-language.addCallback(localeInit)
-
-
-# ============ DETECT SCREEN RESOLUTION ============
-def get_screen_resolution():
-    """Get current screen resolution"""
-    desktop = getDesktop(0)
-    return desktop.size()
+        DISTRO_VERSION=$(
+            grep "^version=" /etc/image-version 2>/dev/null |
+            head -n 1 |
+            cut -d "=" -f 2-
+        )
 
 
-def get_resolution_type():
-    """Get resolution type: hd, fhd, wqhd"""
-    width = get_screen_resolution().width()
+    else
 
-    if width >= 2560:
-        return 'wqhd'
-    elif width >= 1920:
-        return 'fhd'
-    else:  # 1280x720 or smaller
-        return 'hd'
+        DISTRO="Unknown"
+        DISTRO_VERSION="Unknown"
+
+    fi
 
 
-def load_skin_by_class(class_name):
-    """Load skin using class name and current resolution.
-    First tries custom skins (skins_user/), then built-in skins (skins/).
-    """
-    if DEBUG:
-        print("\n" + "=" * 60)
-        print(f"[SKIN DEBUG] Looking for skin: '{class_name}'")
-        print(f"[SKIN DEBUG] Built-in skins path = {SKINS_PATH}")
-        print(f"[SKIN DEBUG] Custom skins path = {CUSTOM_SKINS_PATH}")
-
-    resolution = get_resolution_type()
-    if DEBUG:
-        print(f"[SKIN DEBUG] resolution = {resolution}")
-
-    # 1) Try custom skins first
-    custom_skin_file = None
-    if exists(CUSTOM_SKINS_PATH):
-        custom_skin_file = join(
-            CUSTOM_SKINS_PATH,
-            resolution,
-            f"{class_name}.xml")
-        if DEBUG:
-            print(f"[SKIN DEBUG] Trying custom: {custom_skin_file}")
-            print(f"[SKIN DEBUG] Exists? {exists(custom_skin_file)}")
-    else:
-        if DEBUG:
-            print("[SKIN DEBUG] Custom skins directory does not exist")
-
-    # 2) Built-in skins
-    builtin_skin_file = join(SKINS_PATH, resolution, f"{class_name}.xml")
-    fallback_skin_file = join(SKINS_PATH, "hd", f"{class_name}.xml")
-
-    # Determine which file to load
-    skin_file = None
-    if custom_skin_file and exists(custom_skin_file):
-        skin_file = custom_skin_file
-        if DEBUG:
-            print("[SKIN DEBUG] Using custom skin")
-    elif exists(builtin_skin_file):
-        skin_file = builtin_skin_file
-        if DEBUG:
-            print("[SKIN DEBUG] Using built-in skin for current resolution")
-    elif exists(fallback_skin_file):
-        skin_file = fallback_skin_file
-        if DEBUG:
-            print("[SKIN DEBUG] Using HD fallback skin")
-    else:
-        if DEBUG:
-            print("[SKIN DEBUG] No skin found at all")
-
-    if skin_file and exists(skin_file):
-        if DEBUG:
-            print(f"[SKIN DEBUG] ✓ FOUND! Loading file: {skin_file}")
-        try:
-            with codecs.open(skin_file, 'r', 'utf-8') as f:
-                content = f.read()
-                if DEBUG:
-                    print(f"[SKIN DEBUG] ✓ Loaded {len(content)} bytes")
-                    print(
-                        f"[SKIN DEBUG] First 100 chars: {content[:100].replace(chr(10), ' ')}")
-                    print("=" * 60 + "\n")
-                return content
-        except Exception as e:
-            print(f"[SKIN DEBUG] ✗ Error reading file: {e}")
-    else:
-        print(f"[SKIN DEBUG] ✗ SKIN FILE MISSING: {skin_file}")
-    if DEBUG:
-        print("=" * 60 + "\n")
-    return None
+    [ -z "$DISTRO" ] &&
+        DISTRO="Unknown"
 
 
-def load_skin_for_class(cls):
-    return load_skin_by_class(cls.__name__)
+    [ -z "$DISTRO_VERSION" ] &&
+        DISTRO_VERSION="Unknown"
 
 
-def apply_global_theme(screen):
-    """
-    Applies the background color (from set_color.conf) and transparency (from set_alpha.conf)
-    to the standard 'background_plate' and 'selection_overlay' widgets on the screen.
-    """
-    color_file = join(SYSTEM_DIR, "set_color.conf")
-    alpha_file = join(SYSTEM_DIR, "set_alpha.conf")
-
-    # Background color
-    if exists(color_file):
-        try:
-            with open(color_file, "r") as f:
-                parts = f.read().strip().split()
-                if len(parts) >= 3:
-                    r, g, b = parts[0], parts[1], parts[2]
-                    bg_color = gRGB(int(r), int(g), int(b))
-                    if "background_plate" in screen:
-                        screen["background_plate"].instance.setBackgroundColor(
-                            bg_color)
-        except Exception as e:
-            print("[Theme] Error loading color:", e)
-
-    # transparency
-    if exists(alpha_file):
-        try:
-            with open(alpha_file, "r") as f:
-                alpha = f.read().strip()
-                if "selection_overlay" in screen:
-                    screen["selection_overlay"].instance.setBackgroundColor(
-                        parseColor(alpha))
-        except Exception as e:
-            print("[Theme] Error loading alpha:", e)
+    log "Image: $DISTRO $DISTRO_VERSION"
+    log "Box: $BOX_TYPE"
+}
 
 
-def get_icon_path(icon_name, fallback='na.png'):
-    """
-    Returns the full path of an icon from the thumb/ folder.
-    If the file does not exist, returns the path of the fallback icon (na.png).
-    """
-    path = join(THUMB_PATH, icon_name)
-    if exists(path):
-        return path
+# =========================================================
+# WGET
+# =========================================================
 
-    # Fallback to the na.png icon
-    fallback_path = join(THUMB_PATH, fallback)
-    return fallback_path if exists(fallback_path) else None
+install_wget()
+{
+    if command -v wget >/dev/null 2>&1; then
+
+        log "wget already installed."
+        return 0
+
+    fi
 
 
-def cleanup_temp_files(keep_token=True):
-    """Remove temporary folders, optionally keep the token."""
-    dirs_to_clean = [TEMP_DIR, DBG_DIR]
-    for d in dirs_to_clean:
-        if not exists(d):
-            continue
-        try:
-            if keep_token and d == TEMP_DIR:
-                # Delete everything inside TEMP_DIR except the token file
-                token_path = join(TEMP_DIR, "foreca_map_cache", "token.json")
-                for root, dirs, files in walk(d, topdown=False):
-                    for name in files:
-                        file_path = join(root, name)
-                        if file_path != token_path:
-                            remove(file_path)
-                    for name in dirs:
-                        dir_path = join(root, name)
-                        # Skip the cache directory that contains token
-                        if dir_path == join(TEMP_DIR, "foreca_map_cache"):
-                            continue
-                        rmdir(dir_path)
-                # Recreate essential subdirectories
-                subdirs = [
-                    "meteogram",
-                    "weather_detail",
-                    "foreca_map_cache/wetterkontor"]
-                for sub in subdirs:
-                    subdir = join(TEMP_DIR, sub)
-                    if not exists(subdir):
-                        makedirs(subdir)
-                if DEBUG:
-                    print(f"[Cleanup] Cleaned {d} (kept token)")
-            else:
-                shutil.rmtree(d)
-                if DEBUG:
-                    print(f"[Cleanup] Removed {d}")
-                if d == TEMP_DIR:
-                    makedirs(d)
-                    # Also recreate subdirs if TEMP_DIR was completely removed
-                    for sub in [
-                        "meteogram",
-                        "weather_detail",
-                            "foreca_map_cache/wetterkontor"]:
-                        subdir = join(d, sub)
-                        if not exists(subdir):
-                            makedirs(subdir)
-                elif d == DBG_DIR:
-                    makedirs(d)
-        except Exception as e:
-            print(f"[Cleanup] Error cleaning {d}: {e}")
+    log "wget not found. Installing wget..."
+
+
+    case "$OSTYPE" in
+
+        DreamOs|Debian)
+
+            if ! apt-get update; then
+
+                error "apt-get update failed."
+                exit 1
+
+            fi
+
+
+            if ! apt-get install -y wget; then
+
+                error "wget installation failed."
+                exit 1
+
+            fi
+
+            ;;
+
+
+        OE)
+
+            if ! opkg update; then
+
+                error "opkg update failed."
+                exit 1
+
+            fi
+
+
+            if ! opkg install wget; then
+
+                error "wget installation failed."
+                exit 1
+
+            fi
+
+            ;;
+
+
+        *)
+
+            error "Cannot install wget on unknown OS."
+            exit 1
+
+            ;;
+
+    esac
+
+
+    if ! command -v wget >/dev/null 2>&1; then
+
+        error "wget installation failed."
+        exit 1
+
+    fi
+
+
+    log "wget installed successfully."
+}
+
+
+# =========================================================
+# PACKAGE CHECK
+# =========================================================
+
+package_installed()
+{
+    local pkg="$1"
+
+
+    if [ -z "$pkg" ]; then
+        return 1
+    fi
+
+
+    case "$OSTYPE" in
+
+        DreamOs|Debian)
+
+            if command -v dpkg-query >/dev/null 2>&1; then
+
+                dpkg-query \
+                    -W \
+                    -f='${Status}' \
+                    "$pkg" 2>/dev/null |
+                    grep -q "install ok installed"
+
+                return $?
+
+            fi
+
+            ;;
+
+
+        OE)
+
+            if command -v opkg >/dev/null 2>&1; then
+
+                opkg status "$pkg" 2>/dev/null |
+                    grep -q "^Status:.*ok installed"
+
+                return $?
+
+            fi
+
+            ;;
+
+    esac
+
+
+    return 1
+}
+
+
+# =========================================================
+# PACKAGE INSTALLATION
+# =========================================================
+
+install_pkg()
+{
+    local pkg="$1"
+
+
+    if [ -z "$pkg" ]; then
+        return 0
+    fi
+
+
+    if package_installed "$pkg"; then
+
+        log "$pkg already installed."
+        return 0
+
+    fi
+
+
+    log "Installing package: $pkg"
+
+
+    case "$OSTYPE" in
+
+        DreamOs|Debian)
+
+            if ! apt-get update >/dev/null 2>&1; then
+
+                log "Warning: apt-get update failed."
+
+            fi
+
+
+            if apt-get install -y "$pkg"; then
+
+                log "$pkg installation finished."
+
+            else
+
+                log "Warning: Could not install $pkg."
+                return 1
+
+            fi
+
+            ;;
+
+
+        OE)
+
+            if ! opkg update >/dev/null 2>&1; then
+
+                log "Warning: opkg update failed."
+
+            fi
+
+
+            if opkg install "$pkg"; then
+
+                log "$pkg installation finished."
+
+            else
+
+                log "Warning: Could not install $pkg."
+                return 1
+
+            fi
+
+            ;;
+
+
+        *)
+
+            log "Cannot install $pkg on unknown OS."
+            return 1
+
+            ;;
+
+    esac
+
+
+    if package_installed "$pkg"; then
+
+        log "$pkg verified successfully."
+        return 0
+
+    fi
+
+
+    log "Warning: Could not verify $pkg."
+    return 1
+}
+
+
+# =========================================================
+# DEPENDENCIES
+# =========================================================
+
+install_dependencies()
+{
+    log "Checking dependencies..."
+
+
+    # -----------------------------------------------------
+    # six
+    # -----------------------------------------------------
+
+    if [ -n "$PACKAGESIX" ]; then
+
+        if ! install_pkg "$PACKAGESIX"; then
+
+            log "Warning: $PACKAGESIX could not be installed."
+
+        fi
+
+    fi
+
+
+    # -----------------------------------------------------
+    # requests
+    # -----------------------------------------------------
+
+    if [ -n "$PACKAGEREQUESTS" ]; then
+
+        if ! install_pkg "$PACKAGEREQUESTS"; then
+
+            log "Warning: $PACKAGEREQUESTS could not be installed."
+
+        fi
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Pillow
+    # -----------------------------------------------------
+
+    if [ -n "$PACKAGEPILLOW" ]; then
+
+        if ! install_pkg "$PACKAGEPILLOW"; then
+
+            log "Warning: $PACKAGEPILLOW could not be installed."
+
+        fi
+
+    fi
+
+
+    # -----------------------------------------------------
+    # OpenEmbedded extras
+    # -----------------------------------------------------
+
+    if [ "$OSTYPE" = "OE" ]; then
+
+        log "Installing additional OpenEmbedded dependencies..."
+
+
+        for pkg in \
+            ffmpeg \
+            gstplayer \
+            exteplayer3 \
+            enigma2-plugin-systemplugins-serviceapp
+        do
+
+            if ! install_pkg "$pkg"; then
+
+                log "Warning: optional package $pkg unavailable."
+
+            fi
+
+        done
+
+    fi
+}
+
+
+# =========================================================
+# CONFIG BACKUP
+# =========================================================
+
+backup_config()
+{
+    BACKUP_CREATED=0
+
+
+    if [ ! -d "$CONFIG_DIR" ]; then
+
+        log "No existing configuration directory found."
+        log "Skipping configuration backup."
+
+        return 0
+
+    fi
+
+
+    log "Creating configuration backup..."
+
+
+    if [ -d "$BACKUP_DIR" ]; then
+
+        rm -rf "$BACKUP_DIR"
+
+    fi
+
+
+    if cp -a "$CONFIG_DIR" "$BACKUP_DIR"; then
+
+        BACKUP_CREATED=1
+
+        log "Configuration backup successful."
+
+    else
+
+        error "Configuration backup failed."
+        exit 1
+
+    fi
+}
+
+
+# =========================================================
+# CONFIG RESTORE
+# =========================================================
+
+restore_config()
+{
+    if [ "$BACKUP_CREATED" -ne 1 ]; then
+
+        return 0
+
+    fi
+
+
+    if [ ! -d "$BACKUP_DIR" ]; then
+
+        log "No configuration backup found."
+        return 0
+
+    fi
+
+
+    log "Restoring configuration..."
+
+
+    if ! mkdir -p "$CONFIG_DIR"; then
+
+        log "Warning: Could not create configuration directory."
+        return 1
+
+    fi
+
+
+    if cp -a "$BACKUP_DIR"/. "$CONFIG_DIR"/; then
+
+        log "Configuration restored successfully."
+
+    else
+
+        log "Warning: Configuration restore failed."
+        return 1
+
+    fi
+
+
+    rm -rf "$BACKUP_DIR"
+
+    BACKUP_CREATED=0
+
+    return 0
+}
+
+
+# =========================================================
+# DOWNLOAD
+# =========================================================
+
+download_package()
+{
+    log "Downloading ForecaOne v$version..."
+    log "Branch: $BRANCH"
+    log "URL: $DOWNLOAD_URL"
+
+
+    rm -f "$FILEPATH"
+
+
+    if wget \
+        --no-verbose \
+        --timeout=30 \
+        --tries=3 \
+        "$DOWNLOAD_URL" \
+        -O "$FILEPATH"
+    then
+
+        log "Download successful."
+
+    else
+
+        error "Failed to download ForecaOne package."
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    if [ ! -s "$FILEPATH" ]; then
+
+        error "Downloaded archive is empty."
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Validate gzip
+    # -----------------------------------------------------
+
+    if ! gzip -t "$FILEPATH" >/dev/null 2>&1; then
+
+        error "Downloaded file is not a valid gzip archive."
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Validate tar archive
+    # -----------------------------------------------------
+
+    if ! tar -tzf "$FILEPATH" >/dev/null 2>&1; then
+
+        error "Downloaded file is not a valid tar archive."
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    log "Archive validation successful."
+}
+
+
+# =========================================================
+# EXTRACT
+# =========================================================
+
+extract_package()
+{
+    log "Extracting package..."
+
+
+    rm -rf "$TMPPATH"
+
+
+    if ! mkdir -p "$TMPPATH"; then
+
+        error "Could not create temporary directory."
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    if tar -xzf "$FILEPATH" -C "$TMPPATH"; then
+
+        log "Extraction successful."
+
+    else
+
+        error "Failed to extract ForecaOne package."
+
+        cleanup
+        exit 1
+
+    fi
+}
+
+
+# =========================================================
+# FIND PLUGIN SOURCE
+# =========================================================
+
+find_plugin_source()
+{
+    PLUGIN_SOURCE=""
+
+
+    # -----------------------------------------------------
+    # Normal /usr/lib
+    # -----------------------------------------------------
+
+    if [ -d "$TMPPATH/Foreca-master/usr/lib/enigma2/python/Plugins/Extensions/Foreca1" ]; then
+
+        PLUGIN_SOURCE="$TMPPATH/Foreca-master/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
+
+        log "Found plugin in /usr/lib."
+
+
+    # -----------------------------------------------------
+    # 64-bit /usr/lib64
+    # -----------------------------------------------------
+
+    elif [ -d "$TMPPATH/Foreca-master/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1" ]; then
+
+        PLUGIN_SOURCE="$TMPPATH/Foreca-master/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1"
+
+        log "Found plugin in /usr/lib64."
+
+
+    # -----------------------------------------------------
+    # Fallback
+    # -----------------------------------------------------
+
+    else
+
+        PLUGIN_SOURCE=$(
+            find "$TMPPATH" \
+                -type d \
+                -path "*/Plugins/Extensions/Foreca1" \
+                2>/dev/null |
+            head -n 1
+        )
+
+
+        if [ -n "$PLUGIN_SOURCE" ]; then
+
+            log "Found plugin using fallback search:"
+            log "$PLUGIN_SOURCE"
+
+        fi
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Source not found
+    # -----------------------------------------------------
+
+    if [ -z "$PLUGIN_SOURCE" ] ||
+       [ ! -d "$PLUGIN_SOURCE" ]; then
+
+        error "Could not find Foreca1 plugin files in archive."
+
+
+        echo
+        echo "Available directories:"
+        echo "---------------------------------------------------------"
+
+        find "$TMPPATH" \
+            -maxdepth 8 \
+            -type d \
+            2>/dev/null |
+            head -100
+
+        echo
+
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Validate plugin
+    # -----------------------------------------------------
+
+    if [ ! -f "$PLUGIN_SOURCE/__init__.py" ]; then
+
+        error "Invalid plugin archive: __init__.py not found."
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    if [ ! -f "$PLUGIN_SOURCE/plugin.py" ]; then
+
+        error "Invalid plugin archive: plugin.py not found."
+
+        cleanup
+        exit 1
+
+    fi
+
+
+    log "Plugin source validation successful."
+}
+
+
+# =========================================================
+# BACKUP EXISTING PLUGIN
+# =========================================================
+
+backup_existing_plugin()
+{
+    if [ -d "$OLD_PLUGIN_BACKUP" ]; then
+
+        rm -rf "$OLD_PLUGIN_BACKUP"
+
+    fi
+
+
+    if [ ! -d "$PLUGINPATH" ]; then
+
+        log "No existing ForecaOne installation found."
+        return 0
+
+    fi
+
+
+    log "Backing up currently installed plugin..."
+
+
+    if cp -a "$PLUGINPATH" "$OLD_PLUGIN_BACKUP"; then
+
+        log "Existing plugin backup created."
+
+    else
+
+        error "Could not backup existing plugin."
+        exit 1
+
+    fi
+}
+
+
+# =========================================================
+# INSTALL PLUGIN
+# =========================================================
+
+install_plugin()
+{
+    log "Installing ForecaOne v$version..."
+
+
+    INSTALL_STARTED=1
+
+
+    if ! mkdir -p "$(dirname "$PLUGINPATH")"; then
+
+        error "Could not create plugin parent directory."
+
+        rollback_plugin
+        cleanup
+
+        exit 1
+
+    fi
+
+
+    if [ -d "$PLUGINPATH" ]; then
+
+        log "Removing old plugin files..."
+
+        if ! rm -rf "$PLUGINPATH"; then
+
+            error "Could not remove old plugin installation."
+
+            rollback_plugin
+            cleanup
+
+            exit 1
+
+        fi
+
+    fi
+
+
+    if ! mkdir -p "$PLUGINPATH"; then
+
+        error "Could not create plugin directory."
+
+        rollback_plugin
+        cleanup
+
+        exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Copy new plugin
+    # -----------------------------------------------------
+
+    if cp -a "$PLUGIN_SOURCE"/. "$PLUGINPATH"/; then
+
+        log "Plugin files copied successfully."
+
+    else
+
+        error "Failed to copy plugin files."
+
+        rollback_plugin
+        cleanup
+
+        exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Verify essential files
+    # -----------------------------------------------------
+
+    if [ ! -f "$PLUGINPATH/__init__.py" ]; then
+
+        error "Installation verification failed: __init__.py missing."
+
+        rollback_plugin
+        cleanup
+
+        exit 1
+
+    fi
+
+
+    if [ ! -f "$PLUGINPATH/plugin.py" ]; then
+
+        error "Installation verification failed: plugin.py missing."
+
+        rollback_plugin
+        cleanup
+
+        exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Verify installation isn't empty
+    # -----------------------------------------------------
+
+    if [ -z "$(find "$PLUGINPATH" -type f 2>/dev/null | head -n 1)" ]; then
+
+        error "Plugin installation appears to be empty."
+
+        rollback_plugin
+        cleanup
+
+        exit 1
+
+    fi
+
+
+    log "Plugin installation verified."
+}
+
+
+# =========================================================
+# ROLLBACK
+# =========================================================
+
+rollback_plugin()
+{
+    if [ ! -d "$OLD_PLUGIN_BACKUP" ]; then
+
+        log "No previous plugin backup available."
+
+        return 0
+
+    fi
+
+
+    log "Rolling back previous plugin installation..."
+
+
+    rm -rf "$PLUGINPATH"
+
+
+    if ! mkdir -p "$(dirname "$PLUGINPATH")"; then
+
+        log "WARNING: Could not create plugin parent directory!"
+        return 1
+
+    fi
+
+
+    if cp -a "$OLD_PLUGIN_BACKUP" "$PLUGINPATH"; then
+
+        log "Plugin rollback successful."
+
+        rm -rf "$OLD_PLUGIN_BACKUP"
+
+        return 0
+
+    else
+
+        log "WARNING: Plugin rollback failed!"
+
+        return 1
+
+    fi
+}
+
+
+# =========================================================
+# REMOVE OLD BACKUP
+# =========================================================
+
+remove_old_plugin_backup()
+{
+    if [ -d "$OLD_PLUGIN_BACKUP" ]; then
+
+        rm -rf "$OLD_PLUGIN_BACKUP"
+
+        log "Old plugin backup removed."
+
+    fi
+}
+
+
+# =========================================================
+# SHOW INFORMATION
+# =========================================================
+
+show_info()
+{
+    echo
+    echo "#########################################################"
+    echo "#                                                     #"
+    echo "#              FORECAONE INSTALLED                   #"
+    echo "#                                                     #"
+    echo "#########################################################"
+    echo "#                                                     #"
+    echo "#  Plugin Version: $version                           #"
+    echo "#                                                     #"
+    echo "#  Developed by LULULLA                              #"
+    echo "#  https://corvoboys.org                              #"
+    echo "#                                                     #"
+    echo "#  INSTALLATION COMPLETED SUCCESSFULLY               #"
+    echo "#                                                     #"
+    echo "#########################################################"
+    echo
+
+    echo "Debug information:"
+    echo "---------------------------------------------------------"
+    echo "BOX MODEL:       $BOX_TYPE"
+    echo "OS SYSTEM:       $OSTYPE"
+    echo "PYTHON:          $PYTHON_VERSION"
+    echo "PYTHON TYPE:     $PYTHON"
+    echo "IMAGE NAME:      $DISTRO"
+    echo "IMAGE VERSION:   $DISTRO_VERSION"
+    echo "PLUGIN VERSION:  $version"
+    echo "PLUGIN PATH:     $PLUGINPATH"
+    echo "BRANCH:          $BRANCH"
+    echo "LOG FILE:        $LOGFILE"
+    echo "---------------------------------------------------------"
+    echo
+
+    echo "Changelog:"
+    echo "---------------------------------------------------------"
+    echo "$changelog"
+    echo "---------------------------------------------------------"
+    echo
+
+    echo "========================================================="
+    echo " IMPORTANT"
+    echo "========================================================="
+    echo " The installation is complete."
+    echo " Enigma2 GUI will now restart cleanly."
+    echo
+    echo " The complete installer output has been saved to:"
+    echo " $LOGFILE"
+    echo
+    echo " Please wait while Enigma2 restarts..."
+    echo "========================================================="
+    echo
+}
+
+
+
+# =========================================================
+# RESTART ENIGMA2 GUI
+# =========================================================
+
+restart_gui()
+{
+    echo
+    echo "========================================================="
+    echo " ForecaOne v$version installed successfully."
+    echo " Enigma2 GUI will restart automatically."
+    echo "========================================================="
+    echo
+
+    # Write a persistent completion marker before Enigma2 is stopped.
+    echo "INSTALLATION_COMPLETED=$(date '+%Y-%m-%d %H:%M:%S')" > /tmp/ForecaOne-install-complete
+    echo "VERSION=$version" >> /tmp/ForecaOne-install-complete
+    echo "PLUGIN_PATH=$PLUGINPATH" >> /tmp/ForecaOne-install-complete
+
+    sync >/dev/null 2>&1 || true
+    sleep 2
+
+    # -----------------------------------------------------
+    # OpenEmbedded / OpenATV
+    # -----------------------------------------------------
+    # OpenATV 7.6 uses the classic Enigma2 runlevel method.
+    # init 4 stops Enigma2, init 3 starts it again.
+    # systemctl restart is intentionally NOT used here.
+    # -----------------------------------------------------
+    if [ "$OSTYPE" = "OE" ]; then
+
+        if ! command -v init >/dev/null 2>&1; then
+            log "WARNING: init command not found."
+            return 1
+        fi
+
+        log "OpenEmbedded/OpenATV detected."
+        log "Stopping Enigma2 GUI with init 4..."
+        init 4
+
+        # Wait until the old Enigma2 process has really gone away.
+        local WAIT=0
+        local ENIGMA2_RUNNING=1
+
+        while [ "$WAIT" -lt 10 ]; do
+            ENIGMA2_RUNNING=0
+
+            if command -v pgrep >/dev/null 2>&1; then
+                if pgrep -x enigma2 >/dev/null 2>&1; then
+                    ENIGMA2_RUNNING=1
+                fi
+            elif command -v pidof >/dev/null 2>&1; then
+                if pidof enigma2 >/dev/null 2>&1; then
+                    ENIGMA2_RUNNING=1
+                fi
+            else
+                ENIGMA2_RUNNING=1
+            fi
+
+            if [ "$ENIGMA2_RUNNING" -eq 0 ]; then
+                break
+            fi
+
+            sleep 1
+            WAIT=$((WAIT + 1))
+        done
+
+        # If init 4 did not remove Enigma2 completely, terminate the
+        # remaining process before starting the new GUI instance.
+        if [ "$ENIGMA2_RUNNING" -ne 0 ]; then
+            log "WARNING: Enigma2 did not stop completely after init 4."
+            log "Sending TERM to remaining Enigma2 process..."
+
+            if command -v killall >/dev/null 2>&1; then
+                killall enigma2 >/dev/null 2>&1 || true
+            elif command -v pidof >/dev/null 2>&1; then
+                kill $(pidof enigma2) >/dev/null 2>&1 || true
+            fi
+
+            sleep 2
+
+            # Last resort: only kill Enigma2 itself.
+            if command -v pgrep >/dev/null 2>&1; then
+                if pgrep -x enigma2 >/dev/null 2>&1; then
+                    log "WARNING: Enigma2 is still running. Sending KILL..."
+                    killall -9 enigma2 >/dev/null 2>&1 || true
+                    sleep 1
+                fi
+            elif command -v pidof >/dev/null 2>&1; then
+                if pidof enigma2 >/dev/null 2>&1; then
+                    log "WARNING: Enigma2 is still running. Sending KILL..."
+                    kill -9 $(pidof enigma2) >/dev/null 2>&1 || true
+                    sleep 1
+                fi
+            fi
+        fi
+
+        log "Starting Enigma2 GUI with init 3..."
+        init 3
+        RC=$?
+
+        # The old console may disappear here. The log and completion
+        # marker remain available after the GUI has restarted.
+        log "Enigma2 GUI start command finished with return code: $RC"
+        log "Installer log: $LOGFILE"
+        log "Completion marker: /tmp/ForecaOne-install-complete"
+        return $RC
+    fi
+
+    # -----------------------------------------------------
+    # Generic fallback for non-OE images
+    # -----------------------------------------------------
+    if [ -x "/etc/init.d/enigma2" ]; then
+        log "Restarting Enigma2 GUI using init.d..."
+        /etc/init.d/enigma2 restart
+        RC=$?
+        log "Enigma2 restart finished with return code: $RC"
+        log "Installer log: $LOGFILE"
+        return $RC
+    fi
+
+    if command -v init >/dev/null 2>&1; then
+        log "Restarting Enigma2 GUI using init 4/3..."
+        init 4
+        sleep 3
+        init 3
+        RC=$?
+        log "Enigma2 restart finished with return code: $RC"
+        log "Installer log: $LOGFILE"
+        return $RC
+    fi
+
+    log "WARNING: Could not automatically restart Enigma2 GUI."
+    return 1
+}
+
+# =========================================================
+# MAIN
+# =========================================================
+
+echo
+echo "========================================================="
+echo "              ForecaOne Installer v$version"
+echo "========================================================="
+echo
+
+
+# =========================================================
+# ROOT CHECK
+# =========================================================
+
+if [ "$(id -u)" -ne 0 ]; then
+
+    error "This installer must be executed as root."
+
+    exit 1
+
+fi
+
+
+# =========================================================
+# DETECT ENVIRONMENT
+# =========================================================
+
+detect_os
+detect_python
+detect_image
+
+
+# =========================================================
+# WGET
+# =========================================================
+
+install_wget
+
+
+# =========================================================
+# DEPENDENCIES
+# =========================================================
+
+install_dependencies
+
+
+# =========================================================
+# PREPARE TEMP
+# =========================================================
+
+cleanup
+
+
+if ! mkdir -p "$TMPPATH"; then
+
+    error "Could not create temporary directory."
+
+    exit 1
+
+fi
+
+
+# =========================================================
+# BACKUP CONFIGURATION
+# =========================================================
+
+backup_config
+
+
+# =========================================================
+# DOWNLOAD
+# =========================================================
+
+download_package
+
+
+# =========================================================
+# EXTRACT
+# =========================================================
+
+extract_package
+
+
+# =========================================================
+# FIND PLUGIN
+# =========================================================
+
+find_plugin_source
+
+
+# =========================================================
+# BACKUP CURRENT PLUGIN
+# =========================================================
+
+backup_existing_plugin
+
+
+# =========================================================
+# INSTALL
+# =========================================================
+
+install_plugin
+
+
+# =========================================================
+# RESTORE CONFIGURATION
+# =========================================================
+
+if ! restore_config; then
+
+    log "WARNING: Configuration restore reported an error."
+
+fi
+
+
+# =========================================================
+# REMOVE OLD BACKUP
+# =========================================================
+
+remove_old_plugin_backup
+
+
+# =========================================================
+# SYNC
+# =========================================================
+
+sync >/dev/null 2>&1 || true
+
+
+# =========================================================
+# CLEANUP
+# =========================================================
+
+cleanup
+
+
+# =========================================================
+# FINAL INFORMATION
+# =========================================================
+
+show_info
+
+
+# =========================================================
+# AUTOMATIC GUI RESTART
+# =========================================================
+
+log "Installation finished. All output is stored in $LOGFILE"
+log "Starting clean Enigma2 GUI restart..."
+
+restart_gui
+
+
+exit 0
+
+```
