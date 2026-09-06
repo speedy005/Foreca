@@ -34,7 +34,7 @@ WEATHER_DETAIL_CACHE = join(TEMP_DIR, "weather_detail")
 TOKEN_FILE = join(CACHE_BASE, "token.json")
 WETTERKONTOR_CACHE = join(CACHE_BASE, "wetterkontor/")
 
-INSTALLER_URL = "https://raw.githubusercontent.com/speedy005/Foreca/master/installer.sh"
+INSTALLER_URL = "https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/installer.sh"
 
 DEBUG = True
 CACHE_EXPIRE = 3600
@@ -75,7 +75,7 @@ HEADERS = {
 }
 
 OSM_HEADERS = {
-    "User-Agent": "ForecaPlugin/1.1.4 (Enigma2; OpenStreetMap; non-commercial; +https://github.com/Belfagor2005/ForecaOne/)",
+    "User-Agent": "ForecaPlugin/1.1.4 (Enigma2; OpenStreetMap; non-commercial; +https://github.com/speedy005/Foreca/tree/master/)",
     "Referer": "https://www.foreca.com",
     "Accept": "image/webp,image/png,image/*;q=0.8",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
