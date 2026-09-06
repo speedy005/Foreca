@@ -5,7 +5,7 @@
 # ForecaOne Installer
 # =========================================================
 
-version='1.4.8'
+version='1.5.0'
 
 changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
 
@@ -21,6 +21,7 @@ BACKUP_DIR="/tmp/foreca_backup"
 OLD_PLUGIN_BACKUP="/tmp/ForecaOne-old-plugin"
 
 CONFIG_DIR="/etc/enigma2/foreca"
+LOGFILE="/tmp/ForecaOne-install.log"
 
 
 # =========================================================
@@ -78,6 +79,18 @@ INSTALL_STARTED=0
 # =========================================================
 # LOGGING
 # =========================================================
+
+# ---------------------------------------------------------
+# Capture the complete installer output.
+# This is important because the Enigma2 GUI disappears during
+# init 4 and the original console may no longer be visible.
+# ---------------------------------------------------------
+mkdir -p "$(dirname "$LOGFILE")" 2>/dev/null || true
+touch "$LOGFILE" 2>/dev/null || true
+
+# Send stdout/stderr both to the visible console and to the log.
+# Bash is required by this installer.
+exec > >(tee -a "$LOGFILE") 2>&1
 
 log()
 {
@@ -1185,11 +1198,10 @@ show_info()
     echo "#  Developed by LULULLA                              #"
     echo "#  https://corvoboys.org                              #"
     echo "#                                                     #"
-    echo "#  GUI WILL RESTART AUTOMATICALLY                     #"
+    echo "#  INSTALLATION COMPLETED SUCCESSFULLY               #"
     echo "#                                                     #"
     echo "#########################################################"
     echo
-
 
     echo "Debug information:"
     echo "---------------------------------------------------------"
@@ -1202,16 +1214,30 @@ show_info()
     echo "PLUGIN VERSION:  $version"
     echo "PLUGIN PATH:     $PLUGINPATH"
     echo "BRANCH:          $BRANCH"
+    echo "LOG FILE:        $LOGFILE"
     echo "---------------------------------------------------------"
     echo
-
 
     echo "Changelog:"
     echo "---------------------------------------------------------"
     echo "$changelog"
     echo "---------------------------------------------------------"
     echo
+
+    echo "========================================================="
+    echo " IMPORTANT"
+    echo "========================================================="
+    echo " The installation is complete."
+    echo " Enigma2 GUI will now restart cleanly."
+    echo
+    echo " The complete installer output has been saved to:"
+    echo " $LOGFILE"
+    echo
+    echo " Please wait while Enigma2 restarts..."
+    echo "========================================================="
+    echo
 }
+
 
 
 # =========================================================
@@ -1226,6 +1252,11 @@ restart_gui()
     echo " Enigma2 GUI will restart automatically."
     echo "========================================================="
     echo
+
+    # Write a persistent completion marker before Enigma2 is stopped.
+    echo "INSTALLATION_COMPLETED=$(date '+%Y-%m-%d %H:%M:%S')" > /tmp/ForecaOne-install-complete
+    echo "VERSION=$version" >> /tmp/ForecaOne-install-complete
+    echo "PLUGIN_PATH=$PLUGINPATH" >> /tmp/ForecaOne-install-complete
 
     sync >/dev/null 2>&1 || true
     sleep 2
@@ -1307,7 +1338,14 @@ restart_gui()
 
         log "Starting Enigma2 GUI with init 3..."
         init 3
-        return $?
+        RC=$?
+
+        # The old console may disappear here. The log and completion
+        # marker remain available after the GUI has restarted.
+        log "Enigma2 GUI start command finished with return code: $RC"
+        log "Installer log: $LOGFILE"
+        log "Completion marker: /tmp/ForecaOne-install-complete"
+        return $RC
     fi
 
     # -----------------------------------------------------
@@ -1316,7 +1354,10 @@ restart_gui()
     if [ -x "/etc/init.d/enigma2" ]; then
         log "Restarting Enigma2 GUI using init.d..."
         /etc/init.d/enigma2 restart
-        return $?
+        RC=$?
+        log "Enigma2 restart finished with return code: $RC"
+        log "Installer log: $LOGFILE"
+        return $RC
     fi
 
     if command -v init >/dev/null 2>&1; then
@@ -1324,7 +1365,10 @@ restart_gui()
         init 4
         sleep 3
         init 3
-        return $?
+        RC=$?
+        log "Enigma2 restart finished with return code: $RC"
+        log "Installer log: $LOGFILE"
+        return $RC
     fi
 
     log "WARNING: Could not automatically restart Enigma2 GUI."
@@ -1478,6 +1522,9 @@ show_info
 # =========================================================
 # AUTOMATIC GUI RESTART
 # =========================================================
+
+log "Installation finished. All output is stored in $LOGFILE"
+log "Starting clean Enigma2 GUI restart..."
 
 restart_gui
 
