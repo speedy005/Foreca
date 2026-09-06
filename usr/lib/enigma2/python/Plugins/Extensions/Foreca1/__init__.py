@@ -5,7 +5,7 @@
 # ForecaOne Installer
 # =========================================================
 
-version='1.4.9'
+version='1.5.0'
 
 changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
 
