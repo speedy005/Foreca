@@ -1,10 +1,11 @@
+```
 #!/bin/bash
 
 # =========================================================
 # ForecaOne Installer
 # =========================================================
 
-version='1.4.7'
+version='1.4.8'
 
 changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
 
@@ -1226,82 +1227,109 @@ restart_gui()
     echo "========================================================="
     echo
 
-
     sync >/dev/null 2>&1 || true
-
-
-    sleep 3
-
+    sleep 2
 
     # -----------------------------------------------------
-    # systemd
+    # OpenEmbedded / OpenATV
     # -----------------------------------------------------
-
-    if command -v systemctl >/dev/null 2>&1; then
-
-        log "Restarting Enigma2 GUI using systemctl..."
-
-        systemctl restart enigma2
-
-        return $?
-
-    fi
-
-
+    # OpenATV 7.6 uses the classic Enigma2 runlevel method.
+    # init 4 stops Enigma2, init 3 starts it again.
+    # systemctl restart is intentionally NOT used here.
     # -----------------------------------------------------
-    # init.d
-    # -----------------------------------------------------
+    if [ "$OSTYPE" = "OE" ]; then
 
-    if [ -x "/etc/init.d/enigma2" ]; then
+        if ! command -v init >/dev/null 2>&1; then
+            log "WARNING: init command not found."
+            return 1
+        fi
 
-        log "Restarting Enigma2 GUI using init.d..."
-
-        /etc/init.d/enigma2 restart
-
-        return $?
-
-    fi
-
-
-    # -----------------------------------------------------
-    # OpenEmbedded init
-    # -----------------------------------------------------
-
-    if command -v init >/dev/null 2>&1; then
-
-        log "Restarting Enigma2 GUI using init..."
-
+        log "OpenEmbedded/OpenATV detected."
+        log "Stopping Enigma2 GUI with init 4..."
         init 4
 
-        sleep 2
+        # Wait until the old Enigma2 process has really gone away.
+        local WAIT=0
+        local ENIGMA2_RUNNING=1
 
+        while [ "$WAIT" -lt 10 ]; do
+            ENIGMA2_RUNNING=0
+
+            if command -v pgrep >/dev/null 2>&1; then
+                if pgrep -x enigma2 >/dev/null 2>&1; then
+                    ENIGMA2_RUNNING=1
+                fi
+            elif command -v pidof >/dev/null 2>&1; then
+                if pidof enigma2 >/dev/null 2>&1; then
+                    ENIGMA2_RUNNING=1
+                fi
+            else
+                ENIGMA2_RUNNING=1
+            fi
+
+            if [ "$ENIGMA2_RUNNING" -eq 0 ]; then
+                break
+            fi
+
+            sleep 1
+            WAIT=$((WAIT + 1))
+        done
+
+        # If init 4 did not remove Enigma2 completely, terminate the
+        # remaining process before starting the new GUI instance.
+        if [ "$ENIGMA2_RUNNING" -ne 0 ]; then
+            log "WARNING: Enigma2 did not stop completely after init 4."
+            log "Sending TERM to remaining Enigma2 process..."
+
+            if command -v killall >/dev/null 2>&1; then
+                killall enigma2 >/dev/null 2>&1 || true
+            elif command -v pidof >/dev/null 2>&1; then
+                kill $(pidof enigma2) >/dev/null 2>&1 || true
+            fi
+
+            sleep 2
+
+            # Last resort: only kill Enigma2 itself.
+            if command -v pgrep >/dev/null 2>&1; then
+                if pgrep -x enigma2 >/dev/null 2>&1; then
+                    log "WARNING: Enigma2 is still running. Sending KILL..."
+                    killall -9 enigma2 >/dev/null 2>&1 || true
+                    sleep 1
+                fi
+            elif command -v pidof >/dev/null 2>&1; then
+                if pidof enigma2 >/dev/null 2>&1; then
+                    log "WARNING: Enigma2 is still running. Sending KILL..."
+                    kill -9 $(pidof enigma2) >/dev/null 2>&1 || true
+                    sleep 1
+                fi
+            fi
+        fi
+
+        log "Starting Enigma2 GUI with init 3..."
         init 3
-
         return $?
-
     fi
 
-
     # -----------------------------------------------------
-    # Fallback
+    # Generic fallback for non-OE images
     # -----------------------------------------------------
-
-    if command -v killall >/dev/null 2>&1; then
-
-        log "Restarting Enigma2 GUI using killall..."
-
-        killall -HUP enigma2 2>/dev/null || true
-
-        return 0
-
+    if [ -x "/etc/init.d/enigma2" ]; then
+        log "Restarting Enigma2 GUI using init.d..."
+        /etc/init.d/enigma2 restart
+        return $?
     fi
 
+    if command -v init >/dev/null 2>&1; then
+        log "Restarting Enigma2 GUI using init 4/3..."
+        init 4
+        sleep 3
+        init 3
+        return $?
+    fi
 
     log "WARNING: Could not automatically restart Enigma2 GUI."
-
     return 1
 }
-
 
 # =========================================================
 # MAIN
@@ -1455,3 +1483,5 @@ restart_gui
 
 
 exit 0
+
+```
