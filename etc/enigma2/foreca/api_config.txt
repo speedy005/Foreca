@@ -1,0 +1,16 @@
+# Foreca One API Configuration Template
+# Rename this file to api_config.txt and fill in your credentials
+# Get your API keys from: https://developer.foreca.com/
+
+# REQUIRED: Your Foreca API credentials
+API_USER=your_username_here
+API_PASSWORD=your_password_here
+
+# OPTIONAL: Customize these settings
+TOKEN_EXPIRE_HOURS=720    # Token validity (1-720 hours)
+MAP_SERVER=map-eu.foreca.com    # Map API server
+WEATHER_SERVER=pfa.foreca.com   # Weather API server
+
+# For European users: map-eu.foreca.com
+# For other regions, check Foreca documentation
+
