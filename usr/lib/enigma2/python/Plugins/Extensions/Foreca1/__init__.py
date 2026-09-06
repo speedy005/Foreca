@@ -34,7 +34,7 @@ WEATHER_DETAIL_CACHE = join(TEMP_DIR, "weather_detail")
 TOKEN_FILE = join(CACHE_BASE, "token.json")
 WETTERKONTOR_CACHE = join(CACHE_BASE, "wetterkontor/")
 
-INSTALLER_URL = "https://raw.githubusercontent.com/speedy005/Foreca1/master/installer.sh"
+INSTALLER_URL = "https://raw.githubusercontent.com/speedy005/Foreca/master/installer.sh"
 
 DEBUG = True
 CACHE_EXPIRE = 3600
