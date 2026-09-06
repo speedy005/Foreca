@@ -8,7 +8,13 @@ from Components.ActionMap import HelpableActionMap
 from Components.Label import Label
 from Components.ConfigList import ConfigListScreen
 from Components.Sources.StaticText import StaticText
-from Components.config import getConfigListEntry, config
+from Components.config import (
+    getConfigListEntry,
+    config,
+    ConfigSubsection,
+    ConfigYesNo,
+    ConfigSelection
+)
 from Screens.HelpMenu import HelpableScreen
 from enigma import gRGB
 from skin import parseColor
@@ -19,6 +25,27 @@ from . import (
     load_skin_for_class,
     SYSTEM_DIR
 )
+
+
+def init_foreca_config():
+    """Stellt sicher, dass die Plugin-Konfiguration sicher initialisiert ist."""
+    if not hasattr(config.plugins, "foreca"):
+        config.plugins.foreca = ConfigSubsection()
+    
+    if not hasattr(config.plugins.foreca, "translation_engine"):
+        config.plugins.foreca.translation_engine = ConfigYesNo(default=False)
+        
+    if not hasattr(config.plugins.foreca, "target_language"):
+        config.plugins.foreca.target_language = ConfigSelection(
+            default="de",
+            choices=[
+                ("de", _("German")),
+                ("en", _("English")),
+                ("it", _("Italian")),
+                ("es", _("Spanish")),
+                ("fr", _("French"))
+            ]
+        )
 
 
 class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
@@ -37,6 +64,9 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
 
         self["background_plate"] = Label("")
         self["selection_overlay"] = Label("")
+
+        # Konfiguration vor dem Auslesen absichern
+        init_foreca_config()
 
         self.translation_engine = config.plugins.foreca.translation_engine
         self.target_language = config.plugins.foreca.target_language
@@ -58,10 +88,10 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
             self,
             ["SetupActions", "ColorActions"],
             {
-                "cancel": (self.close, _("Close setup without saving")),
+                "cancel": (self.cancel, _("Close setup without saving")),
                 "save": (self.save, _("Save translation settings")),
                 "green": (self.save, _("Save translation settings")),
-                "red": (self.close, _("Close setup without saving")),
+                "red": (self.cancel, _("Close setup without saving")),
             },
             -2,
         )
@@ -82,8 +112,7 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
                         r, g, b = parts[0], parts[1], parts[2]
                         bg_color = gRGB(int(r), int(g), int(b))
                         if "background_plate" in self and self["background_plate"].instance is not None:
-                            self["background_plate"].instance.setBackgroundColor(
-                                bg_color)
+                            self["background_plate"].instance.setBackgroundColor(bg_color)
             except Exception as e:
                 print("[TranslationSetup] Error loading color:", e)
 
@@ -92,17 +121,19 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
                 with open(alpha_file, "r") as f:
                     alpha = f.read().strip()
                     if "selection_overlay" in self and self["selection_overlay"].instance is not None:
-                        self["selection_overlay"].instance.setBackgroundColor(
-                            parseColor(alpha))
+                        self["selection_overlay"].instance.setBackgroundColor(parseColor(alpha))
             except Exception as e:
                 print("[TranslationSetup] Error loading alpha:", e)
 
     def save(self):
         """Save settings and close."""
-        config.plugins.foreca.translation_engine.save()
-        config.plugins.foreca.target_language.save()
+        for x in self["config"].list:
+            x[1].save()
+        configfile.save() if 'configfile' in globals() else None
         self.close(True)
 
     def cancel(self):
         """Close without saving."""
+        for x in self["config"].list:
+            x[1].cancel()
         self.close(False)

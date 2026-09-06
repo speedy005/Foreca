@@ -74,7 +74,17 @@ from .hour_detail import HourDetailView
 from .moon_details_screen import MoonDetailsScreen
 
 from .translation_setup import TranslationSetup
+from Components.config import config, ConfigSubsection, ConfigSelection, ConfigYesNo
 
+# 1. Konfiguration beim Laden des Plugins initialisieren
+if not hasattr(config.plugins, "foreca"):
+    config.plugins.foreca = ConfigSubsection()
+
+config.plugins.foreca.translation_engine = ConfigYesNo(default=False)
+config.plugins.foreca.target_language = ConfigSelection(
+    default="de",
+    choices=[("en", "English"), ("de", "Deutsch"), ("it", "Italian")]
+)
 # Foreca One Weather Forecast for Enigma2
 # Copyright (C) 2026 @speedy
 #
