@@ -36,7 +36,7 @@ import re
 # VERSION / PLUGIN INFORMATION
 # ============================================================
 
-__version__ = "1.4.2"
+__version__ = "1.4.3"
 VERSION = __version__
 
 _AUTHOR_ = "by speedy - 2026"
