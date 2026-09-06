@@ -1,0 +1,1542 @@
+# de translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: de <ekekaz@gmail.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLAU zum Speichern als Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- um 500 Städte zu überspringen\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GRÜN zum Speichern als Favorit 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK, um Stadt auszuwählen\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ROT, um die Suchtastatur zu öffnen\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr ""
+"• Verwenden Sie die Pfeiltasten, um durch \n"
+" zu navigieren\n"
+
+msgid ""
+"• VOL+/VOL- to jump 100 cities\n"
+"\n"
+msgstr ""
+"• VOL+/VOL- um 100 Städte zu überspringen\n"
+"\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GELB zum Speichern als Favorit 2\n"
+
+msgid "← Frame"
+msgstr "← Rahmen"
+
+msgid "0 - Today"
+msgstr "0 - Heute"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Heute + 1 Tag"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Heute + 2 Tage"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Heute + 3 Tage"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Heute + 4 Tage"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Heute + 5 Tage"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Heute + 6 Tage"
+
+msgid "7 - Today + 7 days"
+msgstr "7 – Heute + 7 Tage"
+
+msgid "7 Day Forecast"
+msgstr "7-Tage-Vorhersage"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Heute + 8 Tage"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Heute + 9 Tage"
+
+msgid "Advanced"
+msgstr "Fortschrittlich"
+
+msgid "Advanced Unit Settings"
+msgstr "Erweiterte Geräteeinstellungen"
+
+msgid "Afternoon"
+msgstr "Nachmittag"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Alter seit Neumond: {:.1f} Tage"
+
+msgid "Age: N/A"
+msgstr "Alter: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Winkeldurchmesser: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Winkeldurchmesser: N/A"
+
+msgid ""
+"API configuration file not found!\n"
+"\n"
+"Please create file:\n"
+"{0}\n"
+"\n"
+"with your Foreca API credentials."
+msgstr ""
+"API-Konfigurationsdatei nicht gefunden!\n"
+"\n"
+"Bitte erstellen Sie die Datei:\n"
+"{0}\n"
+"\n"
+"mit Ihren Foreca-API-Anmeldeinformationen."
+
+msgid "API credentials not configured."
+msgstr "API-Anmeldeinformationen nicht konfiguriert."
+
+msgid "API error"
+msgstr "API-Fehler"
+
+msgid "API password"
+msgstr "API-Passwort"
+
+msgid "API user"
+msgstr "API-Benutzer"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Scheinbare Helligkeit: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "Zu Favorit 1 zuweisen"
+
+msgid "Assign to Favorite 2"
+msgstr "Zu Favorit 2 zuweisen"
+
+msgid "Assign to Home"
+msgstr "Dem Zuhause zuweisen"
+
+msgid "Australia"
+msgstr "Australien"
+
+msgid "Austria"
+msgstr "Österreich"
+
+msgid "Auth server"
+msgstr "Authentifizierungsserver"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Wuerttemberg"
+
+msgid "Barometer"
+msgstr "Barometer"
+
+msgid "Bavaria"
+msgstr "Bayern"
+
+msgid "Belgium"
+msgstr "Belgien"
+
+msgid "Berlin"
+msgstr "Berlin"
+
+msgid "Black Moon"
+msgstr "Schwarzer Mond"
+
+msgid "Blue"
+msgstr "Blau"
+
+msgid "Blue - Home"
+msgstr "Blau – Zuhause"
+
+msgid "Blue Moon"
+msgstr "Blauer Mond"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "Berechnen..."
+
+msgid "Cancel"
+msgstr "Stornieren"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsius, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Änderungsprotokoll: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Änderungen gelten sofort"
+
+msgid "Check for updates"
+msgstr "Suchen Sie nach Updates"
+
+msgid "Choose detail view"
+msgstr "Wählen Sie Detailansicht"
+
+msgid "City list file not found!"
+msgstr "Stadtlistendatei nicht gefunden!"
+
+msgid "City Selection"
+msgstr "Stadtauswahl"
+
+msgid ""
+"City Selection Help:\n"
+"\n"
+msgstr ""
+"Hilfe zur Stadtauswahl:\n"
+"\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Foreca One Temp-Dateien bereinigen?"
+
+msgid "Cleanup temp files"
+msgstr "Temporäre Dateien bereinigen"
+
+msgid "Clear"
+msgstr "Klar"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Close legend"
+msgstr "Legende schließen"
+
+msgid "Close setup without saving"
+msgstr "Schließen Sie das Setup ab, ohne es zu speichern"
+
+msgid "Cloudy"
+msgstr "Wolkig"
+
+msgid "Cloudy and light rain"
+msgstr "Bewölkt und leichter Regen"
+
+msgid "Cloudy and light snow"
+msgstr "Bewölkt und leichter Schneefall"
+
+msgid "Cloudy and light wet snow"
+msgstr "Bewölkt und leicht nasser Schnee"
+
+msgid "Cloudy and showers"
+msgstr "Bewölkt und Schauer"
+
+msgid "Cloudy and snow showers"
+msgstr "Bewölkt und Schneeschauer"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Bewölkt und nasse Schneeschauer"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Bewölkt, Gewitter mit Regen"
+
+msgid "Cold (< 0°C)"
+msgstr "Kalt (< 0°C)"
+
+msgid "Color data"
+msgstr "Farbdaten"
+
+msgid "Color legend"
+msgstr "Farblegende"
+
+msgid "Color Legend"
+msgstr "Farblegende"
+
+msgid "Color name"
+msgstr "Farbname"
+
+msgid "Color select"
+msgstr "Farbauswahl"
+
+msgid "Color Selector"
+msgstr "Farbauswahl"
+
+msgid "Condition: {}"
+msgstr "Zustand: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfigurieren Sie die Foreca-API-Anmeldeinformationen"
+
+msgid "Continents Weather Maps"
+msgstr "Kontinente Wetterkarten"
+
+msgid "Cool (0-10°C)"
+msgstr "Kühl (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Aktualisierungsinformationen konnten nicht abgerufen werden."
+
+msgid "Could not initialize map API."
+msgstr "Die Karten-API konnte nicht initialisiert werden."
+
+msgid "Could not load forecast data"
+msgstr "Prognosedaten konnten nicht geladen werden"
+
+msgid "Could not parse version information."
+msgstr "Versionsinformationen konnten nicht analysiert werden."
+
+msgid "Current weather and forecast"
+msgstr "Aktuelles Wetter und Prognose"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Aktuelles Wetter und Vorhersage für die nächsten 10 Tage"
+
+msgid "Current: {}"
+msgstr "Aktuell: {}"
+
+msgid "Czech Republic"
+msgstr "Tschechische Republik"
+
+msgid "Data provided by Foreca"
+msgstr "Daten bereitgestellt von Foreca"
+
+msgid "Date: {}"
+msgstr "Datum: {}"
+
+msgid "Day"
+msgstr "Tag"
+
+msgid "Decrease Speed"
+msgstr "Geschwindigkeit verringern"
+
+msgid "Defaults"
+msgstr "Standardeinstellungen"
+
+msgid "Denmark"
+msgstr "Dänemark"
+
+msgid "Details"
+msgstr "Einzelheiten"
+
+msgid "Dewpoint {}"
+msgstr "Taupunkt {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Taupunkt {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Taupunkt: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Taupunkt: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Taupunkt: N/A"
+
+msgid "Distance"
+msgstr "Distanz"
+
+msgid "Distance {} km"
+msgstr "Entfernung {} km"
+
+msgid "Distance: {}"
+msgstr "Distanz: {}"
+
+msgid "Distance: {} km"
+msgstr "Entfernung: {} km"
+
+msgid "Distance: %s"
+msgstr "Entfernung: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Möchten Sie es jetzt installieren?"
+
+msgid "Down"
+msgstr "Runter"
+
+msgid "Down - Next page"
+msgstr "Unten – Nächste Seite"
+
+msgid "Download error"
+msgstr "Downloadfehler"
+
+msgid "Downloading images..."
+msgstr "Bilder werden heruntergeladen..."
+
+msgid "Downloading tiles..."
+msgstr "Kacheln werden heruntergeladen..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Ostasien"
+
+msgid "Error checking for updates."
+msgstr "Fehler bei der Suche nach Updates."
+
+msgid "Error loading data"
+msgstr "Fehler beim Laden der Daten"
+
+msgid "Error loading map"
+msgstr "Fehler beim Laden der Karte"
+
+msgid "Error loading maps. Check connection."
+msgstr "Fehler beim Laden der Karten. Verbindung prüfen."
+
+msgid "Error saving favorite!"
+msgstr "Fehler beim Speichern des Favoriten!"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "European Weather Maps"
+msgstr "Europäische Wetterkarten"
+
+msgid "Evening"
+msgstr "Abend"
+
+msgid "Exit"
+msgstr "Ausfahrt"
+
+msgid "Exit - End"
+msgstr "Ausstieg – Ende"
+
+msgid "Exit / Close legend"
+msgstr "Legende beenden/schließen"
+
+msgid "Extreme"
+msgstr "Extrem"
+
+msgid "Extreme / thunderstorms"
+msgstr "Extrem / Gewitter"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mph, inHg"
+
+msgid ""
+"Failed to write configuration file:\n"
+"%s"
+msgstr ""
+"Konfigurationsdatei konnte nicht geschrieben werden:\n"
+"%s"
+
+msgid "Faster: {}s"
+msgstr "Schneller: {}s"
+
+msgid "Favorite 1"
+msgstr "Favorit 1"
+
+msgid "Favorite 2"
+msgstr "Favorit 2"
+
+msgid "Favorites details"
+msgstr "Details zu den Favoriten"
+
+msgid "Favorites Details"
+msgstr "Favoritendetails"
+
+msgid "Feels like"
+msgstr "Fühlt sich an wie"
+
+msgid "Feels like {}"
+msgstr "Fühlt sich an wie {}"
+
+msgid "Feels like {}{}"
+msgstr "Fühlt sich an wie {}{}"
+
+msgid "Feels like: {}"
+msgstr "Fühlt sich an wie: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Fühlt sich an wie: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Fühlt sich an wie: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Fühlt sich an wie: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Fühlt sich an wie: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Fühlt sich an wie: N/A"
+
+msgid "Finland"
+msgstr "Finnland"
+
+msgid "First Quarter"
+msgstr "Erstes Viertel"
+
+msgid "Fog"
+msgstr "Nebel"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Die Foreca-API-Anmeldeinformationen sind noch nicht konfiguriert. Bitte geben Sie diese im Setup-Bildschirm ein."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca-API-Einstellungen erfolgreich gespeichert."
+
+msgid "Foreca API Setup"
+msgstr "Foreca-API-Setup"
+
+msgid "Foreca One"
+msgstr "Prognose Eins"
+
+msgid "Foreca One | Map {}"
+msgstr "Prognose Eins | Karte {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One-Menü"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Keine Stationen gefunden"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One-Setup"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One Stationen: {} Stationen in der Nähe ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Wetter und Wettervorhersage ver. %S"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Wettervorhersage"
+
+msgid "Frame →"
+msgstr "Rahmen →"
+
+msgid "Frame: {}"
+msgstr "Rahmen: {}"
+
+msgid "France"
+msgstr "Frankreich"
+
+msgid "Full Moon"
+msgstr "Vollmond"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Sturmstärke (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Wetterkarten der deutschen Bundesländer"
+
+msgid "Germany"
+msgstr "Deutschland"
+
+msgid "Good"
+msgstr "Gut"
+
+msgid "Great Britain"
+msgstr "Großbritannien"
+
+msgid "Greece"
+msgstr "Griechenland"
+
+msgid "Green"
+msgstr "Grün"
+
+msgid "Green - Favorite 1"
+msgstr "Grün – Favorit 1"
+
+msgid "Gust {}"
+msgstr "Böe {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Böe: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hamburg"
+
+msgid "Hazardous"
+msgstr "Gefährlich"
+
+msgid "Header - not selectable"
+msgstr "Kopfzeile – nicht auswählbar"
+
+msgid "Heavy rain"
+msgstr "Starker Regen"
+
+msgid "Help"
+msgstr "Hilfe"
+
+msgid "Hesse"
+msgstr "Hessen"
+
+msgid "High"
+msgstr "Hoch"
+
+msgid "Home"
+msgstr "Heim"
+
+msgid "Hot (30-40°C)"
+msgstr "Heiß (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Stundendetails"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Luftfeuchtigkeit"
+
+msgid "Humidity: {}%"
+msgstr "Luftfeuchtigkeit: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Luftfeuchtigkeit: %s%%"
+
+msgid "Hungary"
+msgstr "Ungarn"
+
+msgid "Ice / frost"
+msgstr "Eis / Frost"
+
+msgid "Illumination"
+msgstr "Beleuchtung"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Beleuchtung: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Bild %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Bild %(current)d/%(total)d – %(day)s (Pausiert)"
+
+msgid "Image not available"
+msgstr "Bild nicht verfügbar"
+
+msgid "Imperial System"
+msgstr "Imperiales System"
+
+msgid "Increase Speed"
+msgstr "Geschwindigkeit erhöhen"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Info - About"
+msgstr "Info - Über"
+
+msgid "Ireland"
+msgstr "Irland"
+
+msgid "Italy"
+msgstr "Italien"
+
+msgid "Jump 100 down"
+msgstr "Springe 100 nach unten"
+
+msgid "Jump 100 up"
+msgstr "Springe um 100 nach oben"
+
+msgid "Jump 500 down"
+msgstr "Springe 500 nach unten"
+
+msgid "Jump 500 up"
+msgstr "Springe 500 nach oben"
+
+msgid "Keyboard"
+msgstr "Tastatur"
+
+msgid "Last Quarter"
+msgstr "Letztes Viertel"
+
+msgid "Last update"
+msgstr "Letztes Update"
+
+msgid "Latvia"
+msgstr "Lettland"
+
+msgid "Left - Previous day"
+msgstr "Links – Vorheriger Tag"
+
+msgid "Left arrow - Previous day"
+msgstr "Pfeil nach links – Vorheriger Tag"
+
+msgid "Light (0-20 km/h)"
+msgstr "Leicht (0-20 km/h)"
+
+msgid "Light rain / drizzle"
+msgstr "Leichter Regen / Nieselregen"
+
+msgid "Light to moderate"
+msgstr "Leicht bis mittelschwer"
+
+msgid "Loading available maps..."
+msgstr "Verfügbare Karten werden geladen..."
+
+msgid "Loading lunar phases..."
+msgstr "Mondphasen werden geladen..."
+
+msgid "Loading nearby stations..."
+msgstr "Nahegelegene Stationen werden geladen..."
+
+msgid "Loading tiles..."
+msgstr "Kacheln werden geladen..."
+
+msgid "Loading weekly forecast..."
+msgstr "Wöchentliche Prognose wird geladen..."
+
+msgid "Loading..."
+msgstr "Laden..."
+
+msgid "Low"
+msgstr "Niedrig"
+
+msgid "Lower Saxony"
+msgstr "Niedersachsen"
+
+msgid "Lunar Calendar"
+msgstr "Mondkalender"
+
+msgid "Lunar phases from next month"
+msgstr "Mondphasen ab nächsten Monat"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Magnitude: N/A"
+msgstr "Größe: N/A"
+
+msgid "Map {} selected"
+msgstr "Karte {} ausgewählt"
+
+msgid "Map & Tiles Loaded"
+msgstr "Karte und Kacheln geladen"
+
+msgid "Map loaded"
+msgstr "Karte geladen"
+
+msgid "Map server"
+msgstr "Kartenserver"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Mecklenburg-Vorpommern"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Menu - Settings"
+msgstr "Menü – Einstellungen"
+
+msgid "Merge failed"
+msgstr "Zusammenführung fehlgeschlagen"
+
+msgid "Meteogram"
+msgstr "Meteogramm"
+
+msgid "Metric System"
+msgstr "Metrisches System"
+
+msgid "Middle America"
+msgstr "Mittelamerika"
+
+msgid "Middle Asia"
+msgstr "Mittelasien"
+
+msgid "Middle East"
+msgstr "Naher Osten"
+
+msgid "Mild (10-20°C)"
+msgstr "Mild (10-20°C)"
+
+msgid "Moderate"
+msgstr "Mäßig"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Mäßig (20-40 km/h)"
+
+msgid "Moderate rain"
+msgstr "Mäßiger Regen"
+
+msgid "Month"
+msgstr "Monat"
+
+msgid "Moon details"
+msgstr "Monddetails"
+
+msgid "Moon Details"
+msgstr "Monddetails"
+
+msgid "Moonrise: {}"
+msgstr "Mondaufgang: {}"
+
+msgid "Moonset: {}"
+msgstr "Monduntergang: {}"
+
+msgid "Morning"
+msgstr "Morgen"
+
+msgid "Mostly clear"
+msgstr "Größtenteils klar"
+
+msgid "Move down"
+msgstr "Bewegen Sie sich nach unten"
+
+msgid "Move Down"
+msgstr "Nach unten bewegen"
+
+msgid "Move up"
+msgstr "Bewegen Sie sich nach oben"
+
+msgid "Move Up"
+msgstr "Nach oben bewegen"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "N / A"
+
+msgid "Netherlands"
+msgstr "Niederlande"
+
+msgid "New Moon"
+msgstr "Neumond"
+
+msgid "New version {version} is available."
+msgstr "Neue Version {version} ist verfügbar."
+
+msgid "Next"
+msgstr "Nächste"
+
+msgid "Next frame"
+msgstr "Nächster Frame"
+
+msgid "Next Image"
+msgstr "Nächstes Bild"
+
+msgid "Next page"
+msgstr "Nächste Seite"
+
+msgid "Next time"
+msgstr "Das nächste Mal"
+
+msgid "No city selected"
+msgstr "Keine Stadt ausgewählt"
+
+msgid "No data"
+msgstr "Keine Daten"
+
+msgid "No date available"
+msgstr "Kein Datum verfügbar"
+
+msgid "No Internet connection detected."
+msgstr "Keine Internetverbindung erkannt."
+
+msgid "No location selected"
+msgstr "Kein Standort ausgewählt"
+
+msgid "No OSM tiles"
+msgstr "Keine OSM-Kacheln"
+
+msgid "No specific legend available."
+msgstr "Keine spezifische Legende verfügbar."
+
+msgid "No station data"
+msgstr "Keine Stationsdaten"
+
+msgid "No station data available"
+msgstr "Keine Stationsdaten verfügbar"
+
+msgid "No stations found"
+msgstr "Keine Sender gefunden"
+
+msgid "No tiles downloaded"
+msgstr "Keine Kacheln heruntergeladen"
+
+msgid "North Africa"
+msgstr "Nordafrika"
+
+msgid "North America"
+msgstr "Nordamerika"
+
+msgid "North Rhine-Westphalia"
+msgstr "Nordrhein-Westfalen"
+
+msgid "Norway"
+msgstr "Norwegen"
+
+msgid "Ok - Details"
+msgstr "Ok – Einzelheiten"
+
+msgid "OK - Ext Info"
+msgstr "OK – Ext-Info"
+
+msgid "OK - Forecast"
+msgstr "OK – Prognose"
+
+msgid "OK - Open Map"
+msgstr "OK – Karte öffnen"
+
+msgid "Open Keyboard"
+msgstr "Öffnen Sie die Tastatur"
+
+msgid "Open Map"
+msgstr "Karte öffnen"
+
+msgid "Original design and idea by %s"
+msgstr "Ursprüngliches Design und Idee von %s"
+
+msgid "Overcast"
+msgstr "Bedeckt"
+
+msgid "Overcast and light rain"
+msgstr "Bewölkt und leichter Regen"
+
+msgid "Overcast and light snow"
+msgstr "Bewölkt und leichter Schneefall"
+
+msgid "Overcast and light wet snow"
+msgstr "Bedeckt und leicht nasser Schnee"
+
+msgid "Overcast and rain"
+msgstr "Bewölkt und Regen"
+
+msgid "Overcast and showers"
+msgstr "Bewölkt und Schauer"
+
+msgid "Overcast and snow"
+msgstr "Bewölkt und Schnee"
+
+msgid "Overcast and snow showers"
+msgstr "Bewölkt und Schneeschauer"
+
+msgid "Overcast and wet snow"
+msgstr "Bedeckter und nasser Schnee"
+
+msgid "Overcast and wet snow showers"
+msgstr "Bewölkt und nasse Schneeschauer"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Bewölkt, Gewitter mit Regen"
+
+msgid "Overnight"
+msgstr "Über Nacht"
+
+msgid "Page down"
+msgstr "Seite nach unten"
+
+msgid "Page Down"
+msgstr "Seite nach unten"
+
+msgid "Page up"
+msgstr "Seite nach oben"
+
+msgid "Page Up"
+msgstr "Seite nach oben"
+
+msgid "Pan down"
+msgstr "Nach unten schwenken"
+
+msgid "Pan left"
+msgstr "Pan ging"
+
+msgid "Pan right"
+msgstr "Nach rechts schwenken"
+
+msgid "Pan up"
+msgstr "Schwenk nach oben"
+
+msgid "Partly cloudy"
+msgstr "Teilweise bewölkt"
+
+msgid "Partly cloudy and light rain"
+msgstr "Teilweise bewölkt und leichter Regen"
+
+msgid "Partly cloudy and light snow"
+msgstr "Teilweise bewölkt und leichter Schneefall"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Teilweise bewölkt und leicht nasser Schnee"
+
+msgid "Partly cloudy and showers"
+msgstr "Teilweise bewölkt und Schauer"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Teilweise bewölkt und Schneeschauer"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Teilweise bewölkt und nasse Schneeschauer"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Teilweise bewölkt, möglicherweise Gewitter mit Regen"
+
+msgid "Perigee"
+msgstr "Perigäum"
+
+msgid "Phase"
+msgstr "Phase"
+
+msgid "Phase: {}"
+msgstr "Phase: {}"
+
+msgid "Play/Pause"
+msgstr "Wiedergabe/Pause"
+
+msgid "Please enter both API user and API password."
+msgstr "Bitte geben Sie sowohl den API-Benutzer als auch das API-Passwort ein."
+
+msgid "Please wait ..."
+msgstr "Bitte warten ..."
+
+msgid "Poland"
+msgstr "Polen"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Precipitation"
+msgstr "Fällung"
+
+msgid "Precipitation: {}"
+msgstr "Niederschlag: {}"
+
+msgid "Precipitations"
+msgstr "Niederschläge"
+
+msgid "Precipitations: {}%"
+msgstr "Niederschläge: {}%"
+
+msgid "Press RED to search again"
+msgstr "Drücken Sie ROT, um erneut zu suchen"
+
+msgid "Pressure"
+msgstr "Druck"
+
+msgid "Pressure: {}"
+msgstr "Druck: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Druck: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Druck: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Druck: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Druck: N/A"
+
+msgid "Prev"
+msgstr "Vorher"
+
+msgid "Previous"
+msgstr "Vorherige"
+
+msgid "Previous frame"
+msgstr "Vorheriger Frame"
+
+msgid "Previous Image"
+msgstr "Vorheriges Bild"
+
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+msgid "Previous time"
+msgstr "Vorheriges Mal"
+
+msgid "Rain Prob."
+msgstr "Regenwahrscheinlich."
+
+msgid "Rain prob. {}%"
+msgstr "Regen wahrscheinlich. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Regenwahrscheinlichkeit: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Regen: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer-Radar"
+
+msgid "Red"
+msgstr "Rot"
+
+msgid "Red - Color select"
+msgstr "Rot – Farbauswahl"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Restore default server values"
+msgstr "Standardserverwerte wiederherstellen"
+
+msgid "Rhineland-Palatine"
+msgstr "Rheinland-Pfalz"
+
+msgid "Right - Next day"
+msgstr "Richtig – Nächster Tag"
+
+msgid "Right arrow - Next day"
+msgstr "Pfeil nach rechts – Nächster Tag"
+
+msgid "Rise"
+msgstr "Erheben"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Anstiegsazimut: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Anstiegsazimut: N/A"
+
+msgid "Russia"
+msgstr "Russland"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saarland"
+
+msgid "Satellite Photos"
+msgstr "Satellitenfotos"
+
+msgid "Satellite photos coming soon!"
+msgstr "Satellitenfotos folgen bald!"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Save API settings"
+msgstr "API-Einstellungen speichern"
+
+msgid "Save translation settings"
+msgstr "Übersetzungseinstellungen speichern"
+
+msgid "Saxony"
+msgstr "Sachsen"
+
+msgid "Saxony-Anhalt"
+msgstr "Saxony-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+msgid "Scraped"
+msgstr "Geschabt"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Die Suche wird zunächst online durchgeführt. Wenn die Suche fehlschlägt, wird die lokale Liste verwendet."
+
+msgid "Search your City"
+msgstr "Durchsuchen Sie Ihre Stadt"
+
+msgid "Select"
+msgstr "Wählen"
+
+msgid "Select {} unit"
+msgstr "Wählen Sie {} Einheit"
+
+msgid "Select a city"
+msgstr "Wählen Sie eine Stadt aus"
+
+msgid "Select a map with OK"
+msgstr "Wählen Sie mit OK eine Karte aus"
+
+msgid "Select Region"
+msgstr "Wählen Sie Region aus"
+
+msgid "Select unit system"
+msgstr "Einheitensystem auswählen"
+
+msgid "Select wind unit"
+msgstr "Windeinheit auswählen"
+
+msgid "Selected hour details"
+msgstr "Ausgewählte Stundendetails"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Azimut einstellen: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Azimut einstellen: N/A"
+
+msgid "Sets"
+msgstr "Sets"
+
+msgid "Show info"
+msgstr "Infos anzeigen"
+
+msgid "Showers"
+msgstr "Duschen"
+
+msgid "Slovakia"
+msgstr "Slowakei"
+
+msgid "Slower: {}s"
+msgstr "Langsamer: {}s"
+
+msgid "Snow / ice"
+msgstr "Schnee/Eis"
+
+msgid "Snow prob. {}%"
+msgstr "Schneewahrscheinlich. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Schneewahrscheinlichkeit: N/A"
+
+msgid "South Africa"
+msgstr "Südafrika"
+
+msgid "South America"
+msgstr "Südamerika"
+
+msgid "Southeast Asia"
+msgstr "Südostasien"
+
+msgid "Spain"
+msgstr "Spanien"
+
+msgid "Station Observations"
+msgstr "Stationsbeobachtungen"
+
+msgid "Station: {}"
+msgstr "Station: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Stark (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "Sonnenaufgang"
+
+msgid "Sunset"
+msgstr "Sonnenuntergang"
+
+msgid "Super Full Moon"
+msgstr "Super-Vollmond"
+
+msgid "Sweden"
+msgstr "Schweden"
+
+msgid "Switzerland"
+msgstr "Schweiz"
+
+msgid "Target Language"
+msgstr "Zielsprache"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Temperatur"
+
+msgid "Temperature: {}"
+msgstr "Temperatur: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatur: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatur: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Temperatur: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatur: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatur: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Vielen Dank an {thanks} und andere Freunde für Vorschläge"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Die Remote-Version ({remote}) ist älter als die aktuelle ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Dünne obere Wolke"
+
+msgid "Thuringia"
+msgstr "Thüringen"
+
+msgid "Time"
+msgstr "Zeit"
+
+msgid "Today"
+msgstr "Heute"
+
+msgid "Today/Tomorrow details"
+msgstr "Details für heute/morgen"
+
+msgid "Toggle legend"
+msgstr "Legende umschalten"
+
+msgid "Token expire hours"
+msgstr "Token-Ablaufstunden"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Die Token-Ablaufzeit muss -1 oder eine positive Zahl sein."
+
+msgid "Token expire hours must be a number."
+msgstr "Die Token-Ablaufstunden müssen eine Zahl sein."
+
+msgid "Tomorrow"
+msgstr "Morgen"
+
+msgid "Transit (culmination): {}"
+msgstr "Transit (Höhepunkt): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Transithöhe: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Transithöhe: N/A"
+
+msgid "Translation Settings"
+msgstr "Übersetzungseinstellungen"
+
+msgid "Transparency level"
+msgstr "Transparenzgrad"
+
+msgid "Transparency Settings"
+msgstr "Transparenzeinstellungen"
+
+msgid "Unhealthy"
+msgstr "Ungesund"
+
+msgid "Unhealthy for sensitives"
+msgstr "Ungesund für empfindliche Menschen"
+
+msgid "Unit Settings"
+msgstr "Einheiteneinstellungen"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Einheiteneinstellungen (Erweitert)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Einheiteneinstellungen (einfach)"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "Up"
+msgstr "Hoch"
+
+msgid "Up - Previous page"
+msgstr "Nach oben – Vorherige Seite"
+
+msgid "Update canceled."
+msgstr "Update abgebrochen."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Aktualisierung abgeschlossen. Bitte starten Sie Enigma2 neu."
+
+msgid "Updated {}"
+msgstr "Aktualisiert {}"
+
+msgid "Updated: {}"
+msgstr "Aktualisiert: {}"
+
+msgid "Updated: N/A"
+msgstr "Aktualisiert: N/A"
+
+msgid "Updating..."
+msgstr "Aktualisierung..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Verwenden Sie ← →, um die Zeit | zu ändern OK, um den Vorgang zu beenden"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Verwenden Sie ←/→/ ↑/↓, um | zu verschieben OK, um den Vorgang zu beenden"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Mit ▲/▼ ändern, mit OK auswählen"
+
+msgid "Use arrow keys to scroll"
+msgstr "Verwenden Sie die Pfeiltasten zum Scrollen"
+
+msgid "Use Google Translate"
+msgstr "Verwenden Sie Google Translate"
+
+msgid "Using current time"
+msgstr "Aktuelle Zeit verwenden"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV-Index"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Sehr starker Regen"
+
+msgid "Very high"
+msgstr "Sehr hoch"
+
+msgid "Very hot (>40°C)"
+msgstr "Sehr heiß (>40°C)"
+
+msgid "Very low"
+msgstr "Sehr niedrig"
+
+msgid "Very unhealthy"
+msgstr "Sehr ungesund"
+
+msgid "Visibility: {} m"
+msgstr "Sichtweite: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Sichtbarkeit: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Abnehmender Halbmond"
+
+msgid "Waning Gibbous"
+msgstr "Abnehmender Gibbous"
+
+msgid "Warm (20-30°C)"
+msgstr "Warm (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Wachsender Halbmond"
+
+msgid "Waxing Gibbous"
+msgstr "Wachsender Gibbous"
+
+msgid "Weather"
+msgstr "Wetter"
+
+msgid "Weather Map"
+msgstr "Wetterkarte"
+
+msgid "Weather Maps"
+msgstr "Wetterkarten"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Wetterkarten (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Wetterkarten und Satelliten"
+
+msgid "Weather Maps Slideshow"
+msgstr "Diashow mit Wetterkarten"
+
+msgid "Weather Radar"
+msgstr "Wetterradar"
+
+msgid "Weather today"
+msgstr "Wetter heute"
+
+msgid "Weather tomorrow"
+msgstr "Wetter morgen"
+
+msgid "Weekly Forecast"
+msgstr "Wöchentliche Prognose"
+
+msgid "Wind"
+msgstr "Wind"
+
+msgid "Wind direction"
+msgstr "Windrichtung"
+
+msgid "Wind Direction today"
+msgstr "Windrichtung heute"
+
+msgid "Wind Direction tomorrow"
+msgstr "Windrichtung morgen"
+
+msgid "Wind speed"
+msgstr "Windgeschwindigkeit"
+
+msgid "Wind speed {}"
+msgstr "Windgeschwindigkeit {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Windgeschwindigkeit: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Wind: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Wind: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Wind: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Wind: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Wind: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Wind: N/A"
+
+msgid "Window transparency"
+msgstr "Fenstertransparenz"
+
+msgid "Yellow - Favorite 2"
+msgstr "Gelb – Favorit 2"
+
+msgid ""
+"You already have version {version} installed.\n"
+"Do you want to reinstall it?"
+msgstr ""
+"Sie haben bereits Version {version} installiert.\n"
+"Möchten Sie sie neu installieren?"
+
+msgid "Zoom In"
+msgstr "Vergrößern"
+
+msgid "Zoom Out"
+msgstr "Herauszoomen"
+
+msgid "Zoom-"
+msgstr "Zoom-"
+
+msgid "Zoom:"
+msgstr "Zoom:"
+
+msgid "Zoom+"
+msgstr "Zoom+"
+
+msgid "Rain:"
+msgstr "Regen:"

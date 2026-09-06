@@ -1,0 +1,1509 @@
+# he translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: he <ekekaz@gmail.com>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} שעות {mins} דקות"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• כחול כדי לשמור בתור Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- לקפיצה של 500 ערים\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• ירוק כדי לשמור כמועדף 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• אישור כדי לבחור עיר\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• אדום לפתיחת מקלדת החיפוש\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• השתמש במקשי החצים כדי לנווט ב\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- לקפיצה של 100 ערים\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• צהוב כדי לשמור כמועדף 2\n"
+
+msgid "← Frame"
+msgstr "← מסגרת"
+
+msgid "0 - Today"
+msgstr "0 - היום"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - היום + יום אחד"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - היום + יומיים"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - היום + 3 ימים"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - היום + 4 ימים"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - היום + 5 ימים"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - היום + 6 ימים"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - היום + 7 ימים"
+
+msgid "7 Day Forecast"
+msgstr "תחזית 7 ימים"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - היום + 8 ימים"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - היום + 9 ימים"
+
+msgid "Advanced"
+msgstr "מִתקַדֵם"
+
+msgid "Advanced Unit Settings"
+msgstr "הגדרות יחידה מתקדמות"
+
+msgid "Afternoon"
+msgstr "צָהֳרַיִים"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "גיל מאז ירח חדש: {:.1f} ימים"
+
+msgid "Age: N/A"
+msgstr "גיל: לא רלוונטי"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "קוטר זוויתי: {:.0f}\""
+
+msgid "Angular diameter: N/A"
+msgstr "קוטר זוויתי: לא"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "קובץ תצורת API לא נמצא!\n\nאנא צור את הקובץ:\n{0}\n\nעם האישורים של Foreca API שלך."
+
+msgid "API credentials not configured."
+msgstr "אישורי API לא מוגדרים."
+
+msgid "API error"
+msgstr "שגיאת API"
+
+msgid "API password"
+msgstr "סיסמת API"
+
+msgid "API user"
+msgstr "משתמש API"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "גודל לכאורה: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: לא זמין"
+
+msgid "Assign to Favorite 1"
+msgstr "הקצה למועדף 1"
+
+msgid "Assign to Favorite 2"
+msgstr "הקצה למועדף 2"
+
+msgid "Assign to Home"
+msgstr "הקצה לבית"
+
+msgid "Australia"
+msgstr "אוֹסטְרַלִיָה"
+
+msgid "Austria"
+msgstr "אוֹסְטְרֵיָה"
+
+msgid "Auth server"
+msgstr "שרת אישור"
+
+msgid "Baden-Wuerttemberg"
+msgstr "באדן-וירטמברג"
+
+msgid "Barometer"
+msgstr "בָּרוֹמֶטֶר"
+
+msgid "Bavaria"
+msgstr "בוואריה"
+
+msgid "Belgium"
+msgstr "בלגיה"
+
+msgid "Berlin"
+msgstr "ברלין"
+
+msgid "Black Moon"
+msgstr "ירח שחור"
+
+msgid "Blue"
+msgstr "כְּחוֹל"
+
+msgid "Blue - Home"
+msgstr "כחול - בית"
+
+msgid "Blue Moon"
+msgstr "ירח כחול"
+
+msgid "Brandenburg"
+msgstr "ברנדנבורג"
+
+msgid "Bremen"
+msgstr "ברמן"
+
+msgid "Calculating..."
+msgstr "מחשב..."
+
+msgid "Cancel"
+msgstr "לְבַטֵל"
+
+msgid "Celsius, km/h, hPa"
+msgstr "צלזיוס, קמ\"ש, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "יומן שינויים: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "שינויים יחולו באופן מיידי"
+
+msgid "Check for updates"
+msgstr "בדוק אם יש עדכונים"
+
+msgid "Choose detail view"
+msgstr "בחר תצוגת פירוט"
+
+msgid "City list file not found!"
+msgstr "קובץ רשימת העיר לא נמצא!"
+
+msgid "City Selection"
+msgstr "בחירת עיר"
+
+msgid "City Selection Help:\n\n"
+msgstr "עזרה לבחירת עיר:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "לנקות קבצי Foreca One Temp?"
+
+msgid "Cleanup temp files"
+msgstr "ניקוי קבצים זמניים"
+
+msgid "Clear"
+msgstr "בָּרוּר"
+
+msgid "Close"
+msgstr "לִסְגוֹר"
+
+msgid "Close legend"
+msgstr "סגור אגדה"
+
+msgid "Close setup without saving"
+msgstr "סגור את ההגדרה מבלי לשמור"
+
+msgid "Cloudy"
+msgstr "מְעוּנָן"
+
+msgid "Cloudy and light rain"
+msgstr "מעונן וגשם קל"
+
+msgid "Cloudy and light snow"
+msgstr "מעונן ושלג קל"
+
+msgid "Cloudy and light wet snow"
+msgstr "מעונן ושלג רטוב קל"
+
+msgid "Cloudy and showers"
+msgstr "מעונן וממטרים"
+
+msgid "Cloudy and snow showers"
+msgstr "מעונן ושלג"
+
+msgid "Cloudy and wet snow showers"
+msgstr "מעונן ורטוב ממטרי שלג"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "מעונן, סופות רעמים עם גשם"
+
+msgid "Cold (< 0°C)"
+msgstr "קר (<0°C)"
+
+msgid "Color data"
+msgstr "נתוני צבע"
+
+msgid "Color legend"
+msgstr "אגדת צבע"
+
+msgid "Color Legend"
+msgstr "מקרא צבע"
+
+msgid "Color name"
+msgstr "שם צבע"
+
+msgid "Color select"
+msgstr "בחירת צבע"
+
+msgid "Color Selector"
+msgstr "בורר צבע"
+
+msgid "Condition: {}"
+msgstr "מצב: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "הגדר את אישורי Foreca API"
+
+msgid "Continents Weather Maps"
+msgstr "מפות מזג אוויר של יבשות"
+
+msgid "Cool (0-10°C)"
+msgstr "קריר (0-10 מעלות צלזיוס)"
+
+msgid "Could not fetch update information."
+msgstr "לא ניתן היה להביא את פרטי העדכון."
+
+msgid "Could not initialize map API."
+msgstr "לא ניתן היה לאתחל את ה-API של המפה."
+
+msgid "Could not load forecast data"
+msgstr "לא ניתן לטעון נתוני תחזית"
+
+msgid "Could not parse version information."
+msgstr "לא ניתן לנתח את פרטי הגרסה."
+
+msgid "Current weather and forecast"
+msgstr "מזג האוויר ותחזית הנוכחיים"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "מזג האוויר הנוכחי ותחזית ל-10 הימים הבאים"
+
+msgid "Current: {}"
+msgstr "נוכחי: {}"
+
+msgid "Czech Republic"
+msgstr "צ'כיה"
+
+msgid "Data provided by Foreca"
+msgstr "נתונים מסופקים על ידי Foreca"
+
+msgid "Date: {}"
+msgstr "תאריך: {}"
+
+msgid "Day"
+msgstr "יְוֹם"
+
+msgid "Decrease Speed"
+msgstr "הקטנת מהירות"
+
+msgid "Defaults"
+msgstr "ברירות מחדל"
+
+msgid "Denmark"
+msgstr "דנמרק"
+
+msgid "Details"
+msgstr "פרטים"
+
+msgid "Dewpoint {}"
+msgstr "נקודת הטל {}"
+
+msgid "Dewpoint {}°C"
+msgstr "נקודת הטל {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "נקודת טל: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "נקודת טל: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "נקודת הטל: לא רלוונטי"
+
+msgid "Distance"
+msgstr "מֶרְחָק"
+
+msgid "Distance {} km"
+msgstr "מרחק {} ק\"מ"
+
+msgid "Distance: {}"
+msgstr "מרחק: {}"
+
+msgid "Distance: {} km"
+msgstr "מרחק: {} ק\"מ"
+
+msgid "Distance: %s"
+msgstr "מרחק: %s"
+
+msgid "Do you want to install it now?"
+msgstr "האם אתה רוצה להתקין אותו עכשיו?"
+
+msgid "Down"
+msgstr "לְמַטָה"
+
+msgid "Down - Next page"
+msgstr "למטה - העמוד הבא"
+
+msgid "Download error"
+msgstr "שגיאת הורדה"
+
+msgid "Downloading images..."
+msgstr "מוריד תמונות..."
+
+msgid "Downloading tiles..."
+msgstr "מוריד אריחים..."
+
+msgid "E"
+msgstr "ה"
+
+msgid "East Asia"
+msgstr "מזרח אסיה"
+
+msgid "Error checking for updates."
+msgstr "שגיאה בבדיקת עדכונים."
+
+msgid "Error loading data"
+msgstr "שגיאה בטעינת נתונים"
+
+msgid "Error loading map"
+msgstr "שגיאה בטעינת המפה"
+
+msgid "Error loading maps. Check connection."
+msgstr "שגיאה בטעינת מפות. בדוק חיבור."
+
+msgid "Error saving favorite!"
+msgstr "שגיאה בשמירת המועדף!"
+
+msgid "Europe"
+msgstr "אֵירוֹפָּה"
+
+msgid "European Weather Maps"
+msgstr "מפות מזג אוויר אירופאיות"
+
+msgid "Evening"
+msgstr "עֶרֶב"
+
+msgid "Exit"
+msgstr "יְצִיאָה"
+
+msgid "Exit - End"
+msgstr "יציאה - סוף"
+
+msgid "Exit / Close legend"
+msgstr "יציאה / סגור מקרא"
+
+msgid "Extreme"
+msgstr "קיצוני"
+
+msgid "Extreme / thunderstorms"
+msgstr "סופות רעמים קיצוניות"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "פרנהייט, מייל לשעה, אינ-Hg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "כתיבת קובץ התצורה נכשלה:\n%s"
+
+msgid "Faster: {}s"
+msgstr "מהיר יותר: {}ס"
+
+msgid "Favorite 1"
+msgstr "מועדף 1"
+
+msgid "Favorite 2"
+msgstr "מועדף 2"
+
+msgid "Favorites details"
+msgstr "פרטי מועדפים"
+
+msgid "Favorites Details"
+msgstr "פרטי מועדפים"
+
+msgid "Feels like"
+msgstr "מרגיש כמו"
+
+msgid "Feels like {}"
+msgstr "מרגיש כמו {}"
+
+msgid "Feels like {}{}"
+msgstr "מרגיש כמו {}{}"
+
+msgid "Feels like: {}"
+msgstr "מרגיש כמו: {}"
+
+msgid "Feels like: {}{}"
+msgstr "מרגיש כמו: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "מרגיש כמו: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "מרגיש כמו: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "מרגיש כמו: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "מרגיש כמו: לא זמין"
+
+msgid "Finland"
+msgstr "פינלנד"
+
+msgid "First Quarter"
+msgstr "רבעון ראשון"
+
+msgid "Fog"
+msgstr "עֲרָפֶל"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "אישורי Foreca API עדיין לא מוגדרים. אנא הזן אותם במסך ההגדרה."
+
+msgid "Foreca API settings saved successfully."
+msgstr "הגדרות Foreca API נשמרו בהצלחה."
+
+msgid "Foreca API Setup"
+msgstr "הגדרת API של Foreca"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | מפה {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "תפריט Foreca One"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One לא נמצאו תחנות"
+
+msgid "Foreca One Setup"
+msgstr "הגדרת Foreca One"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One Stations: {} תחנות בקרבת מקום ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "תחזית מזג האוויר של Foreca One"
+
+msgid "Frame →"
+msgstr "מסגרת →"
+
+msgid "Frame: {}"
+msgstr "מסגרת: {}"
+
+msgid "France"
+msgstr "צָרְפַת"
+
+msgid "Full Moon"
+msgstr "אַגַן הַסַהַר"
+
+msgid "Gale force (>60 km/h)"
+msgstr "כוח סערה (מעל 60 קמ\"ש)"
+
+msgid "German States Weather Maps"
+msgstr "מפות מזג אוויר של מדינות גרמניה"
+
+msgid "Germany"
+msgstr "גֶרמָנִיָה"
+
+msgid "Good"
+msgstr "טוֹב"
+
+msgid "Great Britain"
+msgstr "בְּרִיטַנִיָה"
+
+msgid "Greece"
+msgstr "יָוָן"
+
+msgid "Green"
+msgstr "יָרוֹק"
+
+msgid "Green - Favorite 1"
+msgstr "ירוק - מועדף 1"
+
+msgid "Gust {}"
+msgstr "משב רוח {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "משב רוח: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "המבורג"
+
+msgid "Hazardous"
+msgstr "מְסוּכָּן"
+
+msgid "Header - not selectable"
+msgstr "כותרת עליונה - לא ניתנת לבחירה"
+
+msgid "Heavy rain"
+msgstr "גֶשֶׁם כָּבֵד"
+
+msgid "Help"
+msgstr "עֶזרָה"
+
+msgid "Hesse"
+msgstr "הסה"
+
+msgid "High"
+msgstr "גָבוֹהַ"
+
+msgid "Home"
+msgstr "בַּיִת"
+
+msgid "Hot (30-40°C)"
+msgstr "חם (30-40 מעלות צלזיוס)"
+
+msgid "Hour Details"
+msgstr "פרטי שעה"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "לַחוּת"
+
+msgid "Humidity: {}%"
+msgstr "לחות: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "לחות: %s%%"
+
+msgid "Hungary"
+msgstr "הונגריה"
+
+msgid "Ice / frost"
+msgstr "קרח / כפור"
+
+msgid "Illumination"
+msgstr "תְאוּרָה"
+
+msgid "Illumination: {:.1f}%"
+msgstr "תאורה: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "תמונה %(current)d/%(total)d - %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "תמונה %(current)d/%(total)d - %(day)s (מושהה)"
+
+msgid "Image not available"
+msgstr "תמונה לא זמינה"
+
+msgid "Imperial System"
+msgstr "מערכת אימפריאלית"
+
+msgid "Increase Speed"
+msgstr "הגדל מהירות"
+
+msgid "Info"
+msgstr "מידע"
+
+msgid "Info - About"
+msgstr "מידע - אודות"
+
+msgid "Ireland"
+msgstr "אירלנד"
+
+msgid "Italy"
+msgstr "אִיטַלִיָה"
+
+msgid "Jump 100 down"
+msgstr "קפוץ 100 למטה"
+
+msgid "Jump 100 up"
+msgstr "קפוץ 100 למעלה"
+
+msgid "Jump 500 down"
+msgstr "קפוץ 500 למטה"
+
+msgid "Jump 500 up"
+msgstr "קפוץ 500 למעלה"
+
+msgid "Keyboard"
+msgstr "מִקלֶדֶת"
+
+msgid "Last Quarter"
+msgstr "רבעון אחרון"
+
+msgid "Last update"
+msgstr "עדכון אחרון"
+
+msgid "Latvia"
+msgstr "לטביה"
+
+msgid "Left - Previous day"
+msgstr "שמאל - היום הקודם"
+
+msgid "Left arrow - Previous day"
+msgstr "חץ שמאלה - היום הקודם"
+
+msgid "Light (0-20 km/h)"
+msgstr "קל (0-20 קמ\"ש)"
+
+msgid "Light rain / drizzle"
+msgstr "גשם קל / טפטוף"
+
+msgid "Light to moderate"
+msgstr "קל עד בינוני"
+
+msgid "Loading available maps..."
+msgstr "טוען מפות זמינות..."
+
+msgid "Loading lunar phases..."
+msgstr "טוען שלבי ירח..."
+
+msgid "Loading nearby stations..."
+msgstr "טוען תחנות סמוכות..."
+
+msgid "Loading tiles..."
+msgstr "טוען אריחים..."
+
+msgid "Loading weekly forecast..."
+msgstr "טוען תחזית שבועית..."
+
+msgid "Loading..."
+msgstr "טְעִינָה..."
+
+msgid "Low"
+msgstr "נָמוּך"
+
+msgid "Lower Saxony"
+msgstr "סקסוניה התחתונה"
+
+msgid "Lunar Calendar"
+msgstr "לוח שנה ירח"
+
+msgid "Lunar phases from next month"
+msgstr "שלבי הירח מהחודש הבא"
+
+msgid "Luxembourg"
+msgstr "לוקסמבורג"
+
+msgid "Magnitude: N/A"
+msgstr "גודל: לא"
+
+msgid "Map {} selected"
+msgstr "נבחרה המפה {}"
+
+msgid "Map & Tiles Loaded"
+msgstr "מפה ואריחים נטענו"
+
+msgid "Map loaded"
+msgstr "המפה נטענה"
+
+msgid "Map server"
+msgstr "שרת מפות"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "מקלנבורג-וורפומרן"
+
+msgid "Menu"
+msgstr "תַפרִיט"
+
+msgid "Menu - Settings"
+msgstr "תפריט - הגדרות"
+
+msgid "Merge failed"
+msgstr "המיזוג נכשל"
+
+msgid "Meteogram"
+msgstr "מטאוגרמה"
+
+msgid "Metric System"
+msgstr "מערכת מטרית"
+
+msgid "Middle America"
+msgstr "אמריקה התיכונה"
+
+msgid "Middle Asia"
+msgstr "אסיה התיכונה"
+
+msgid "Middle East"
+msgstr "מזרח תיכון"
+
+msgid "Mild (10-20°C)"
+msgstr "מתון (10-20 מעלות צלזיוס)"
+
+msgid "Moderate"
+msgstr "לְמַתֵן"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "בינוני (20-40 קמ\"ש)"
+
+msgid "Moderate rain"
+msgstr "גשם מתון"
+
+msgid "Month"
+msgstr "חוֹדֶשׁ"
+
+msgid "Moon details"
+msgstr "פרטי ירח"
+
+msgid "Moon Details"
+msgstr "פרטי הירח"
+
+msgid "Moonrise: {}"
+msgstr "זריחת ירח: {}"
+
+msgid "Moonset: {}"
+msgstr "שקיעת ירח: {}"
+
+msgid "Morning"
+msgstr "שַׁחַר"
+
+msgid "Mostly clear"
+msgstr "ברור בעיקר"
+
+msgid "Move down"
+msgstr "לזוז למטה"
+
+msgid "Move Down"
+msgstr "לזוז למטה"
+
+msgid "Move up"
+msgstr "לזוז למעלה"
+
+msgid "Move Up"
+msgstr "לזוז למעלה"
+
+msgid "N"
+msgstr "נ"
+
+msgid "N/A"
+msgstr "לא"
+
+msgid "Netherlands"
+msgstr "הוֹלַנד"
+
+msgid "New Moon"
+msgstr "רֹאשׁ חוֹדֶשׁ"
+
+msgid "New version {version} is available."
+msgstr "גרסה חדשה {version} זמינה."
+
+msgid "Next"
+msgstr "הַבָּא"
+
+msgid "Next frame"
+msgstr "המסגרת הבאה"
+
+msgid "Next Image"
+msgstr "התמונה הבאה"
+
+msgid "Next page"
+msgstr "העמוד הבא"
+
+msgid "Next time"
+msgstr "בפעם הבאה"
+
+msgid "No city selected"
+msgstr "לא נבחרה עיר"
+
+msgid "No data"
+msgstr "אין נתונים"
+
+msgid "No date available"
+msgstr "אין תאריך זמין"
+
+msgid "No Internet connection detected."
+msgstr "לא זוהה חיבור לאינטרנט."
+
+msgid "No location selected"
+msgstr "לא נבחר מיקום"
+
+msgid "No OSM tiles"
+msgstr "אין אריחי OSM"
+
+msgid "No specific legend available."
+msgstr "אין אגדה ספציפית זמינה."
+
+msgid "No station data"
+msgstr "אין נתוני תחנה"
+
+msgid "No station data available"
+msgstr "אין נתוני תחנה זמינים"
+
+msgid "No stations found"
+msgstr "לא נמצאו תחנות"
+
+msgid "No tiles downloaded"
+msgstr "לא הורדו אריחים"
+
+msgid "North Africa"
+msgstr "צפון אפריקה"
+
+msgid "North America"
+msgstr "צפון אמריקה"
+
+msgid "North Rhine-Westphalia"
+msgstr "נורדריין-וסטפאליה"
+
+msgid "Norway"
+msgstr "נורבגיה"
+
+msgid "Ok - Details"
+msgstr "אוקי - פרטים"
+
+msgid "OK - Ext Info"
+msgstr "אישור - מידע חוץ"
+
+msgid "OK - Forecast"
+msgstr "בסדר - תחזית"
+
+msgid "OK - Open Map"
+msgstr "אישור - פתח את המפה"
+
+msgid "Open Keyboard"
+msgstr "פתח את המקלדת"
+
+msgid "Open Map"
+msgstr "פתח את המפה"
+
+msgid "Original design and idea by %s"
+msgstr "עיצוב ורעיון מקוריים מאת %s"
+
+msgid "Overcast"
+msgstr "מְעוּנָן"
+
+msgid "Overcast and light rain"
+msgstr "מעונן וגשם קל"
+
+msgid "Overcast and light snow"
+msgstr "מעונן ושלג קל"
+
+msgid "Overcast and light wet snow"
+msgstr "שלג מעונן ורטוב קל"
+
+msgid "Overcast and rain"
+msgstr "מעונן וגשם"
+
+msgid "Overcast and showers"
+msgstr "מעונן וממטרים"
+
+msgid "Overcast and snow"
+msgstr "מעונן ושלג"
+
+msgid "Overcast and snow showers"
+msgstr "מעונן ושלג"
+
+msgid "Overcast and wet snow"
+msgstr "שלג מעונן ורטוב"
+
+msgid "Overcast and wet snow showers"
+msgstr "ממטרי שלג מעוננים ורטובים"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "מעונן, סופות רעמים עם גשם"
+
+msgid "Overnight"
+msgstr "בֵּין לַיְלָה"
+
+msgid "Page down"
+msgstr "עמוד למטה"
+
+msgid "Page Down"
+msgstr "עמוד למטה"
+
+msgid "Page up"
+msgstr "דף למעלה"
+
+msgid "Page Up"
+msgstr "עמוד למעלה"
+
+msgid "Pan down"
+msgstr "פנו למטה"
+
+msgid "Pan left"
+msgstr "פאן שמאלה"
+
+msgid "Pan right"
+msgstr "פאן ימינה"
+
+msgid "Pan up"
+msgstr "פנו למעלה"
+
+msgid "Partly cloudy"
+msgstr "מעונן חלקית"
+
+msgid "Partly cloudy and light rain"
+msgstr "מעונן חלקית וגשם קל"
+
+msgid "Partly cloudy and light snow"
+msgstr "מעונן חלקית ושלג קל"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "מעונן חלקית ושלג רטוב קל"
+
+msgid "Partly cloudy and showers"
+msgstr "מעונן חלקית וממטרים"
+
+msgid "Partly cloudy and snow showers"
+msgstr "מעונן חלקית וממטרי שלג"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "מעונן חלקית וממטרי שלג רטובים"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "מעונן חלקית, ייתכן וסופות רעמים עם גשם"
+
+msgid "Perigee"
+msgstr "פריג'י"
+
+msgid "Phase"
+msgstr "שָׁלָב"
+
+msgid "Phase: {}"
+msgstr "שלב: {}"
+
+msgid "Play/Pause"
+msgstr "הפעל/השהה"
+
+msgid "Please enter both API user and API password."
+msgstr "אנא הזן גם משתמש API וגם סיסמת API."
+
+msgid "Please wait ..."
+msgstr "אנא המתן..."
+
+msgid "Poland"
+msgstr "פּוֹלִין"
+
+msgid "Portugal"
+msgstr "פּוֹרטוּגָל"
+
+msgid "Precipitation"
+msgstr "מִשׁקָע"
+
+msgid "Precipitation: {}"
+msgstr "משקעים: {}"
+
+msgid "Precipitations"
+msgstr "משקעים"
+
+msgid "Precipitations: {}%"
+msgstr "משקעים: {}%"
+
+msgid "Press RED to search again"
+msgstr "לחץ על האדום כדי לחפש שוב"
+
+msgid "Pressure"
+msgstr "לַחַץ"
+
+msgid "Pressure: {}"
+msgstr "לחץ: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "לחץ: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "לחץ: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "לחץ: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "לחץ: לא"
+
+msgid "Prev"
+msgstr "הקודם"
+
+msgid "Previous"
+msgstr "קוֹדֵם"
+
+msgid "Previous frame"
+msgstr "מסגרת קודמת"
+
+msgid "Previous Image"
+msgstr "תמונה קודמת"
+
+msgid "Previous page"
+msgstr "העמוד הקודם"
+
+msgid "Previous time"
+msgstr "פעם קודמת"
+
+msgid "Rain Prob."
+msgstr "גשם פרוב."
+
+msgid "Rain prob. {}%"
+msgstr "סבירות לגשם. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "סבירות לגשם: לא"
+
+msgid "Rain: {:.1f} {}"
+msgstr "גשם: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "רדאר RainViewer"
+
+msgid "Red"
+msgstr "אָדוֹם"
+
+msgid "Red - Color select"
+msgstr "אדום - בחירת צבע"
+
+msgid "Refresh"
+msgstr "לְרַעֲנֵן"
+
+msgid "Restore default server values"
+msgstr "שחזר ערכי ברירת מחדל של שרת"
+
+msgid "Rhineland-Palatine"
+msgstr "ריינלנד-פאלטין"
+
+msgid "Right - Next day"
+msgstr "נכון - למחרת"
+
+msgid "Right arrow - Next day"
+msgstr "חץ ימינה - למחרת"
+
+msgid "Rise"
+msgstr "לַעֲלוֹת"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "עליית אזימוט: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "אזימוט עלייה: לא"
+
+msgid "Russia"
+msgstr "רוּסִיָה"
+
+msgid "S"
+msgstr "ס"
+
+msgid "Saarland"
+msgstr "ארץ סער"
+
+msgid "Satellite Photos"
+msgstr "צילומי לוויין"
+
+msgid "Satellite photos coming soon!"
+msgstr "תמונות לוויין בקרוב!"
+
+msgid "Save"
+msgstr "לְהַצִיל"
+
+msgid "Save API settings"
+msgstr "שמור הגדרות API"
+
+msgid "Save translation settings"
+msgstr "שמור את הגדרות התרגום"
+
+msgid "Saxony"
+msgstr "סקסוניה"
+
+msgid "Saxony-Anhalt"
+msgstr "סקסוניה-אנהלט"
+
+msgid "Schleswig-Holstein"
+msgstr "שלזוויג-הולשטיין"
+
+msgid "Scraped"
+msgstr "מְגוּרָד"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "חיפוש ניסיונות ראשונים באינטרנט, אם נכשל משתמש ברשימה המקומית."
+
+msgid "Search your City"
+msgstr "חפש בעיר שלך"
+
+msgid "Select"
+msgstr "לִבחוֹר"
+
+msgid "Select {} unit"
+msgstr "בחר יחידה {}"
+
+msgid "Select a city"
+msgstr "בחר עיר"
+
+msgid "Select a map with OK"
+msgstr "בחר מפה עם OK"
+
+msgid "Select Region"
+msgstr "בחר אזור"
+
+msgid "Select unit system"
+msgstr "בחר מערכת יחידה"
+
+msgid "Select wind unit"
+msgstr "בחר יחידת רוח"
+
+msgid "Selected hour details"
+msgstr "פרטי שעות נבחרים"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "הגדר אזימוט: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "הגדר אזימוט: לא"
+
+msgid "Sets"
+msgstr "סטים"
+
+msgid "Show info"
+msgstr "הצג מידע"
+
+msgid "Showers"
+msgstr "מקלחות"
+
+msgid "Slovakia"
+msgstr "סלובקיה"
+
+msgid "Slower: {}s"
+msgstr "איטי יותר: {}s"
+
+msgid "Snow / ice"
+msgstr "שלג / קרח"
+
+msgid "Snow prob. {}%"
+msgstr "שלג prob. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "סבירות שלג: לא"
+
+msgid "South Africa"
+msgstr "דרום אפריקה"
+
+msgid "South America"
+msgstr "דרום אמריקה"
+
+msgid "Southeast Asia"
+msgstr "דרום מזרח אסיה"
+
+msgid "Spain"
+msgstr "סְפָרַד"
+
+msgid "Station Observations"
+msgstr "תצפיות בתחנה"
+
+msgid "Station: {}"
+msgstr "תחנה: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "חזק (40-60 קמ\"ש)"
+
+msgid "Sunrise"
+msgstr "זְרִיחָה"
+
+msgid "Sunset"
+msgstr "שְׁקִיעַת הַשֶׁמֶשׁ"
+
+msgid "Super Full Moon"
+msgstr "ירח סופר מלא"
+
+msgid "Sweden"
+msgstr "שבדיה"
+
+msgid "Switzerland"
+msgstr "שוויץ"
+
+msgid "Target Language"
+msgstr "שפת היעד"
+
+msgid "Temp"
+msgstr "טמפ'"
+
+msgid "Temperature"
+msgstr "טֶמפֶּרָטוּרָה"
+
+msgid "Temperature: {}"
+msgstr "טמפרטורה: {}"
+
+msgid "Temperature: {}{}"
+msgstr "טמפרטורה: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "טמפרטורה: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "טמפרטורה: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "טמפרטורה: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "טמפרטורה: לא"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "תודה {thanks} וחברים אחרים על הצעות"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "הגרסה המרוחקת ({remote}) ישנה מהגרסה הנוכחית ({current})."
+
+msgid "Thin upper cloud"
+msgstr "ענן עליון דק"
+
+msgid "Thuringia"
+msgstr "תורינגיה"
+
+msgid "Time"
+msgstr "זְמַן"
+
+msgid "Today"
+msgstr "הַיוֹם"
+
+msgid "Today/Tomorrow details"
+msgstr "פרטים על היום/מחר"
+
+msgid "Toggle legend"
+msgstr "החלף אגדה"
+
+msgid "Token expire hours"
+msgstr "שעות תפוגה של אסימון"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "שעות תפוגת האסימון חייבות להיות -1 או מספר חיובי."
+
+msgid "Token expire hours must be a number."
+msgstr "שעות תפוגת האסימון חייבות להיות מספר."
+
+msgid "Tomorrow"
+msgstr "מָחָר"
+
+msgid "Transit (culmination): {}"
+msgstr "תחבורה ציבורית (שיאו): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "גובה מעבר: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "גובה מעבר: לא"
+
+msgid "Translation Settings"
+msgstr "הגדרות תרגום"
+
+msgid "Transparency level"
+msgstr "רמת שקיפות"
+
+msgid "Transparency Settings"
+msgstr "הגדרות שקיפות"
+
+msgid "Unhealthy"
+msgstr "חוֹלָנִי"
+
+msgid "Unhealthy for sensitives"
+msgstr "לא בריא לרגישים"
+
+msgid "Unit Settings"
+msgstr "הגדרות יחידה"
+
+msgid "Unit Settings (Advanced)"
+msgstr "הגדרות יחידה (מתקדם)"
+
+msgid "Unit Settings (Simple)"
+msgstr "הגדרות יחידה (פשוט)"
+
+msgid "Unknown"
+msgstr "לֹא יְדוּעַ"
+
+msgid "Up"
+msgstr "לְמַעלָה"
+
+msgid "Up - Previous page"
+msgstr "למעלה - העמוד הקודם"
+
+msgid "Update canceled."
+msgstr "העדכון בוטל."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "העדכון הושלם. אנא הפעל מחדש את Enigma2."
+
+msgid "Updated {}"
+msgstr "עודכן {}"
+
+msgid "Updated: {}"
+msgstr "עודכן: {}"
+
+msgid "Updated: N/A"
+msgstr "עודכן: לא"
+
+msgid "Updating..."
+msgstr "עִדכּוּן..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "השתמש ב-← → כדי לשנות את הזמן | בסדר לצאת"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "השתמש ב-←/→/↑/↓ כדי להזיז | בסדר לצאת"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "השתמש ב- ▲/▼ כדי לשנות, אישור כדי לבחור"
+
+msgid "Use arrow keys to scroll"
+msgstr "השתמש במקשי החצים כדי לגלול"
+
+msgid "Use Google Translate"
+msgstr "השתמש ב-Google Translate"
+
+msgid "Using current time"
+msgstr "שימוש בזמן הנוכחי"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "אינדקס UV"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "גשם חזק מאוד"
+
+msgid "Very high"
+msgstr "גבוה מאוד"
+
+msgid "Very hot (>40°C)"
+msgstr "חם מאוד (מעל 40 מעלות צלזיוס)"
+
+msgid "Very low"
+msgstr "נמוך מאוד"
+
+msgid "Very unhealthy"
+msgstr "מאוד לא בריא"
+
+msgid "Visibility: {} m"
+msgstr "ראות: {} מ'"
+
+msgid "Visibility: %s m"
+msgstr "ראות: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "סהר הולך ופוחת"
+
+msgid "Waning Gibbous"
+msgstr "גיבוס דועך"
+
+msgid "Warm (20-30°C)"
+msgstr "חם (20-30 מעלות צלזיוס)"
+
+msgid "Waxing Crescent"
+msgstr "סהר שעווה"
+
+msgid "Waxing Gibbous"
+msgstr "שעווה Gibbous"
+
+msgid "Weather"
+msgstr "מֶזֶג אֲוִיר"
+
+msgid "Weather Map"
+msgstr "מפת מזג אוויר"
+
+msgid "Weather Maps"
+msgstr "מפות מזג אוויר"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "מפות מזג אוויר (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "מפות מזג אוויר ולוויין"
+
+msgid "Weather Maps Slideshow"
+msgstr "מצגת שקופיות של מפות מזג אוויר"
+
+msgid "Weather Radar"
+msgstr "רדאר מזג האוויר"
+
+msgid "Weather today"
+msgstr "מזג האוויר היום"
+
+msgid "Weather tomorrow"
+msgstr "מזג האוויר מחר"
+
+msgid "Weekly Forecast"
+msgstr "תחזית שבועית"
+
+msgid "Wind"
+msgstr "רוּחַ"
+
+msgid "Wind direction"
+msgstr "כיוון הרוח"
+
+msgid "Wind Direction today"
+msgstr "כיוון הרוח היום"
+
+msgid "Wind Direction tomorrow"
+msgstr "כיוון הרוח מחר"
+
+msgid "Wind speed"
+msgstr "מהירות הרוח"
+
+msgid "Wind speed {}"
+msgstr "מהירות הרוח {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "מהירות רוח: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "רוח: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "רוח: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "רוח: {} קמ\"ש {}"
+
+msgid "Wind: %d %s %s"
+msgstr "רוח: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "רוח: %s קמ\"ש %s"
+
+msgid "Wind: N/A"
+msgstr "רוח: לא"
+
+msgid "Window transparency"
+msgstr "שקיפות חלונות"
+
+msgid "Yellow - Favorite 2"
+msgstr "צהוב - מועדף 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "כבר התקנת את גרסה {version}.\nהאם ברצונך להתקין אותה מחדש?"
+
+msgid "Zoom In"
+msgstr "לְהִתְמַקֵד"
+
+msgid "Zoom Out"
+msgstr "זום אאוט"
+
+msgid "Zoom-"
+msgstr "זום-"
+
+msgid "Zoom:"
+msgstr "זום:"
+
+msgid "Zoom+"
+msgstr "זום+"
+

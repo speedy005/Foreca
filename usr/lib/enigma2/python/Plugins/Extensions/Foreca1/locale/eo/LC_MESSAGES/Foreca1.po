@@ -1,0 +1,1509 @@
+# eo translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: eo <ekekaz@gmail.com>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLU por konservi kiel Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- por salti 500 urboj\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• VERDA por konservi kiel Favorita 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• Bone elekti urbo\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RUĜA por malfermi serĉklavaron\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Uzu sagoklavojn por navigi \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- por salti 100 urboj\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• FLAVA por konservi kiel Favorita 2\n"
+
+msgid "← Frame"
+msgstr "← Kadro"
+
+msgid "0 - Today"
+msgstr "0 - Hodiaŭ"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Hodiaŭ + 1 tago"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Hodiaŭ + 2 tagoj"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Hodiaŭ + 3 tagoj"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Hodiaŭ + 4 tagoj"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Hodiaŭ + 5 tagoj"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Hodiaŭ + 6 tagoj"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Hodiaŭ + 7 tagoj"
+
+msgid "7 Day Forecast"
+msgstr "7 Taga Prognozo"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Hodiaŭ + 8 tagoj"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Hodiaŭ + 9 tagoj"
+
+msgid "Advanced"
+msgstr "Altnivela"
+
+msgid "Advanced Unit Settings"
+msgstr "Altnivelaj Unuaj Agordoj"
+
+msgid "Afternoon"
+msgstr "Posttagmezo"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Aĝo ekde novluno: {:.1f} tagoj"
+
+msgid "Age: N/A"
+msgstr "Aĝo: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Angula diametro: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Angula diametro: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API-agorda dosiero ne trovita!\n\nBonvolu krei dosieron:\n{0}\n\nkun viaj akreditaĵoj de Foreca API."
+
+msgid "API credentials not configured."
+msgstr "API-akreditaĵoj ne agordis."
+
+msgid "API error"
+msgstr "API-eraro"
+
+msgid "API password"
+msgstr "API-pasvorto"
+
+msgid "API user"
+msgstr "API-uzanto"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Ŝajna grandeco: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "Asigni al Favorito 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Asigni al Favorito 2"
+
+msgid "Assign to Home"
+msgstr "Asigni al Hejmo"
+
+msgid "Australia"
+msgstr "Aŭstralio"
+
+msgid "Austria"
+msgstr "Aŭstrio"
+
+msgid "Auth server"
+msgstr "Aŭtservilo"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Virtembergo"
+
+msgid "Barometer"
+msgstr "Barometro"
+
+msgid "Bavaria"
+msgstr "Bavario"
+
+msgid "Belgium"
+msgstr "Belgio"
+
+msgid "Berlin"
+msgstr "Berlino"
+
+msgid "Black Moon"
+msgstr "Nigra Luno"
+
+msgid "Blue"
+msgstr "Blua"
+
+msgid "Blue - Home"
+msgstr "Blua - Hejmo"
+
+msgid "Blue Moon"
+msgstr "Blua Luno"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremeno"
+
+msgid "Calculating..."
+msgstr "Kalkulante..."
+
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsius, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Ŝanĝprotokolo: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Ŝanĝoj validas tuj"
+
+msgid "Check for updates"
+msgstr "Kontrolu ĝisdatigojn"
+
+msgid "Choose detail view"
+msgstr "Elektu detalan vidon"
+
+msgid "City list file not found!"
+msgstr "Urba listdosiero ne trovita!"
+
+msgid "City Selection"
+msgstr "Urba Elekto"
+
+msgid "City Selection Help:\n\n"
+msgstr "Helpo pri Elekto de Urbo:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Ĉu purigi Foreca One Temp Files?"
+
+msgid "Cleanup temp files"
+msgstr "Purigi tempajn dosierojn"
+
+msgid "Clear"
+msgstr "Klara"
+
+msgid "Close"
+msgstr "Fermu"
+
+msgid "Close legend"
+msgstr "Fermu legendon"
+
+msgid "Close setup without saving"
+msgstr "Fermu agordon sen konservi"
+
+msgid "Cloudy"
+msgstr "Nuba"
+
+msgid "Cloudy and light rain"
+msgstr "Nuba kaj malpeza pluvo"
+
+msgid "Cloudy and light snow"
+msgstr "Nuba kaj malpeza neĝo"
+
+msgid "Cloudy and light wet snow"
+msgstr "Nuba kaj malpeza malseka neĝo"
+
+msgid "Cloudy and showers"
+msgstr "Nuba kaj pluvegoj"
+
+msgid "Cloudy and snow showers"
+msgstr "Nuba kaj neĝo pluvegoj"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Nuba kaj malseka neĝo pluvoj"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Nuba, fulmotondroj kun pluvo"
+
+msgid "Cold (< 0°C)"
+msgstr "Malvarmo (< 0 °C)"
+
+msgid "Color data"
+msgstr "Koloraj datumoj"
+
+msgid "Color legend"
+msgstr "Kolora legendo"
+
+msgid "Color Legend"
+msgstr "Kolora Legendo"
+
+msgid "Color name"
+msgstr "Kolora nomo"
+
+msgid "Color select"
+msgstr "Elektu koloron"
+
+msgid "Color Selector"
+msgstr "Kolora Elektilo"
+
+msgid "Condition: {}"
+msgstr "Kondiĉo: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Agordi Foreca API-akreditaĵojn"
+
+msgid "Continents Weather Maps"
+msgstr "Veteraj Mapoj de Kontinentoj"
+
+msgid "Cool (0-10°C)"
+msgstr "Malvarmeta (0-10 °C)"
+
+msgid "Could not fetch update information."
+msgstr "Ne eblis akiri ĝisdatigajn informojn."
+
+msgid "Could not initialize map API."
+msgstr "Ne eblis pravalorizi mapAPI."
+
+msgid "Could not load forecast data"
+msgstr "Ne eblis ŝargi prognozajn datumojn"
+
+msgid "Could not parse version information."
+msgstr "Ne eblis analizi informojn pri versio."
+
+msgid "Current weather and forecast"
+msgstr "Nuna vetero kaj prognozo"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Nuna vetero kaj prognozo por la venontaj 10 tagoj"
+
+msgid "Current: {}"
+msgstr "Aktualo: {}"
+
+msgid "Czech Republic"
+msgstr "Ĉeĥio"
+
+msgid "Data provided by Foreca"
+msgstr "Datumoj provizitaj de Foreca"
+
+msgid "Date: {}"
+msgstr "Dato: {}"
+
+msgid "Day"
+msgstr "Tago"
+
+msgid "Decrease Speed"
+msgstr "Malpliigu Rapidon"
+
+msgid "Defaults"
+msgstr "Defaŭltoj"
+
+msgid "Denmark"
+msgstr "Danio"
+
+msgid "Details"
+msgstr "Detaloj"
+
+msgid "Dewpoint {}"
+msgstr "Rospunkto {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Rospunkto {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Rospunkto: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Rospunkto: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Rospunkto: N/A"
+
+msgid "Distance"
+msgstr "Distanco"
+
+msgid "Distance {} km"
+msgstr "Distanco {} km"
+
+msgid "Distance: {}"
+msgstr "Distanco: {}"
+
+msgid "Distance: {} km"
+msgstr "Distanco: {} km"
+
+msgid "Distance: %s"
+msgstr "Distanco: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Ĉu vi volas instali ĝin nun?"
+
+msgid "Down"
+msgstr "Malsupren"
+
+msgid "Down - Next page"
+msgstr "Suben - Sekva paĝo"
+
+msgid "Download error"
+msgstr "Elŝuta eraro"
+
+msgid "Downloading images..."
+msgstr "Elŝutante bildojn..."
+
+msgid "Downloading tiles..."
+msgstr "Elŝutante kahelojn..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Orienta Azio"
+
+msgid "Error checking for updates."
+msgstr "Eraro kontrolante ĝisdatigojn."
+
+msgid "Error loading data"
+msgstr "Eraro dum ŝarĝo de datumoj"
+
+msgid "Error loading map"
+msgstr "Eraro dum ŝarĝo de mapo"
+
+msgid "Error loading maps. Check connection."
+msgstr "Eraro dum ŝarĝo de mapoj. Kontrolu konekton."
+
+msgid "Error saving favorite!"
+msgstr "Eraro dum konservado de plej ŝatataj!"
+
+msgid "Europe"
+msgstr "Eŭropo"
+
+msgid "European Weather Maps"
+msgstr "Eŭropaj Vetermapoj"
+
+msgid "Evening"
+msgstr "Vespero"
+
+msgid "Exit"
+msgstr "Eliro"
+
+msgid "Exit - End"
+msgstr "Eliro - Fino"
+
+msgid "Exit / Close legend"
+msgstr "Eliro / Fermi legendon"
+
+msgid "Extreme"
+msgstr "Ekstrema"
+
+msgid "Extreme / thunderstorms"
+msgstr "Ekstremaj / fulmotondroj"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Malsukcesis verki agordan dosieron:\n%s"
+
+msgid "Faster: {}s"
+msgstr "Pli rapide: {}s"
+
+msgid "Favorite 1"
+msgstr "Plej ŝatata 1"
+
+msgid "Favorite 2"
+msgstr "Plej ŝatata 2"
+
+msgid "Favorites details"
+msgstr "Plej ŝatataj detaloj"
+
+msgid "Favorites Details"
+msgstr "Favoritaj Detaloj"
+
+msgid "Feels like"
+msgstr "Sentas kiel"
+
+msgid "Feels like {}"
+msgstr "Sentas kiel {}"
+
+msgid "Feels like {}{}"
+msgstr "Sentas kiel {}{}"
+
+msgid "Feels like: {}"
+msgstr "Sentas kiel: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Sentas kiel: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Sentas kiel: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Sentas kiel: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Sentas kiel: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Sentas kiel: N/A"
+
+msgid "Finland"
+msgstr "Finnlando"
+
+msgid "First Quarter"
+msgstr "Unua Kvarono"
+
+msgid "Fog"
+msgstr "Nebulo"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API-akreditaĵoj ankoraŭ ne estas agorditaj. Bonvolu enigi ilin en la agorda ekrano."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API-agordoj sukcese konservitaj."
+
+msgid "Foreca API Setup"
+msgstr "Agordo de Foreca API"
+
+msgid "Foreca One"
+msgstr "Foreca Unu"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca Unu | Mapo {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca Unu Menuo"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Neniuj stacioj trovitaj"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One Agordo"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One Stations: {} stacioj proksime ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca Unu Veterprognozo"
+
+msgid "Frame →"
+msgstr "Kadro →"
+
+msgid "Frame: {}"
+msgstr "Kadro: {}"
+
+msgid "France"
+msgstr "Francio"
+
+msgid "Full Moon"
+msgstr "Plena Luno"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Ventforto (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Vetermapoj de Germanaj Ŝtatoj"
+
+msgid "Germany"
+msgstr "Germanujo"
+
+msgid "Good"
+msgstr "Bone"
+
+msgid "Great Britain"
+msgstr "Britio"
+
+msgid "Greece"
+msgstr "Grekio"
+
+msgid "Green"
+msgstr "Verda"
+
+msgid "Green - Favorite 1"
+msgstr "Verda - Plej ŝatata 1"
+
+msgid "Gust {}"
+msgstr "Vento {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Vento: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hamburgo"
+
+msgid "Hazardous"
+msgstr "Danĝera"
+
+msgid "Header - not selectable"
+msgstr "Kapo - ne elektebla"
+
+msgid "Heavy rain"
+msgstr "Pluvego"
+
+msgid "Help"
+msgstr "Helpu"
+
+msgid "Hesse"
+msgstr "Hesio"
+
+msgid "High"
+msgstr "Alta"
+
+msgid "Home"
+msgstr "Hejmo"
+
+msgid "Hot (30-40°C)"
+msgstr "Varma (30-40 °C)"
+
+msgid "Hour Details"
+msgstr "Horaj Detaloj"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Humideco"
+
+msgid "Humidity: {}%"
+msgstr "Humideco: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Humideco: %s%%"
+
+msgid "Hungary"
+msgstr "Hungario"
+
+msgid "Ice / frost"
+msgstr "Glacio / frosto"
+
+msgid "Illumination"
+msgstr "Lumigo"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Lumigo: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Bildo %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Bildo %(current)d/%(total)d – %(day)s (Paŭzita)"
+
+msgid "Image not available"
+msgstr "Bildo ne havebla"
+
+msgid "Imperial System"
+msgstr "Imperia Sistemo"
+
+msgid "Increase Speed"
+msgstr "Pliigi Rapidon"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Info - About"
+msgstr "Info - Pri"
+
+msgid "Ireland"
+msgstr "Irlando"
+
+msgid "Italy"
+msgstr "Italio"
+
+msgid "Jump 100 down"
+msgstr "Saltu 100 malsupren"
+
+msgid "Jump 100 up"
+msgstr "Saltu 100 supren"
+
+msgid "Jump 500 down"
+msgstr "Saltu 500 malsupren"
+
+msgid "Jump 500 up"
+msgstr "Saltu 500 supren"
+
+msgid "Keyboard"
+msgstr "Klavaro"
+
+msgid "Last Quarter"
+msgstr "Lasta Kvarono"
+
+msgid "Last update"
+msgstr "Lasta ĝisdatigo"
+
+msgid "Latvia"
+msgstr "Latvio"
+
+msgid "Left - Previous day"
+msgstr "Maldekstre - Antaŭa tago"
+
+msgid "Left arrow - Previous day"
+msgstr "Maldekstra sago - Antaŭa tago"
+
+msgid "Light (0-20 km/h)"
+msgstr "Lumo (0-20 km/h)"
+
+msgid "Light rain / drizzle"
+msgstr "Malpeza pluvo/pluveto"
+
+msgid "Light to moderate"
+msgstr "Malpeza ĝis modera"
+
+msgid "Loading available maps..."
+msgstr "Ŝargante disponeblajn mapojn..."
+
+msgid "Loading lunar phases..."
+msgstr "Ŝarĝante lunajn fazojn..."
+
+msgid "Loading nearby stations..."
+msgstr "Ŝarĝante proksimajn staciojn..."
+
+msgid "Loading tiles..."
+msgstr "Ŝarĝante kahelojn..."
+
+msgid "Loading weekly forecast..."
+msgstr "Ŝarĝante semajnan prognozon..."
+
+msgid "Loading..."
+msgstr "Ŝargante..."
+
+msgid "Low"
+msgstr "Malalta"
+
+msgid "Lower Saxony"
+msgstr "Malsupra Saksio"
+
+msgid "Lunar Calendar"
+msgstr "Luna Kalendaro"
+
+msgid "Lunar phases from next month"
+msgstr "Lunaj fazoj de la venonta monato"
+
+msgid "Luxembourg"
+msgstr "Luksemburgio"
+
+msgid "Magnitude: N/A"
+msgstr "Grandeco: N/A"
+
+msgid "Map {} selected"
+msgstr "Mapo {} elektita"
+
+msgid "Map & Tiles Loaded"
+msgstr "Mapo kaj Kaheloj Ŝargitaj"
+
+msgid "Map loaded"
+msgstr "Mapo ŝarĝita"
+
+msgid "Map server"
+msgstr "Mapservilo"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Meklenburgo-Antaŭpomerio"
+
+msgid "Menu"
+msgstr "Menuo"
+
+msgid "Menu - Settings"
+msgstr "Menuo - Agordoj"
+
+msgid "Merge failed"
+msgstr "Kunfandado malsukcesis"
+
+msgid "Meteogram"
+msgstr "Meteogramo"
+
+msgid "Metric System"
+msgstr "Metrika Sistemo"
+
+msgid "Middle America"
+msgstr "Meza Ameriko"
+
+msgid "Middle Asia"
+msgstr "Meza Azio"
+
+msgid "Middle East"
+msgstr "Mezoriento"
+
+msgid "Mild (10-20°C)"
+msgstr "Milda (10-20 °C)"
+
+msgid "Moderate"
+msgstr "Modera"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Modera (20-40 km/h)"
+
+msgid "Moderate rain"
+msgstr "Modera pluvo"
+
+msgid "Month"
+msgstr "Monato"
+
+msgid "Moon details"
+msgstr "Luno detaloj"
+
+msgid "Moon Details"
+msgstr "Detaloj pri Luno"
+
+msgid "Moonrise: {}"
+msgstr "Lunoleviĝo: {}"
+
+msgid "Moonset: {}"
+msgstr "Lunsubiro: {}"
+
+msgid "Morning"
+msgstr "Mateno"
+
+msgid "Mostly clear"
+msgstr "Plejparte klara"
+
+msgid "Move down"
+msgstr "Movu malsupren"
+
+msgid "Move Down"
+msgstr "Movu Malsupren"
+
+msgid "Move up"
+msgstr "Movu supren"
+
+msgid "Move Up"
+msgstr "Movu Supren"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Netherlands"
+msgstr "Nederlando"
+
+msgid "New Moon"
+msgstr "Novluno"
+
+msgid "New version {version} is available."
+msgstr "Nova versio {version} disponeblas."
+
+msgid "Next"
+msgstr "Poste"
+
+msgid "Next frame"
+msgstr "Sekva kadro"
+
+msgid "Next Image"
+msgstr "Sekva Bildo"
+
+msgid "Next page"
+msgstr "Sekva paĝo"
+
+msgid "Next time"
+msgstr "Venontfoje"
+
+msgid "No city selected"
+msgstr "Neniu urbo elektita"
+
+msgid "No data"
+msgstr "Neniuj datumoj"
+
+msgid "No date available"
+msgstr "Neniu dato disponebla"
+
+msgid "No Internet connection detected."
+msgstr "Neniu interreta konekto detektita."
+
+msgid "No location selected"
+msgstr "Neniu loko elektita"
+
+msgid "No OSM tiles"
+msgstr "Neniuj OSM-kaheloj"
+
+msgid "No specific legend available."
+msgstr "Neniu specifa legendo havebla."
+
+msgid "No station data"
+msgstr "Neniuj staciaj datumoj"
+
+msgid "No station data available"
+msgstr "Neniuj staciaj datumoj haveblaj"
+
+msgid "No stations found"
+msgstr "Neniuj stacioj trovitaj"
+
+msgid "No tiles downloaded"
+msgstr "Neniuj kaheloj elŝutis"
+
+msgid "North Africa"
+msgstr "Nordafriko"
+
+msgid "North America"
+msgstr "Nordameriko"
+
+msgid "North Rhine-Westphalia"
+msgstr "Nordrejn-Vestfalio"
+
+msgid "Norway"
+msgstr "Norvegio"
+
+msgid "Ok - Details"
+msgstr "Bone - Detaloj"
+
+msgid "OK - Ext Info"
+msgstr "Bone - Eksteraj Informoj"
+
+msgid "OK - Forecast"
+msgstr "Bone - Prognozo"
+
+msgid "OK - Open Map"
+msgstr "Bone - Malfermu Mapon"
+
+msgid "Open Keyboard"
+msgstr "Malfermu Klavaron"
+
+msgid "Open Map"
+msgstr "Malfermu Mapon"
+
+msgid "Original design and idea by %s"
+msgstr "Originala dezajno kaj ideo de %s"
+
+msgid "Overcast"
+msgstr "Nuba"
+
+msgid "Overcast and light rain"
+msgstr "Nuba kaj malpeza pluvo"
+
+msgid "Overcast and light snow"
+msgstr "Nuba kaj malpeza neĝo"
+
+msgid "Overcast and light wet snow"
+msgstr "Nuba kaj malpeza malseka neĝo"
+
+msgid "Overcast and rain"
+msgstr "Nuba kaj pluvo"
+
+msgid "Overcast and showers"
+msgstr "Nuba kaj pluvegoj"
+
+msgid "Overcast and snow"
+msgstr "Nuba kaj neĝo"
+
+msgid "Overcast and snow showers"
+msgstr "Nuba kaj neĝo pluvegoj"
+
+msgid "Overcast and wet snow"
+msgstr "Nuba kaj malseka neĝo"
+
+msgid "Overcast and wet snow showers"
+msgstr "Nuba kaj malseka neĝo pluvegoj"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Nuba, fulmotondroj kun pluvo"
+
+msgid "Overnight"
+msgstr "Dum la nokto"
+
+msgid "Page down"
+msgstr "Paĝo malsupren"
+
+msgid "Page Down"
+msgstr "Paĝo Malsupren"
+
+msgid "Page up"
+msgstr "Paĝo supren"
+
+msgid "Page Up"
+msgstr "Paĝo Supre"
+
+msgid "Pan down"
+msgstr "Pan malsupren"
+
+msgid "Pan left"
+msgstr "Pan maldekstre"
+
+msgid "Pan right"
+msgstr "Pan dekstre"
+
+msgid "Pan up"
+msgstr "Pan supren"
+
+msgid "Partly cloudy"
+msgstr "Parte nuba"
+
+msgid "Partly cloudy and light rain"
+msgstr "Parte nuba kaj malpeza pluvo"
+
+msgid "Partly cloudy and light snow"
+msgstr "Parte nuba kaj malpeza neĝo"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Parte nuba kaj malpeza malseka neĝo"
+
+msgid "Partly cloudy and showers"
+msgstr "Parte nuba kaj pluvegoj"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Parte nuba kaj neĝo pluvegoj"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Parte nuba kaj malseka neĝo pluvegoj"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Parte nuba, eblaj fulmotondroj kun pluvo"
+
+msgid "Perigee"
+msgstr "Perigeo"
+
+msgid "Phase"
+msgstr "Fazo"
+
+msgid "Phase: {}"
+msgstr "Fazo: {}"
+
+msgid "Play/Pause"
+msgstr "Ludi/Paŭzu"
+
+msgid "Please enter both API user and API password."
+msgstr "Bonvolu enigi kaj API-uzanto kaj API-pasvorto."
+
+msgid "Please wait ..."
+msgstr "Bonvolu atendi..."
+
+msgid "Poland"
+msgstr "Pollando"
+
+msgid "Portugal"
+msgstr "Portugalio"
+
+msgid "Precipitation"
+msgstr "Precipitaĵo"
+
+msgid "Precipitation: {}"
+msgstr "Precipitaĵo: {}"
+
+msgid "Precipitations"
+msgstr "Precipitaĵoj"
+
+msgid "Precipitations: {}%"
+msgstr "Precipitaĵoj: {}%"
+
+msgid "Press RED to search again"
+msgstr "Premu RUĜAN por serĉi denove"
+
+msgid "Pressure"
+msgstr "Premo"
+
+msgid "Pressure: {}"
+msgstr "Premo: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Premo: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Premo: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Premo: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Premo: N/A"
+
+msgid "Prev"
+msgstr "Antaŭa"
+
+msgid "Previous"
+msgstr "Antaŭa"
+
+msgid "Previous frame"
+msgstr "Antaŭa kadro"
+
+msgid "Previous Image"
+msgstr "Antaŭa Bildo"
+
+msgid "Previous page"
+msgstr "Antaŭa paĝo"
+
+msgid "Previous time"
+msgstr "Antaŭa tempo"
+
+msgid "Rain Prob."
+msgstr "Pluvo Prob."
+
+msgid "Rain prob. {}%"
+msgstr "Pluvprob. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Pluvoprob.: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Pluvo: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer Radaro"
+
+msgid "Red"
+msgstr "Ruĝa"
+
+msgid "Red - Color select"
+msgstr "Ruĝa - Elekto de koloro"
+
+msgid "Refresh"
+msgstr "Refreŝigi"
+
+msgid "Restore default server values"
+msgstr "Restarigu defaŭltajn servilvalorojn"
+
+msgid "Rhineland-Palatine"
+msgstr "Rejnlando-Palatino"
+
+msgid "Right - Next day"
+msgstr "Ĝuste - La sekvan tagon"
+
+msgid "Right arrow - Next day"
+msgstr "Dekstra sago - La sekvan tagon"
+
+msgid "Rise"
+msgstr "Leviĝu"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Altiĝo azimuto: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Altiĝo azimuto: N/A"
+
+msgid "Russia"
+msgstr "Rusio"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Sarlando"
+
+msgid "Satellite Photos"
+msgstr "Satelitfotoj"
+
+msgid "Satellite photos coming soon!"
+msgstr "Baldaŭ venos satelitaj fotoj!"
+
+msgid "Save"
+msgstr "Konservu"
+
+msgid "Save API settings"
+msgstr "Konservu API-agordojn"
+
+msgid "Save translation settings"
+msgstr "Konservu tradukajn agordojn"
+
+msgid "Saxony"
+msgstr "Saksio"
+
+msgid "Saxony-Anhalt"
+msgstr "Saksio-Anhalto"
+
+msgid "Schleswig-Holstein"
+msgstr "Ŝlesvigo-Holstinio"
+
+msgid "Scraped"
+msgstr "Skrapita"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Serĉu unue provas interrete, se malsukcesas uzas lokan liston."
+
+msgid "Search your City"
+msgstr "Serĉu vian Urbon"
+
+msgid "Select"
+msgstr "Elektu"
+
+msgid "Select {} unit"
+msgstr "Elektu {} unuon"
+
+msgid "Select a city"
+msgstr "Elektu urbon"
+
+msgid "Select a map with OK"
+msgstr "Elektu mapon kun OK"
+
+msgid "Select Region"
+msgstr "Elektu Regionon"
+
+msgid "Select unit system"
+msgstr "Elektu unuosistemon"
+
+msgid "Select wind unit"
+msgstr "Elektu ventounuon"
+
+msgid "Selected hour details"
+msgstr "Elektitaj horoj detaloj"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Agordu azimuton: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Agordu azimuton: N/A"
+
+msgid "Sets"
+msgstr "Aroj"
+
+msgid "Show info"
+msgstr "Montri informojn"
+
+msgid "Showers"
+msgstr "Pluvoj"
+
+msgid "Slovakia"
+msgstr "Slovakio"
+
+msgid "Slower: {}s"
+msgstr "Pli malrapide: {}s"
+
+msgid "Snow / ice"
+msgstr "Neĝo / glacio"
+
+msgid "Snow prob. {}%"
+msgstr "Neĝo prob. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Neĝoprob.: N/A"
+
+msgid "South Africa"
+msgstr "Sudafriko"
+
+msgid "South America"
+msgstr "Sudameriko"
+
+msgid "Southeast Asia"
+msgstr "Sudorienta Azio"
+
+msgid "Spain"
+msgstr "Hispanio"
+
+msgid "Station Observations"
+msgstr "Staciaj Observaĵoj"
+
+msgid "Station: {}"
+msgstr "Stacidomo: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Forta (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "Sunleviĝo"
+
+msgid "Sunset"
+msgstr "Sunsubiro"
+
+msgid "Super Full Moon"
+msgstr "Super Plena Luno"
+
+msgid "Sweden"
+msgstr "Svedio"
+
+msgid "Switzerland"
+msgstr "Svislando"
+
+msgid "Target Language"
+msgstr "Cellingvo"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Temperaturo"
+
+msgid "Temperature: {}"
+msgstr "Temperaturo: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperaturo: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperaturo: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Temperaturo: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperaturo: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperaturo: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Dankon al {thanks} kaj aliaj amikoj pro sugestoj"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "La fora versio ({remote}) estas pli malnova ol la nuna ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Maldika supra nubo"
+
+msgid "Thuringia"
+msgstr "Turingio"
+
+msgid "Time"
+msgstr "Tempo"
+
+msgid "Today"
+msgstr "Hodiaŭ"
+
+msgid "Today/Tomorrow details"
+msgstr "Hodiaŭ/Morgaŭ detaloj"
+
+msgid "Toggle legend"
+msgstr "Baskuligi legendon"
+
+msgid "Token expire hours"
+msgstr "Token eksvalidiĝas horoj"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Token-eksvalidiĝaj horoj devas esti -1 aŭ pozitiva nombro."
+
+msgid "Token expire hours must be a number."
+msgstr "Tokenaj eksvalidaj horoj devas esti nombro."
+
+msgid "Tomorrow"
+msgstr "Morgaŭ"
+
+msgid "Transit (culmination): {}"
+msgstr "Transiro (kulmino): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Transira alteco: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Transira alteco: N/A"
+
+msgid "Translation Settings"
+msgstr "Tradukaj agordoj"
+
+msgid "Transparency level"
+msgstr "Nivelo de travidebleco"
+
+msgid "Transparency Settings"
+msgstr "Agordoj de travidebleco"
+
+msgid "Unhealthy"
+msgstr "Nesana"
+
+msgid "Unhealthy for sensitives"
+msgstr "Nesana por sentemaj"
+
+msgid "Unit Settings"
+msgstr "Unuaj Agordoj"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Unuaj Agordoj (Altnivelaj)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Unuaj Agordoj (Simpla)"
+
+msgid "Unknown"
+msgstr "Nekonata"
+
+msgid "Up"
+msgstr "Supren"
+
+msgid "Up - Previous page"
+msgstr "Supren - Antaŭa paĝo"
+
+msgid "Update canceled."
+msgstr "Ĝisdatigo nuligita."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Ĝisdatigo finiĝis. Bonvolu rekomenci Enigma2."
+
+msgid "Updated {}"
+msgstr "Ĝisdatigita {}"
+
+msgid "Updated: {}"
+msgstr "Ĝisdatigita: {}"
+
+msgid "Updated: N/A"
+msgstr "Ĝisdatigita: N/A"
+
+msgid "Updating..."
+msgstr "Ĝisdatigante..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Uzu ← → por ŝanĝi la tempon | Bone por eliri"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Uzu ←/→/↑/↓ por movi | Bone por eliri"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Uzu ▲/▼ por ŝanĝi, OK por elekti"
+
+msgid "Use arrow keys to scroll"
+msgstr "Uzu sagoklavojn por rulumi"
+
+msgid "Use Google Translate"
+msgstr "Uzu Google Translate"
+
+msgid "Using current time"
+msgstr "Uzante aktualan tempon"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV-Indekso"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Tre forta pluvo"
+
+msgid "Very high"
+msgstr "Tre alta"
+
+msgid "Very hot (>40°C)"
+msgstr "Tre varma (>40 °C)"
+
+msgid "Very low"
+msgstr "Tre malalta"
+
+msgid "Very unhealthy"
+msgstr "Tre malsana"
+
+msgid "Visibility: {} m"
+msgstr "Videbleco: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Videbleco: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Malkreskanta Lunarko"
+
+msgid "Waning Gibbous"
+msgstr "Malkreskanta Gibozo"
+
+msgid "Warm (20-30°C)"
+msgstr "Varma (20-30 °C)"
+
+msgid "Waxing Crescent"
+msgstr "Veksanta Lunarko"
+
+msgid "Waxing Gibbous"
+msgstr "Waxing Gibbous"
+
+msgid "Weather"
+msgstr "Vetero"
+
+msgid "Weather Map"
+msgstr "Vetermapo"
+
+msgid "Weather Maps"
+msgstr "Veteraj Mapoj"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Veteraj Mapoj (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Veteraj Mapoj kaj Satelito"
+
+msgid "Weather Maps Slideshow"
+msgstr "Bildprezento pri Veteraj Mapoj"
+
+msgid "Weather Radar"
+msgstr "Vetera Radaro"
+
+msgid "Weather today"
+msgstr "Vetero hodiaŭ"
+
+msgid "Weather tomorrow"
+msgstr "Vetero morgaŭ"
+
+msgid "Weekly Forecast"
+msgstr "Semajna Prognozo"
+
+msgid "Wind"
+msgstr "Vento"
+
+msgid "Wind direction"
+msgstr "Ventodirekto"
+
+msgid "Wind Direction today"
+msgstr "Ventodirekto hodiaŭ"
+
+msgid "Wind Direction tomorrow"
+msgstr "Ventodirekto morgaŭ"
+
+msgid "Wind speed"
+msgstr "Ventorapideco"
+
+msgid "Wind speed {}"
+msgstr "Ventorapideco {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Ventorapideco: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Vento: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vento: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vento: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Vento: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Vento: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Vento: N/A"
+
+msgid "Window transparency"
+msgstr "Fenestra travidebleco"
+
+msgid "Yellow - Favorite 2"
+msgstr "Flava - Plej ŝatata 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Vi jam havas instalitan version {version}.\nĈu vi volas reinstali ĝin?"
+
+msgid "Zoom In"
+msgstr "Zoom En"
+
+msgid "Zoom Out"
+msgstr "Zoom Out"
+
+msgid "Zoom-"
+msgstr "Zomi-"
+
+msgid "Zoom:"
+msgstr "Zomi:"
+
+msgid "Zoom+"
+msgstr "Zoom+"
+

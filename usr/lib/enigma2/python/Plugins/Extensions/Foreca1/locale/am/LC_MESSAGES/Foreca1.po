@@ -1,0 +1,1509 @@
+# am translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: am <ekekaz@gmail.com>\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} ሰ {mins} ደቂቃ"
+
+msgid "• BLUE to save as Home\n"
+msgstr "እንደ Home\n ለመቆጠብ ሰማያዊ\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 ከተሞችን ለመዝለል\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "እንደ ተወዳጅ 1\n ለማስቀመጥ አረንጓዴ\n"
+
+msgid "• OK to select city\n"
+msgstr "ከተማ\nን ለመምረጥ እሺ\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• የፍለጋ ቁልፍ ሰሌዳ\n ለመክፈት ቀይ\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• \nን ለማሰስ የቀስት ቁልፎችን ይጠቀሙ\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• ቮል+/ቮል- 100 ከተማዎችን ለመዝለል\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "እንደ ተወዳጅ 2\n ለመቆጠብ ቢጫ\n"
+
+msgid "← Frame"
+msgstr "← ፍሬም"
+
+msgid "0 - Today"
+msgstr "0 - ዛሬ"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - ዛሬ + 1 ቀን"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - ዛሬ + 2 ቀናት"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - ዛሬ + 3 ቀናት"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - ዛሬ + 4 ቀናት"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - ዛሬ + 5 ቀናት"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - ዛሬ + 6 ቀናት"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - ዛሬ + 7 ቀናት"
+
+msgid "7 Day Forecast"
+msgstr "7 ቀን ትንበያ"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - ዛሬ + 8 ቀናት"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - ዛሬ + 9 ቀናት"
+
+msgid "Advanced"
+msgstr "የላቀ"
+
+msgid "Advanced Unit Settings"
+msgstr "የላቀ ክፍል ቅንብሮች"
+
+msgid "Afternoon"
+msgstr "ከሰአት"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "ከአዲስ ጨረቃ ጀምሮ ያለው ዕድሜ፡ _CSH_0__ ቀናት"
+
+msgid "Age: N/A"
+msgstr "ዕድሜ፡ N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "የማዕዘን ዲያሜትር፡ {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "የማዕዘን ዲያሜትር፡ N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "የኤፒአይ ውቅር ፋይል አልተገኘም!\n\nእባክዎ ፋይል፡\n{0}\n\nከForeca API ምስክርነቶች ጋር ይፍጠሩ።"
+
+msgid "API credentials not configured."
+msgstr "የኤፒአይ ምስክርነቶች አልተዋቀሩም።"
+
+msgid "API error"
+msgstr "የኤፒአይ ስህተት"
+
+msgid "API password"
+msgstr "የኤፒአይ ይለፍ ቃል"
+
+msgid "API user"
+msgstr "የኤፒአይ ተጠቃሚ"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "የሚታየው መጠን፡ {:.2f}"
+
+msgid "AQI {}"
+msgstr "አኪአይ {}"
+
+msgid "AQI: N/A"
+msgstr "አኪይ፡ N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "ለተወዳጅ 1 መድብ"
+
+msgid "Assign to Favorite 2"
+msgstr "ለተወዳጅ 2 መድብ"
+
+msgid "Assign to Home"
+msgstr "ለቤት መድብ"
+
+msgid "Australia"
+msgstr "አውስትራሊያ"
+
+msgid "Austria"
+msgstr "ኦስትራ"
+
+msgid "Auth server"
+msgstr "ኦውት አገልጋይ"
+
+msgid "Baden-Wuerttemberg"
+msgstr "ባደን-Werttemberg"
+
+msgid "Barometer"
+msgstr "ባሮሜትር"
+
+msgid "Bavaria"
+msgstr "ባቫሪያ"
+
+msgid "Belgium"
+msgstr "ቤልጄም"
+
+msgid "Berlin"
+msgstr "በርሊን"
+
+msgid "Black Moon"
+msgstr "ጥቁር ጨረቃ"
+
+msgid "Blue"
+msgstr "ሰማያዊ"
+
+msgid "Blue - Home"
+msgstr "ሰማያዊ - ቤት"
+
+msgid "Blue Moon"
+msgstr "ሰማያዊ ጨረቃ"
+
+msgid "Brandenburg"
+msgstr "ብራንደንበርግ"
+
+msgid "Bremen"
+msgstr "ብሬመን"
+
+msgid "Calculating..."
+msgstr "በማስላት ላይ..."
+
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgid "Celsius, km/h, hPa"
+msgstr "ሴልሺየስ፣ ኪሜ/ሰ፣ hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "ለውጥ መዝገብ፡ _CSH_0__"
+
+msgid "Changes apply immediately"
+msgstr "ለውጦች ወዲያውኑ ይተገበራሉ"
+
+msgid "Check for updates"
+msgstr "ዝማኔዎችን ይመልከቱ"
+
+msgid "Choose detail view"
+msgstr "የዝርዝር እይታን ይምረጡ"
+
+msgid "City list file not found!"
+msgstr "የከተማ ዝርዝር ፋይል አልተገኘም!"
+
+msgid "City Selection"
+msgstr "የከተማ ምርጫ"
+
+msgid "City Selection Help:\n\n"
+msgstr "የከተማ ምርጫ እገዛ፡\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Foreca One Temp ፋይሎችን ያጽዱ?"
+
+msgid "Cleanup temp files"
+msgstr "የሙቀት ፋይሎችን ያጽዱ"
+
+msgid "Clear"
+msgstr "ግልጽ"
+
+msgid "Close"
+msgstr "ገጠመ"
+
+msgid "Close legend"
+msgstr "አፈ ታሪክ ዝጋ"
+
+msgid "Close setup without saving"
+msgstr "ሳያስቀምጡ ማዋቀርን ዝጋ"
+
+msgid "Cloudy"
+msgstr "ደመናማ"
+
+msgid "Cloudy and light rain"
+msgstr "ቀላል እና ደመናማ ዝናብ"
+
+msgid "Cloudy and light snow"
+msgstr "ቀላል እና ደመናማ በረዶ"
+
+msgid "Cloudy and light wet snow"
+msgstr "ደመናማ እና ቀላል እርጥብ በረዶ"
+
+msgid "Cloudy and showers"
+msgstr "ደመናማ እና መታጠቢያዎች"
+
+msgid "Cloudy and snow showers"
+msgstr "ደመናማ እና የበረዶ ዝናብ"
+
+msgid "Cloudy and wet snow showers"
+msgstr "ደመናማ እና እርጥብ የበረዶ ዝናብ"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "ደመናማ፣ ነጎድጓድ በዝናብ"
+
+msgid "Cold (< 0°C)"
+msgstr "ቅዝቃዜ (<0°C)"
+
+msgid "Color data"
+msgstr "የቀለም ውሂብ"
+
+msgid "Color legend"
+msgstr "የቀለም አፈ ታሪክ"
+
+msgid "Color Legend"
+msgstr "የቀለም ታሪክ"
+
+msgid "Color name"
+msgstr "የቀለም ስም"
+
+msgid "Color select"
+msgstr "ቀለም ይምረጡ"
+
+msgid "Color Selector"
+msgstr "ቀለም መራጭ"
+
+msgid "Condition: {}"
+msgstr "ሁኔታ፡ {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API ምስክርነቶችን ያዋቅሩ"
+
+msgid "Continents Weather Maps"
+msgstr "የአህጉራት የአየር ሁኔታ ካርታዎች"
+
+msgid "Cool (0-10°C)"
+msgstr "አሪፍ (0-10°ሴ)"
+
+msgid "Could not fetch update information."
+msgstr "የዝማኔ መረጃ ማምጣት አልተቻለም።"
+
+msgid "Could not initialize map API."
+msgstr "የካርታ ኤፒአይን ማስጀመር አልተቻለም።"
+
+msgid "Could not load forecast data"
+msgstr "የትንበያ ውሂብ መጫን አልተቻለም"
+
+msgid "Could not parse version information."
+msgstr "የስሪት መረጃን መተንተን አልተቻለም።"
+
+msgid "Current weather and forecast"
+msgstr "የአሁኑ የአየር ሁኔታ እና ትንበያ"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "ለሚቀጥሉት 10 ቀናት የወቅቱ የአየር ሁኔታ እና ትንበያ"
+
+msgid "Current: {}"
+msgstr "የአሁኑ፡ {}"
+
+msgid "Czech Republic"
+msgstr "ቼክ ሪፐብሊክ"
+
+msgid "Data provided by Foreca"
+msgstr "በForeca የቀረበ መረጃ"
+
+msgid "Date: {}"
+msgstr "ቀን፡ {}"
+
+msgid "Day"
+msgstr "ቀን"
+
+msgid "Decrease Speed"
+msgstr "ፍጥነትን ቀንስ"
+
+msgid "Defaults"
+msgstr "ነባሪዎች"
+
+msgid "Denmark"
+msgstr "ዴንማሪክ"
+
+msgid "Details"
+msgstr "ዝርዝሮች"
+
+msgid "Dewpoint {}"
+msgstr "ጠል ነጥብ {}"
+
+msgid "Dewpoint {}°C"
+msgstr "ጠል ነጥብ {}°ሴ"
+
+msgid "Dewpoint: %d%s"
+msgstr "ጠል ነጥብ፡ %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "ጠል ነጥብ፡ %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Dewpoint: N/A"
+
+msgid "Distance"
+msgstr "ርቀት"
+
+msgid "Distance {} km"
+msgstr "ርቀት {} ኪሜ"
+
+msgid "Distance: {}"
+msgstr "ርቀት፡ {}"
+
+msgid "Distance: {} km"
+msgstr "ርቀት፡ {} ኪሜ"
+
+msgid "Distance: %s"
+msgstr "ርቀት፡ %s"
+
+msgid "Do you want to install it now?"
+msgstr "አሁን መጫን ይፈልጋሉ?"
+
+msgid "Down"
+msgstr "ወደታች"
+
+msgid "Down - Next page"
+msgstr "ታች - ቀጣይ ገጽ"
+
+msgid "Download error"
+msgstr "የማውረድ ስህተት"
+
+msgid "Downloading images..."
+msgstr "ምስሎችን በማውረድ ላይ..."
+
+msgid "Downloading tiles..."
+msgstr "ሰቆች በማውረድ ላይ..."
+
+msgid "E"
+msgstr "ኢ"
+
+msgid "East Asia"
+msgstr "ምስራቅ እስያ"
+
+msgid "Error checking for updates."
+msgstr "ዝማኔዎችን በመፈተሽ ላይ ስህተት።"
+
+msgid "Error loading data"
+msgstr "ውሂብ መጫን ላይ ስህተት"
+
+msgid "Error loading map"
+msgstr "ካርታ መጫን ላይ ስህተት"
+
+msgid "Error loading maps. Check connection."
+msgstr "ካርታዎችን መጫን ላይ ስህተት። ግንኙነትን ያረጋግጡ።"
+
+msgid "Error saving favorite!"
+msgstr "ተወዳጅ ማስቀመጥ ላይ ስህተት!"
+
+msgid "Europe"
+msgstr "አውሮፓ"
+
+msgid "European Weather Maps"
+msgstr "የአውሮፓ የአየር ሁኔታ ካርታዎች"
+
+msgid "Evening"
+msgstr "ምሽት"
+
+msgid "Exit"
+msgstr "ውጣ"
+
+msgid "Exit - End"
+msgstr "ውጣ - ጨርስ"
+
+msgid "Exit / Close legend"
+msgstr "ውጣ / አፈ ታሪክ ዝጋ"
+
+msgid "Extreme"
+msgstr "ጽንፍ"
+
+msgid "Extreme / thunderstorms"
+msgstr "ከባድ / ነጎድጓድ"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "ፋራናይት፣ ማይል በሰአት፣ ኢንኤችጂ"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "የማዋቀሪያ ፋይል፡\n%s መጻፍ አልተሳካም።"
+
+msgid "Faster: {}s"
+msgstr "ፈጣን፡ {}s"
+
+msgid "Favorite 1"
+msgstr "ተወዳጅ 1"
+
+msgid "Favorite 2"
+msgstr "ተወዳጅ 2"
+
+msgid "Favorites details"
+msgstr "ተወዳጆች ዝርዝሮች"
+
+msgid "Favorites Details"
+msgstr "ተወዳጆች ዝርዝሮች"
+
+msgid "Feels like"
+msgstr "የሚሰማው"
+
+msgid "Feels like {}"
+msgstr "{} ይመስላል"
+
+msgid "Feels like {}{}"
+msgstr "{}{} ይመስላል"
+
+msgid "Feels like: {}"
+msgstr "የሚመስለው፡ {}"
+
+msgid "Feels like: {}{}"
+msgstr "የሚመስለው፡ {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "የሚመስለው፡ {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "የሚመስለው፡ %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "የሚሰማው፡ %s°C"
+
+msgid "Feels like: N/A"
+msgstr "የሚሰማው፡ N/A"
+
+msgid "Finland"
+msgstr "ፊኒላንድ"
+
+msgid "First Quarter"
+msgstr "የመጀመሪያ ሩብ"
+
+msgid "Fog"
+msgstr "ጭጋግ"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API ምስክርነቶች ገና አልተዋቀሩም። እባክዎ በማዋቀር ስክሪኑ ውስጥ ያስገቡዋቸው።"
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API ቅንብሮች በተሳካ ሁኔታ ተቀምጠዋል።"
+
+msgid "Foreca API Setup"
+msgstr "Foreca API ማዋቀር"
+
+msgid "Foreca One"
+msgstr "ትንበያ አንድ"
+
+msgid "Foreca One | Map {}"
+msgstr "ትንበያ አንድ | ካርታ {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One የቀጥታ ካርታዎች (ኤፒአይ)"
+
+msgid "Foreca One Menu"
+msgstr "ትንበያ አንድ ምናሌ"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One ምንም ጣቢያዎች አልተገኙም።"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One ማዋቀር"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One Stations፡ {} ጣቢያዎች በአቅራቢያ ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "ትንበያ አንድ የአየር ሁኔታ እና ትንበያ ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "ትንበያ አንድ የአየር ሁኔታ ትንበያ"
+
+msgid "Frame →"
+msgstr "ፍሬም →"
+
+msgid "Frame: {}"
+msgstr "ፍሬም፡ {}"
+
+msgid "France"
+msgstr "ፈረንሳይ"
+
+msgid "Full Moon"
+msgstr "ሙሉ ጨረቃ"
+
+msgid "Gale force (>60 km/h)"
+msgstr "የጋለ ኃይል (>60 ኪሜ በሰዓት)"
+
+msgid "German States Weather Maps"
+msgstr "የጀርመን ግዛቶች የአየር ሁኔታ ካርታዎች"
+
+msgid "Germany"
+msgstr "ጀርመን"
+
+msgid "Good"
+msgstr "ጥሩ"
+
+msgid "Great Britain"
+msgstr "ታላቋ ብሪታኒያ"
+
+msgid "Greece"
+msgstr "ግሪክ"
+
+msgid "Green"
+msgstr "አረንጓዴ"
+
+msgid "Green - Favorite 1"
+msgstr "አረንጓዴ - ተወዳጅ 1"
+
+msgid "Gust {}"
+msgstr "ጉስት {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "አንጀት፡ {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "ሃምቡርግ"
+
+msgid "Hazardous"
+msgstr "አደገኛ"
+
+msgid "Header - not selectable"
+msgstr "ራስጌ - ሊመረጥ አይችልም።"
+
+msgid "Heavy rain"
+msgstr "ከባድ ዝናብ"
+
+msgid "Help"
+msgstr "እገዛ"
+
+msgid "Hesse"
+msgstr "ሄሴ"
+
+msgid "High"
+msgstr "ከፍተኛ"
+
+msgid "Home"
+msgstr "ቤት"
+
+msgid "Hot (30-40°C)"
+msgstr "ሙቅ (30-40 ° ሴ)"
+
+msgid "Hour Details"
+msgstr "የሰዓት ዝርዝሮች"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "እርጥበት"
+
+msgid "Humidity: {}%"
+msgstr "እርጥበት፡ {}%"
+
+msgid "Humidity: %s%%"
+msgstr "እርጥበት፡ %s%%"
+
+msgid "Hungary"
+msgstr "ሃንጋሪ"
+
+msgid "Ice / frost"
+msgstr "በረዶ / በረዶ"
+
+msgid "Illumination"
+msgstr "ማብራት"
+
+msgid "Illumination: {:.1f}%"
+msgstr "ብርሃን፡ _CSH_0__%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "ምስል %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "ምስል %(current)d/%(total)d - %(day)s (ለአፍታ ቆሟል)"
+
+msgid "Image not available"
+msgstr "ምስል አይገኝም"
+
+msgid "Imperial System"
+msgstr "ኢምፔሪያል ስርዓት"
+
+msgid "Increase Speed"
+msgstr "ፍጥነት ይጨምሩ"
+
+msgid "Info"
+msgstr "መረጃ"
+
+msgid "Info - About"
+msgstr "መረጃ - ስለ"
+
+msgid "Ireland"
+msgstr "አይርላድ"
+
+msgid "Italy"
+msgstr "ጣሊያን"
+
+msgid "Jump 100 down"
+msgstr "100 ወደ ታች ይዝለሉ"
+
+msgid "Jump 100 up"
+msgstr "100 ወደ ላይ ይዝለሉ"
+
+msgid "Jump 500 down"
+msgstr "500 ወደ ታች ይዝለሉ"
+
+msgid "Jump 500 up"
+msgstr "500 ወደላይ ይዝለሉ"
+
+msgid "Keyboard"
+msgstr "የቁልፍ ሰሌዳ"
+
+msgid "Last Quarter"
+msgstr "የመጨረሻው ሩብ"
+
+msgid "Last update"
+msgstr "የመጨረሻው ዝመና"
+
+msgid "Latvia"
+msgstr "ላቲቪያ"
+
+msgid "Left - Previous day"
+msgstr "ግራ - ያለፈው ቀን"
+
+msgid "Left arrow - Previous day"
+msgstr "የግራ ቀስት - ያለፈው ቀን"
+
+msgid "Light (0-20 km/h)"
+msgstr "ብርሃን (0-20 ኪሜ/ሰ)"
+
+msgid "Light rain / drizzle"
+msgstr "ቀላል ዝናብ / ነጠብጣብ"
+
+msgid "Light to moderate"
+msgstr "ከብርሃን እስከ መካከለኛ"
+
+msgid "Loading available maps..."
+msgstr "የሚገኙ ካርታዎችን በመጫን ላይ..."
+
+msgid "Loading lunar phases..."
+msgstr "የጨረቃ ደረጃዎችን በመጫን ላይ..."
+
+msgid "Loading nearby stations..."
+msgstr "በአቅራቢያ ያሉ ጣቢያዎችን በመጫን ላይ..."
+
+msgid "Loading tiles..."
+msgstr "ሰቆች በመጫን ላይ..."
+
+msgid "Loading weekly forecast..."
+msgstr "ሳምንታዊ ትንበያን በመጫን ላይ..."
+
+msgid "Loading..."
+msgstr "በመጫን ላይ..."
+
+msgid "Low"
+msgstr "ዝቅተኛ"
+
+msgid "Lower Saxony"
+msgstr "የታችኛው ሳክሶኒ"
+
+msgid "Lunar Calendar"
+msgstr "የጨረቃ ቀን መቁጠሪያ"
+
+msgid "Lunar phases from next month"
+msgstr "የጨረቃ ደረጃዎች ከሚቀጥለው ወር"
+
+msgid "Luxembourg"
+msgstr "ሉዘምቤርግ"
+
+msgid "Magnitude: N/A"
+msgstr "መጠን፡ N/A"
+
+msgid "Map {} selected"
+msgstr "ካርታ {} ተመርጧል"
+
+msgid "Map & Tiles Loaded"
+msgstr "ካርታ እና ሰቆች ተጭነዋል"
+
+msgid "Map loaded"
+msgstr "ካርታ ተጭኗል"
+
+msgid "Map server"
+msgstr "የካርታ አገልጋይ"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "ሜክለንበርግ-ቮርፖመርን።"
+
+msgid "Menu"
+msgstr "ምናሌ"
+
+msgid "Menu - Settings"
+msgstr "ምናሌ - ቅንብሮች"
+
+msgid "Merge failed"
+msgstr "ውህደት አልተሳካም።"
+
+msgid "Meteogram"
+msgstr "ሜትሮግራም"
+
+msgid "Metric System"
+msgstr "የሜትሪክ ስርዓት"
+
+msgid "Middle America"
+msgstr "መካከለኛው አሜሪካ"
+
+msgid "Middle Asia"
+msgstr "መካከለኛው እስያ"
+
+msgid "Middle East"
+msgstr "ማእከላዊ ምስራቅ"
+
+msgid "Mild (10-20°C)"
+msgstr "መለስተኛ (10-20°ሴ)"
+
+msgid "Moderate"
+msgstr "መጠነኛ"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "መካከለኛ (20-40 ኪሜ በሰዓት)"
+
+msgid "Moderate rain"
+msgstr "መጠነኛ ዝናብ"
+
+msgid "Month"
+msgstr "ወር"
+
+msgid "Moon details"
+msgstr "የጨረቃ ዝርዝሮች"
+
+msgid "Moon Details"
+msgstr "የጨረቃ ዝርዝሮች"
+
+msgid "Moonrise: {}"
+msgstr "የጨረቃ መነሳት፡ {}"
+
+msgid "Moonset: {}"
+msgstr "የጨረቃ መጥለቅ፡ {}"
+
+msgid "Morning"
+msgstr "ጠዋት"
+
+msgid "Mostly clear"
+msgstr "በአብዛኛው ግልጽ"
+
+msgid "Move down"
+msgstr "ወደ ታች ውሰድ"
+
+msgid "Move Down"
+msgstr "ወደ ታች ውሰድ"
+
+msgid "Move up"
+msgstr "ወደ ላይ ተንቀሳቀስ"
+
+msgid "Move Up"
+msgstr "ወደ ላይ ውሰድ"
+
+msgid "N"
+msgstr "ኤን"
+
+msgid "N/A"
+msgstr "ኤን/ኤ"
+
+msgid "Netherlands"
+msgstr "ኔዜሪላንድ"
+
+msgid "New Moon"
+msgstr "አዲስ ጨረቃ"
+
+msgid "New version {version} is available."
+msgstr "አዲስ ስሪት {version} ይገኛል።"
+
+msgid "Next"
+msgstr "ቀጥሎ"
+
+msgid "Next frame"
+msgstr "ቀጣይ ፍሬም"
+
+msgid "Next Image"
+msgstr "ቀጣይ ምስል"
+
+msgid "Next page"
+msgstr "ቀጣይ ገጽ"
+
+msgid "Next time"
+msgstr "በሚቀጥለው ጊዜ"
+
+msgid "No city selected"
+msgstr "ምንም ከተማ አልተመረጠም።"
+
+msgid "No data"
+msgstr "ምንም ውሂብ የለም"
+
+msgid "No date available"
+msgstr "ምንም ቀን አይገኝም"
+
+msgid "No Internet connection detected."
+msgstr "ምንም የበይነመረብ ግንኙነት አልተገኘም።"
+
+msgid "No location selected"
+msgstr "ምንም ቦታ አልተመረጠም።"
+
+msgid "No OSM tiles"
+msgstr "ምንም OSM ሰቆች የሉም"
+
+msgid "No specific legend available."
+msgstr "ምንም የተለየ አፈ ታሪክ አይገኝም።"
+
+msgid "No station data"
+msgstr "የጣቢያ ውሂብ የለም።"
+
+msgid "No station data available"
+msgstr "ምንም የጣቢያ ውሂብ አይገኝም"
+
+msgid "No stations found"
+msgstr "ምንም ጣቢያዎች አልተገኙም።"
+
+msgid "No tiles downloaded"
+msgstr "ምንም ሰቆች አልወረደም።"
+
+msgid "North Africa"
+msgstr "ሰሜን አፍሪካ"
+
+msgid "North America"
+msgstr "ሰሜን አሜሪካ"
+
+msgid "North Rhine-Westphalia"
+msgstr "ሰሜን ራይን-ዌስትፋሊያ"
+
+msgid "Norway"
+msgstr "ኖርዌይ"
+
+msgid "Ok - Details"
+msgstr "እሺ - ዝርዝሮች"
+
+msgid "OK - Ext Info"
+msgstr "እሺ - Ext መረጃ"
+
+msgid "OK - Forecast"
+msgstr "እሺ - ትንበያ"
+
+msgid "OK - Open Map"
+msgstr "እሺ - ካርታ ክፈት"
+
+msgid "Open Keyboard"
+msgstr "የቁልፍ ሰሌዳ ክፈት"
+
+msgid "Open Map"
+msgstr "ካርታ ክፈት"
+
+msgid "Original design and idea by %s"
+msgstr "ኦሪጅናል ዲዛይን እና ሃሳብ በ%s"
+
+msgid "Overcast"
+msgstr "የተጋነነ"
+
+msgid "Overcast and light rain"
+msgstr "ከመጠን በላይ እና ቀላል ዝናብ"
+
+msgid "Overcast and light snow"
+msgstr "ከመጠን በላይ እና ቀላል በረዶ"
+
+msgid "Overcast and light wet snow"
+msgstr "ከመጠን በላይ እና ቀላል እርጥብ በረዶ"
+
+msgid "Overcast and rain"
+msgstr "ከመጠን በላይ እና ዝናብ"
+
+msgid "Overcast and showers"
+msgstr "ከመጠን በላይ እና ገላ መታጠብ"
+
+msgid "Overcast and snow"
+msgstr "ከመጠን በላይ እና በረዶ"
+
+msgid "Overcast and snow showers"
+msgstr "ከመጠን በላይ እና የበረዶ ዝናብ"
+
+msgid "Overcast and wet snow"
+msgstr "ከመጠን በላይ እና እርጥብ በረዶ"
+
+msgid "Overcast and wet snow showers"
+msgstr "ከመጠን በላይ እና እርጥብ የበረዶ ዝናብ"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "ድንጋጤ፣ ነጎድጓድ በዝናብ"
+
+msgid "Overnight"
+msgstr "በአንድ ሌሊት"
+
+msgid "Page down"
+msgstr "ገጽ ወደታች"
+
+msgid "Page Down"
+msgstr "ገጽ ወደታች"
+
+msgid "Page up"
+msgstr "ገጽ ወደ ላይ"
+
+msgid "Page Up"
+msgstr "ገጽ ወደ ላይ"
+
+msgid "Pan down"
+msgstr "ወደ ታች ይንጠፍጡ"
+
+msgid "Pan left"
+msgstr "ወደ ግራ ያንሱ"
+
+msgid "Pan right"
+msgstr "ወደ ቀኝ አንኳኳ"
+
+msgid "Pan up"
+msgstr "ወደላይ"
+
+msgid "Partly cloudy"
+msgstr "ከፊል ደመናማ"
+
+msgid "Partly cloudy and light rain"
+msgstr "ከፊል ደመናማ እና ቀላል ዝናብ"
+
+msgid "Partly cloudy and light snow"
+msgstr "ከፊል ደመናማ እና ቀላል በረዶ"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "በከፊል ደመናማ እና ቀላል እርጥብ በረዶ"
+
+msgid "Partly cloudy and showers"
+msgstr "በከፊል ደመናማ እና ገላ መታጠቢያዎች"
+
+msgid "Partly cloudy and snow showers"
+msgstr "በከፊል ደመናማ እና የበረዶ ዝናብ"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "በከፊል ደመናማ እና እርጥብ የበረዶ ዝናብ"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "ከፊል ደመናማ፣ ከዝናብ ጋር ሊሆኑ የሚችሉ ነጎድጓዶች"
+
+msgid "Perigee"
+msgstr "ፔሪጂ"
+
+msgid "Phase"
+msgstr "ደረጃ"
+
+msgid "Phase: {}"
+msgstr "ደረጃ፡ {}"
+
+msgid "Play/Pause"
+msgstr "አጫውት/ ለአፍታ አቁም"
+
+msgid "Please enter both API user and API password."
+msgstr "እባክዎ ሁለቱንም የኤፒአይ ተጠቃሚ እና የኤፒአይ ይለፍ ቃል ያስገቡ።"
+
+msgid "Please wait ..."
+msgstr "እባክህ ጠብቅ..."
+
+msgid "Poland"
+msgstr "ፖላንድ"
+
+msgid "Portugal"
+msgstr "ፖርቹጋል"
+
+msgid "Precipitation"
+msgstr "ዝናብ"
+
+msgid "Precipitation: {}"
+msgstr "ዝናብ፡ {}"
+
+msgid "Precipitations"
+msgstr "ዝናብ"
+
+msgid "Precipitations: {}%"
+msgstr "ዝናብ፡ {}%"
+
+msgid "Press RED to search again"
+msgstr "እንደገና ለመፈለግ RED ን ይጫኑ"
+
+msgid "Pressure"
+msgstr "ጫና"
+
+msgid "Pressure: {}"
+msgstr "ጫና፡ {}"
+
+msgid "Pressure: {} hPa"
+msgstr "ግፊት፡ {} hPa"
+
+msgid "Pressure: %s"
+msgstr "ግፊት፡ %s"
+
+msgid "Pressure: %s hPa"
+msgstr "ግፊት፡ %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "ግፊት፡ N/A"
+
+msgid "Prev"
+msgstr "ቀዳሚ"
+
+msgid "Previous"
+msgstr "ቀዳሚ"
+
+msgid "Previous frame"
+msgstr "የቀድሞ ፍሬም"
+
+msgid "Previous Image"
+msgstr "ቀዳሚ ምስል"
+
+msgid "Previous page"
+msgstr "ያለፈው ገጽ"
+
+msgid "Previous time"
+msgstr "ያለፈ ጊዜ"
+
+msgid "Rain Prob."
+msgstr "የዝናብ ችግር."
+
+msgid "Rain prob. {}%"
+msgstr "የዝናብ ፕሮብ. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "የዝናብ ችግር፡ N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "ዝናብ፡ {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer ራዳር"
+
+msgid "Red"
+msgstr "ቀይ"
+
+msgid "Red - Color select"
+msgstr "ቀይ - ቀለም ይምረጡ"
+
+msgid "Refresh"
+msgstr "አድስ"
+
+msgid "Restore default server values"
+msgstr "ነባሪ የአገልጋይ እሴቶችን ወደነበሩበት ይመልሱ"
+
+msgid "Rhineland-Palatine"
+msgstr "ራይንላንድ-ፓላቲን"
+
+msgid "Right - Next day"
+msgstr "ትክክል - በሚቀጥለው ቀን"
+
+msgid "Right arrow - Next day"
+msgstr "የቀኝ ቀስት - በሚቀጥለው ቀን"
+
+msgid "Rise"
+msgstr "ተነሳ"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "አዚሙት ተነሳ፡ {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "አዚሙት ተነሳ፡ N/A"
+
+msgid "Russia"
+msgstr "ራሽያ"
+
+msgid "S"
+msgstr "ኤስ"
+
+msgid "Saarland"
+msgstr "ሳርላንድ"
+
+msgid "Satellite Photos"
+msgstr "የሳተላይት ፎቶዎች"
+
+msgid "Satellite photos coming soon!"
+msgstr "የሳተላይት ፎቶዎች በቅርቡ ይመጣሉ!"
+
+msgid "Save"
+msgstr "አስቀምጥ"
+
+msgid "Save API settings"
+msgstr "የኤፒአይ ቅንብሮችን አስቀምጥ"
+
+msgid "Save translation settings"
+msgstr "የትርጉም ቅንብሮችን ያስቀምጡ"
+
+msgid "Saxony"
+msgstr "ሳክሶኒ"
+
+msgid "Saxony-Anhalt"
+msgstr "ሳክሶኒ-አንሃልት"
+
+msgid "Schleswig-Holstein"
+msgstr "ሽሌስዊግ-ሆልስቴይን"
+
+msgid "Scraped"
+msgstr "የተቦጫጨቀ"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "ፍለጋ መጀመሪያ በመስመር ላይ ይሞክራል፣ ካልተሳካ የአካባቢ ዝርዝር ይጠቀማል።"
+
+msgid "Search your City"
+msgstr "ከተማዎን ይፈልጉ"
+
+msgid "Select"
+msgstr "ይምረጡ"
+
+msgid "Select {} unit"
+msgstr "{} አሃድ ይምረጡ"
+
+msgid "Select a city"
+msgstr "ከተማ ይምረጡ"
+
+msgid "Select a map with OK"
+msgstr "እሺ ያለው ካርታ ይምረጡ"
+
+msgid "Select Region"
+msgstr "ክልል ይምረጡ"
+
+msgid "Select unit system"
+msgstr "አሃድ ስርዓት ይምረጡ"
+
+msgid "Select wind unit"
+msgstr "የንፋስ ክፍልን ይምረጡ"
+
+msgid "Selected hour details"
+msgstr "የተመረጡ የሰዓት ዝርዝሮች"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "አዚም አዘጋጅ፡ {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "አዚም አዘጋጅ፡ N/A"
+
+msgid "Sets"
+msgstr "ስብስቦች"
+
+msgid "Show info"
+msgstr "መረጃ አሳይ"
+
+msgid "Showers"
+msgstr "ሻወር"
+
+msgid "Slovakia"
+msgstr "ስሎቫኒካ"
+
+msgid "Slower: {}s"
+msgstr "ቀስ ብሎ፡ {}s"
+
+msgid "Snow / ice"
+msgstr "በረዶ / በረዶ"
+
+msgid "Snow prob. {}%"
+msgstr "የበረዶ ፕሮብ. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "የበረዶ ፕሮb.: N/A"
+
+msgid "South Africa"
+msgstr "ደቡብ አፍሪቃ"
+
+msgid "South America"
+msgstr "ደቡብ አሜሪካ"
+
+msgid "Southeast Asia"
+msgstr "ደቡብ ምስራቅ እስያ"
+
+msgid "Spain"
+msgstr "ስፔን"
+
+msgid "Station Observations"
+msgstr "የጣቢያ ምልከታዎች"
+
+msgid "Station: {}"
+msgstr "መሣፈሪያ፥ {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "ጠንካራ (40-60 ኪሜ በሰዓት)"
+
+msgid "Sunrise"
+msgstr "የፀሐይ መውጣት"
+
+msgid "Sunset"
+msgstr "ጀንበር ስትጠልቅ"
+
+msgid "Super Full Moon"
+msgstr "ልዕለ ሙሉ ጨረቃ"
+
+msgid "Sweden"
+msgstr "ስዊዲን"
+
+msgid "Switzerland"
+msgstr "ስዊዘሪላንድ"
+
+msgid "Target Language"
+msgstr "የዒላማ ቋንቋ"
+
+msgid "Temp"
+msgstr "የሙቀት መጠን"
+
+msgid "Temperature"
+msgstr "የሙቀት መጠን"
+
+msgid "Temperature: {}"
+msgstr "የሙቀት መጠን፡ {}"
+
+msgid "Temperature: {}{}"
+msgstr "የሙቀት መጠን፡ {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "የሙቀት መጠን፡ {}°ሴ"
+
+msgid "Temperature: %d%s"
+msgstr "የሙቀት መጠን፡ %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "የሙቀት መጠን፡ %s°C"
+
+msgid "Temperature: N/A"
+msgstr "የሙቀት መጠን፡ N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "ለአስተያየት {thanks} እና ሌሎች ጓደኞች እናመሰግናለን"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "የርቀት ሥሪት ({remote}) ከአሁኑ ({current}) ይበልጣል።"
+
+msgid "Thin upper cloud"
+msgstr "ቀጭን የላይኛው ደመና"
+
+msgid "Thuringia"
+msgstr "ቱሪንጂያ"
+
+msgid "Time"
+msgstr "ጊዜ"
+
+msgid "Today"
+msgstr "ዛሬ"
+
+msgid "Today/Tomorrow details"
+msgstr "የዛሬ/ነገ ዝርዝሮች"
+
+msgid "Toggle legend"
+msgstr "አፈ ታሪክ ቀያይር"
+
+msgid "Token expire hours"
+msgstr "ማስመሰያ ጊዜው የሚያበቃበት ሰዓቶች"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "የማስመሰያ ጊዜው የሚያበቃበት ሰዓት -1 ወይም አዎንታዊ ቁጥር መሆን አለበት።"
+
+msgid "Token expire hours must be a number."
+msgstr "ማስመሰያ ጊዜው የሚያበቃበት ሰዓቶች ቁጥር መሆን አለበት።"
+
+msgid "Tomorrow"
+msgstr "ነገ"
+
+msgid "Transit (culmination): {}"
+msgstr "መጓጓዣ (ፍጻሜ): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "የመጓጓዣ ከፍታ፡ {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "የመጓጓዣ ከፍታ፡ N/A"
+
+msgid "Translation Settings"
+msgstr "የትርጉም ቅንብሮች"
+
+msgid "Transparency level"
+msgstr "ግልጽነት ደረጃ"
+
+msgid "Transparency Settings"
+msgstr "ግልጽነት ቅንብሮች"
+
+msgid "Unhealthy"
+msgstr "ጤናማ ያልሆነ"
+
+msgid "Unhealthy for sensitives"
+msgstr "ስሜታዊ ለሆኑ ሰዎች ጤናማ ያልሆነ"
+
+msgid "Unit Settings"
+msgstr "የክፍል ቅንብሮች"
+
+msgid "Unit Settings (Advanced)"
+msgstr "የክፍል ቅንብሮች (የላቀ)"
+
+msgid "Unit Settings (Simple)"
+msgstr "የክፍል ቅንብሮች (ቀላል)"
+
+msgid "Unknown"
+msgstr "ያልታወቀ"
+
+msgid "Up"
+msgstr "ወደላይ"
+
+msgid "Up - Previous page"
+msgstr "ወደ ላይ - ያለፈው ገጽ"
+
+msgid "Update canceled."
+msgstr "ዝማኔ ተሰርዟል።"
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "ዝማኔ ተጠናቅቋል። እባክዎ Enigma2ን እንደገና ያስጀምሩ።"
+
+msgid "Updated {}"
+msgstr "ተዘምኗል {}"
+
+msgid "Updated: {}"
+msgstr "ተዘምኗል፡ {}"
+
+msgid "Updated: N/A"
+msgstr "ተዘምኗል፡ N/A"
+
+msgid "Updating..."
+msgstr "በማዘመን ላይ..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "ጊዜ ለመቀየር ← → ይጠቀሙ | ለመውጣት እሺ"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "ለማንቀሳቀስ ←/→/↑/↓ ይጠቀሙ | ለመውጣት እሺ"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "ለመቀየር ▲/▼ ይጠቀሙ፣ ለመምረጥ እሺ"
+
+msgid "Use arrow keys to scroll"
+msgstr "ለማሸብለል የቀስት ቁልፎችን ይጠቀሙ"
+
+msgid "Use Google Translate"
+msgstr "ጎግል ትርጉምን ተጠቀም"
+
+msgid "Using current time"
+msgstr "የአሁኑን ጊዜ በመጠቀም"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV መረጃ ጠቋሚ"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "ቁ."
+
+msgid "Very heavy rain"
+msgstr "በጣም ከባድ ዝናብ"
+
+msgid "Very high"
+msgstr "በጣም ከፍተኛ"
+
+msgid "Very hot (>40°C)"
+msgstr "በጣም ሞቃት (ከ 40 ° ሴ)"
+
+msgid "Very low"
+msgstr "በጣም ዝቅተኛ"
+
+msgid "Very unhealthy"
+msgstr "በጣም ጤናማ ያልሆነ"
+
+msgid "Visibility: {} m"
+msgstr "ታይነት፡ {} ሜ"
+
+msgid "Visibility: %s m"
+msgstr "ታይነት፡ %s m"
+
+msgid "W"
+msgstr "ወ"
+
+msgid "Waning Crescent"
+msgstr "የሚዋዥቅ ጨረቃ"
+
+msgid "Waning Gibbous"
+msgstr "ዋንግ ጊቦስ"
+
+msgid "Warm (20-30°C)"
+msgstr "ሙቅ (20-30 ° ሴ)"
+
+msgid "Waxing Crescent"
+msgstr "የሰም ጨረቃ"
+
+msgid "Waxing Gibbous"
+msgstr "እየሰመጠ ጊቦስ"
+
+msgid "Weather"
+msgstr "የአየር ሁኔታ"
+
+msgid "Weather Map"
+msgstr "የአየር ሁኔታ ካርታ"
+
+msgid "Weather Maps"
+msgstr "የአየር ሁኔታ ካርታዎች"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "የአየር ሁኔታ ካርታዎች (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "የአየር ሁኔታ ካርታዎች እና ሳተላይት"
+
+msgid "Weather Maps Slideshow"
+msgstr "የአየር ሁኔታ ካርታዎች ስላይድ ትዕይንት።"
+
+msgid "Weather Radar"
+msgstr "የአየር ሁኔታ ራዳር"
+
+msgid "Weather today"
+msgstr "የአየር ሁኔታ ዛሬ"
+
+msgid "Weather tomorrow"
+msgstr "ነገ የአየር ሁኔታ"
+
+msgid "Weekly Forecast"
+msgstr "ሳምንታዊ ትንበያ"
+
+msgid "Wind"
+msgstr "ንፋስ"
+
+msgid "Wind direction"
+msgstr "የንፋስ አቅጣጫ"
+
+msgid "Wind Direction today"
+msgstr "የንፋስ አቅጣጫ ዛሬ"
+
+msgid "Wind Direction tomorrow"
+msgstr "የንፋስ አቅጣጫ ነገ"
+
+msgid "Wind speed"
+msgstr "የንፋስ ፍጥነት"
+
+msgid "Wind speed {}"
+msgstr "የንፋስ ፍጥነት {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "የንፋስ ፍጥነት፡ {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "ንፋስ፡ {}"
+
+msgid "Wind: {} {} {}"
+msgstr "ንፋስ፡ {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "ንፋስ፡ {} ኪሜ በሰአት {}"
+
+msgid "Wind: %d %s %s"
+msgstr "ንፋስ፡ %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "ንፋስ፡ %s ኪሜ/ሰ %s"
+
+msgid "Wind: N/A"
+msgstr "ንፋስ፡ ኤን/ኤ"
+
+msgid "Window transparency"
+msgstr "የመስኮት ግልጽነት"
+
+msgid "Yellow - Favorite 2"
+msgstr "ቢጫ - ተወዳጅ 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "ቀድሞውኑ {version} ተጭኗል።\n እንደገና መጫን ይፈልጋሉ?"
+
+msgid "Zoom In"
+msgstr "አጉላ"
+
+msgid "Zoom Out"
+msgstr "አሳንስ"
+
+msgid "Zoom-"
+msgstr "አጉላ -"
+
+msgid "Zoom:"
+msgstr "አጉላ፡"
+
+msgid "Zoom+"
+msgstr "አጉላ+"
+

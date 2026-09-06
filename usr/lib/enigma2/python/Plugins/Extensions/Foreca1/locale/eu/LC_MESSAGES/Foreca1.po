@@ -1,0 +1,1509 @@
+# eu translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: eu <ekekaz@gmail.com>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• URDINA Home\n gisa gordetzeko\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 hiri \n jauzi egiteko\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• BERDEA 1\n gogoko gisa gordetzeko\n"
+
+msgid "• OK to select city\n"
+msgstr "• Ados hiria\n hautatzeko\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• GORRIA bilaketa-teklatua irekitzeko\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Erabili gezi-teklak \n nabigatzeko\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- 100 hiri jauzi egiteko\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• HORIA 2\n gogoko gisa gordetzeko\n"
+
+msgid "← Frame"
+msgstr "← Markoa"
+
+msgid "0 - Today"
+msgstr "0 - Gaur"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Gaur + 1 egun"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Gaur + 2 egun"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Gaur + 3 egun"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Gaur + 4 egun"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Gaur + 5 egun"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Gaur + 6 egun"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Gaur + 7 egun"
+
+msgid "7 Day Forecast"
+msgstr "7 eguneko iragarpena"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Gaur + 8 egun"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Gaur + 9 egun"
+
+msgid "Advanced"
+msgstr "Aurreratua"
+
+msgid "Advanced Unit Settings"
+msgstr "Unitate ezarpen aurreratuak"
+
+msgid "Afternoon"
+msgstr "Arratsaldean"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Ilberritik adina: {:.1f} egun"
+
+msgid "Age: N/A"
+msgstr "Adina: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diametro angeluarra: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Diametro angeluarra: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Ez da aurkitu APIaren konfigurazio fitxategia!\n\nSortu fitxategia:\n{0}\n\nForeca APIaren kredentzialekin."
+
+msgid "API credentials not configured."
+msgstr "APIaren kredentzialak ez dira konfiguratuta."
+
+msgid "API error"
+msgstr "APIaren errorea"
+
+msgid "API password"
+msgstr "API pasahitza"
+
+msgid "API user"
+msgstr "API erabiltzailea"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Itxurazko magnitudea: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
+msgid "Assign to Favorite 1"
+msgstr "Esleitu gogokoari 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Esleitu gogokoari 2"
+
+msgid "Assign to Home"
+msgstr "Esleitu hasierara"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Auth server"
+msgstr "Autentifikazio zerbitzaria"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Wurtemberg"
+
+msgid "Barometer"
+msgstr "Barometroa"
+
+msgid "Bavaria"
+msgstr "Bavaria"
+
+msgid "Belgium"
+msgstr "Belgika"
+
+msgid "Berlin"
+msgstr "Berlin"
+
+msgid "Black Moon"
+msgstr "Ilargi Beltza"
+
+msgid "Blue"
+msgstr "Urdina"
+
+msgid "Blue - Home"
+msgstr "Urdina - Hasiera"
+
+msgid "Blue Moon"
+msgstr "Ilargi Urdina"
+
+msgid "Brandenburg"
+msgstr "Brandenburgo"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "Kalkulatzen..."
+
+msgid "Cancel"
+msgstr "Utzi"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsius, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Aldaketen erregistroa: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Aldaketak berehala aplikatzen dira"
+
+msgid "Check for updates"
+msgstr "Egiaztatu eguneratzeak"
+
+msgid "Choose detail view"
+msgstr "Aukeratu xehetasun-ikuspegia"
+
+msgid "City list file not found!"
+msgstr "Ez da aurkitu hiri-zerrendaren fitxategia!"
+
+msgid "City Selection"
+msgstr "Hiriaren hautaketa"
+
+msgid "City Selection Help:\n\n"
+msgstr "Hiria hautatzeko laguntza:\n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Foreca One Temp fitxategiak garbitu?"
+
+msgid "Cleanup temp files"
+msgstr "Garbiketa aldi baterako fitxategiak"
+
+msgid "Clear"
+msgstr "Garbi"
+
+msgid "Close"
+msgstr "Itxi"
+
+msgid "Close legend"
+msgstr "Itxi kondaira"
+
+msgid "Close setup without saving"
+msgstr "Itxi konfigurazioa gorde gabe"
+
+msgid "Cloudy"
+msgstr "Hodeitsu"
+
+msgid "Cloudy and light rain"
+msgstr "Hodeiak eta euri arina"
+
+msgid "Cloudy and light snow"
+msgstr "Hodeitsu eta elur arina"
+
+msgid "Cloudy and light wet snow"
+msgstr "Hodeitsu eta elur busti arina"
+
+msgid "Cloudy and showers"
+msgstr "Hodeiak eta zaparradak"
+
+msgid "Cloudy and snow showers"
+msgstr "Hodeiak eta elur zaparradak"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Elur zaparrada hodeitsu eta hezea"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Hodeitsuak, trumoi-ekaitzak euriarekin"
+
+msgid "Cold (< 0°C)"
+msgstr "Hotza (< 0°C)"
+
+msgid "Color data"
+msgstr "Kolore datuak"
+
+msgid "Color legend"
+msgstr "Koloreen kondaira"
+
+msgid "Color Legend"
+msgstr "Koloreen kondaira"
+
+msgid "Color name"
+msgstr "Kolorearen izena"
+
+msgid "Color select"
+msgstr "Kolorea hautatzea"
+
+msgid "Color Selector"
+msgstr "Kolore-hautatzailea"
+
+msgid "Condition: {}"
+msgstr "Baldintza: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfiguratu Foreca APIaren kredentzialak"
+
+msgid "Continents Weather Maps"
+msgstr "Kontinenteen Eguraldi Mapak"
+
+msgid "Cool (0-10°C)"
+msgstr "Hotza (0-10 °C)"
+
+msgid "Could not fetch update information."
+msgstr "Ezin izan da eguneratze-informazioa eskuratu."
+
+msgid "Could not initialize map API."
+msgstr "Ezin izan da maparen APIa hasieratu."
+
+msgid "Could not load forecast data"
+msgstr "Ezin izan dira kargatu iragarpen-datuak"
+
+msgid "Could not parse version information."
+msgstr "Ezin izan da bertsioaren informazioa analizatu."
+
+msgid "Current weather and forecast"
+msgstr "Egungo eguraldia eta iragarpena"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Egungo eguraldia eta hurrengo 10 egunetarako iragarpena"
+
+msgid "Current: {}"
+msgstr "Unekoa: {}"
+
+msgid "Czech Republic"
+msgstr "Txekiar Errepublika"
+
+msgid "Data provided by Foreca"
+msgstr "Forecak emandako datuak"
+
+msgid "Date: {}"
+msgstr "Data: {}"
+
+msgid "Day"
+msgstr "Eguna"
+
+msgid "Decrease Speed"
+msgstr "Jaitsi Abiadura"
+
+msgid "Defaults"
+msgstr "Lehenetsiak"
+
+msgid "Denmark"
+msgstr "Danimarka"
+
+msgid "Details"
+msgstr "Xehetasunak"
+
+msgid "Dewpoint {}"
+msgstr "Ihintz-puntua {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Ihintz-puntua {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Ihintz-puntua: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Ihintz-puntua: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Ihintz-puntua: N/A"
+
+msgid "Distance"
+msgstr "Distantzia"
+
+msgid "Distance {} km"
+msgstr "Distantzia {} km"
+
+msgid "Distance: {}"
+msgstr "Distantzia: {}"
+
+msgid "Distance: {} km"
+msgstr "Distantzia: {} km"
+
+msgid "Distance: %s"
+msgstr "Distantzia: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Orain instalatu nahi duzu?"
+
+msgid "Down"
+msgstr "Behera"
+
+msgid "Down - Next page"
+msgstr "Behera - Hurrengo orria"
+
+msgid "Download error"
+msgstr "Deskargaren errorea"
+
+msgid "Downloading images..."
+msgstr "Irudiak deskargatzen..."
+
+msgid "Downloading tiles..."
+msgstr "Fitxak deskargatzen..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Ekialdeko Asia"
+
+msgid "Error checking for updates."
+msgstr "Errore bat gertatu da eguneratzeak egiaztatzen."
+
+msgid "Error loading data"
+msgstr "Errore bat gertatu da datuak kargatzean"
+
+msgid "Error loading map"
+msgstr "Errore bat gertatu da mapa kargatzean"
+
+msgid "Error loading maps. Check connection."
+msgstr "Errore bat gertatu da mapak kargatzean. Egiaztatu konexioa."
+
+msgid "Error saving favorite!"
+msgstr "Errore bat gertatu da gogokoa gordetzean!"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "European Weather Maps"
+msgstr "Europako eguraldi mapak"
+
+msgid "Evening"
+msgstr "Arratsaldean"
+
+msgid "Exit"
+msgstr "Irten"
+
+msgid "Exit - End"
+msgstr "Irten - Amaiera"
+
+msgid "Exit / Close legend"
+msgstr "Irten / Itxi legenda"
+
+msgid "Extreme"
+msgstr "Muturrekoa"
+
+msgid "Extreme / thunderstorms"
+msgstr "Muturreko / trumoi-ekaitzak"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Ezin izan da konfigurazio fitxategia idatzi: \n%s"
+
+msgid "Faster: {}s"
+msgstr "Azkarrago: {} s"
+
+msgid "Favorite 1"
+msgstr "Gogokoena 1"
+
+msgid "Favorite 2"
+msgstr "Gogokoena 2"
+
+msgid "Favorites details"
+msgstr "Gogokoen xehetasunak"
+
+msgid "Favorites Details"
+msgstr "Gogokoen xehetasunak"
+
+msgid "Feels like"
+msgstr "Gustura sentitzen da"
+
+msgid "Feels like {}"
+msgstr "{} bezalakoa da"
+
+msgid "Feels like {}{}"
+msgstr "{}{} bezalakoa da"
+
+msgid "Feels like: {}"
+msgstr "Horrelakoa da: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Horrelakoa da: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Sentipena: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Hau da: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Antzekoa: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Sentitzen da: N/A"
+
+msgid "Finland"
+msgstr "Finlandia"
+
+msgid "First Quarter"
+msgstr "Lehen Hiruhilekoa"
+
+msgid "Fog"
+msgstr "Lainoa"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca APIaren kredentzialak ez daude oraindik konfiguratuta. Mesedez, sartu itzazu konfigurazio pantailan."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca APIaren ezarpenak behar bezala gorde dira."
+
+msgid "Foreca API Setup"
+msgstr "Foreca APIaren konfigurazioa"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Mapa {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One Menua"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Ez da geltokirik aurkitu"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One konfigurazioa"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One geltokiak: {} geltokiak inguruan ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Eguraldia eta Iragarpena ber. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Eguraldi Iragarpena"
+
+msgid "Frame →"
+msgstr "Markoa →"
+
+msgid "Frame: {}"
+msgstr "Markoa: {}"
+
+msgid "France"
+msgstr "Frantzia"
+
+msgid "Full Moon"
+msgstr "Ilargi betea"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Gale-indarra (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Alemaniako Estatuen Eguraldi Mapak"
+
+msgid "Germany"
+msgstr "Alemania"
+
+msgid "Good"
+msgstr "Ona"
+
+msgid "Great Britain"
+msgstr "Britainia Handia"
+
+msgid "Greece"
+msgstr "Grezia"
+
+msgid "Green"
+msgstr "Berdea"
+
+msgid "Green - Favorite 1"
+msgstr "Berdea - Gogokoena 1"
+
+msgid "Gust {}"
+msgstr "Gusta {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Gusta: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hanburgo"
+
+msgid "Hazardous"
+msgstr "Arriskutsuak"
+
+msgid "Header - not selectable"
+msgstr "Goiburua - ezin da hautagarria"
+
+msgid "Heavy rain"
+msgstr "Euri zaparrada"
+
+msgid "Help"
+msgstr "Laguntza"
+
+msgid "Hesse"
+msgstr "Hesse"
+
+msgid "High"
+msgstr "Alta"
+
+msgid "Home"
+msgstr "Hasiera"
+
+msgid "Hot (30-40°C)"
+msgstr "Beroa (30-40 °C)"
+
+msgid "Hour Details"
+msgstr "Orduen xehetasunak"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Hezetasuna"
+
+msgid "Humidity: {}%"
+msgstr "Hezetasuna: % {}"
+
+msgid "Humidity: %s%%"
+msgstr "Hezetasuna: %s%%"
+
+msgid "Hungary"
+msgstr "Hungaria"
+
+msgid "Ice / frost"
+msgstr "Izotza / izotza"
+
+msgid "Illumination"
+msgstr "Argiztapena"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Argiztapena: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Irudia %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Irudia %(current)d/%(total)d – %(day)s (Pausatua)"
+
+msgid "Image not available"
+msgstr "Irudia ez dago eskuragarri"
+
+msgid "Imperial System"
+msgstr "Sistema Inperiala"
+
+msgid "Increase Speed"
+msgstr "Abiadura handitu"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Info - About"
+msgstr "Info - Buruz"
+
+msgid "Ireland"
+msgstr "Irlanda"
+
+msgid "Italy"
+msgstr "Italia"
+
+msgid "Jump 100 down"
+msgstr "Jauzi 100 behera"
+
+msgid "Jump 100 up"
+msgstr "100 gora salto egin"
+
+msgid "Jump 500 down"
+msgstr "Jauzi 500 behera"
+
+msgid "Jump 500 up"
+msgstr "Jauzi 500 gora"
+
+msgid "Keyboard"
+msgstr "Teklatua"
+
+msgid "Last Quarter"
+msgstr "Azken Hiruhilekoa"
+
+msgid "Last update"
+msgstr "Azken eguneratzea"
+
+msgid "Latvia"
+msgstr "Letonia"
+
+msgid "Left - Previous day"
+msgstr "Ezkerrean - Aurreko eguna"
+
+msgid "Left arrow - Previous day"
+msgstr "Ezkerreko gezia - Aurreko eguna"
+
+msgid "Light (0-20 km/h)"
+msgstr "Argia (0-20 km/h)"
+
+msgid "Light rain / drizzle"
+msgstr "Euri arina / zirimiria"
+
+msgid "Light to moderate"
+msgstr "Arina eta moderatua"
+
+msgid "Loading available maps..."
+msgstr "Eskuragarri dauden mapak kargatzen..."
+
+msgid "Loading lunar phases..."
+msgstr "Ilargi-faseak kargatzen..."
+
+msgid "Loading nearby stations..."
+msgstr "Inguruko geltokiak kargatzen..."
+
+msgid "Loading tiles..."
+msgstr "Fitxak kargatzen..."
+
+msgid "Loading weekly forecast..."
+msgstr "Asteko iragarpena kargatzen..."
+
+msgid "Loading..."
+msgstr "Kargatzen..."
+
+msgid "Low"
+msgstr "Baxua"
+
+msgid "Lower Saxony"
+msgstr "Saxonia Beherea"
+
+msgid "Lunar Calendar"
+msgstr "Ilargi Egutegia"
+
+msgid "Lunar phases from next month"
+msgstr "Datorren hilabetetik aurrera ilargi faseak"
+
+msgid "Luxembourg"
+msgstr "Luxenburgo"
+
+msgid "Magnitude: N/A"
+msgstr "Magnitudea: N/A"
+
+msgid "Map {} selected"
+msgstr "{} mapa hautatuta"
+
+msgid "Map & Tiles Loaded"
+msgstr "Mapa eta fitxak kargatuta"
+
+msgid "Map loaded"
+msgstr "Mapa kargatu da"
+
+msgid "Map server"
+msgstr "Map zerbitzaria"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Mecklenburg-Vorpommern"
+
+msgid "Menu"
+msgstr "Menua"
+
+msgid "Menu - Settings"
+msgstr "Menua - Ezarpenak"
+
+msgid "Merge failed"
+msgstr "Bateratzea huts egin du"
+
+msgid "Meteogram"
+msgstr "Meteograma"
+
+msgid "Metric System"
+msgstr "Sistema metrikoa"
+
+msgid "Middle America"
+msgstr "Erdi Amerika"
+
+msgid "Middle Asia"
+msgstr "Erdialdeko Asia"
+
+msgid "Middle East"
+msgstr "Ekialde Hurbila"
+
+msgid "Mild (10-20°C)"
+msgstr "Leuna (10-20 °C)"
+
+msgid "Moderate"
+msgstr "Moderatua"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Ertain (20-40 km/h)"
+
+msgid "Moderate rain"
+msgstr "Euria moderatua"
+
+msgid "Month"
+msgstr "Hilabetea"
+
+msgid "Moon details"
+msgstr "Ilargiaren xehetasunak"
+
+msgid "Moon Details"
+msgstr "Ilargiaren xehetasunak"
+
+msgid "Moonrise: {}"
+msgstr "Ilargia: {}"
+
+msgid "Moonset: {}"
+msgstr "Ilargia: {}"
+
+msgid "Morning"
+msgstr "Goizean"
+
+msgid "Mostly clear"
+msgstr "Gehienbat argi"
+
+msgid "Move down"
+msgstr "Mugitu behera"
+
+msgid "Move Down"
+msgstr "Mugitu Behera"
+
+msgid "Move up"
+msgstr "Gora"
+
+msgid "Move Up"
+msgstr "Mugitu Gora"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Netherlands"
+msgstr "Herbehereak"
+
+msgid "New Moon"
+msgstr "Ilberria"
+
+msgid "New version {version} is available."
+msgstr "{version} bertsio berria dago eskuragarri."
+
+msgid "Next"
+msgstr "Hurrengoa"
+
+msgid "Next frame"
+msgstr "Hurrengo fotograma"
+
+msgid "Next Image"
+msgstr "Hurrengo Irudia"
+
+msgid "Next page"
+msgstr "Hurrengo orrialdea"
+
+msgid "Next time"
+msgstr "Hurrengoan"
+
+msgid "No city selected"
+msgstr "Ez da hiririk hautatu"
+
+msgid "No data"
+msgstr "Ez dago daturik"
+
+msgid "No date available"
+msgstr "Ez dago datarik eskuragarri"
+
+msgid "No Internet connection detected."
+msgstr "Ez da Interneteko konexiorik hauteman."
+
+msgid "No location selected"
+msgstr "Ez dago kokapenik hautatu"
+
+msgid "No OSM tiles"
+msgstr "Ez dago OSM fitxarik"
+
+msgid "No specific legend available."
+msgstr "Ez dago kondaira zehatzik."
+
+msgid "No station data"
+msgstr "Ez dago geltokiko daturik"
+
+msgid "No station data available"
+msgstr "Ez dago geltokiko daturik eskuragarri"
+
+msgid "No stations found"
+msgstr "Ez da geltokirik aurkitu"
+
+msgid "No tiles downloaded"
+msgstr "Ez da fitxarik deskargatu"
+
+msgid "North Africa"
+msgstr "Ipar Afrika"
+
+msgid "North America"
+msgstr "Ipar Amerika"
+
+msgid "North Rhine-Westphalia"
+msgstr "Ipar Renania-Westfalia"
+
+msgid "Norway"
+msgstr "Norvegia"
+
+msgid "Ok - Details"
+msgstr "Ados - Xehetasunak"
+
+msgid "OK - Ext Info"
+msgstr "Ados - Ext Info"
+
+msgid "OK - Forecast"
+msgstr "Ados - Iragarpena"
+
+msgid "OK - Open Map"
+msgstr "Ados - Ireki mapa"
+
+msgid "Open Keyboard"
+msgstr "Ireki teklatua"
+
+msgid "Open Map"
+msgstr "Ireki Mapa"
+
+msgid "Original design and idea by %s"
+msgstr "%s-ren jatorrizko diseinua eta ideia"
+
+msgid "Overcast"
+msgstr "Lainotua"
+
+msgid "Overcast and light rain"
+msgstr "Lainotua eta euri arina"
+
+msgid "Overcast and light snow"
+msgstr "Lainotua eta elur arina"
+
+msgid "Overcast and light wet snow"
+msgstr "Hodeitsu eta elur busti arina"
+
+msgid "Overcast and rain"
+msgstr "Lainotua eta euria"
+
+msgid "Overcast and showers"
+msgstr "Ostarteak eta zaparradak"
+
+msgid "Overcast and snow"
+msgstr "Lainotua eta elurra"
+
+msgid "Overcast and snow showers"
+msgstr "Hodeiak eta elur zaparradak"
+
+msgid "Overcast and wet snow"
+msgstr "Elur estalia eta hezea"
+
+msgid "Overcast and wet snow showers"
+msgstr "Elur estalia eta hezea"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Lainotua, trumoi-ekaitzak euriarekin"
+
+msgid "Overnight"
+msgstr "Gaua"
+
+msgid "Page down"
+msgstr "Orria behera"
+
+msgid "Page Down"
+msgstr "Orria behera"
+
+msgid "Page up"
+msgstr "Orria gora"
+
+msgid "Page Up"
+msgstr "Orria gora"
+
+msgid "Pan down"
+msgstr "Pan behera"
+
+msgid "Pan left"
+msgstr "Pan ezkerrera"
+
+msgid "Pan right"
+msgstr "Pan eskuinera"
+
+msgid "Pan up"
+msgstr "Pan gora"
+
+msgid "Partly cloudy"
+msgstr "Ostarteak"
+
+msgid "Partly cloudy and light rain"
+msgstr "Ostarteak eta euri arina"
+
+msgid "Partly cloudy and light snow"
+msgstr "Ostarteak eta elur arina"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Erdi hodeitsu eta elur busti arina"
+
+msgid "Partly cloudy and showers"
+msgstr "Ostarteak eta zaparradak"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Ostarteak eta elur zaparradak"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Erdi hodeitsu eta elur zaparrada"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Ostarteak, baliteke trumoi-ekaitzak euriarekin"
+
+msgid "Perigee"
+msgstr "Perigeoa"
+
+msgid "Phase"
+msgstr "Fasea"
+
+msgid "Phase: {}"
+msgstr "Fasea: {}"
+
+msgid "Play/Pause"
+msgstr "Erreproduzitu/Pausatu"
+
+msgid "Please enter both API user and API password."
+msgstr "Mesedez, idatzi API erabiltzailea eta API pasahitza."
+
+msgid "Please wait ..."
+msgstr "Mesedez, itxaron..."
+
+msgid "Poland"
+msgstr "Polonia"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Precipitation"
+msgstr "Prezipitazioa"
+
+msgid "Precipitation: {}"
+msgstr "Prezipitazioa: {}"
+
+msgid "Precipitations"
+msgstr "Prezipitazioak"
+
+msgid "Precipitations: {}%"
+msgstr "Prezipitazioak: % {}"
+
+msgid "Press RED to search again"
+msgstr "Sakatu GORRIA berriro bilatzeko"
+
+msgid "Pressure"
+msgstr "Presioa"
+
+msgid "Pressure: {}"
+msgstr "Presioa: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Presioa: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Presioa: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Presioa: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Presioa: N/A"
+
+msgid "Prev"
+msgstr "Aurrekoa"
+
+msgid "Previous"
+msgstr "Aurrekoa"
+
+msgid "Previous frame"
+msgstr "Aurreko markoa"
+
+msgid "Previous Image"
+msgstr "Aurreko irudia"
+
+msgid "Previous page"
+msgstr "Aurreko orrialdea"
+
+msgid "Previous time"
+msgstr "Aurreko ordua"
+
+msgid "Rain Prob."
+msgstr "Euria Prob."
+
+msgid "Rain prob. {}%"
+msgstr "Euria prob. % {}"
+
+msgid "Rain prob.: N/A"
+msgstr "Euri-prob.: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Euria: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer Radar"
+
+msgid "Red"
+msgstr "Gorria"
+
+msgid "Red - Color select"
+msgstr "Gorria - Kolorea hautatzea"
+
+msgid "Refresh"
+msgstr "Freskatu"
+
+msgid "Restore default server values"
+msgstr "Berrezarri zerbitzariaren balio lehenetsiak"
+
+msgid "Rhineland-Palatine"
+msgstr "Renania-Palatina"
+
+msgid "Right - Next day"
+msgstr "Eskuin - Hurrengo egunean"
+
+msgid "Right arrow - Next day"
+msgstr "Eskuineko gezia - Hurrengo egunean"
+
+msgid "Rise"
+msgstr "Altxatu"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Igoera azimutua: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Igoera azimutua: N/A"
+
+msgid "Russia"
+msgstr "Errusia"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Sarre"
+
+msgid "Satellite Photos"
+msgstr "Satelite bidezko argazkiak"
+
+msgid "Satellite photos coming soon!"
+msgstr "Laster satelite bidezko argazkiak!"
+
+msgid "Save"
+msgstr "Gorde"
+
+msgid "Save API settings"
+msgstr "Gorde API ezarpenak"
+
+msgid "Save translation settings"
+msgstr "Gorde itzulpen ezarpenak"
+
+msgid "Saxony"
+msgstr "Saxonia"
+
+msgid "Saxony-Anhalt"
+msgstr "Saxonia-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+msgid "Scraped"
+msgstr "Arraskatua"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Bilatu lehenengo sarean saiatzen da, huts egiten badu tokiko zerrenda erabiltzen du."
+
+msgid "Search your City"
+msgstr "Bilatu zure hiria"
+
+msgid "Select"
+msgstr "Hautatu"
+
+msgid "Select {} unit"
+msgstr "Hautatu {} unitate"
+
+msgid "Select a city"
+msgstr "Aukeratu hiri bat"
+
+msgid "Select a map with OK"
+msgstr "Hautatu mapa bat Ados botoian"
+
+msgid "Select Region"
+msgstr "Hautatu Eskualdea"
+
+msgid "Select unit system"
+msgstr "Hautatu unitate-sistema"
+
+msgid "Select wind unit"
+msgstr "Hautatu haize-unitatea"
+
+msgid "Selected hour details"
+msgstr "Aukeratutako orduen xehetasunak"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Ezarri azimutua: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Ezarri azimutua: N/A"
+
+msgid "Sets"
+msgstr "Multzoak"
+
+msgid "Show info"
+msgstr "Erakutsi informazioa"
+
+msgid "Showers"
+msgstr "Dutxak"
+
+msgid "Slovakia"
+msgstr "Eslovakia"
+
+msgid "Slower: {}s"
+msgstr "Motelago: {} s"
+
+msgid "Snow / ice"
+msgstr "Elurra / izotza"
+
+msgid "Snow prob. {}%"
+msgstr "Elur-prob. % {}"
+
+msgid "Snow prob.: N/A"
+msgstr "Elur-arazoa: N/A"
+
+msgid "South Africa"
+msgstr "Hegoafrika"
+
+msgid "South America"
+msgstr "Hego Amerika"
+
+msgid "Southeast Asia"
+msgstr "Asiako hego-ekialdea"
+
+msgid "Spain"
+msgstr "Espainia"
+
+msgid "Station Observations"
+msgstr "Geltokiko Behaketak"
+
+msgid "Station: {}"
+msgstr "Geltokia: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Indartsua (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "Egunsentia"
+
+msgid "Sunset"
+msgstr "Ilunabarra"
+
+msgid "Super Full Moon"
+msgstr "Super Ilargi betea"
+
+msgid "Sweden"
+msgstr "Suedia"
+
+msgid "Switzerland"
+msgstr "Suitza"
+
+msgid "Target Language"
+msgstr "Xede-hizkuntza"
+
+msgid "Temp"
+msgstr "Tenperatura"
+
+msgid "Temperature"
+msgstr "Tenperatura"
+
+msgid "Temperature: {}"
+msgstr "Tenperatura: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Tenperatura: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Tenperatura: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Tenperatura: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Tenperatura: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Tenperatura: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Eskerrik asko {thanks} eta beste lagunei iradokizunengatik"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Urruneko bertsioa ({remote}) oraingoa ({current}) baino zaharragoa da."
+
+msgid "Thin upper cloud"
+msgstr "Goiko hodei mehea"
+
+msgid "Thuringia"
+msgstr "Turingia"
+
+msgid "Time"
+msgstr "Denbora"
+
+msgid "Today"
+msgstr "Gaur"
+
+msgid "Today/Tomorrow details"
+msgstr "Gaur/Bihar xehetasunak"
+
+msgid "Toggle legend"
+msgstr "Aldatu kondaira"
+
+msgid "Token expire hours"
+msgstr "Token iraungitze orduak"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Token iraungitze orduak -1 edo zenbaki positiboa izan behar du."
+
+msgid "Token expire hours must be a number."
+msgstr "Token iraungitze orduak zenbaki bat izan behar du."
+
+msgid "Tomorrow"
+msgstr "Bihar"
+
+msgid "Transit (culmination): {}"
+msgstr "Garraioa (gailurra): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Garraio-altuera: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Garraio-altuera: N/A"
+
+msgid "Translation Settings"
+msgstr "Itzulpen ezarpenak"
+
+msgid "Transparency level"
+msgstr "Gardentasun maila"
+
+msgid "Transparency Settings"
+msgstr "Gardentasun ezarpenak"
+
+msgid "Unhealthy"
+msgstr "Osasungaitza"
+
+msgid "Unhealthy for sensitives"
+msgstr "Osasungaitza sentikorrentzat"
+
+msgid "Unit Settings"
+msgstr "Unitatearen ezarpenak"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Unitatearen ezarpenak (aurreratua)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Unitatearen ezarpenak (erraza)"
+
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+msgid "Up"
+msgstr "Gora"
+
+msgid "Up - Previous page"
+msgstr "Gora - Aurreko orria"
+
+msgid "Update canceled."
+msgstr "Eguneraketa bertan behera utzi da."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Eguneraketa osatu da. Mesedez, berrabiarazi Enigma2."
+
+msgid "Updated {}"
+msgstr "Eguneratu da {}"
+
+msgid "Updated: {}"
+msgstr "Eguneratua: {}"
+
+msgid "Updated: N/A"
+msgstr "Eguneratua: N/A"
+
+msgid "Updating..."
+msgstr "Eguneratzen..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Erabili ← → ordua aldatzeko | Ados irteteko"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Erabili ←/→/↑/↓ | mugitzeko Ados irteteko"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Erabili ▲/▼ aldatzeko, Ados hautatzeko"
+
+msgid "Use arrow keys to scroll"
+msgstr "Erabili gezi-teklak mugitzeko"
+
+msgid "Use Google Translate"
+msgstr "Erabili Google Translate"
+
+msgid "Using current time"
+msgstr "Uneko ordua erabiliz"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV indizea"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Euria oso gogorra"
+
+msgid "Very high"
+msgstr "Oso altua"
+
+msgid "Very hot (>40°C)"
+msgstr "Oso beroa (>40°C)"
+
+msgid "Very low"
+msgstr "Oso baxua"
+
+msgid "Very unhealthy"
+msgstr "Oso osasungaitza"
+
+msgid "Visibility: {} m"
+msgstr "Ikusgarritasuna: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Ikusgarritasuna: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Ilargierdi beherakorra"
+
+msgid "Waning Gibbous"
+msgstr "Gibosa galtzen"
+
+msgid "Warm (20-30°C)"
+msgstr "Epela (20-30 °C)"
+
+msgid "Waxing Crescent"
+msgstr "Argizari Ilargia"
+
+msgid "Waxing Gibbous"
+msgstr "Argizaria Gibbous"
+
+msgid "Weather"
+msgstr "Eguraldia"
+
+msgid "Weather Map"
+msgstr "Eguraldiaren mapa"
+
+msgid "Weather Maps"
+msgstr "Eguraldi mapak"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Eguraldi mapak (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Eguraldi mapak eta satelitea"
+
+msgid "Weather Maps Slideshow"
+msgstr "Eguraldi-mapen diaporama"
+
+msgid "Weather Radar"
+msgstr "Eguraldi Radar"
+
+msgid "Weather today"
+msgstr "Eguraldia gaur"
+
+msgid "Weather tomorrow"
+msgstr "Eguraldia bihar"
+
+msgid "Weekly Forecast"
+msgstr "Asteko iragarpena"
+
+msgid "Wind"
+msgstr "Haizea"
+
+msgid "Wind direction"
+msgstr "Haizearen norabidea"
+
+msgid "Wind Direction today"
+msgstr "Haizearen norabidea gaur"
+
+msgid "Wind Direction tomorrow"
+msgstr "Haizearen norabidea bihar"
+
+msgid "Wind speed"
+msgstr "Haizearen abiadura"
+
+msgid "Wind speed {}"
+msgstr "Haizearen abiadura {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Haizearen abiadura: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Haizea: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Haizea: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Haizea: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Haizea: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Haizea: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Haizea: N/A"
+
+msgid "Window transparency"
+msgstr "Leihoaren gardentasuna"
+
+msgid "Yellow - Favorite 2"
+msgstr "Horia - Gogokoena 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Dagoeneko {version} bertsioa duzu instalatuta.\nBerriz instalatu nahi duzu?"
+
+msgid "Zoom In"
+msgstr "Handitu"
+
+msgid "Zoom Out"
+msgstr "Txikiagotu"
+
+msgid "Zoom-"
+msgstr "Zoom-"
+
+msgid "Zoom:"
+msgstr "Zooma:"
+
+msgid "Zoom+"
+msgstr "Zoom+"
+

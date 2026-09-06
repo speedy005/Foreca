@@ -1,0 +1,1509 @@
+# fi translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: fi <ekekaz@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• SININEN tallentaaksesi nimellä Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- hyppää 500 kaupunkiin\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• VIHREÄ tallentaaksesi suosikiksi 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK valitaksesi city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• PUNAINEN avataksesi hakunäppäimistön\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Käytä nuolinäppäimiä navigoidaksesi \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- hypätä 100 kaupunkiin\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
+
+msgid "← Frame"
+msgstr "← Kehys"
+
+msgid "0 - Today"
+msgstr "0 - Tänään"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Tänään + 1 päivä"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Tänään + 2 päivää"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Tänään + 3 päivää"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Tänään + 4 päivää"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Tänään + 5 päivää"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Tänään + 6 päivää"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Tänään + 7 päivää"
+
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Tänään + 8 päivää"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Tänään + 9 päivää"
+
+msgid "Advanced"
+msgstr "Edistynyt"
+
+msgid "Advanced Unit Settings"
+msgstr "Yksikön lisäasetukset"
+
+msgid "Afternoon"
+msgstr "Iltapäivällä"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Ikä uudenkuun jälkeen: {:.1f} päivää"
+
+msgid "Age: N/A"
+msgstr "Ikä: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kulman halkaisija: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Kulman halkaisija: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API-määritystiedostoa ei löydy!\n\nLuo tiedosto:\n{0}\n\n Foreca API -tunnuksillasi."
+
+msgid "API credentials not configured."
+msgstr "API-tunnistetietoja ei ole määritetty."
+
+msgid "API error"
+msgstr "API-virhe"
+
+msgid "API password"
+msgstr "API-salasana"
+
+msgid "API user"
+msgstr "API-käyttäjä"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Näennäinen suuruus: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Ei käytössä"
+
+msgid "Assign to Favorite 1"
+msgstr "Liitä suosikiksi 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Liitä suosikiksi 2"
+
+msgid "Assign to Home"
+msgstr "Määritä Kotiin"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Austria"
+msgstr "Itävalta"
+
+msgid "Auth server"
+msgstr "Todennuspalvelin"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Württemberg"
+
+msgid "Barometer"
+msgstr "Barometri"
+
+msgid "Bavaria"
+msgstr "Baijeri"
+
+msgid "Belgium"
+msgstr "Belgia"
+
+msgid "Berlin"
+msgstr "Berliini"
+
+msgid "Black Moon"
+msgstr "Musta kuu"
+
+msgid "Blue"
+msgstr "Sininen"
+
+msgid "Blue - Home"
+msgstr "Sininen - Kotiin"
+
+msgid "Blue Moon"
+msgstr "Sininen kuu"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "Lasketaan..."
+
+msgid "Cancel"
+msgstr "Peruuttaa"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsius, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Muutosloki: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Muutokset tulevat voimaan välittömästi"
+
+msgid "Check for updates"
+msgstr "Tarkista päivitykset"
+
+msgid "Choose detail view"
+msgstr "Valitse yksityiskohtanäkymä"
+
+msgid "City list file not found!"
+msgstr "Kaupunkiluettelotiedostoa ei löydy!"
+
+msgid "City Selection"
+msgstr "Kaupungin valinta"
+
+msgid "City Selection Help:\n\n"
+msgstr "Kaupungin valintaohje: \n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Siivotaanko Foreca One Temp -tiedostot?"
+
+msgid "Cleanup temp files"
+msgstr "Puhdista väliaikaiset tiedostot"
+
+msgid "Clear"
+msgstr "Selkeä"
+
+msgid "Close"
+msgstr "Lähellä"
+
+msgid "Close legend"
+msgstr "Sulje legenda"
+
+msgid "Close setup without saving"
+msgstr "Sulje asetukset tallentamatta"
+
+msgid "Cloudy"
+msgstr "Pilvinen"
+
+msgid "Cloudy and light rain"
+msgstr "Pilvistä ja kevyttä sadetta"
+
+msgid "Cloudy and light snow"
+msgstr "Pilvistä ja kevyttä lumisadetta"
+
+msgid "Cloudy and light wet snow"
+msgstr "Pilvistä ja kevyttä märkää lunta"
+
+msgid "Cloudy and showers"
+msgstr "Pilvistä ja sadekuuroja"
+
+msgid "Cloudy and snow showers"
+msgstr "Pilvistä ja lumisadetta"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Pilvistä ja märkää lumisadetta"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Pilvistä, ukkosmyrskyjä ja sadekuuroja"
+
+msgid "Cold (< 0°C)"
+msgstr "Kylmä (< 0°C)"
+
+msgid "Color data"
+msgstr "Väritiedot"
+
+msgid "Color legend"
+msgstr "Väri legenda"
+
+msgid "Color Legend"
+msgstr "Väri legenda"
+
+msgid "Color name"
+msgstr "Värin nimi"
+
+msgid "Color select"
+msgstr "Värin valinta"
+
+msgid "Color Selector"
+msgstr "Värin valitsin"
+
+msgid "Condition: {}"
+msgstr "Kunto: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Määritä Foreca API -tunnistetiedot"
+
+msgid "Continents Weather Maps"
+msgstr "Mannerten sääkartat"
+
+msgid "Cool (0-10°C)"
+msgstr "Viileä (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Päivitystietoja ei voitu hakea."
+
+msgid "Could not initialize map API."
+msgstr "Karttasovellusliittymää ei voitu alustaa."
+
+msgid "Could not load forecast data"
+msgstr "Ennustetietoja ei voitu ladata"
+
+msgid "Could not parse version information."
+msgstr "Versiotietoja ei voitu jäsentää."
+
+msgid "Current weather and forecast"
+msgstr "Tämänhetkinen sää ja ennuste"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Nykyinen sää ja ennuste seuraaville 10 päivälle"
+
+msgid "Current: {}"
+msgstr "Nykyinen: {}"
+
+msgid "Czech Republic"
+msgstr "Tšekin tasavalta"
+
+msgid "Data provided by Foreca"
+msgstr "Tiedot toimittaa Foreca"
+
+msgid "Date: {}"
+msgstr "Päivämäärä: {}"
+
+msgid "Day"
+msgstr "Päivä"
+
+msgid "Decrease Speed"
+msgstr "Pienennä nopeutta"
+
+msgid "Defaults"
+msgstr "Oletukset"
+
+msgid "Denmark"
+msgstr "Tanska"
+
+msgid "Details"
+msgstr "Yksityiskohdat"
+
+msgid "Dewpoint {}"
+msgstr "Kastepiste {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Kastepiste {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Kastepiste: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Kastepiste: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Kastepiste: N/A"
+
+msgid "Distance"
+msgstr "Etäisyys"
+
+msgid "Distance {} km"
+msgstr "Etäisyys {} km"
+
+msgid "Distance: {}"
+msgstr "Etäisyys: {}"
+
+msgid "Distance: {} km"
+msgstr "Etäisyys: {} km"
+
+msgid "Distance: %s"
+msgstr "Etäisyys: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Haluatko asentaa sen nyt?"
+
+msgid "Down"
+msgstr "Alas"
+
+msgid "Down - Next page"
+msgstr "Alas - Seuraava sivu"
+
+msgid "Download error"
+msgstr "Latausvirhe"
+
+msgid "Downloading images..."
+msgstr "Ladataan kuvia..."
+
+msgid "Downloading tiles..."
+msgstr "Ladataan laattoja..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Itä-Aasia"
+
+msgid "Error checking for updates."
+msgstr "Virhe päivitysten tarkistamisessa."
+
+msgid "Error loading data"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "Error loading map"
+msgstr "Virhe ladattaessa karttaa"
+
+msgid "Error loading maps. Check connection."
+msgstr "Virhe ladattaessa karttoja. Tarkista yhteys."
+
+msgid "Error saving favorite!"
+msgstr "Virhe tallennettaessa suosikkia!"
+
+msgid "Europe"
+msgstr "Euroopassa"
+
+msgid "European Weather Maps"
+msgstr "Euroopan sääkartat"
+
+msgid "Evening"
+msgstr "Ilta"
+
+msgid "Exit"
+msgstr "Poistu"
+
+msgid "Exit - End"
+msgstr "Poistu - loppu"
+
+msgid "Exit / Close legend"
+msgstr "Poistu / Sulje selite"
+
+msgid "Extreme"
+msgstr "Äärimmäistä"
+
+msgid "Extreme / thunderstorms"
+msgstr "Äärimmäiset / ukkosmyrskyt"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Määritystiedoston kirjoittaminen epäonnistui: \n%s"
+
+msgid "Faster: {}s"
+msgstr "Nopeampi: {}s"
+
+msgid "Favorite 1"
+msgstr "Suosikki 1"
+
+msgid "Favorite 2"
+msgstr "Suosikki 2"
+
+msgid "Favorites details"
+msgstr "Suosikkien tiedot"
+
+msgid "Favorites Details"
+msgstr "Suosikkien tiedot"
+
+msgid "Feels like"
+msgstr "Tuntuu"
+
+msgid "Feels like {}"
+msgstr "Tuntuu kuin {}"
+
+msgid "Feels like {}{}"
+msgstr "Tuntuu kuin {}{}"
+
+msgid "Feels like: {}"
+msgstr "Tuntuu: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Tuntuu: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Tuntuu kuin: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Tuntuu: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Tuntuu kuin: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Tuntuu: N/A"
+
+msgid "Finland"
+msgstr "Suomi"
+
+msgid "First Quarter"
+msgstr "Ensimmäinen vuosineljännes"
+
+msgid "Fog"
+msgstr "Sumu"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Foreca API -tunnuksia ei ole vielä määritetty. Kirjoita ne asetusnäyttöön."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Foreca API -asetukset tallennettu onnistuneesti."
+
+msgid "Foreca API Setup"
+msgstr "Foreca API -asetukset"
+
+msgid "Foreca One"
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Kartta {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca One Live Maps (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca One -valikko"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Asemia ei löytynyt"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One -asennus"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One Stations: {} asemaa lähellä ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Sääennuste"
+
+msgid "Frame →"
+msgstr "Kehys →"
+
+msgid "Frame: {}"
+msgstr "Kehys: {}"
+
+msgid "France"
+msgstr "Ranska"
+
+msgid "Full Moon"
+msgstr "Täysikuu"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Gale voima (>60 km/h)"
+
+msgid "German States Weather Maps"
+msgstr "Saksan valtioiden sääkartat"
+
+msgid "Germany"
+msgstr "Saksa"
+
+msgid "Good"
+msgstr "Hyvä"
+
+msgid "Great Britain"
+msgstr "Iso-Britannia"
+
+msgid "Greece"
+msgstr "Kreikka"
+
+msgid "Green"
+msgstr "Vihreä"
+
+msgid "Green - Favorite 1"
+msgstr "Vihreä - suosikki 1"
+
+msgid "Gust {}"
+msgstr "Puuski {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Puuskissa: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hampuri"
+
+msgid "Hazardous"
+msgstr "Vaarallinen"
+
+msgid "Header - not selectable"
+msgstr "Otsikko - ei valittavissa"
+
+msgid "Heavy rain"
+msgstr "Rankkasade"
+
+msgid "Help"
+msgstr "Auttaa"
+
+msgid "Hesse"
+msgstr "Hesse"
+
+msgid "High"
+msgstr "Korkea"
+
+msgid "Home"
+msgstr "Kotiin"
+
+msgid "Hot (30-40°C)"
+msgstr "Kuuma (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Tuntitiedot"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Kosteus"
+
+msgid "Humidity: {}%"
+msgstr "Kosteus: {} %"
+
+msgid "Humidity: %s%%"
+msgstr "Kosteus: %s%%"
+
+msgid "Hungary"
+msgstr "Unkari"
+
+msgid "Ice / frost"
+msgstr "Jää / pakkasta"
+
+msgid "Illumination"
+msgstr "Valaistus"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Valaistus: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Kuva %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Kuva %(current)d/%(total)d – %(day)s (keskeytetty)"
+
+msgid "Image not available"
+msgstr "Kuvaa ei ole saatavilla"
+
+msgid "Imperial System"
+msgstr "Keisarillinen järjestelmä"
+
+msgid "Increase Speed"
+msgstr "Lisää nopeutta"
+
+msgid "Info"
+msgstr "Tiedot"
+
+msgid "Info - About"
+msgstr "Info - Tietoja"
+
+msgid "Ireland"
+msgstr "Irlanti"
+
+msgid "Italy"
+msgstr "Italia"
+
+msgid "Jump 100 down"
+msgstr "Hyppää 100 alas"
+
+msgid "Jump 100 up"
+msgstr "Hyppää 100 ylöspäin"
+
+msgid "Jump 500 down"
+msgstr "Hyppää 500 alas"
+
+msgid "Jump 500 up"
+msgstr "Hyppää 500 ylöspäin"
+
+msgid "Keyboard"
+msgstr "Näppäimistö"
+
+msgid "Last Quarter"
+msgstr "Viimeinen vuosineljännes"
+
+msgid "Last update"
+msgstr "Viimeisin päivitys"
+
+msgid "Latvia"
+msgstr "Latvia"
+
+msgid "Left - Previous day"
+msgstr "Vasen - edellinen päivä"
+
+msgid "Left arrow - Previous day"
+msgstr "Vasen nuoli - edellinen päivä"
+
+msgid "Light (0-20 km/h)"
+msgstr "Kevyt (0-20 km/h)"
+
+msgid "Light rain / drizzle"
+msgstr "Pientä sadetta/tihkua"
+
+msgid "Light to moderate"
+msgstr "Kevyt tai kohtalainen"
+
+msgid "Loading available maps..."
+msgstr "Ladataan saatavilla olevia karttoja..."
+
+msgid "Loading lunar phases..."
+msgstr "Ladataan kuun vaiheita..."
+
+msgid "Loading nearby stations..."
+msgstr "Ladataan läheisiä asemia..."
+
+msgid "Loading tiles..."
+msgstr "Ladataan laattoja..."
+
+msgid "Loading weekly forecast..."
+msgstr "Ladataan viikkoennustetta..."
+
+msgid "Loading..."
+msgstr "Ladataan..."
+
+msgid "Low"
+msgstr "Matala"
+
+msgid "Lower Saxony"
+msgstr "Ala-Saksi"
+
+msgid "Lunar Calendar"
+msgstr "Kuun kalenteri"
+
+msgid "Lunar phases from next month"
+msgstr "Kuun vaiheet ensi kuusta"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Magnitude: N/A"
+msgstr "Suuruus: N/A"
+
+msgid "Map {} selected"
+msgstr "Kartta {} valittu"
+
+msgid "Map & Tiles Loaded"
+msgstr "Kartta ja laatat ladattu"
+
+msgid "Map loaded"
+msgstr "Kartta ladattu"
+
+msgid "Map server"
+msgstr "Karttapalvelin"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Mecklenburg-Vorpommern"
+
+msgid "Menu"
+msgstr "Valikko"
+
+msgid "Menu - Settings"
+msgstr "Valikko - Asetukset"
+
+msgid "Merge failed"
+msgstr "Yhdistäminen epäonnistui"
+
+msgid "Meteogram"
+msgstr "Meteogrammi"
+
+msgid "Metric System"
+msgstr "Metrijärjestelmä"
+
+msgid "Middle America"
+msgstr "Keski-Amerikka"
+
+msgid "Middle Asia"
+msgstr "Keski-Aasia"
+
+msgid "Middle East"
+msgstr "Lähi-idässä"
+
+msgid "Mild (10-20°C)"
+msgstr "Lievä (10-20°C)"
+
+msgid "Moderate"
+msgstr "Kohtalainen"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Keskitaso (20-40 km/h)"
+
+msgid "Moderate rain"
+msgstr "Kohtalaista sadetta"
+
+msgid "Month"
+msgstr "Kuukausi"
+
+msgid "Moon details"
+msgstr "Kuun yksityiskohdat"
+
+msgid "Moon Details"
+msgstr "Kuun tiedot"
+
+msgid "Moonrise: {}"
+msgstr "Kuunnousu: {}"
+
+msgid "Moonset: {}"
+msgstr "Kuunlasku: {}"
+
+msgid "Morning"
+msgstr "Aamu"
+
+msgid "Mostly clear"
+msgstr "Pääosin selkeä"
+
+msgid "Move down"
+msgstr "Siirry alas"
+
+msgid "Move Down"
+msgstr "Siirrä alas"
+
+msgid "Move up"
+msgstr "Siirrä ylös"
+
+msgid "Move Up"
+msgstr "Siirrä ylös"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "Ei käytössä"
+
+msgid "Netherlands"
+msgstr "Alankomaat"
+
+msgid "New Moon"
+msgstr "Uusi kuu"
+
+msgid "New version {version} is available."
+msgstr "Uusi versio {version} on saatavilla."
+
+msgid "Next"
+msgstr "Seuraavaksi"
+
+msgid "Next frame"
+msgstr "Seuraava kehys"
+
+msgid "Next Image"
+msgstr "Seuraava kuva"
+
+msgid "Next page"
+msgstr "Seuraava sivu"
+
+msgid "Next time"
+msgstr "Ensi kerralla"
+
+msgid "No city selected"
+msgstr "Kaupunkia ei ole valittu"
+
+msgid "No data"
+msgstr "Ei dataa"
+
+msgid "No date available"
+msgstr "Päivämäärää ei ole saatavilla"
+
+msgid "No Internet connection detected."
+msgstr "Internet-yhteyttä ei havaittu."
+
+msgid "No location selected"
+msgstr "Sijaintia ei ole valittu"
+
+msgid "No OSM tiles"
+msgstr "Ei OSM-laattoja"
+
+msgid "No specific legend available."
+msgstr "Tarkkaa legendaa ei ole saatavilla."
+
+msgid "No station data"
+msgstr "Ei asematietoja"
+
+msgid "No station data available"
+msgstr "Asematietoja ei ole saatavilla"
+
+msgid "No stations found"
+msgstr "Asemia ei löytynyt"
+
+msgid "No tiles downloaded"
+msgstr "Laattoja ei ole ladattu"
+
+msgid "North Africa"
+msgstr "Pohjois-Afrikka"
+
+msgid "North America"
+msgstr "Pohjois-Amerikassa"
+
+msgid "North Rhine-Westphalia"
+msgstr "Nordrhein-Westfalen"
+
+msgid "Norway"
+msgstr "Norja"
+
+msgid "Ok - Details"
+msgstr "Ok - Yksityiskohdat"
+
+msgid "OK - Ext Info"
+msgstr "OK - Ulk Info"
+
+msgid "OK - Forecast"
+msgstr "OK - Ennuste"
+
+msgid "OK - Open Map"
+msgstr "OK - Avaa kartta"
+
+msgid "Open Keyboard"
+msgstr "Avaa Näppäimistö"
+
+msgid "Open Map"
+msgstr "Avaa kartta"
+
+msgid "Original design and idea by %s"
+msgstr "Alkuperäinen suunnittelu ja idea: %s"
+
+msgid "Overcast"
+msgstr "Pilvinen"
+
+msgid "Overcast and light rain"
+msgstr "Pilvistä ja kevyttä sadetta"
+
+msgid "Overcast and light snow"
+msgstr "Pilvistä ja kevyttä lumisadetta"
+
+msgid "Overcast and light wet snow"
+msgstr "Pilvistä ja kevyttä märkää lunta"
+
+msgid "Overcast and rain"
+msgstr "Pilvistä ja sadetta"
+
+msgid "Overcast and showers"
+msgstr "Pilvistä ja sadekuuroja"
+
+msgid "Overcast and snow"
+msgstr "Pilvistä ja lunta"
+
+msgid "Overcast and snow showers"
+msgstr "Pilvistä ja lumisadetta"
+
+msgid "Overcast and wet snow"
+msgstr "Pilvistä ja märkää lunta"
+
+msgid "Overcast and wet snow showers"
+msgstr "Pilvistä ja märkää lumisadetta"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Pilvistä, ukkosmyrskyjä ja vesisadetta"
+
+msgid "Overnight"
+msgstr "Yön yli"
+
+msgid "Page down"
+msgstr "Sivu alas"
+
+msgid "Page Down"
+msgstr "Sivu alas"
+
+msgid "Page up"
+msgstr "Sivu ylös"
+
+msgid "Page Up"
+msgstr "Sivu ylös"
+
+msgid "Pan down"
+msgstr "Panoroi alas"
+
+msgid "Pan left"
+msgstr "Pan vasemmalle"
+
+msgid "Pan right"
+msgstr "Panoroi oikealle"
+
+msgid "Pan up"
+msgstr "Pan ylös"
+
+msgid "Partly cloudy"
+msgstr "Puolipilvistä"
+
+msgid "Partly cloudy and light rain"
+msgstr "Puolipilvistä ja heikkoa sadetta"
+
+msgid "Partly cloudy and light snow"
+msgstr "Puolipilvistä ja kevyttä lumisadetta"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Puolipilvistä ja kevyttä märkää lunta"
+
+msgid "Partly cloudy and showers"
+msgstr "Puolipilvistä ja sadekuuroja"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Puolipilvistä ja lumisadetta"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Puolipilvistä ja märkää lumisadetta"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Puolipilvistä, ukkosmyrskyjä ja sadekuuroja"
+
+msgid "Perigee"
+msgstr "Perigee"
+
+msgid "Phase"
+msgstr "Vaihe"
+
+msgid "Phase: {}"
+msgstr "Vaihe: {}"
+
+msgid "Play/Pause"
+msgstr "Toista/Tauko"
+
+msgid "Please enter both API user and API password."
+msgstr "Anna sekä API-käyttäjä että API-salasana."
+
+msgid "Please wait ..."
+msgstr "Odota..."
+
+msgid "Poland"
+msgstr "Puola"
+
+msgid "Portugal"
+msgstr "Portugali"
+
+msgid "Precipitation"
+msgstr "Sademäärä"
+
+msgid "Precipitation: {}"
+msgstr "Sademäärä: {}"
+
+msgid "Precipitations"
+msgstr "Sateet"
+
+msgid "Precipitations: {}%"
+msgstr "Sademäärä: {} %"
+
+msgid "Press RED to search again"
+msgstr "Hae uudelleen painamalla PUNAISTA"
+
+msgid "Pressure"
+msgstr "Paine"
+
+msgid "Pressure: {}"
+msgstr "Paine: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Paine: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Paine: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Paine: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Paine: N/A"
+
+msgid "Prev"
+msgstr "Ed"
+
+msgid "Previous"
+msgstr "Edellinen"
+
+msgid "Previous frame"
+msgstr "Edellinen kehys"
+
+msgid "Previous Image"
+msgstr "Edellinen kuva"
+
+msgid "Previous page"
+msgstr "Edellinen sivu"
+
+msgid "Previous time"
+msgstr "Edellinen aika"
+
+msgid "Rain Prob."
+msgstr "Rain Prob."
+
+msgid "Rain prob. {}%"
+msgstr "Sadeongelma. {} %"
+
+msgid "Rain prob.: N/A"
+msgstr "Sateen todennäköisyys: N/A"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Sade: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "RainViewer-tutka"
+
+msgid "Red"
+msgstr "Punainen"
+
+msgid "Red - Color select"
+msgstr "Punainen - Valitse väri"
+
+msgid "Refresh"
+msgstr "Päivitä"
+
+msgid "Restore default server values"
+msgstr "Palauta palvelimen oletusarvot"
+
+msgid "Rhineland-Palatine"
+msgstr "Rheinland-Pfalz"
+
+msgid "Right - Next day"
+msgstr "Oikein - seuraavana päivänä"
+
+msgid "Right arrow - Next day"
+msgstr "Oikea nuoli - Seuraava päivä"
+
+msgid "Rise"
+msgstr "Nouse"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Nouse atsimuutti: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Nouse atsimuutti: N/A"
+
+msgid "Russia"
+msgstr "Venäjä"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saarland"
+
+msgid "Satellite Photos"
+msgstr "Satelliittikuvat"
+
+msgid "Satellite photos coming soon!"
+msgstr "Satelliittikuvia tulossa pian!"
+
+msgid "Save"
+msgstr "Tallentaa"
+
+msgid "Save API settings"
+msgstr "Tallenna API-asetukset"
+
+msgid "Save translation settings"
+msgstr "Tallenna käännösasetukset"
+
+msgid "Saxony"
+msgstr "Saksi"
+
+msgid "Saxony-Anhalt"
+msgstr "Saksi-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+msgid "Scraped"
+msgstr "Kaavittu"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Haku yrittää ensin verkossa, jos epäonnistuu, käyttää paikallista luetteloa."
+
+msgid "Search your City"
+msgstr "Hae kaupunkiasi"
+
+msgid "Select"
+msgstr "Valitse"
+
+msgid "Select {} unit"
+msgstr "Valitse {} yksikkö"
+
+msgid "Select a city"
+msgstr "Valitse kaupunki"
+
+msgid "Select a map with OK"
+msgstr "Valitse kartta painamalla OK"
+
+msgid "Select Region"
+msgstr "Valitse Alue"
+
+msgid "Select unit system"
+msgstr "Valitse yksikköjärjestelmä"
+
+msgid "Select wind unit"
+msgstr "Valitse tuuliyksikkö"
+
+msgid "Selected hour details"
+msgstr "Valittujen tuntien tiedot"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Aseta atsimuutti: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Aseta atsimuutti: N/A"
+
+msgid "Sets"
+msgstr "Sarjat"
+
+msgid "Show info"
+msgstr "Näytä tiedot"
+
+msgid "Showers"
+msgstr "Suihkut"
+
+msgid "Slovakia"
+msgstr "Slovakia"
+
+msgid "Slower: {}s"
+msgstr "Hitaampi: {}s"
+
+msgid "Snow / ice"
+msgstr "Lunta/jäätä"
+
+msgid "Snow prob. {}%"
+msgstr "Lumiongelma. {} %"
+
+msgid "Snow prob.: N/A"
+msgstr "Lumisade: N/A"
+
+msgid "South Africa"
+msgstr "Etelä-Afrikka"
+
+msgid "South America"
+msgstr "Etelä-Amerikka"
+
+msgid "Southeast Asia"
+msgstr "Kaakkois-Aasia"
+
+msgid "Spain"
+msgstr "Espanja"
+
+msgid "Station Observations"
+msgstr "Aseman havainnot"
+
+msgid "Station: {}"
+msgstr "Asema: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Vahva (40-60 km/h)"
+
+msgid "Sunrise"
+msgstr "Auringonnousu"
+
+msgid "Sunset"
+msgstr "Auringonlasku"
+
+msgid "Super Full Moon"
+msgstr "Super täysikuu"
+
+msgid "Sweden"
+msgstr "Ruotsi"
+
+msgid "Switzerland"
+msgstr "Sveitsi"
+
+msgid "Target Language"
+msgstr "Kohdekieli"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Lämpötila"
+
+msgid "Temperature: {}"
+msgstr "Lämpötila: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Lämpötila: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Lämpötila: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Lämpötila: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Lämpötila: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Lämpötila: N/A"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Kiitos {thanks} ja muut ystävät ehdotuksista"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Etäversio ({remote}) on vanhempi kuin nykyinen ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Ohut yläpilvi"
+
+msgid "Thuringia"
+msgstr "Thüringen"
+
+msgid "Time"
+msgstr "Aika"
+
+msgid "Today"
+msgstr "Tänään"
+
+msgid "Today/Tomorrow details"
+msgstr "Tänään/huomisen tiedot"
+
+msgid "Toggle legend"
+msgstr "Vaihda legenda"
+
+msgid "Token expire hours"
+msgstr "Token vanhenee tuntia"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Tokenin vanhenemistuntien on oltava -1 tai positiivinen luku."
+
+msgid "Token expire hours must be a number."
+msgstr "Tokenin vanhenemistuntien on oltava numero."
+
+msgid "Tomorrow"
+msgstr "Huomenna"
+
+msgid "Transit (culmination): {}"
+msgstr "Transit (huippu): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Liikennekorkeus: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Liikennekorkeus: N/A"
+
+msgid "Translation Settings"
+msgstr "Käännösasetukset"
+
+msgid "Transparency level"
+msgstr "Läpinäkyvyystaso"
+
+msgid "Transparency Settings"
+msgstr "Läpinäkyvyysasetukset"
+
+msgid "Unhealthy"
+msgstr "Epäterveellistä"
+
+msgid "Unhealthy for sensitives"
+msgstr "Epäterveellistä herkille"
+
+msgid "Unit Settings"
+msgstr "Yksikköasetukset"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Yksikköasetukset (Lisäasetukset)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Yksikköasetukset (yksinkertainen)"
+
+msgid "Unknown"
+msgstr "Tuntematon"
+
+msgid "Up"
+msgstr "Ylös"
+
+msgid "Up - Previous page"
+msgstr "Ylös - Edellinen sivu"
+
+msgid "Update canceled."
+msgstr "Päivitys peruttu."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Päivitys valmis. Käynnistä Enigma2 uudelleen."
+
+msgid "Updated {}"
+msgstr "Päivitetty {}"
+
+msgid "Updated: {}"
+msgstr "Päivitetty: {}"
+
+msgid "Updated: N/A"
+msgstr "Päivitetty: N/A"
+
+msgid "Updating..."
+msgstr "Päivitetään..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Käytä ← → muuttaaksesi aikaa | OK poistuaksesi"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Käytä ←/→/↑/↓ siirtääksesi | OK poistuaksesi"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Käytä ▲/▼ muuttaaksesi ja OK valitaksesi"
+
+msgid "Use arrow keys to scroll"
+msgstr "Käytä nuolinäppäimiä vierittääksesi"
+
+msgid "Use Google Translate"
+msgstr "Käytä Google Translatea"
+
+msgid "Using current time"
+msgstr "Käytetään nykyistä aikaa"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV-indeksi"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Erittäin rankkaa sadetta"
+
+msgid "Very high"
+msgstr "Erittäin korkea"
+
+msgid "Very hot (>40°C)"
+msgstr "Erittäin kuuma (>40°C)"
+
+msgid "Very low"
+msgstr "Erittäin matala"
+
+msgid "Very unhealthy"
+msgstr "Erittäin epäterveellistä"
+
+msgid "Visibility: {} m"
+msgstr "Näkyvyys: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Näkyvyys: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Hiipuva Crescent"
+
+msgid "Waning Gibbous"
+msgstr "Hiipuva Gibbous"
+
+msgid "Warm (20-30°C)"
+msgstr "lämmin (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Kasvava Crescent"
+
+msgid "Waxing Gibbous"
+msgstr "Vahaus Gibbous"
+
+msgid "Weather"
+msgstr "Sää"
+
+msgid "Weather Map"
+msgstr "Sää kartta"
+
+msgid "Weather Maps"
+msgstr "Sääkartat"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Sääkartat (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Sääkartat ja satelliitti"
+
+msgid "Weather Maps Slideshow"
+msgstr "Sääkarttojen diaesitys"
+
+msgid "Weather Radar"
+msgstr "Säätutka"
+
+msgid "Weather today"
+msgstr "Sää tänään"
+
+msgid "Weather tomorrow"
+msgstr "Sää huomenna"
+
+msgid "Weekly Forecast"
+msgstr "Viikon ennuste"
+
+msgid "Wind"
+msgstr "Tuuli"
+
+msgid "Wind direction"
+msgstr "Tuulen suunta"
+
+msgid "Wind Direction today"
+msgstr "Tuulen suunta tänään"
+
+msgid "Wind Direction tomorrow"
+msgstr "Tuulen suunta huomenna"
+
+msgid "Wind speed"
+msgstr "Tuulen nopeus"
+
+msgid "Wind speed {}"
+msgstr "Tuulen nopeus {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Tuulen nopeus: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Tuuli: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Tuuli: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Tuuli: {} km/h {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Tuuli: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Tuuli: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Tuuli: N/A"
+
+msgid "Window transparency"
+msgstr "Ikkunan läpinäkyvyys"
+
+msgid "Yellow - Favorite 2"
+msgstr "Keltainen - suosikki 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Sinulla on jo versio {version} asennettuna.\nHaluatko asentaa sen uudelleen?"
+
+msgid "Zoom In"
+msgstr "Lähennä"
+
+msgid "Zoom Out"
+msgstr "Loitonna"
+
+msgid "Zoom-"
+msgstr "Zoom-"
+
+msgid "Zoom:"
+msgstr "Zoomaa:"
+
+msgid "Zoom+"
+msgstr "Zoomaus+"
+

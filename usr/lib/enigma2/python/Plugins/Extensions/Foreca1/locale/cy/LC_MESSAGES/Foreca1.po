@@ -1,0 +1,1509 @@
+# cy translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: cy <ekekaz@gmail.com>\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} mun"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLUE i arbed fel Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- i neidio 500 o ddinasoedd\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GWYRDD i arbed fel Hoff 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• Iawn i ddewis city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RED i agor chwilair keyboard\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Defnyddiwch fysellau saeth i lywio \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- i neidio 100 o ddinasoedd\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• MELYN i arbed fel Hoff 2\n"
+
+msgid "← Frame"
+msgstr "← Ffrâm"
+
+msgid "0 - Today"
+msgstr "0 - Heddiw"
+
+msgid "1 - Today + 1 day"
+msgstr "1 - Heddiw + 1 diwrnod"
+
+msgid "2 - Today + 2 days"
+msgstr "2 - Heddiw + 2 ddiwrnod"
+
+msgid "3 - Today + 3 days"
+msgstr "3 - Heddiw + 3 diwrnod"
+
+msgid "4 - Today + 4 days"
+msgstr "4 - Heddiw + 4 diwrnod"
+
+msgid "5 - Today + 5 days"
+msgstr "5 - Heddiw + 5 diwrnod"
+
+msgid "6 - Today + 6 days"
+msgstr "6 - Heddiw + 6 diwrnod"
+
+msgid "7 - Today + 7 days"
+msgstr "7 - Heddiw + 7 diwrnod"
+
+msgid "7 Day Forecast"
+msgstr "Rhagolwg 7 Diwrnod"
+
+msgid "8 - Today + 8 days"
+msgstr "8 - Heddiw + 8 diwrnod"
+
+msgid "9 - Today + 9 days"
+msgstr "9 - Heddiw + 9 diwrnod"
+
+msgid "Advanced"
+msgstr "Uwch"
+
+msgid "Advanced Unit Settings"
+msgstr "Gosodiadau Uned Uwch"
+
+msgid "Afternoon"
+msgstr "Prynhawn"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Oedran ers New Moon: {:.1f} diwrnod"
+
+msgid "Age: N/A"
+msgstr "Oedran: Amh"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diamedr onglog: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "Diamedr onglog: Amh"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Heb ganfod ffeil ffurfweddu API!\n\nCrëwch ffeil:\n{0}\n\ngyda'ch manylion adnabod Foreca API."
+
+msgid "API credentials not configured."
+msgstr "Nid yw manylion adnabod API wedi'u ffurfweddu."
+
+msgid "API error"
+msgstr "Gwall API"
+
+msgid "API password"
+msgstr "Cyfrinair API"
+
+msgid "API user"
+msgstr "Defnyddiwr API"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Maint ymddangosiadol: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Amh"
+
+msgid "Assign to Favorite 1"
+msgstr "Aseinio i Hoff 1"
+
+msgid "Assign to Favorite 2"
+msgstr "Aseinio i Hoff 2"
+
+msgid "Assign to Home"
+msgstr "Neilltuo i Gartref"
+
+msgid "Australia"
+msgstr "Awstralia"
+
+msgid "Austria"
+msgstr "Awstria"
+
+msgid "Auth server"
+msgstr "Awd gweinydd"
+
+msgid "Baden-Wuerttemberg"
+msgstr "Baden-Wuerttemberg"
+
+msgid "Barometer"
+msgstr "Baromedr"
+
+msgid "Bavaria"
+msgstr "Bafaria"
+
+msgid "Belgium"
+msgstr "Gwlad Belg"
+
+msgid "Berlin"
+msgstr "Berlin"
+
+msgid "Black Moon"
+msgstr "Lleuad Ddu"
+
+msgid "Blue"
+msgstr "Glas"
+
+msgid "Blue - Home"
+msgstr "Glas - Cartref"
+
+msgid "Blue Moon"
+msgstr "Lleuad Las"
+
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+msgid "Bremen"
+msgstr "Bremen"
+
+msgid "Calculating..."
+msgstr "Wrthi'n cyfrifo..."
+
+msgid "Cancel"
+msgstr "Canslo"
+
+msgid "Celsius, km/h, hPa"
+msgstr "Celsius, km/h, hPa"
+
+msgid "Changelog: {changelog}"
+msgstr "Log newid: {changelog}"
+
+msgid "Changes apply immediately"
+msgstr "Mae newidiadau yn berthnasol ar unwaith"
+
+msgid "Check for updates"
+msgstr "Gwiriwch am ddiweddariadau"
+
+msgid "Choose detail view"
+msgstr "Dewiswch olwg fanwl"
+
+msgid "City list file not found!"
+msgstr "Ffeil rhestr dinas heb ei chanfod!"
+
+msgid "City Selection"
+msgstr "Detholiad Dinas"
+
+msgid "City Selection Help:\n\n"
+msgstr "Cymorth Dewis Dinas: \n\n"
+
+msgid "Cleanup Foreca One Temp Files?"
+msgstr "Glanhau Ffeiliau Foreca Un Dros Dro?"
+
+msgid "Cleanup temp files"
+msgstr "Glanhau ffeiliau dros dro"
+
+msgid "Clear"
+msgstr "Clir"
+
+msgid "Close"
+msgstr "Cau"
+
+msgid "Close legend"
+msgstr "Chwedl agos"
+
+msgid "Close setup without saving"
+msgstr "Caewch y gosodiad heb arbed"
+
+msgid "Cloudy"
+msgstr "Cymylog"
+
+msgid "Cloudy and light rain"
+msgstr "Glaw cymylog a ysgafn"
+
+msgid "Cloudy and light snow"
+msgstr "Eira cymylog ac ysgafn"
+
+msgid "Cloudy and light wet snow"
+msgstr "Eira gwlyb cymylog ac ysgafn"
+
+msgid "Cloudy and showers"
+msgstr "Cymylog a chawodydd"
+
+msgid "Cloudy and snow showers"
+msgstr "Cawodydd cymylog ac eira"
+
+msgid "Cloudy and wet snow showers"
+msgstr "Cawodydd eira cymylog a gwlyb"
+
+msgid "Cloudy, thunderstorms with rain"
+msgstr "Cymylog, stormydd mellt a tharanau gyda glaw"
+
+msgid "Cold (< 0°C)"
+msgstr "Oer (< 0°C)"
+
+msgid "Color data"
+msgstr "Data lliw"
+
+msgid "Color legend"
+msgstr "Chwedl lliw"
+
+msgid "Color Legend"
+msgstr "Chwedl Lliw"
+
+msgid "Color name"
+msgstr "Enw lliw"
+
+msgid "Color select"
+msgstr "Dewis lliw"
+
+msgid "Color Selector"
+msgstr "Dewisydd Lliw"
+
+msgid "Condition: {}"
+msgstr "Cyflwr: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Ffurfweddu tystlythyrau API Foreca"
+
+msgid "Continents Weather Maps"
+msgstr "Mapiau Tywydd Cyfandiroedd"
+
+msgid "Cool (0-10°C)"
+msgstr "Cŵl (0-10°C)"
+
+msgid "Could not fetch update information."
+msgstr "Methu â nôl gwybodaeth diweddaru."
+
+msgid "Could not initialize map API."
+msgstr "Methu cychwyn API map."
+
+msgid "Could not load forecast data"
+msgstr "Methu llwytho data rhagolwg"
+
+msgid "Could not parse version information."
+msgstr "Methu dosrannu gwybodaeth fersiwn."
+
+msgid "Current weather and forecast"
+msgstr "Y tywydd a'r rhagolygon presennol"
+
+msgid "Current weather and forecast for the next 10 days"
+msgstr "Tywydd presennol a rhagolygon ar gyfer y 10 diwrnod nesaf"
+
+msgid "Current: {}"
+msgstr "Cyfredol: {}"
+
+msgid "Czech Republic"
+msgstr "Gweriniaeth Tsiec"
+
+msgid "Data provided by Foreca"
+msgstr "Data a ddarparwyd gan Foreca"
+
+msgid "Date: {}"
+msgstr "Dyddiad: {}"
+
+msgid "Day"
+msgstr "Dydd"
+
+msgid "Decrease Speed"
+msgstr "Gostwng Cyflymder"
+
+msgid "Defaults"
+msgstr "Rhagosodiadau"
+
+msgid "Denmark"
+msgstr "Denmarc"
+
+msgid "Details"
+msgstr "Manylion"
+
+msgid "Dewpoint {}"
+msgstr "Dewpoint {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Dewpoint {}°C"
+
+msgid "Dewpoint: %d%s"
+msgstr "Dewpoint: %d%s"
+
+msgid "Dewpoint: %s°C"
+msgstr "Dewpoint: %s°C"
+
+msgid "Dewpoint: N/A"
+msgstr "Dewpoint: Amh"
+
+msgid "Distance"
+msgstr "Pellter"
+
+msgid "Distance {} km"
+msgstr "Pellter {} km"
+
+msgid "Distance: {}"
+msgstr "Pellter: {}"
+
+msgid "Distance: {} km"
+msgstr "Pellter: {} km"
+
+msgid "Distance: %s"
+msgstr "Pellter: %s"
+
+msgid "Do you want to install it now?"
+msgstr "Ydych chi am ei osod nawr?"
+
+msgid "Down"
+msgstr "I lawr"
+
+msgid "Down - Next page"
+msgstr "I lawr - Tudalen nesaf"
+
+msgid "Download error"
+msgstr "Gwall llwytho i lawr"
+
+msgid "Downloading images..."
+msgstr "Wrthi'n lawrlwytho lluniau..."
+
+msgid "Downloading tiles..."
+msgstr "Wrthi'n lawrlwytho teils..."
+
+msgid "E"
+msgstr "E"
+
+msgid "East Asia"
+msgstr "Dwyrain Asia"
+
+msgid "Error checking for updates."
+msgstr "Gwall wrth wirio am ddiweddariadau."
+
+msgid "Error loading data"
+msgstr "Gwall wrth lwytho data"
+
+msgid "Error loading map"
+msgstr "Gwall wrth lwytho'r map"
+
+msgid "Error loading maps. Check connection."
+msgstr "Gwall wrth lwytho mapiau. Gwirio cysylltiad."
+
+msgid "Error saving favorite!"
+msgstr "Gwall wrth gadw ffefryn!"
+
+msgid "Europe"
+msgstr "Ewrop"
+
+msgid "European Weather Maps"
+msgstr "Mapiau Tywydd Ewropeaidd"
+
+msgid "Evening"
+msgstr "Hwyr"
+
+msgid "Exit"
+msgstr "Ymadael"
+
+msgid "Exit - End"
+msgstr "Ymadael - Diwedd"
+
+msgid "Exit / Close legend"
+msgstr "Gadael / Cau chwedl"
+
+msgid "Extreme"
+msgstr "Eithafol"
+
+msgid "Extreme / thunderstorms"
+msgstr "Stormydd a tharanau eithafol"
+
+msgid "Fahrenheit, mph, inHg"
+msgstr "Fahrenheit, mya, ynHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Wedi methu ysgrifennu ffeil ffurfweddu: \n%s"
+
+msgid "Faster: {}s"
+msgstr "Cyflymach: {}s"
+
+msgid "Favorite 1"
+msgstr "Hoff 1"
+
+msgid "Favorite 2"
+msgstr "Hoff 2"
+
+msgid "Favorites details"
+msgstr "Manylion ffefrynnau"
+
+msgid "Favorites Details"
+msgstr "Manylion Ffefrynnau"
+
+msgid "Feels like"
+msgstr "Yn teimlo fel"
+
+msgid "Feels like {}"
+msgstr "Yn teimlo fel {}"
+
+msgid "Feels like {}{}"
+msgstr "Yn teimlo fel {}{}"
+
+msgid "Feels like: {}"
+msgstr "Yn teimlo fel: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Yn teimlo fel: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Yn teimlo fel: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Yn teimlo fel: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Yn teimlo fel: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Yn teimlo fel: Amh"
+
+msgid "Finland"
+msgstr "Ffindir"
+
+msgid "First Quarter"
+msgstr "Chwarter Cyntaf"
+
+msgid "Fog"
+msgstr "Niwl"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr "Nid yw tystlythyrau API Foreca wedi'u ffurfweddu eto. Rhowch nhw yn y sgrin gosod."
+
+msgid "Foreca API settings saved successfully."
+msgstr "Gosodiadau API Foreca wedi'u cadw'n llwyddiannus."
+
+msgid "Foreca API Setup"
+msgstr "Gosod API Foreca"
+
+msgid "Foreca One"
+msgstr "Foreca Un"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca Un | Map {}"
+
+msgid "Foreca One Live Maps (API)"
+msgstr "Mapiau Foreca One Live (API)"
+
+msgid "Foreca One Menu"
+msgstr "Foreca Un Ddewislen"
+
+msgid "Foreca One No stations found"
+msgstr "Foreca One Ni ddaethpwyd o hyd i orsafoedd"
+
+msgid "Foreca One Setup"
+msgstr "Gosod Foreca Un"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Gorsafoedd Foreca One: {} gorsaf gerllaw ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca Un Tywydd a Rhagolwg ver. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca Rhagolwg Tywydd Un"
+
+msgid "Frame →"
+msgstr "Ffrâm →"
+
+msgid "Frame: {}"
+msgstr "Ffrâm: {}"
+
+msgid "France"
+msgstr "Ffrainc"
+
+msgid "Full Moon"
+msgstr "Lleuad Llawn"
+
+msgid "Gale force (>60 km/h)"
+msgstr "Grym tymhestlog (>60 km/awr)"
+
+msgid "German States Weather Maps"
+msgstr "Mapiau Tywydd Taleithiau'r Almaen"
+
+msgid "Germany"
+msgstr "Almaen"
+
+msgid "Good"
+msgstr "Da"
+
+msgid "Great Britain"
+msgstr "Prydain Fawr"
+
+msgid "Greece"
+msgstr "Groeg"
+
+msgid "Green"
+msgstr "Gwyrdd"
+
+msgid "Green - Favorite 1"
+msgstr "Gwyrdd - Hoff 1"
+
+msgid "Gust {}"
+msgstr "Gust {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Gust: {:.1f} {}"
+
+msgid "Hamburg"
+msgstr "Hambwrg"
+
+msgid "Hazardous"
+msgstr "Peryglus"
+
+msgid "Header - not selectable"
+msgstr "Pennawd - nid yw'n ddetholadwy"
+
+msgid "Heavy rain"
+msgstr "Glaw trwm"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Hesse"
+msgstr "Hesse"
+
+msgid "High"
+msgstr "Uchel"
+
+msgid "Home"
+msgstr "Cartref"
+
+msgid "Hot (30-40°C)"
+msgstr "Poeth (30-40°C)"
+
+msgid "Hour Details"
+msgstr "Manylion yr Awr"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Humidity"
+msgstr "Lleithder"
+
+msgid "Humidity: {}%"
+msgstr "Lleithder: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Lleithder: %s%%"
+
+msgid "Hungary"
+msgstr "Hwngari"
+
+msgid "Ice / frost"
+msgstr "Rhew / rhew"
+
+msgid "Illumination"
+msgstr "Goleuo"
+
+msgid "Illumination: {:.1f}%"
+msgstr "Goleuo: {:.1f}%"
+
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Delwedd %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Delwedd %(current)d/%(total)d – %(day)s (Seibiant)"
+
+msgid "Image not available"
+msgstr "Nid yw'r llun ar gael"
+
+msgid "Imperial System"
+msgstr "System Imperial"
+
+msgid "Increase Speed"
+msgstr "Cynyddu Cyflymder"
+
+msgid "Info"
+msgstr "Gwybodaeth"
+
+msgid "Info - About"
+msgstr "Gwybodaeth - Am"
+
+msgid "Ireland"
+msgstr "Iwerddon"
+
+msgid "Italy"
+msgstr "Eidal"
+
+msgid "Jump 100 down"
+msgstr "Neidio 100 i lawr"
+
+msgid "Jump 100 up"
+msgstr "Neidio 100 i fyny"
+
+msgid "Jump 500 down"
+msgstr "Neidio 500 i lawr"
+
+msgid "Jump 500 up"
+msgstr "Neidio 500 i fyny"
+
+msgid "Keyboard"
+msgstr "Bysellfwrdd"
+
+msgid "Last Quarter"
+msgstr "Chwarter diweddaf"
+
+msgid "Last update"
+msgstr "Diweddariad diwethaf"
+
+msgid "Latvia"
+msgstr "Latfia"
+
+msgid "Left - Previous day"
+msgstr "Chwith - Y diwrnod blaenorol"
+
+msgid "Left arrow - Previous day"
+msgstr "Saeth chwith - Y diwrnod blaenorol"
+
+msgid "Light (0-20 km/h)"
+msgstr "Golau (0-20 km/awr)"
+
+msgid "Light rain / drizzle"
+msgstr "Glaw ysgafn / glaw mân"
+
+msgid "Light to moderate"
+msgstr "Ysgafn i gymedrol"
+
+msgid "Loading available maps..."
+msgstr "Wrthi'n llwytho mapiau sydd ar gael..."
+
+msgid "Loading lunar phases..."
+msgstr "Wrthi'n llwytho cyfnodau lleuad..."
+
+msgid "Loading nearby stations..."
+msgstr "Wrthi'n llwytho gorsafoedd cyfagos..."
+
+msgid "Loading tiles..."
+msgstr "Wrthi'n llwytho teils..."
+
+msgid "Loading weekly forecast..."
+msgstr "Wrthi'n llwytho rhagolwg wythnosol..."
+
+msgid "Loading..."
+msgstr "Wrthi'n llwytho..."
+
+msgid "Low"
+msgstr "Isel"
+
+msgid "Lower Saxony"
+msgstr "Sacsoni Isaf"
+
+msgid "Lunar Calendar"
+msgstr "Calendr Lleuad"
+
+msgid "Lunar phases from next month"
+msgstr "Cyfnodau lleuad o'r mis nesaf"
+
+msgid "Luxembourg"
+msgstr "Lwcsembwrg"
+
+msgid "Magnitude: N/A"
+msgstr "Maint: Amh"
+
+msgid "Map {} selected"
+msgstr "Map {} wedi'i ddewis"
+
+msgid "Map & Tiles Loaded"
+msgstr "Map a Theils wedi'u Llwytho"
+
+msgid "Map loaded"
+msgstr "Map wedi'i lwytho"
+
+msgid "Map server"
+msgstr "Gweinydd map"
+
+msgid "Mecklenburg-Vorpommern"
+msgstr "Mecklenburg-Vorpommern"
+
+msgid "Menu"
+msgstr "Bwydlen"
+
+msgid "Menu - Settings"
+msgstr "Dewislen - Gosodiadau"
+
+msgid "Merge failed"
+msgstr "Methodd yr uno"
+
+msgid "Meteogram"
+msgstr "Meteogram"
+
+msgid "Metric System"
+msgstr "System Fetrig"
+
+msgid "Middle America"
+msgstr "America Ganol"
+
+msgid "Middle Asia"
+msgstr "Asia Ganol"
+
+msgid "Middle East"
+msgstr "Dwyrain Canol"
+
+msgid "Mild (10-20°C)"
+msgstr "Ysgafn (10-20°C)"
+
+msgid "Moderate"
+msgstr "Cymedrol"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "Cymedrol (20-40 km/awr)"
+
+msgid "Moderate rain"
+msgstr "Glaw cymedrol"
+
+msgid "Month"
+msgstr "Mis"
+
+msgid "Moon details"
+msgstr "Manylion y lleuad"
+
+msgid "Moon Details"
+msgstr "Manylion y Lleuad"
+
+msgid "Moonrise: {}"
+msgstr "Codiad y lleuad: {}"
+
+msgid "Moonset: {}"
+msgstr "Machlud lleuad: {}"
+
+msgid "Morning"
+msgstr "Bore"
+
+msgid "Mostly clear"
+msgstr "Yn glir ar y cyfan"
+
+msgid "Move down"
+msgstr "Symud i lawr"
+
+msgid "Move Down"
+msgstr "Symud i Lawr"
+
+msgid "Move up"
+msgstr "Symud i fyny"
+
+msgid "Move Up"
+msgstr "Symud i Fyny"
+
+msgid "N"
+msgstr "N"
+
+msgid "N/A"
+msgstr "Amh"
+
+msgid "Netherlands"
+msgstr "Iseldiroedd"
+
+msgid "New Moon"
+msgstr "Lleuad Newydd"
+
+msgid "New version {version} is available."
+msgstr "Mae fersiwn newydd {version} ar gael."
+
+msgid "Next"
+msgstr "Nesaf"
+
+msgid "Next frame"
+msgstr "Ffrâm nesaf"
+
+msgid "Next Image"
+msgstr "Delwedd Nesaf"
+
+msgid "Next page"
+msgstr "Tudalen nesaf"
+
+msgid "Next time"
+msgstr "Y tro nesaf"
+
+msgid "No city selected"
+msgstr "Dim dinas wedi'i dewis"
+
+msgid "No data"
+msgstr "Dim data"
+
+msgid "No date available"
+msgstr "Dim dyddiad ar gael"
+
+msgid "No Internet connection detected."
+msgstr "Dim cysylltiad Rhyngrwyd wedi'i ganfod."
+
+msgid "No location selected"
+msgstr "Dim lleoliad wedi'i ddewis"
+
+msgid "No OSM tiles"
+msgstr "Dim teils OSM"
+
+msgid "No specific legend available."
+msgstr "Dim chwedl benodol ar gael."
+
+msgid "No station data"
+msgstr "Dim data gorsaf"
+
+msgid "No station data available"
+msgstr "Dim data gorsaf ar gael"
+
+msgid "No stations found"
+msgstr "Heb ganfod gorsafoedd"
+
+msgid "No tiles downloaded"
+msgstr "Dim teils wedi'u llwytho i lawr"
+
+msgid "North Africa"
+msgstr "Gogledd Affrica"
+
+msgid "North America"
+msgstr "Gogledd America"
+
+msgid "North Rhine-Westphalia"
+msgstr "Gogledd Rhein-Westphalia"
+
+msgid "Norway"
+msgstr "Norwy"
+
+msgid "Ok - Details"
+msgstr "Iawn - Manylion"
+
+msgid "OK - Ext Info"
+msgstr "Iawn - Gwybodaeth Est"
+
+msgid "OK - Forecast"
+msgstr "Iawn - Rhagolwg"
+
+msgid "OK - Open Map"
+msgstr "Iawn - Map Agored"
+
+msgid "Open Keyboard"
+msgstr "Agor Bysellfwrdd"
+
+msgid "Open Map"
+msgstr "Agor Map"
+
+msgid "Original design and idea by %s"
+msgstr "Dyluniad a syniad gwreiddiol gan %s"
+
+msgid "Overcast"
+msgstr "Cymylog"
+
+msgid "Overcast and light rain"
+msgstr "Glaw cymylog a ysgafn"
+
+msgid "Overcast and light snow"
+msgstr "Eira cymylog ac ysgafn"
+
+msgid "Overcast and light wet snow"
+msgstr "Eira gwlyb cymylog ac ysgafn"
+
+msgid "Overcast and rain"
+msgstr "Cymylog a glaw"
+
+msgid "Overcast and showers"
+msgstr "Cymylog a chawodydd"
+
+msgid "Overcast and snow"
+msgstr "Cymylog ac eira"
+
+msgid "Overcast and snow showers"
+msgstr "Cawodydd cymylog ac eira"
+
+msgid "Overcast and wet snow"
+msgstr "Eira cymylog a gwlyb"
+
+msgid "Overcast and wet snow showers"
+msgstr "Cawodydd eira cymylog a gwlyb"
+
+msgid "Overcast, thunderstorms with rain"
+msgstr "Cymylog, stormydd mellt a tharanau gyda glaw"
+
+msgid "Overnight"
+msgstr "Dros nos"
+
+msgid "Page down"
+msgstr "Tudalen i lawr"
+
+msgid "Page Down"
+msgstr "Tudalen i Lawr"
+
+msgid "Page up"
+msgstr "Tudalen i fyny"
+
+msgid "Page Up"
+msgstr "Tudalen i Fyny"
+
+msgid "Pan down"
+msgstr "Tremio i lawr"
+
+msgid "Pan left"
+msgstr "Tremio i'r chwith"
+
+msgid "Pan right"
+msgstr "Tremio i'r dde"
+
+msgid "Pan up"
+msgstr "Tremio i fyny"
+
+msgid "Partly cloudy"
+msgstr "Yn rhannol gymylog"
+
+msgid "Partly cloudy and light rain"
+msgstr "Yn rhannol gymylog a glaw ysgafn"
+
+msgid "Partly cloudy and light snow"
+msgstr "Eira rhannol gymylog ac ysgafn"
+
+msgid "Partly cloudy and light wet snow"
+msgstr "Eira gwlyb yn rhannol gymylog ac ysgafn"
+
+msgid "Partly cloudy and showers"
+msgstr "Yn rhannol gymylog a chawodydd"
+
+msgid "Partly cloudy and snow showers"
+msgstr "Cawodydd rhannol gymylog ac eira"
+
+msgid "Partly cloudy and wet snow showers"
+msgstr "Cawodydd eira rhannol gymylog a gwlyb"
+
+msgid "Partly cloudy, possible thunderstorms with rain"
+msgstr "Yn rhannol gymylog, stormydd mellt a tharanau posibl gyda glaw"
+
+msgid "Perigee"
+msgstr "Perigee"
+
+msgid "Phase"
+msgstr "Cyfnod"
+
+msgid "Phase: {}"
+msgstr "Cyfnod: {}"
+
+msgid "Play/Pause"
+msgstr "Chwarae/Saib"
+
+msgid "Please enter both API user and API password."
+msgstr "Rhowch y defnyddiwr API a chyfrinair API."
+
+msgid "Please wait ..."
+msgstr "Arhoswch os gwelwch yn dda ..."
+
+msgid "Poland"
+msgstr "Gwlad Pwyl"
+
+msgid "Portugal"
+msgstr "Portiwgal"
+
+msgid "Precipitation"
+msgstr "dyodiad"
+
+msgid "Precipitation: {}"
+msgstr "Dyodiad: {}"
+
+msgid "Precipitations"
+msgstr "dyodiad"
+
+msgid "Precipitations: {}%"
+msgstr "Dyodiad: {}%"
+
+msgid "Press RED to search again"
+msgstr "Pwyswch RED i chwilio eto"
+
+msgid "Pressure"
+msgstr "Pwysau"
+
+msgid "Pressure: {}"
+msgstr "Pwysau: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Pwysau: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Pwysau: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Pwysau: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Pwysau: Amh"
+
+msgid "Prev"
+msgstr "Cynt"
+
+msgid "Previous"
+msgstr "Blaenorol"
+
+msgid "Previous frame"
+msgstr "Ffrâm flaenorol"
+
+msgid "Previous Image"
+msgstr "Delwedd Flaenorol"
+
+msgid "Previous page"
+msgstr "Tudalen flaenorol"
+
+msgid "Previous time"
+msgstr "Amser blaenorol"
+
+msgid "Rain Prob."
+msgstr "Prob Glaw."
+
+msgid "Rain prob. {}%"
+msgstr "Prob glaw. {}%"
+
+msgid "Rain prob.: N/A"
+msgstr "Profi glaw: Amh"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Glaw: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "Radar Gwyliwr Glaw"
+
+msgid "Red"
+msgstr "Coch"
+
+msgid "Red - Color select"
+msgstr "Coch - dewis lliw"
+
+msgid "Refresh"
+msgstr "Adnewyddu"
+
+msgid "Restore default server values"
+msgstr "Adfer gwerthoedd gweinydd diofyn"
+
+msgid "Rhineland-Palatine"
+msgstr "Rhineland-Palatine"
+
+msgid "Right - Next day"
+msgstr "Reit - Y diwrnod nesaf"
+
+msgid "Right arrow - Next day"
+msgstr "Saeth dde - Diwrnod nesaf"
+
+msgid "Rise"
+msgstr "Cyfod"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Asimuth codi: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Asimuth codi: Amh"
+
+msgid "Russia"
+msgstr "Rwsia"
+
+msgid "S"
+msgstr "S"
+
+msgid "Saarland"
+msgstr "Saarland"
+
+msgid "Satellite Photos"
+msgstr "Lluniau Lloeren"
+
+msgid "Satellite photos coming soon!"
+msgstr "Lluniau lloeren yn dod yn fuan!"
+
+msgid "Save"
+msgstr "Arbed"
+
+msgid "Save API settings"
+msgstr "Cadw gosodiadau API"
+
+msgid "Save translation settings"
+msgstr "Cadw gosodiadau cyfieithu"
+
+msgid "Saxony"
+msgstr "Sacsoni"
+
+msgid "Saxony-Anhalt"
+msgstr "Sacsoni-Anhalt"
+
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+msgid "Scraped"
+msgstr "Wedi'i sgrapio"
+
+msgid "Search first tries online, if fails uses local list."
+msgstr "Chwilio yn gyntaf ar-lein, os yn methu yn defnyddio rhestr leol."
+
+msgid "Search your City"
+msgstr "Chwiliwch eich Dinas"
+
+msgid "Select"
+msgstr "Dewiswch"
+
+msgid "Select {} unit"
+msgstr "Dewiswch {} uned"
+
+msgid "Select a city"
+msgstr "Dewiswch ddinas"
+
+msgid "Select a map with OK"
+msgstr "Dewiswch fap ag Iawn"
+
+msgid "Select Region"
+msgstr "Dewiswch Rhanbarth"
+
+msgid "Select unit system"
+msgstr "Dewiswch system uned"
+
+msgid "Select wind unit"
+msgstr "Dewiswch uned wynt"
+
+msgid "Selected hour details"
+msgstr "Manylion yr awr a ddewiswyd"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Gosod asimuth: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Gosod azimuth: Amh"
+
+msgid "Sets"
+msgstr "Setiau"
+
+msgid "Show info"
+msgstr "Dangos gwybodaeth"
+
+msgid "Showers"
+msgstr "Cawodydd"
+
+msgid "Slovakia"
+msgstr "Slofacia"
+
+msgid "Slower: {}s"
+msgstr "Arafach: {}s"
+
+msgid "Snow / ice"
+msgstr "Eira / rhew"
+
+msgid "Snow prob. {}%"
+msgstr "Prob eira. {}%"
+
+msgid "Snow prob.: N/A"
+msgstr "Profi eira: Amh"
+
+msgid "South Africa"
+msgstr "De Affrica"
+
+msgid "South America"
+msgstr "De America"
+
+msgid "Southeast Asia"
+msgstr "De-ddwyrain Asia"
+
+msgid "Spain"
+msgstr "Sbaen"
+
+msgid "Station Observations"
+msgstr "Arsylwadau Gorsaf"
+
+msgid "Station: {}"
+msgstr "Gorsaf: {}"
+
+msgid "Strong (40-60 km/h)"
+msgstr "Cryf (40-60 km/awr)"
+
+msgid "Sunrise"
+msgstr "Codiad yr haul"
+
+msgid "Sunset"
+msgstr "Machlud"
+
+msgid "Super Full Moon"
+msgstr "Lleuad Llawn Super"
+
+msgid "Sweden"
+msgstr "Sweden"
+
+msgid "Switzerland"
+msgstr "Swistir"
+
+msgid "Target Language"
+msgstr "Iaith Darged"
+
+msgid "Temp"
+msgstr "Temp"
+
+msgid "Temperature"
+msgstr "Tymheredd"
+
+msgid "Temperature: {}"
+msgstr "Tymheredd: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Tymheredd: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Tymheredd: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Tymheredd: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Tymheredd: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Tymheredd: Amh"
+
+msgid "Thanks {thanks} and other friends for suggestions"
+msgstr "Diolch {thanks} a ffrindiau eraill am awgrymiadau"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "Mae'r fersiwn anghysbell ({remote}) yn hŷn na'r un gyfredol ({current})."
+
+msgid "Thin upper cloud"
+msgstr "Cwmwl uwch tenau"
+
+msgid "Thuringia"
+msgstr "Thuringia"
+
+msgid "Time"
+msgstr "Amser"
+
+msgid "Today"
+msgstr "Heddiw"
+
+msgid "Today/Tomorrow details"
+msgstr "Manylion heddiw/yfory"
+
+msgid "Toggle legend"
+msgstr "Toglo chwedl"
+
+msgid "Token expire hours"
+msgstr "Oriau dod i ben tocyn"
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr "Rhaid i oriau terfyn tocyn fod yn -1 neu'n rhif positif."
+
+msgid "Token expire hours must be a number."
+msgstr "Rhaid i oriau dod i ben tocyn fod yn rhif."
+
+msgid "Tomorrow"
+msgstr "Yfory"
+
+msgid "Transit (culmination): {}"
+msgstr "Trafnidiaeth (penllanw): {}"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Uchder tramwy: {:.0f}°"
+
+msgid "Transit altitude: N/A"
+msgstr "Uchder cludo: Amh"
+
+msgid "Translation Settings"
+msgstr "Gosodiadau Cyfieithu"
+
+msgid "Transparency level"
+msgstr "Lefel tryloywder"
+
+msgid "Transparency Settings"
+msgstr "Gosodiadau Tryloywder"
+
+msgid "Unhealthy"
+msgstr "Afiach"
+
+msgid "Unhealthy for sensitives"
+msgstr "Afiach ar gyfer pobl sensitif"
+
+msgid "Unit Settings"
+msgstr "Gosodiadau Uned"
+
+msgid "Unit Settings (Advanced)"
+msgstr "Gosodiadau Uned (Uwch)"
+
+msgid "Unit Settings (Simple)"
+msgstr "Gosodiadau Uned (Syml)"
+
+msgid "Unknown"
+msgstr "Anhysbys"
+
+msgid "Up"
+msgstr "I fyny"
+
+msgid "Up - Previous page"
+msgstr "I fyny - Tudalen flaenorol"
+
+msgid "Update canceled."
+msgstr "Diweddariad wedi'i ganslo."
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "Diweddariad wedi'i gwblhau. Ailgychwynnwch Enigma2."
+
+msgid "Updated {}"
+msgstr "Wedi diweddaru {}"
+
+msgid "Updated: {}"
+msgstr "Wedi'i ddiweddaru: {}"
+
+msgid "Updated: N/A"
+msgstr "Wedi'i ddiweddaru: Amh"
+
+msgid "Updating..."
+msgstr "Wrthi'n diweddaru..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Defnyddiwch ← → i newid amser | Iawn i adael"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "Defnyddiwch ←/→/↑/↓ i symud | Iawn i adael"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Defnyddiwch ▲/▼ i newid, Iawn i ddewis"
+
+msgid "Use arrow keys to scroll"
+msgstr "Defnyddiwch y bysellau saeth i sgrolio"
+
+msgid "Use Google Translate"
+msgstr "Defnyddiwch Google Translate"
+
+msgid "Using current time"
+msgstr "Gan ddefnyddio'r amser presennol"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "Mynegai UV"
+
+msgid "UV N/A"
+msgstr "UV Amh"
+
+msgid "v."
+msgstr "v."
+
+msgid "Very heavy rain"
+msgstr "Glaw trwm iawn"
+
+msgid "Very high"
+msgstr "Uchel iawn"
+
+msgid "Very hot (>40°C)"
+msgstr "Poeth iawn (>40°C)"
+
+msgid "Very low"
+msgstr "Isel iawn"
+
+msgid "Very unhealthy"
+msgstr "Afiach iawn"
+
+msgid "Visibility: {} m"
+msgstr "Gwelededd: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Gwelededd: %s m"
+
+msgid "W"
+msgstr "W"
+
+msgid "Waning Crescent"
+msgstr "Cilgant Waning"
+
+msgid "Waning Gibbous"
+msgstr "Gwanu Gibbous"
+
+msgid "Warm (20-30°C)"
+msgstr "Cynnes (20-30°C)"
+
+msgid "Waxing Crescent"
+msgstr "Cilgant Cwyr"
+
+msgid "Waxing Gibbous"
+msgstr "Waxing Gibbous"
+
+msgid "Weather"
+msgstr "Tywydd"
+
+msgid "Weather Map"
+msgstr "Map Tywydd"
+
+msgid "Weather Maps"
+msgstr "Mapiau Tywydd"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Mapiau Tywydd (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Mapiau Tywydd a Lloeren"
+
+msgid "Weather Maps Slideshow"
+msgstr "Sioe Sleidiau Mapiau Tywydd"
+
+msgid "Weather Radar"
+msgstr "Radar tywydd"
+
+msgid "Weather today"
+msgstr "Tywydd heddiw"
+
+msgid "Weather tomorrow"
+msgstr "Tywydd yfory"
+
+msgid "Weekly Forecast"
+msgstr "Rhagolwg Wythnosol"
+
+msgid "Wind"
+msgstr "Gwynt"
+
+msgid "Wind direction"
+msgstr "Cyfeiriad y gwynt"
+
+msgid "Wind Direction today"
+msgstr "Cyfeiriad y Gwynt heddiw"
+
+msgid "Wind Direction tomorrow"
+msgstr "Cyfeiriad y Gwynt yfory"
+
+msgid "Wind speed"
+msgstr "Cyflymder y gwynt"
+
+msgid "Wind speed {}"
+msgstr "Cyflymder y gwynt {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Cyflymder y gwynt: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Gwynt: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Gwynt: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Gwynt: {} km/a {}"
+
+msgid "Wind: %d %s %s"
+msgstr "Gwynt: %d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "Gwynt: %s km/h %s"
+
+msgid "Wind: N/A"
+msgstr "Gwynt: Amh"
+
+msgid "Window transparency"
+msgstr "Tryloywder ffenestr"
+
+msgid "Yellow - Favorite 2"
+msgstr "Melyn - Hoff 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Mae gennych chi fersiwn {version} wedi'i osod yn barod.\nYdych chi am ei ailosod?"
+
+msgid "Zoom In"
+msgstr "Chwyddo i Mewn"
+
+msgid "Zoom Out"
+msgstr "Chwyddo Allan"
+
+msgid "Zoom-"
+msgstr "Chwyddo -"
+
+msgid "Zoom:"
+msgstr "Chwyddo:"
+
+msgid "Zoom+"
+msgstr "Chwyddo+"
+
