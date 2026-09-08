@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Copyright (c) @Lululla 2026
+# Copyright (c) @speedy2026
 
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from Components.Language import language
