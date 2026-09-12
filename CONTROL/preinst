@@ -1,6 +1,6 @@
 #!/bin/sh
 # Foreca1 - Preinstallation Script
-# Author: Lululla
+# Author: speedy
 
 status='/var/lib/opkg/status'
 package='enigma2-plugin-extensions-foreca-one'
