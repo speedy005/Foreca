@@ -1,6 +1,6 @@
 #!/bin/sh
 # Foreca - Post Removal Script
-# Author: Lululla
+# Author: speedy
 echo 'Package removed.'
 # Remove plugin directory
 echo "Removing Foreca 1 plugin files..."
