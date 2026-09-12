@@ -1,6 +1,6 @@
 #!/bin/sh
 # Foreca - Post Installation Script
-# Author: Lululla
+# Author: speedy
 
 # ---- Device Model ----
 BOXMODEL=$(cat /etc/hostname 2>/dev/null || echo "unknown")
