@@ -38,7 +38,7 @@
   <a href="https://ko-fi.com/lululla">
     <img src="https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="Donate via Ko-fi">
   </a>
-  <a href="https://paypal.me/belfagor2005">
+  <a href="">
     <img src="https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="Donate via PayPal">
   </a>
 </p>
@@ -208,7 +208,7 @@
 ### Automatic (recommended)
 Download and run `installer.sh` directly on your Enigma2 box. It detects your image/OS, installs the required dependencies (requests, Pillow, etc.), and copies the plugin files for you:
 ```
-wget --no-check-certificate 'https://github.com/Belfagor2005/ForecaOne/raw/main/installer.sh' -O installer.sh
+wget --no-check-certificate 'https://github.com/speedy005/Foreca/raw/main/installer.sh' -O installer.sh
 chmod +x installer.sh
 ./installer.sh
 ```
