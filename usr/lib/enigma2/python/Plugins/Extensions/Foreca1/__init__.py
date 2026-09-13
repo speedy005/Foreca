@@ -12,7 +12,7 @@ import gettext
 import codecs
 import shutil
 
-__version__ = "1.5.5"
+__version__ = "1.5.6"
 VERSION = __version__
 _AUTHOR_ = "by speedy005 - 2026"
 IDEAS = "@speedy005"
