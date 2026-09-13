@@ -5,6 +5,8 @@
 # fallback
 
 import requests
+from urllib.parse import quote_plus
+from os import makedirs
 from os.path import exists, join
 from enigma import eListboxPythonMultiContent, gFont, RT_VALIGN_CENTER, eTimer, eListbox
 
@@ -164,18 +166,19 @@ class CityPanel4(Screen, HelpableScreen):
         self.Mlist = []
         self.city_list = []
 
-        def _close_panel(*args):
-            self.close()
-
         city_cfg_path = join(SYSTEM_DIR, "new_city.cfg")
         if not exists(city_cfg_path):
-            self.session.openWithCallback(
-                _close_panel,
-                MessageBox,
-                _("City list file not found!"),
-                MessageBox.TYPE_WARNING,
-                timeout=5
-            )
+            # onShown can fire more than once per screen open; only warn once.
+            if not getattr(self, '_missing_file_warned', False):
+                self._missing_file_warned = True
+                self.session.open(
+                    MessageBox,
+                    _("City list file not found! Press RED to search for your city online."),
+                    MessageBox.TYPE_WARNING,
+                    timeout=5)
+            self.filtered_list = self.Mlist
+            self["Mlist"].setList(self.filtered_list)
+            return
 
         try:
             with open(city_cfg_path, "r", encoding="utf-8") as f:
@@ -296,7 +299,8 @@ class CityPanel4(Screen, HelpableScreen):
         """Cerca tramite API Foreca. Ritorna True se ha trovato risultati, False altrimenti."""
         current_lang = _get_system_language()
         try:
-            url = "%s/locations/search/%s.json" % (BASE_URL, search_term)
+            url = "%s/locations/search/%s.json" % (
+                BASE_URL, quote_plus(search_term))
             params = {
                 "limit": 20,
                 "lang": current_lang
@@ -337,6 +341,43 @@ class CityPanel4(Screen, HelpableScreen):
             _("Found %d cities online for '%s'") %
             (count, search_term))
         return True
+
+    def _remember_city_offline(self, formatted_entry):
+        """Append a single "id/Name_With_Underscores" entry (the same
+        format get_selected_city() returns, matching the offline file's
+        own format) to new_city.cfg, so the offline list builds up over
+        time with only the cities the user actually picks - not every
+        search result. Skips it if that id is already present.
+        """
+        if not formatted_entry or "/" not in formatted_entry:
+            return
+        city_id = formatted_entry.split("/", 1)[0]
+
+        city_cfg_path = join(SYSTEM_DIR, "new_city.cfg")
+        if exists(city_cfg_path):
+            try:
+                with open(city_cfg_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line or line.startswith("#") or "/" not in line:
+                            continue
+                        if line.split("/", 1)[0] == city_id:
+                            return  # already known
+            except Exception as e:
+                print(
+                    f"[CityPanel4] Error reading offline list for dedup: {e}")
+                return
+
+        try:
+            if not exists(SYSTEM_DIR):
+                makedirs(SYSTEM_DIR, exist_ok=True)
+            with open(city_cfg_path, "a", encoding="utf-8") as f:
+                f.write(formatted_entry + "\n")
+            if DEBUG:
+                print(
+                    f"[CityPanel4] Remembered city offline: {formatted_entry}")
+        except Exception as e:
+            print(f"[CityPanel4] Error appending to offline list: {e}")
 
     def search_offline(self, search_term):
         """Search the local file (already loaded into self.Mlist)."""
@@ -448,6 +489,7 @@ class CityPanel4(Screen, HelpableScreen):
     def save_favorite1(self):
         selected = self.get_selected_city()
         if selected:
+            self._remember_city_offline(selected)
             self.save_favorite("fav1", selected)
             self._update_fav_buttons()
             self.close((selected, 'assign', 1))
@@ -455,6 +497,7 @@ class CityPanel4(Screen, HelpableScreen):
     def save_favorite2(self):
         selected = self.get_selected_city()
         if selected:
+            self._remember_city_offline(selected)
             self.save_favorite("fav2", selected)
             self._update_fav_buttons()
             self.close((selected, 'assign', 1))
@@ -462,6 +505,7 @@ class CityPanel4(Screen, HelpableScreen):
     def save_home(self):
         selected = self.get_selected_city()
         if selected:
+            self._remember_city_offline(selected)
             self.save_favorite("home", selected)
             self._update_fav_buttons()
             self.close((selected, 'assign', 1))
@@ -469,6 +513,7 @@ class CityPanel4(Screen, HelpableScreen):
     def ok(self):
         selected = self.get_selected_city()
         if selected:
+            self._remember_city_offline(selected)
             if '/' in selected:
                 city_id, display_name = selected.split('/', 1)
                 display_name = display_name.replace('_', ' ')
