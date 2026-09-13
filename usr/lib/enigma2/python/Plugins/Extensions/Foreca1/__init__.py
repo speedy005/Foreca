@@ -12,11 +12,11 @@ import gettext
 import codecs
 import shutil
 
-__version__ = "1.5.4"
+__version__ = "1.5.5"
 VERSION = __version__
-_AUTHOR_ = "by speedy - 2026"
-IDEAS = "@Bauernbub"
-THANKS = "@Orlandox | @atvcaptain"
+_AUTHOR_ = "by speedy005 - 2026"
+IDEAS = "@speedy005"
+THANKS = "@speedy005 | @speedy005"
 BASEURL = "https://www.foreca.com/"
 TEMP_DIR = '/tmp/foreca'
 SYSTEM_DIR = '/etc/enigma2/foreca'
