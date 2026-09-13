@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Copyright (c) @Lululla 2026
+# Copyright (c) @speedy005 2026
 # unit_manager.py - Base Foreca One map viewer
 # unit_settings_simple - Simplified unit settings screen
 # unit_settings_advanced.py - Advanced unit of measurement settings
