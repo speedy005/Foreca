@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Copyright (c) @Lululla 2026
+# Copyright (c) @speedy005 2026
 # foreca_weather_api.py - Client for Foreca One free public API
 
 import re
