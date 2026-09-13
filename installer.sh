@@ -4,7 +4,7 @@
 # ForecaOne Installer
 # =========================================================
 
-version='1.5.3'
+version='1.5.4'
 changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
 
 
@@ -102,11 +102,16 @@ cleanup()
     log "Cleaning up temporary files..."
 
     if [ -d "$TMPPATH" ]; then
+
         rm -rf "$TMPPATH"
+
     fi
 
+
     if [ -f "$FILEPATH" ]; then
+
         rm -f "$FILEPATH"
+
     fi
 }
 
@@ -126,6 +131,7 @@ detect_os()
         OSTYPE="DreamOs"
         STATUS="/var/lib/dpkg/status"
 
+
     # -----------------------------------------------------
     # Debian
     # -----------------------------------------------------
@@ -136,6 +142,7 @@ detect_os()
         OSTYPE="Debian"
         STATUS="/var/lib/dpkg/status"
 
+
     # -----------------------------------------------------
     # OpenEmbedded / OE
     # -----------------------------------------------------
@@ -145,6 +152,7 @@ detect_os()
 
         OSTYPE="OE"
         STATUS="/var/lib/opkg/status"
+
 
     else
 
@@ -246,7 +254,9 @@ detect_image()
 
 
     if [ -z "$BOX_TYPE" ]; then
+
         BOX_TYPE="Unknown"
+
     fi
 
 
@@ -400,7 +410,9 @@ package_installed()
 
 
     if [ -z "$pkg" ]; then
+
         return 1
+
     fi
 
 
@@ -453,7 +465,9 @@ install_pkg()
 
 
     if [ -z "$pkg" ]; then
+
         return 0
+
     fi
 
 
@@ -1008,6 +1022,7 @@ install_plugin()
 
         log "Removing old plugin files..."
 
+
         if ! rm -rf "$PLUGINPATH"; then
 
             error "Could not remove old plugin installation."
@@ -1126,6 +1141,7 @@ rollback_plugin()
     if ! mkdir -p "$(dirname "$PLUGINPATH")"; then
 
         log "WARNING: Could not create plugin parent directory!"
+
         return 1
 
     fi
@@ -1183,7 +1199,8 @@ show_info()
     echo "#  Developed by LULULLA                              #"
     echo "#  https://corvoboys.org                              #"
     echo "#                                                     #"
-    echo "#  GUI WILL RESTART AUTOMATICALLY                     #"
+    echo "#  GUI WILL NOT RESTART AUTOMATICALLY                #"
+    echo "#  The plugin will ask the user.                     #"
     echo "#                                                     #"
     echo "#########################################################"
     echo
@@ -1213,15 +1230,16 @@ show_info()
 
 
 # =========================================================
-# RESTART ENIGMA2 GUI
+# INSTALLATION FINISHED
 # =========================================================
 
-restart_gui()
+finish_install()
 {
     echo
     echo "========================================================="
     echo " ForecaOne v$version installed successfully."
-    echo " Enigma2 GUI will restart automatically."
+    echo " Enigma2 GUI will NOT restart automatically."
+    echo " The plugin will ask whether the GUI should restart."
     echo "========================================================="
     echo
 
@@ -1229,76 +1247,10 @@ restart_gui()
     sync >/dev/null 2>&1 || true
 
 
-    sleep 3
+    log "Installation finished successfully."
+    log "No automatic Enigma2 GUI restart performed."
 
-
-    # -----------------------------------------------------
-    # systemd
-    # -----------------------------------------------------
-
-    if command -v systemctl >/dev/null 2>&1; then
-
-        log "Restarting Enigma2 GUI using systemctl..."
-
-        systemctl restart enigma2
-
-        return $?
-
-    fi
-
-
-    # -----------------------------------------------------
-    # init.d
-    # -----------------------------------------------------
-
-    if [ -x "/etc/init.d/enigma2" ]; then
-
-        log "Restarting Enigma2 GUI using init.d..."
-
-        /etc/init.d/enigma2 restart
-
-        return $?
-
-    fi
-
-
-    # -----------------------------------------------------
-    # OpenEmbedded init
-    # -----------------------------------------------------
-
-    if command -v init >/dev/null 2>&1; then
-
-        log "Restarting Enigma2 GUI using init..."
-
-        init 4
-
-        sleep 2
-
-        init 3
-
-        return $?
-
-    fi
-
-
-    # -----------------------------------------------------
-    # Fallback
-    # -----------------------------------------------------
-
-    if command -v killall >/dev/null 2>&1; then
-
-        log "Restarting Enigma2 GUI using killall..."
-
-        killall -HUP enigma2 2>/dev/null || true
-
-        return 0
-
-    fi
-
-
-    log "WARNING: Could not automatically restart Enigma2 GUI."
-
-    return 1
+    return 0
 }
 
 
@@ -1447,10 +1399,10 @@ show_info
 
 
 # =========================================================
-# AUTOMATIC GUI RESTART
+# FINISH INSTALLATION
 # =========================================================
 
-restart_gui
+finish_install
 
 
 exit 0
