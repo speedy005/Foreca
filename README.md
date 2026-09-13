@@ -471,4 +471,5 @@ See the [LICENSE](LICENSE) file for details.
 <p align="center">
   <i>Enjoy the weather, rain or shine! ☀️🌧️</i><br>
   © Lululla 2026
+  mod by speedy005 2026
 </p>
