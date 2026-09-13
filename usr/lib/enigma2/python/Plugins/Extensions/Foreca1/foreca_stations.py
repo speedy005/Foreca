@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Copyright (c) @Lululla 2026
+# Copyright (c) @speedy005 2026
 # foreca_stations.py - Display nearby station observations
 
 from Screens.Screen import Screen
