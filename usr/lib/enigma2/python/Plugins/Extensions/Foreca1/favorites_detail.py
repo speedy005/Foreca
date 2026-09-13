@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Copyright (c) @Lululla 2026
+# Copyright (c) @speedy005 2026
 # favorites_detail.py - Detailed view for all favorites with animated icons
 
 import glob
