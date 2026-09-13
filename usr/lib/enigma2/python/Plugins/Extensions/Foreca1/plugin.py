@@ -2003,7 +2003,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 INSTALLER_URL,
                 timeout=10,
                 headers={
-                    "User-Agent": "Foreca1-Updater/1.4.3"
+                    "User-Agent": "Foreca1-Updater/1.5.4"
                 }
             )
 
@@ -2022,12 +2022,6 @@ class Foreca_Preview(Screen, HelpableScreen):
 
             # -------------------------------------------------
             # Parse version
-            #
-            # Accepts:
-            # version='1.4.5'
-            # version="1.4.5"
-            # version = '1.4.5'
-            # VERSION="1.4.5"
             # -------------------------------------------------
 
             version_match = re.search(
@@ -2205,7 +2199,7 @@ class Foreca_Preview(Screen, HelpableScreen):
     def install_update(self, answer, installer_url):
         """Runs the update script if the user confirmed."""
 
-        if answer:
+            if answer:
 
             # -------------------------------------------------
             # Download installer and execute it
@@ -2218,6 +2212,10 @@ class Foreca_Preview(Screen, HelpableScreen):
 
             from Screens.Console import Console
 
+            print(
+                "[Foreca1] Starting update installer..."
+            )
+
             self.session.open(
                 Console,
                 _("Updating..."),
@@ -2227,6 +2225,10 @@ class Foreca_Preview(Screen, HelpableScreen):
             )
 
         else:
+
+            print(
+                "[Foreca1] Update canceled by user."
+            )
 
             self.session.open(
                 MessageBox,
@@ -2239,10 +2241,84 @@ class Foreca_Preview(Screen, HelpableScreen):
     def update_finished(self, result=None):
         """Callback executed when the installation finishes."""
 
-        self.session.open(
+        print(
+            "[Foreca1] Update installer finished."
+        )
+
+        # -----------------------------------------------------
+        # Ask whether Enigma2 GUI should be restarted
+        # -----------------------------------------------------
+
+        def restart_gui_callback(answer):
+
+            # -------------------------------------------------
+            # YES
+            # -------------------------------------------------
+
+            if answer:
+
+                print(
+                    "[Foreca1] User chose to restart "
+                    "the Enigma2 GUI."
+                )
+
+                try:
+
+                    from enigma import quitMainloop
+
+                    quitMainloop(3)
+
+                except Exception as e:
+
+                    print(
+                        "[Foreca1] Could not restart "
+                        "Enigma2 GUI: %s" %
+                        str(e)
+                    )
+
+                    self.session.open(
+                        MessageBox,
+                        _(
+                            "The GUI could not be restarted "
+                            "automatically."
+                        ),
+                        MessageBox.TYPE_ERROR,
+                        timeout=5
+                    )
+
+            # -------------------------------------------------
+            # NO
+            # -------------------------------------------------
+
+            else:
+
+                print(
+                    "[Foreca1] User chose NOT to restart "
+                    "the Enigma2 GUI."
+                )
+
+                self.session.open(
+                    MessageBox,
+                    _(
+                        "Update installed successfully.\n\n"
+                        "The Enigma2 GUI was not restarted."
+                    ),
+                    MessageBox.TYPE_INFO,
+                    timeout=5
+                )
+
+        # -----------------------------------------------------
+        # YES / NO dialog
+        # -----------------------------------------------------
+
+        self.session.openWithCallback(
+            restart_gui_callback,
             MessageBox,
-            _("Update completed. Please restart Enigma2."),
-            MessageBox.TYPE_INFO
+            _(
+                "The update has been installed successfully.\n\n"
+                "Would you like to restart the Enigma2 GUI now?"
+            ),
+            MessageBox.TYPE_YESNO
         )
 
     def _update_titles(self):
