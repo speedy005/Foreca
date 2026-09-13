@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/speedy005/Foreca/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="ForecaOne Screenshot" width="300">
+  <img src="https://github.com/speedy005/Foreca/blob/master/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="ForecaOne Screenshot" width="300">
 </p>
 
 <p align="center">
@@ -47,59 +47,59 @@
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/1.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/2.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/1.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/2.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/3.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/4.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/3.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/4.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/5.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/6.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/5.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/6.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/7.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/8.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/7.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/8.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/9.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/10.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/9.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/10.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/11.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/12.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/11.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/12.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/13.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/14.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/13.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/14.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/15.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/16.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/15.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/16.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/17.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/18.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/17.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/18.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/19.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/20.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/19.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/20.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/21.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/22.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/21.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/22.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/23.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/24.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/23.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/24.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/25.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/26.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/25.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/26.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/27.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/master/screenshots/27.jpeg" width="500"></td>
   </tr>
 </table>
 
@@ -110,8 +110,8 @@
 - [Installation](#installation)
 - [Initial Configuration](#initial-configuration)
 - [Using the Plugin](#using-the-plugin)
-  - [Main Screen](#main-screen)
-  - [Main Menu](#main-menu)
+  - [master Screen](#master-screen)
+  - [master Menu](#master-menu)
   - [City Selection](#city-selection)
   - [Daily Forecast (7 days)](#daily-forecast-7-days)
   - [Meteogram](#meteogram)
@@ -152,7 +152,7 @@
 - **Lunar Calendar** – a dedicated screen showing all lunar phases for the next 12 months
 - For each phase: date, time, phase name, illumination, Earth‑Moon distance, and the corresponding icon
 - Accurate calculations based on Meeus algorithms, fallback to USNO API
-- Moon phase with icon on main screen
+- Moon phase with icon on master screen
 - Moonrise and moonset times (from USNO API, async)
 
 ### 📡 Observation Stations
@@ -208,7 +208,7 @@
 ### Automatic (recommended)
 Download and run `installer.sh` directly on your Enigma2 box. It detects your image/OS, installs the required dependencies (requests, Pillow, etc.), and copies the plugin files for you:
 ```
-wget --no-check-certificate 'https://github.com/speedy005/Foreca/raw/main/installer.sh' -O installer.sh
+wget --no-check-certificate 'https://github.com/speedy005/Foreca/raw/master/installer.sh' -O installer.sh
 chmod +x installer.sh
 ./installer.sh
 ```
@@ -248,14 +248,14 @@ To enable live maps and API stations, you need a Foreca account (free 30‑day t
    ```
    (change the servers if needed, e.g. `map-us.foreca.com` for US maps)
 
-An example file `api_config.txt.example` is created automatically if the main file does not exist.
+An example file `api_config.txt.example` is created automatically if the master file does not exist.
 
 **Note:** without these credentials, the plugin still works perfectly using public data.
 
 ## Using the Plugin
 
-### Main Screen
-Upon startup, the main screen displays:
+### master Screen
+Upon startup, the master screen displays:
 - City, date and day name
 - Current weather (icon, temperature, description)
 - Extended details (feels like, dew point, wind, gusts, rain, humidity, pressure, UV, AQI, probability, update time)
@@ -272,11 +272,11 @@ Upon startup, the main screen displays:
 - **GREEN** – load favorite 1 (`fav1.cfg`)
 - **YELLOW** – load favorite 2 (`fav2.cfg`)
 - **BLUE** – load home city (`home.cfg`)
-- **MENU** – open main menu
+- **MENU** – open master menu
 - **INFO** – plugin information
 - **EXIT** – exit plugin (return to TV or plugin menu)
 
-### Main Menu
+### master Menu
 Pressing **MENU** opens a choice with the following options:
 
 - **City Selection** – search and assign cities to favorites
@@ -291,7 +291,7 @@ Pressing **MENU** opens a choice with the following options:
 - **Transparency** – adjust overlay transparency
 - **Check Update** – version update from github
 - **Info** – version and credits
-- **Exit** – close menu (return to main screen)
+- **Exit** – close menu (return to master screen)
 
 ### City Selection
 - **RED** – open virtual keyboard to enter city name
@@ -299,7 +299,7 @@ Pressing **MENU** opens a choice with the following options:
 - **GREEN** – assign selected city to favorite 1
 - **YELLOW** – assign to favorite 2
 - **BLUE** – assign as home
-- **OK** – load city into main screen and close panel
+- **OK** – load city into master screen and close panel
 - **EXIT** – return to menu without changes
 
 ### Daily Forecast (7 days)
@@ -314,7 +314,7 @@ Each row contains:
 - **UP/DOWN** – move selection
 - **PAGE UP/PAGE DOWN** – jump one page
 - **OK** – open a window with complete details of the selected day
-- **EXIT** – return to main menu
+- **EXIT** – return to master menu
 
 ### Meteogram
 Shows temperature trend (coloured curve), precipitation bars, weather icons and wind for 3‑hour intervals over the next 7 days. Includes temperature and precipitation scales and date markers.
@@ -335,7 +335,7 @@ For each station: name, distance, temperature, feels like, dew point, humidity, 
 This screen displays a table of **all lunar phases for the next 12 months**, starting from the next month. For each phase you see:
 
 - Month and year
-- Icon of the moon phase (using the same 101‑icon set as the main screen)
+- Icon of the moon phase (using the same 101‑icon set as the master screen)
 - Phase name (e.g. "Full Moon")
 - Day of the month
 - Time (in UTC)
@@ -394,7 +394,7 @@ Customize individual categories:
 
 Navigate categories with YELLOW (next) and BLUE (prev). Inside a category, select the unit with OK (a checkmark appears). Save all with GREEN.
 
-After saving, the main screen updates immediately with the new units.
+After saving, the master screen updates immediately with the new units.
 
 ### Color and Transparency
 - **Color Selector** – lists predefined colors (from `color_database.txt`). Use UP/DOWN to move, OK to confirm. The color is applied to all screens (global theme).
@@ -423,7 +423,7 @@ An example file `api_config.txt.example` is created automatically.
 
 ## Troubleshooting
 
-### 1. Main screen shows no weather data
+### 1. master screen shows no weather data
 - Check internet connection.
 - Verify that the selected city is valid.
 - Look at debug files in the plugin's `debug/` folder.
@@ -439,14 +439,14 @@ An example file `api_config.txt.example` is created automatically.
 - Enable debug (`DEBUG = True` in `plugin.py`) and examine logs.
 
 ### 4. Navigation in DailyForecast does not respond
-- Make sure you are pressing UP/DOWN, not numeric keys (which change the day in the main screen).
+- Make sure you are pressing UP/DOWN, not numeric keys (which change the day in the master screen).
 - Verify that the skin has a `list` widget with adequate dimensions.
 
 ### 5. Units do not update after saving
 - This issue has been fixed in recent versions. Check that the `units_closed` callback is present in `plugin.py` and that the unit screens return `True` upon saving.
 
 ### 6. Color is not applied to all screens
-- The function `apply_global_theme` must be called in every secondary screen (already done for all main screens). If a custom screen lacks the `background_plate` and `selection_overlay` widgets, the theme will not be applied.
+- The function `apply_global_theme` must be called in every secondary screen (already done for all master screens). If a custom screen lacks the `background_plate` and `selection_overlay` widgets, the theme will not be applied.
 
 ### 7. Lunar phases seem inaccurate
 - The plugin now uses high‑precision algorithms (Meeus). If you still suspect errors, enable debug and check the calculated Julian Day vs. official sources.
