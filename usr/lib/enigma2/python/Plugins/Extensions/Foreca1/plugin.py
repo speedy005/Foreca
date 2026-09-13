@@ -2199,7 +2199,7 @@ class Foreca_Preview(Screen, HelpableScreen):
     def install_update(self, answer, installer_url):
         """Runs the update script if the user confirmed."""
 
-            if answer:
+        if answer:
 
             # -------------------------------------------------
             # Download installer and execute it
