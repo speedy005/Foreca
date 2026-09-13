@@ -1083,7 +1083,7 @@ msgid "Rain: {:.1f} {}"
 msgstr "Regen: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr "RainViewer-Radar"
+msgstr "Regenradar"
 
 msgid "Red"
 msgstr "Rot"
