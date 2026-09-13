@@ -2,20 +2,20 @@
 
 
 <p align="center">
-  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="ForecaOne Screenshot" width="300">
+  <img src="https://github.com/speedy005/Foreca/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="ForecaOne Screenshot" width="300">
 </p>
 
 <p align="center">
-  <a href="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml">
-    <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
+  <a href="https://github.com/speedy005/Foreca/actions/workflows/pylint.yml">
+    <img src="https://github.com/speedy005/Foreca/actions/workflows/pylint.yml/badge.svg" alt="Python package">
   </a>
-  <a href="https://github.com/Belfagor2005/ForecaOne/actions/workflows/ruff.yml">
-    <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/ruff.yml/badge.svg" alt="Ruff Status">
+  <a href="https://github.com/speedy005/Foreca/actions/workflows/ruff.yml">
+    <img src="https://github.com/speedy005/Foreca/actions/workflows/ruff.yml/badge.svg" alt="Ruff Status">
   </a>
   <a href="https://github.com/OpenPLi/enigma2">
     <img src="https://img.shields.io/badge/Enigma2-Plugin-orange.svg" alt="Enigma2 Plugin">
   </a>
-  <a href="https://github.com/Belfagor2005/ForecaOne">
+  <a href="https://github.com/speedy005/Foreca">
     <img src="https://img.shields.io/badge/Version-1.3.2-blue.svg" alt="Version">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
@@ -47,59 +47,59 @@
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/1.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/2.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/1.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/2.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/3.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/4.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/3.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/4.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/5.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/6.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/5.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/6.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/7.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/8.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/7.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/8.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/9.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/10.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/9.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/10.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/11.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/12.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/11.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/12.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/13.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/14.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/13.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/14.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/15.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/16.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/15.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/16.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/17.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/18.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/17.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/18.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/19.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/20.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/19.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/20.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/21.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/22.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/21.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/22.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/23.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/24.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/23.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/24.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/25.jpeg" width="500"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/26.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/25.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/26.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/27.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/speedy005/Foreca/refs/heads/main/screenshots/27.jpeg" width="500"></td>
   </tr>
 </table>
 
