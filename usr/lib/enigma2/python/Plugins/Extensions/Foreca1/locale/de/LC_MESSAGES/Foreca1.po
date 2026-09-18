@@ -230,7 +230,7 @@ msgid "Cleanup temp files"
 msgstr "Temporäre Dateien bereinigen"
 
 msgid "Clear"
-msgstr "Leeren"
+msgstr "Klar"
 
 msgid "Close"
 msgstr "Schließen"
