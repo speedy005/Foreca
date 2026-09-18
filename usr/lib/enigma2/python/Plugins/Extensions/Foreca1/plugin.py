@@ -2322,27 +2322,27 @@ class Foreca_Preview(Screen, HelpableScreen):
         )
 
     def _update_titles(self):
-        date_str = str(self.f_date[0]) if self.f_date else _(
-            "No date available")
-        day_str = trans(self.f_day) if is_valid(self.f_day) else ""
+        date_str = str(self.f_date[0]) if self.f_date else _("No date available")
+
         title_text = f"{self.town}, {trans(self.country)} - {date_str}"
-        if day_str:
-            title_text += f" - {day_str}"
-        self["title_main"].text = title_text
-        self["title_section_weather"].text = _("Current weather and forecast")
-        self["title_version"].text = f"Foreca One\n| v.{VERSION} |"
-        self["maintener"].text = "by @speedy\n| 2026 |"
-        self["title_loading"].text = ""
+
+        self["title_main"].setText(title_text)
+        self["title_section_weather"].setText(_("Current weather and forecast"))
+        self["title_version"].setText(f"Foreca One\n| v.{VERSION} |")
+        self["maintener"].setText("by @speedy\n| 2026 |")
+        self["title_loading"].setText("")
 
     def update_time(self):
-        # Use the city's timezone if available
         now = datetime.datetime.now()
+
         if hasattr(self, 'tz') and self.tz:
             now = now.astimezone(self.tz)
         elif hasattr(self, 'tz_offset'):
-            # Calculate offset manually? Better to use datetime.timezone
-            tz = datetime.timezone(datetime.timedelta(hours=self.tz_offset))
+            tz = datetime.timezone(
+                datetime.timedelta(hours=self.tz_offset)
+            )
             now = now.astimezone(tz)
+
         time_str = now.strftime("%H:%M:%S")
         self["current_time"].setText(time_str)
 
