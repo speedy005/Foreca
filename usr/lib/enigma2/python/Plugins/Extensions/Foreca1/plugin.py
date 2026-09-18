@@ -456,7 +456,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         self.path_loc1 = self._read_favorite(
             'fav1') or '102782480/Ansfelden-Austria'
         self.path_loc2 = self._read_favorite(
-            'fav2') or '100658846/Harjuranta-Varkaus-Finland'
+            'fav2') or '102934246/Düsseldorf-Germany'
         self.skin = load_skin_for_class(Foreca_Preview)
 
         Screen.__init__(self, session)
