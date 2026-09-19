@@ -281,15 +281,7 @@ Features:
 Download and execute `installer.sh` directly on your Enigma2 receiver:
 
 ```bash
-cd /tmp
-
-wget --no-check-certificate \
-"https://raw.githubusercontent.com/speedy005/Foreca/master/installer.sh" \
--O installer.sh
-
-chmod +x installer.sh
-
-./installer.sh
+wget -O /tmp/installer.sh 'https://raw.githubusercontent.com/speedy005/Foreca/master/installer.sh' && chmod +x /tmp/installer.sh && /tmp/installer.sh
 ```
 
 The installer detects the installed image/OS, installs required dependencies such as `requests` and `Pillow`, and copies the plugin files.
@@ -991,15 +983,7 @@ Wenn keine Animation vorhanden ist, wird automatisch das normale statische Symbo
 Lade `installer.sh` direkt auf deinen Enigma2-Receiver und führe es aus:
 
 ```bash
-cd /tmp
-
-wget --no-check-certificate \
-"https://raw.githubusercontent.com/speedy005/Foreca/master/installer.sh" \
--O installer.sh
-
-chmod +x installer.sh
-
-./installer.sh
+wget -O /tmp/installer.sh 'https://raw.githubusercontent.com/speedy005/Foreca/master/installer.sh' && chmod +x /tmp/installer.sh && /tmp/installer.sh
 ```
 
 Der Installer erkennt das installierte Image bzw. Betriebssystem, installiert benötigte Abhängigkeiten wie `requests` und `Pillow` und kopiert die Plugin-Dateien an die richtige Stelle.
