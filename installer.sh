@@ -4,8 +4,8 @@
 # ForecaOne Installer
 # =========================================================
 
-version='1.6.1'
-changelog='Fix Malformed Locale Language. Offer coffee if you like this plugin'
+version='1.7.0'
+changelog='Install repository configuration files from etc/enigma2/foreca while preserving existing user configuration'
 
 
 # =========================================================
@@ -20,13 +20,16 @@ OLD_PLUGIN_BACKUP="/tmp/ForecaOne-old-plugin"
 
 CONFIG_DIR="/etc/enigma2/foreca"
 
+# Source inside GitHub archive
+CONFIG_SOURCE_REL="etc/enigma2/foreca"
+
+# Plugin source inside GitHub archive
+PLUGIN_SOURCE_REL="usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
+
 
 # =========================================================
 # DOWNLOAD
 # =========================================================
-
-# IMPORTANT:
-# Keep this branch identical to INSTALLER_URL in __init__.py.
 
 BRANCH="master"
 
@@ -68,8 +71,10 @@ PACKAGEREQUESTS=""
 PACKAGEPILLOW=""
 
 PLUGIN_SOURCE=""
+CONFIG_SOURCE=""
 
 BACKUP_CREATED=0
+PLUGIN_BACKUP_CREATED=0
 INSTALL_STARTED=0
 
 
@@ -102,16 +107,11 @@ cleanup()
     log "Cleaning up temporary files..."
 
     if [ -d "$TMPPATH" ]; then
-
         rm -rf "$TMPPATH"
-
     fi
 
-
     if [ -f "$FILEPATH" ]; then
-
         rm -f "$FILEPATH"
-
     fi
 }
 
@@ -122,19 +122,10 @@ cleanup()
 
 detect_os()
 {
-    # -----------------------------------------------------
-    # DreamOS / Dreambox
-    # -----------------------------------------------------
-
     if [ -f "/usr/lib/enigma.info" ]; then
 
         OSTYPE="DreamOs"
         STATUS="/var/lib/dpkg/status"
-
-
-    # -----------------------------------------------------
-    # Debian
-    # -----------------------------------------------------
 
     elif [ -f "/etc/debian_version" ] &&
          [ -f "/var/lib/dpkg/status" ]; then
@@ -142,17 +133,11 @@ detect_os()
         OSTYPE="Debian"
         STATUS="/var/lib/dpkg/status"
 
-
-    # -----------------------------------------------------
-    # OpenEmbedded / OE
-    # -----------------------------------------------------
-
     elif [ -f "/var/lib/opkg/status" ] ||
          [ -f "/etc/opkg/opkg.conf" ]; then
 
         OSTYPE="OE"
         STATUS="/var/lib/opkg/status"
-
 
     else
 
@@ -160,7 +145,6 @@ detect_os()
         STATUS=""
 
     fi
-
 
     log "Detected OS type: $OSTYPE"
 }
@@ -176,20 +160,10 @@ detect_python()
     PYTHON="Unknown"
     PYTHON_VERSION="Unknown"
 
-
-    # -----------------------------------------------------
-    # Prefer Python 3
-    # -----------------------------------------------------
-
     if command -v python3 >/dev/null 2>&1; then
 
         PYTHON_CMD="python3"
         PYTHON="PY3"
-
-
-    # -----------------------------------------------------
-    # Check generic python
-    # -----------------------------------------------------
 
     elif command -v python >/dev/null 2>&1; then
 
@@ -204,7 +178,6 @@ detect_python()
             PYTHON="PY2"
 
         fi
-
 
     else
 
@@ -221,10 +194,6 @@ detect_python()
 
     log "Python detected: $PYTHON_VERSION"
 
-
-    # -----------------------------------------------------
-    # Package names
-    # -----------------------------------------------------
 
     if [ "$PYTHON" = "PY3" ]; then
 
@@ -252,17 +221,10 @@ detect_image()
         head -n 1 /etc/hostname 2>/dev/null
     )
 
-
     if [ -z "$BOX_TYPE" ]; then
-
         BOX_TYPE="Unknown"
-
     fi
 
-
-    # -----------------------------------------------------
-    # Enigma.info
-    # -----------------------------------------------------
 
     if [ -f "/usr/lib/enigma.info" ]; then
 
@@ -278,11 +240,6 @@ detect_image()
             cut -d "=" -f 2-
         )
 
-
-    # -----------------------------------------------------
-    # image-version
-    # -----------------------------------------------------
-
     elif [ -f "/etc/image-version" ]; then
 
         DISTRO=$(
@@ -297,7 +254,6 @@ detect_image()
             cut -d "=" -f 2-
         )
 
-
     else
 
         DISTRO="Unknown"
@@ -308,7 +264,6 @@ detect_image()
 
     [ -z "$DISTRO" ] &&
         DISTRO="Unknown"
-
 
     [ -z "$DISTRO_VERSION" ] &&
         DISTRO_VERSION="Unknown"
@@ -410,9 +365,7 @@ package_installed()
 
 
     if [ -z "$pkg" ]; then
-
         return 1
-
     fi
 
 
@@ -465,9 +418,7 @@ install_pkg()
 
 
     if [ -z "$pkg" ]; then
-
         return 0
-
     fi
 
 
@@ -487,9 +438,7 @@ install_pkg()
         DreamOs|Debian)
 
             if ! apt-get update >/dev/null 2>&1; then
-
                 log "Warning: apt-get update failed."
-
             fi
 
 
@@ -510,9 +459,7 @@ install_pkg()
         OE)
 
             if ! opkg update >/dev/null 2>&1; then
-
                 log "Warning: opkg update failed."
-
             fi
 
 
@@ -562,54 +509,32 @@ install_dependencies()
     log "Checking dependencies..."
 
 
-    # -----------------------------------------------------
-    # six
-    # -----------------------------------------------------
-
     if [ -n "$PACKAGESIX" ]; then
 
         if ! install_pkg "$PACKAGESIX"; then
-
             log "Warning: $PACKAGESIX could not be installed."
-
         fi
 
     fi
 
-
-    # -----------------------------------------------------
-    # requests
-    # -----------------------------------------------------
 
     if [ -n "$PACKAGEREQUESTS" ]; then
 
         if ! install_pkg "$PACKAGEREQUESTS"; then
-
             log "Warning: $PACKAGEREQUESTS could not be installed."
-
         fi
 
     fi
 
-
-    # -----------------------------------------------------
-    # Pillow
-    # -----------------------------------------------------
 
     if [ -n "$PACKAGEPILLOW" ]; then
 
         if ! install_pkg "$PACKAGEPILLOW"; then
-
             log "Warning: $PACKAGEPILLOW could not be installed."
-
         fi
 
     fi
 
-
-    # -----------------------------------------------------
-    # OpenEmbedded extras
-    # -----------------------------------------------------
 
     if [ "$OSTYPE" = "OE" ]; then
 
@@ -624,9 +549,7 @@ install_dependencies()
         do
 
             if ! install_pkg "$pkg"; then
-
                 log "Warning: optional package $pkg unavailable."
-
             fi
 
         done
@@ -657,11 +580,7 @@ backup_config()
     log "Creating configuration backup..."
 
 
-    if [ -d "$BACKUP_DIR" ]; then
-
-        rm -rf "$BACKUP_DIR"
-
-    fi
+    rm -rf "$BACKUP_DIR"
 
 
     if cp -a "$CONFIG_DIR" "$BACKUP_DIR"; then
@@ -686,9 +605,7 @@ backup_config()
 restore_config()
 {
     if [ "$BACKUP_CREATED" -ne 1 ]; then
-
         return 0
-
     fi
 
 
@@ -700,7 +617,7 @@ restore_config()
     fi
 
 
-    log "Restoring configuration..."
+    log "Restoring previous configuration..."
 
 
     if ! mkdir -p "$CONFIG_DIR"; then
@@ -711,9 +628,13 @@ restore_config()
     fi
 
 
+    # IMPORTANT:
+    # Existing user files are restored on top of the repository
+    # defaults. Therefore user configuration always wins.
+
     if cp -a "$BACKUP_DIR"/. "$CONFIG_DIR"/; then
 
-        log "Configuration restored successfully."
+        log "Previous configuration restored successfully."
 
     else
 
@@ -732,7 +653,7 @@ restore_config()
 
 
 # =========================================================
-# DOWNLOAD
+# DOWNLOAD PACKAGE
 # =========================================================
 
 download_package()
@@ -775,10 +696,6 @@ download_package()
     fi
 
 
-    # -----------------------------------------------------
-    # Validate gzip
-    # -----------------------------------------------------
-
     if ! gzip -t "$FILEPATH" >/dev/null 2>&1; then
 
         error "Downloaded file is not a valid gzip archive."
@@ -788,10 +705,6 @@ download_package()
 
     fi
 
-
-    # -----------------------------------------------------
-    # Validate tar archive
-    # -----------------------------------------------------
 
     if ! tar -tzf "$FILEPATH" >/dev/null 2>&1; then
 
@@ -808,7 +721,7 @@ download_package()
 
 
 # =========================================================
-# EXTRACT
+# EXTRACT PACKAGE
 # =========================================================
 
 extract_package()
@@ -845,86 +758,102 @@ extract_package()
 
 
 # =========================================================
-# FIND PLUGIN SOURCE
+# DETERMINE ARCHIVE ROOT
 # =========================================================
 
-find_plugin_source()
+find_archive_root()
 {
-    PLUGIN_SOURCE=""
+    ARCHIVE_ROOT=""
 
 
-    # -----------------------------------------------------
-    # Normal /usr/lib
-    # -----------------------------------------------------
-
-    if [ -d "$TMPPATH/Foreca-master/usr/lib/enigma2/python/Plugins/Extensions/Foreca1" ]; then
-
-        PLUGIN_SOURCE="$TMPPATH/Foreca-master/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
-
-        log "Found plugin in /usr/lib."
-
-
-    # -----------------------------------------------------
-    # 64-bit /usr/lib64
-    # -----------------------------------------------------
-
-    elif [ -d "$TMPPATH/Foreca-master/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1" ]; then
-
-        PLUGIN_SOURCE="$TMPPATH/Foreca-master/usr/lib64/enigma2/python/Plugins/Extensions/Foreca1"
-
-        log "Found plugin in /usr/lib64."
+    ARCHIVE_ROOT=$(
+        find "$TMPPATH" \
+            -mindepth 1 \
+            -maxdepth 1 \
+            -type d \
+            -name "Foreca-*" \
+            2>/dev/null |
+        head -n 1
+    )
 
 
-    # -----------------------------------------------------
-    # Fallback
-    # -----------------------------------------------------
+    if [ -z "$ARCHIVE_ROOT" ] ||
+       [ ! -d "$ARCHIVE_ROOT" ]; then
 
-    else
-
-        PLUGIN_SOURCE=$(
-            find "$TMPPATH" \
-                -type d \
-                -path "*/Plugins/Extensions/Foreca1" \
-                2>/dev/null |
-            head -n 1
-        )
-
-
-        if [ -n "$PLUGIN_SOURCE" ]; then
-
-            log "Found plugin using fallback search:"
-            log "$PLUGIN_SOURCE"
-
-        fi
-
-    fi
-
-
-    # -----------------------------------------------------
-    # Source not found
-    # -----------------------------------------------------
-
-    if [ -z "$PLUGIN_SOURCE" ] ||
-       [ ! -d "$PLUGIN_SOURCE" ]; then
-
-        error "Could not find Foreca1 plugin files in archive."
-
+        error "Could not determine GitHub archive root."
 
         echo
-        echo "Available directories:"
+        echo "Archive contents:"
         echo "---------------------------------------------------------"
 
         find "$TMPPATH" \
-            -maxdepth 8 \
-            -type d \
+            -maxdepth 2 \
+            -print \
             2>/dev/null |
             head -100
 
         echo
 
+        cleanup
+        exit 1
+
+    fi
+
+
+    log "Archive root:"
+    log "$ARCHIVE_ROOT"
+}
+
+
+# =========================================================
+# FIND INSTALLATION SOURCES
+# =========================================================
+
+find_install_sources()
+{
+    PLUGIN_SOURCE=""
+    CONFIG_SOURCE=""
+
+
+    # -----------------------------------------------------
+    # Plugin
+    # -----------------------------------------------------
+
+    if [ -d "$ARCHIVE_ROOT/$PLUGIN_SOURCE_REL" ]; then
+
+        PLUGIN_SOURCE="$ARCHIVE_ROOT/$PLUGIN_SOURCE_REL"
+
+        log "Found plugin source:"
+        log "$PLUGIN_SOURCE"
+
+    else
+
+        error "Plugin source not found:"
+        error "$ARCHIVE_ROOT/$PLUGIN_SOURCE_REL"
 
         cleanup
         exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Configuration
+    # -----------------------------------------------------
+
+    if [ -d "$ARCHIVE_ROOT/$CONFIG_SOURCE_REL" ]; then
+
+        CONFIG_SOURCE="$ARCHIVE_ROOT/$CONFIG_SOURCE_REL"
+
+        log "Found configuration source:"
+        log "$CONFIG_SOURCE"
+
+    else
+
+        log "No repository configuration directory found."
+        log "Configuration installation will be skipped."
+
+        CONFIG_SOURCE=""
 
     fi
 
@@ -963,11 +892,10 @@ find_plugin_source()
 
 backup_existing_plugin()
 {
-    if [ -d "$OLD_PLUGIN_BACKUP" ]; then
+    PLUGIN_BACKUP_CREATED=0
 
-        rm -rf "$OLD_PLUGIN_BACKUP"
 
-    fi
+    rm -rf "$OLD_PLUGIN_BACKUP"
 
 
     if [ ! -d "$PLUGINPATH" ]; then
@@ -982,6 +910,8 @@ backup_existing_plugin()
 
 
     if cp -a "$PLUGINPATH" "$OLD_PLUGIN_BACKUP"; then
+
+        PLUGIN_BACKUP_CREATED=1
 
         log "Existing plugin backup created."
 
@@ -1012,7 +942,6 @@ install_plugin()
 
         rollback_plugin
         cleanup
-
         exit 1
 
     fi
@@ -1029,7 +958,6 @@ install_plugin()
 
             rollback_plugin
             cleanup
-
             exit 1
 
         fi
@@ -1043,14 +971,13 @@ install_plugin()
 
         rollback_plugin
         cleanup
-
         exit 1
 
     fi
 
 
     # -----------------------------------------------------
-    # Copy new plugin
+    # Copy plugin
     # -----------------------------------------------------
 
     if cp -a "$PLUGIN_SOURCE"/. "$PLUGINPATH"/; then
@@ -1063,7 +990,6 @@ install_plugin()
 
         rollback_plugin
         cleanup
-
         exit 1
 
     fi
@@ -1079,7 +1005,6 @@ install_plugin()
 
         rollback_plugin
         cleanup
-
         exit 1
 
     fi
@@ -1091,15 +1016,10 @@ install_plugin()
 
         rollback_plugin
         cleanup
-
         exit 1
 
     fi
 
-
-    # -----------------------------------------------------
-    # Verify installation isn't empty
-    # -----------------------------------------------------
 
     if [ -z "$(find "$PLUGINPATH" -type f 2>/dev/null | head -n 1)" ]; then
 
@@ -1107,7 +1027,6 @@ install_plugin()
 
         rollback_plugin
         cleanup
-
         exit 1
 
     fi
@@ -1118,15 +1037,109 @@ install_plugin()
 
 
 # =========================================================
-# ROLLBACK
+# INSTALL REPOSITORY CONFIGURATION
+# =========================================================
+
+install_repository_config()
+{
+    if [ -z "$CONFIG_SOURCE" ]; then
+
+        log "No repository configuration source available."
+        return 0
+
+    fi
+
+
+    log "Installing repository configuration files..."
+
+
+    # -----------------------------------------------------
+    # Create destination
+    # -----------------------------------------------------
+
+    if ! mkdir -p "$CONFIG_DIR"; then
+
+        error "Could not create configuration directory:"
+        error "$CONFIG_DIR"
+
+        rollback_plugin
+        cleanup
+        exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Copy repository files
+    #
+    # IMPORTANT:
+    #
+    # cp -an means:
+    #
+    # -a = preserve files/permissions/symlinks
+    # -n = do NOT overwrite existing files
+    #
+    # This means:
+    #
+    # NEW repository files are installed.
+    #
+    # EXISTING user files stay untouched.
+    # -----------------------------------------------------
+
+    if cp -an "$CONFIG_SOURCE"/. "$CONFIG_DIR"/; then
+
+        log "Repository configuration files installed."
+
+    else
+
+        error "Failed to install repository configuration."
+
+        rollback_plugin
+        cleanup
+        exit 1
+
+    fi
+
+
+    # -----------------------------------------------------
+    # Permissions
+    # -----------------------------------------------------
+
+    chmod 755 "$CONFIG_DIR" 2>/dev/null || true
+
+
+    # Configuration files normally don't need executable bits.
+    # Keep existing permissions when possible.
+
+    log "Configuration directory:"
+    log "$CONFIG_DIR"
+
+
+    echo
+    echo "Installed configuration files:"
+    echo "---------------------------------------------------------"
+
+    find "$CONFIG_DIR" \
+        -maxdepth 2 \
+        -type f \
+        -print \
+        2>/dev/null |
+        sort
+
+    echo
+}
+
+
+# =========================================================
+# ROLLBACK PLUGIN
 # =========================================================
 
 rollback_plugin()
 {
-    if [ ! -d "$OLD_PLUGIN_BACKUP" ]; then
+    if [ "$PLUGIN_BACKUP_CREATED" -ne 1 ] ||
+       [ ! -d "$OLD_PLUGIN_BACKUP" ]; then
 
         log "No previous plugin backup available."
-
         return 0
 
     fi
@@ -1141,7 +1154,6 @@ rollback_plugin()
     if ! mkdir -p "$(dirname "$PLUGINPATH")"; then
 
         log "WARNING: Could not create plugin parent directory!"
-
         return 1
 
     fi
@@ -1153,12 +1165,13 @@ rollback_plugin()
 
         rm -rf "$OLD_PLUGIN_BACKUP"
 
+        PLUGIN_BACKUP_CREATED=0
+
         return 0
 
     else
 
         log "WARNING: Plugin rollback failed!"
-
         return 1
 
     fi
@@ -1166,7 +1179,7 @@ rollback_plugin()
 
 
 # =========================================================
-# REMOVE OLD BACKUP
+# REMOVE OLD PLUGIN BACKUP
 # =========================================================
 
 remove_old_plugin_backup()
@@ -1174,6 +1187,8 @@ remove_old_plugin_backup()
     if [ -d "$OLD_PLUGIN_BACKUP" ]; then
 
         rm -rf "$OLD_PLUGIN_BACKUP"
+
+        PLUGIN_BACKUP_CREATED=0
 
         log "Old plugin backup removed."
 
@@ -1216,6 +1231,7 @@ show_info()
     echo "IMAGE VERSION:   $DISTRO_VERSION"
     echo "PLUGIN VERSION:  $version"
     echo "PLUGIN PATH:     $PLUGINPATH"
+    echo "CONFIG PATH:     $CONFIG_DIR"
     echo "BRANCH:          $BRANCH"
     echo "---------------------------------------------------------"
     echo
@@ -1230,7 +1246,7 @@ show_info()
 
 
 # =========================================================
-# INSTALLATION FINISHED
+# FINISH
 # =========================================================
 
 finish_install()
@@ -1238,6 +1254,13 @@ finish_install()
     echo
     echo "========================================================="
     echo " ForecaOne v$version installed successfully."
+    echo
+    echo " Plugin:"
+    echo " $PLUGINPATH"
+    echo
+    echo " Configuration:"
+    echo " $CONFIG_DIR"
+    echo
     echo " Enigma2 GUI will NOT restart automatically."
     echo " The plugin will ask whether the GUI should restart."
     echo "========================================================="
@@ -1249,6 +1272,7 @@ finish_install()
 
     log "Installation finished successfully."
     log "No automatic Enigma2 GUI restart performed."
+
 
     return 0
 }
@@ -1318,7 +1342,7 @@ fi
 
 
 # =========================================================
-# BACKUP CONFIGURATION
+# BACKUP EXISTING CONFIGURATION
 # =========================================================
 
 backup_config
@@ -1339,10 +1363,17 @@ extract_package
 
 
 # =========================================================
-# FIND PLUGIN
+# FIND ARCHIVE ROOT
 # =========================================================
 
-find_plugin_source
+find_archive_root
+
+
+# =========================================================
+# FIND INSTALLATION SOURCES
+# =========================================================
+
+find_install_sources
 
 
 # =========================================================
@@ -1353,14 +1384,21 @@ backup_existing_plugin
 
 
 # =========================================================
-# INSTALL
+# INSTALL PLUGIN
 # =========================================================
 
 install_plugin
 
 
 # =========================================================
-# RESTORE CONFIGURATION
+# INSTALL REPOSITORY CONFIGURATION
+# =========================================================
+
+install_repository_config
+
+
+# =========================================================
+# RESTORE USER CONFIGURATION
 # =========================================================
 
 if ! restore_config; then
@@ -1371,7 +1409,7 @@ fi
 
 
 # =========================================================
-# REMOVE OLD BACKUP
+# REMOVE OLD PLUGIN BACKUP
 # =========================================================
 
 remove_old_plugin_backup
@@ -1399,7 +1437,7 @@ show_info
 
 
 # =========================================================
-# FINISH INSTALLATION
+# FINISH
 # =========================================================
 
 finish_install
