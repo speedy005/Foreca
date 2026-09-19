@@ -281,8 +281,14 @@ Features:
 Download and execute `installer.sh` directly on your Enigma2 receiver:
 
 ```bash
-wget --no-check-certificate 'https://github.com/speedy005/Foreca/raw/master/installer.sh' -O installer.sh
+cd /tmp
+
+wget --no-check-certificate \
+"https://raw.githubusercontent.com/speedy005/Foreca/master/installer.sh" \
+-O installer.sh
+
 chmod +x installer.sh
+
 ./installer.sh
 ```
 
@@ -985,8 +991,14 @@ Wenn keine Animation vorhanden ist, wird automatisch das normale statische Symbo
 Lade `installer.sh` direkt auf deinen Enigma2-Receiver und führe es aus:
 
 ```bash
-wget --no-check-certificate 'https://github.com/speedy005/Foreca/raw/master/installer.sh' -O installer.sh
+cd /tmp
+
+wget --no-check-certificate \
+"https://raw.githubusercontent.com/speedy005/Foreca/master/installer.sh" \
+-O installer.sh
+
 chmod +x installer.sh
+
 ./installer.sh
 ```
 
